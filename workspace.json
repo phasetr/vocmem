@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "data": "libs/data",
+    "vocmem": "apps/vocmem",
+    "vocmem-e2e": "apps/vocmem-e2e"
+  }
+}
