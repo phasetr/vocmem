@@ -1,1 +1,3 @@
-export * from './lib/data';
+export * from './data/ru';
+export * from './data/constants';
+

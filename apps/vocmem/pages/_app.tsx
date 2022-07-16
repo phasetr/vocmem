@@ -5,7 +5,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to vocmem!</title>
+        <title>単語暗記アプリ phasetr.com</title>
       </Head>
       <main className="app">
         <Component {...pageProps} />
