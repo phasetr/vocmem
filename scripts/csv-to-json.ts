@@ -10,10 +10,10 @@ function csvToJson(csv: string, write: string) {
   const xa: string[] = fs.readFileSync(csv, 'utf8').trim().split('\n');
   const data: RuWordData[] = [];
   xa.shift();
-  for (const s of xa) {
+  xa.forEach((s,i) => {
     const a = s.split(",");
-    data.push({id: Number(a[0]), ru: a[1], en: a[2]});
-  }
+    data.push({id: i+1, ru: a[0], en: a[1]});
+  })
   fs.writeFileSync(write, "export const ruData = " + JSON.stringify({data: data}))
   return data;
 }

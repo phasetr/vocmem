@@ -1,6 +1,6 @@
 import {Box, Button, Card, CardActions, CardContent, Typography} from "@mui/material";
 import {useState} from "react";
-import {maxWidth} from "@vocmem/data";
+import {marginPx} from "@vocmem/data";
 
 export type RuProblemType = {
   id: number,
@@ -17,16 +17,19 @@ export function RuProblem({ru, en}) {
 
   return (
     <>
-      <Box component={Card} sx={{width: "auto", maxWidth: maxWidth}}>
+      <Box component={Card} sx={{width: "auto", margin: marginPx}}>
         <CardContent>
           <Typography sx={{fontSize: 14}} color="text.secondary" gutterBottom>meaning</Typography>
           <Typography variant="h5" component="div">{en}</Typography></CardContent>
         <CardActions>
           <Button size="small" onClick={e => handleSrc(e, 'en', ru)}>en.wiktionary</Button>
+          <Button size="small" onClick={e => handleSrc(e, 'ja', ru)}>ja.wiktionary</Button>
           <Button size="small" onClick={e => handleSrc(e, 'ru', ru)}>ru.wiktionary</Button>
         </CardActions>
       </Box>
-      <iframe src={src} height={400}/>
+      <Box component="div" sx={{display: "flex", justifyContent: "center"}}>
+        <iframe src={src} height={500} style={{maxWidth: "100%"}}/>
+      </Box>
     </>)
 }
 
