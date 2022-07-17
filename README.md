@@ -13,6 +13,7 @@ yarn add @mui/material @emotion/react @emotion/styled @mui/styled-engine-sc styl
 - `OUTPUT DIRECTORY`: `dist/apps/vocmem/.next`
 
 ## メモ
+- 「次に」で単語のアコーディオンを閉じる
 - ローマ字転写をつける: 自動変換を書く
 - 簡単な統計データ: 履修の記憶
 - 繰り返したい単語の記憶・解除・オールクリア
