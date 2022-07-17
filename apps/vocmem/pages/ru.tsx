@@ -9,11 +9,15 @@ import {
   TextField,
   Typography
 } from "@mui/material";
-import {marginPx} from "@vocmem/data";
+import {marginPx, ruData} from "@vocmem/data";
 import {SyntheticEvent, useEffect, useState} from "react";
 import RuProblem from "../components/ru-problem";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import {ruData} from "@vocmem/data";
+import SaveIcon from '@mui/icons-material/Save';
+import DeleteIcon from '@mui/icons-material/Delete';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import SkipNextIcon from '@mui/icons-material/SkipNext';
+import RestartAltIcon from '@mui/icons-material/RestartAlt';
 
 export function Ru() {
   const allWords = ruData.data;
@@ -98,6 +102,17 @@ export function Ru() {
     setProblem(<RuProblem {...allWords[newId]} />);
   }
 
+  function handleBlockNext(_ev) {
+    const newId = wordNumberPerBlock * block;
+    const newBlock = block + 1;
+    console.log(initProblemId(), newId, newBlock);
+    setProblemId(newId);
+    setBlock(newBlock);
+    setWord(allWords[newId]);
+    setIsSaved(isSavedId(newId))
+    setProblem(<RuProblem {...allWords[newId]} />);
+  }
+
   function handleSave(_e) {
     saveId(problemId);
     setIsSaved(true);
@@ -126,14 +141,16 @@ export function Ru() {
     <Box component="main" sx={{maxWidth: "400px", padding: "20px"}}>
       <Box component="h1">ロシア語</Box>
       <Typography sx={{margin: marginPx}}>全単語数: {maxLength}</Typography>
+
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
           <Typography component="h2">マニュアル</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Box component="section">
-            <p>TODO</p>
             <List>
+              <ListItem>メインアイコンは左から「次の単語」「単語の保存」「次のブロック」「アプリ設定のリセット」です。</ListItem>
+              <ListItem>現状アプリ設定は保存されないので必要に応じて都度設定してください。</ListItem>
               <ListItem>ボタンを2回クリックしないと正しく動かないことがあります。</ListItem>
               <ListItem>単語保存はLocalStorageを使っているため大量の単語は保存しきれない可能性があります。随時整理してください。</ListItem>
               <ListItem>大量の単語を保存すると動作が重くなる可能性があります。</ListItem>
@@ -142,24 +159,34 @@ export function Ru() {
           </Box>
         </AccordionDetails>
       </Accordion>
-      <Box component="section"
-           sx={{margin: marginPx, display: "flex", justifyContent: "center", flexDirection: "column"}}>
-        <TextField id="one-block" label="1ブロックごとの単語数" variant="outlined"
-                   type="number" maxRows={maxLength} minRows={1}
-                   sx={{margin: "10px"}}
-                   onChange={handleWordNumberPerBlock}
-                   value={wordNumberPerBlock}/>
-        <TextField id="block" label="ブロック指定" variant="outlined" onChange={handleBlock}
-                   type="number" maxRows={Math.ceil(maxLength / wordNumberPerBlock)} minRows={1}
-                   sx={{margin: "10px"}}
-                   value={block}/>
-        <Button variant="contained" onClick={handleSett} sx={{margin: "10px"}}>設定</Button>
-      </Box>
+
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
+          <Typography component="h2">アプリ設定</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Box component="section"
+               sx={{margin: marginPx, display: "flex", justifyContent: "center", flexDirection: "column"}}>
+            <TextField id="one-block" label="1ブロックごとの単語数" variant="outlined"
+                       type="number" maxRows={maxLength} minRows={1}
+                       sx={{margin: "10px"}}
+                       onChange={handleWordNumberPerBlock}
+                       value={wordNumberPerBlock}/>
+            <TextField id="block" label="ブロック指定" variant="outlined" onChange={handleBlock}
+                       type="number" maxRows={Math.ceil(maxLength / wordNumberPerBlock)} minRows={1}
+                       sx={{margin: "10px"}}
+                       value={block}/>
+            <Button variant="contained" onClick={handleSett} sx={{margin: "10px"}}>設定</Button>
+          </Box>
+        </AccordionDetails>
+      </Accordion>
+
       <Box sx={{margin: marginPx, width: 'auto', display: 'flex', justifyContent: 'space-between'}}>
-        <Button variant="outlined" onClick={handleNext}>次へ</Button>
-        {isSaved ? <Button variant="contained" onClick={handleDelete}>削除</Button> :
-          <Button variant="outlined" onClick={handleSave}>復習用保存</Button>}
-        <Button variant="outlined" onClick={handleReset}>リセット</Button>
+        <Button variant="text" onClick={handleNext}><NavigateNextIcon/></Button>
+        {isSaved ? <Button variant="contained" onClick={handleDelete}><DeleteIcon/></Button> :
+          <Button variant="text" onClick={handleSave}><SaveIcon/></Button>}
+        <Button variant="text" onClick={handleBlockNext}><SkipNextIcon/></Button>
+        <Button variant="text" onClick={handleReset}><RestartAltIcon/></Button>
       </Box>
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
@@ -188,7 +215,7 @@ export function Ru() {
                   onClick={() => {
                     localStorage.setItem(localStorageKey, "");
                     setSavedIds("");
-                  }}>保存単語の全削除</Button>
+                  }}><DeleteIcon/></Button>
         </AccordionDetails>
       </Accordion>
     </Box>
