@@ -24,24 +24,23 @@ export function RuProblem({ru, en}) {
   }
 
   return (
-    <>
-      <Box component={Card} sx={{width: "auto", margin: marginPx}}>
-        <CardContent>
-          <Typography sx={{fontSize: 14}} color="text.secondary" gutterBottom>meaning</Typography>
-          <Typography variant="h5" component="div">{en}</Typography></CardContent>
-        <CardActions>
-          <Box component="section"
-               sx={{margin: marginPx, display: "flex", justifyContent: "space-between", flexDirection: "row"}}>
-            <Button variant="text" onClick={e => handleSrc(e, 'en', ru)}>en</Button>
-            <Button variant="text" onClick={e => handleSrc(e, 'ja', ru)}>ja</Button>
-            <Button variant="text" onClick={e => handleSrc(e, 'ru', ru)}>ru</Button>
-          </Box>
-        </CardActions>
-      </Box>
+    <Box component={Card} sx={{width: "auto", margin: marginPx}}>
+      <CardContent>
+        <Typography sx={{fontSize: 14}} color="text.secondary" gutterBottom>meaning</Typography>
+        <Typography variant="h5" component="div">{en}</Typography></CardContent>
+      <CardActions>
+        <Box component="section"
+             sx={{margin: marginPx, display: "flex", justifyContent: "space-between", flexDirection: "row"}}>
+          <Button variant="text" onClick={e => handleSrc(e, 'empty', ru)}>empty</Button>
+          <Button variant="text" onClick={e => handleSrc(e, 'en', ru)}>en</Button>
+          <Button variant="text" onClick={e => handleSrc(e, 'ja', ru)}>ja</Button>
+          <Button variant="text" onClick={e => handleSrc(e, 'ru', ru)}>ru</Button>
+        </Box>
+      </CardActions>
       <Box component="div" sx={{display: "flex", justifyContent: "center"}}>
-        <iframe src={src} height={500} style={{maxWidth: "100%"}}/>
+        <iframe src={src} height={src ? 300 : 0} style={{maxWidth: "100%"}}/>
       </Box>
-    </>)
+    </Box>)
 }
 
 export default RuProblem;
