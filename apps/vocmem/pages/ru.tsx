@@ -144,9 +144,9 @@ export function Ru() {
   return (
     <Box component="main" sx={{maxWidth: "400px", padding: "20px"}}>
       <Box component="h1">ロシア語</Box>
-      <Typography sx={{margin: marginPx}}>全単語数: {maxLength}</Typography>
+      <Typography>全単語数: {maxLength}</Typography>
 
-      <Box sx={{margin: marginPx, display: "flex", justifyContent: "center", flexDirection: "column"}}>
+      <Box sx={{margin: `10px 0`, display: "flex", justifyContent: "center", flexDirection: "column"}}>
         <Button variant="contained" onClick={() => setOpen(true)}>マニュアル</Button>
       </Box>
       <Modal
