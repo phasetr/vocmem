@@ -12,6 +12,9 @@ yarn add @mui/material @emotion/react @emotion/styled @mui/styled-engine-sc styl
 - `BUILD COMMAND`: `yarn build --prod`
 - `OUTPUT DIRECTORY`: `dist/apps/vocmem/.next`
 
+## PWA
+- [ファビコン生成](https://ao-system.net/favicongenerator/)
+
 ## メモ
 - 「次に」で単語のアコーディオンを閉じる
 - ローマ字転写をつける: 自動変換を書く
