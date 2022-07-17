@@ -12,7 +12,15 @@ export function RuProblem({ru, en}) {
   const [src, setSrc] = useState("");
 
   function handleSrc(_ev, lang, word) {
-    setSrc(`https://${lang}.m.wiktionary.org/wiki/${word}#Russian`)
+    let url = '';
+    if (lang === "en") {
+      url = `https://${lang}.m.wiktionary.org/wiki/${word}#Russian`;
+    } else if (lang === "ja") {
+      url = `https://${lang}.m.wiktionary.org/wiki/${word}#ロシア語`;
+    } else if (lang === "ru") {
+      url = `https://${lang}.m.wiktionary.org/wiki/${word}#Русский`;
+    }
+    setSrc(url);
   }
 
   return (
@@ -22,9 +30,12 @@ export function RuProblem({ru, en}) {
           <Typography sx={{fontSize: 14}} color="text.secondary" gutterBottom>meaning</Typography>
           <Typography variant="h5" component="div">{en}</Typography></CardContent>
         <CardActions>
-          <Button size="small" onClick={e => handleSrc(e, 'en', ru)}>en.wiktionary</Button>
-          <Button size="small" onClick={e => handleSrc(e, 'ja', ru)}>ja.wiktionary</Button>
-          <Button size="small" onClick={e => handleSrc(e, 'ru', ru)}>ru.wiktionary</Button>
+          <Box component="section"
+               sx={{margin: marginPx, display: "flex", justifyContent: "space-between", flexDirection: "row"}}>
+            <Button variant="text" onClick={e => handleSrc(e, 'en', ru)}>en</Button>
+            <Button variant="text" onClick={e => handleSrc(e, 'ja', ru)}>ja</Button>
+            <Button variant="text" onClick={e => handleSrc(e, 'ru', ru)}>ru</Button>
+          </Box>
         </CardActions>
       </Box>
       <Box component="div" sx={{display: "flex", justifyContent: "center"}}>
