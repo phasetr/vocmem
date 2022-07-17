@@ -19,6 +19,8 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
 import RestartAltIcon from '@mui/icons-material/RestartAlt';
+import IconButton from "@mui/material/IconButton";
+import CloseIcon from "@mui/icons-material/Close";
 
 export function Ru() {
   const allWords = ruData.data;
@@ -164,7 +166,16 @@ export function Ru() {
           boxShadow: 24,
           p: 4,
         }}>
-          <Typography id="modal-modal-title" variant="h6" component="h2">マニュアル</Typography>
+          <Box sx={{
+            height: 0,
+            textAlign: "right",
+          }}>
+            <IconButton onClick={() => setOpen(false)}>
+              <CloseIcon/>
+            </IconButton>
+          </Box>
+          <Typography id="modal-modal-title" variant="h6" component="h2">マニュアル
+          </Typography>
           <Typography id="modal-modal-description" sx={{mt: 2}}>
             <Box component="section">
               <List>
