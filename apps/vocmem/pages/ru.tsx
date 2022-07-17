@@ -6,6 +6,7 @@ import {
   Button,
   List,
   ListItem,
+  Modal,
   TextField,
   Typography
 } from "@mui/material";
@@ -35,6 +36,7 @@ export function Ru() {
   const [isSaved, setIsSaved] = useState(false);
   const [savedIds, setSavedIds] = useState("");
   const [expanded, setExpanded] = useState<string | false>(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     localStorage.setItem(localStorageKey, "");
@@ -142,23 +144,41 @@ export function Ru() {
       <Box component="h1">ロシア語</Box>
       <Typography sx={{margin: marginPx}}>全単語数: {maxLength}</Typography>
 
-      <Accordion>
-        <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
-          <Typography component="h2">マニュアル</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Box component="section">
-            <List>
-              <ListItem>メインアイコンは左から「次の単語」「単語の保存」「次のブロック」「アプリ設定のリセット」です。</ListItem>
-              <ListItem>現状アプリ設定は保存されないので必要に応じて都度設定してください。</ListItem>
-              <ListItem>ボタンを2回クリックしないと正しく動かないことがあります。</ListItem>
-              <ListItem>単語保存はLocalStorageを使っているため大量の単語は保存しきれない可能性があります。随時整理してください。</ListItem>
-              <ListItem>大量の単語を保存すると動作が重くなる可能性があります。</ListItem>
-              <ListItem>Wiktionaryのリンクをクリックして出てくるページに音声が再生できるリンクがあ（る場合があ）ります。</ListItem>
-            </List>
-          </Box>
-        </AccordionDetails>
-      </Accordion>
+      <Box sx={{margin: marginPx, display: "flex", justifyContent: "center", flexDirection: "column"}}>
+        <Button variant="contained" onClick={() => setOpen(true)}>マニュアル</Button>
+      </Box>
+      <Modal
+        open={open}
+        onClose={() => setOpen(false)}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        <Box sx={{
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          width: 400,
+          bgcolor: 'background.paper',
+          border: '2px solid #000',
+          boxShadow: 24,
+          p: 4,
+        }}>
+          <Typography id="modal-modal-title" variant="h6" component="h2">マニュアル</Typography>
+          <Typography id="modal-modal-description" sx={{mt: 2}}>
+            <Box component="section">
+              <List>
+                <ListItem>メインアイコンは左から「次の単語」「単語の保存」「次のブロック」「アプリ設定のリセット」です。</ListItem>
+                <ListItem>現状アプリ設定は保存されないので必要に応じて都度設定してください。</ListItem>
+                <ListItem>ボタンを2回クリックしないと正しく動かないことがあります。</ListItem>
+                <ListItem>単語保存はLocalStorageを使っているため大量の単語は保存しきれない可能性があります。随時整理してください。</ListItem>
+                <ListItem>大量の単語を保存すると動作が重くなる可能性があります。</ListItem>
+                <ListItem>Wiktionaryのリンクをクリックして出てくるページに音声が再生できるリンクがあ（る場合があ）ります。</ListItem>
+              </List>
+            </Box>
+          </Typography>
+        </Box>
+      </Modal>
 
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
@@ -188,6 +208,7 @@ export function Ru() {
         <Button variant="text" onClick={handleBlockNext}><SkipNextIcon/></Button>
         <Button variant="text" onClick={handleReset}><RestartAltIcon/></Button>
       </Box>
+
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
           <Typography component="h2">{word ? `${word.id}: ${word.ru}` : ""}</Typography>
@@ -196,6 +217,7 @@ export function Ru() {
           <Box component="section">{problem}</Box>
         </AccordionDetails>
       </Accordion>
+
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
           <Typography component="h2">保存した単語</Typography>
