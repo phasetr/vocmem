@@ -4,7 +4,7 @@
   "description": "Vocabulary Memorization Application for Several Languages",
   "start_url": "/",
   "display": "standalone",
-  "orientation": "portrate-primary",
+  "orientation": "portrait-primary",
   "background_color": "#fff",
   "theme_color": "#fff",
   "dir": "itr",

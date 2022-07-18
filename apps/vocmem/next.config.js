@@ -8,7 +8,7 @@ const runtimeCaching = require("next-pwa/cache");
  **/
 const nextConfig = {
   nx: {
-    // Set this to true if you would like to to use SVGR
+    // Set this to true if you would like to use SVGR
     // See: https://github.com/gregberge/svgr
     svgr: false
   }
@@ -17,6 +17,7 @@ const nextConfig = {
 module.exports = withNx(nextConfig);
 module.exports = withPWA({
   pwa: {
+    disable: process.env.NODE_ENV !== 'production',
     dest: "public",
     register: true,
     skipWaiting: true,

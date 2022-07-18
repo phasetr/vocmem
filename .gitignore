@@ -38,8 +38,6 @@ testem.log
 .DS_Store
 Thumbs.db
 
-libs/data/src/data/ru.ts
-
 # PWA files
 **/public/sw.js
 **/public/workbox-*.js
@@ -48,3 +46,5 @@ libs/data/src/data/ru.ts
 **/public/workbox-*.js.map
 **/public/worker-*.js.map
 **/public/fallback-development.js
+
+libs/data/src/data/*.ts

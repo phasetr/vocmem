@@ -1,34 +1,39 @@
 # vocmem: vocabulary memorization
 
 ## init
+
 ```shell
 yarn create nx-workspace
 yarn add @mui/material @emotion/react @emotion/styled @mui/styled-engine-sc styled-components
 ```
 
 ## `Vercel`の設定
+
 - `Settings`タブを開く
 - `Build & Development Settings`を開く
 - `BUILD COMMAND`: `yarn build --prod`
 - `OUTPUT DIRECTORY`: `dist/apps/vocmem/.next`
 
 ## PWA
+
 - [ファビコン生成](https://ao-system.net/favicongenerator/)
 
 ## メモ
-- 「次に」で単語のアコーディオンを閉じる
-- ローマ字転写をつける: 自動変換を書く
+
+- LINEミニアプリ（単純なLIFF？）で画像投稿＋OCRでタイ語やアラビア語・デーヴァナーガリーを転写できるようにする、翻訳もつけよう
+- （キリル文字の）ローマ字転写をつける: 自動変換を書く
+  - 検索画面ではツールチップで変換一覧を出す
+- スマホ利用前提でしか作っていないのでレスポンシブにする
 - 簡単な統計データ: 履修の記憶
-- 繰り返したい単語の記憶・解除・オールクリア
-- 情報を訂正しやすくする: おかしい情報の報告, 報告の読み込み
-    - これはFirebaseに貯めるか?
-- 自サイトへの誘導・自サイトへの単語リンクつき
-    - 自サイトも使いやすく書き換えよう
-    - iframe 呼び出し
-    - 呼び出しはボタンにして余計な読み込み発生させない
 - 活用する単語は活用載せる
-    - 自サイト単語編とうまく統合
-    - 活用も別に切り分けよう
-- モード
-    - 繰り返したい単語(上で保存したもの)だけ繰り返せるモード
-    - 続きから始めるモード
+  - 自サイト単語編とうまく統合
+  - 活用も別に切り分けよう
+- 単語暗記でランダム化
+- キリル文字のローマ字転写再調整：日本語キーボードで簡単に入力できるような変換, あとテスト
+- 他の言語追加
+- phasetr.com/archiveの情報: 特にリンクについて一括検索に反映
+
+## ロシア語
+
+- [キリル文字からローマ字](https://stabucky.com/wp/archives/6132)
+- [ローマ字からキリル文字](https://rosianotomo.com/romcyr/romcyr.htm)
