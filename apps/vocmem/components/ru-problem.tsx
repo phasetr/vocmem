@@ -30,7 +30,7 @@ export function RuProblem({ru, en}) {
         <Typography variant="h5" component="div">{en}</Typography></CardContent>
       <CardActions>
         <Box component="section"
-             sx={{margin: marginPx, display: "flex", justifyContent: "space-between", flexDirection: "row"}}>
+             sx={{display: "flex", justifyContent: "space-between", flexDirection: "row"}}>
           <Button variant="text" onClick={e => handleSrc(e, 'empty', ru)}>empty</Button>
           <Button variant="text" onClick={e => handleSrc(e, 'en', ru)}>en</Button>
           <Button variant="text" onClick={e => handleSrc(e, 'ja', ru)}>ja</Button>
