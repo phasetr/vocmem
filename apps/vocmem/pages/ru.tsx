@@ -210,16 +210,15 @@ export function Ru() {
                 <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
                   <Typography component="h2">{allWords[idN].ru}</Typography>
                 </AccordionSummary>
-                <AccordionDetails>{allWords[idN].en}</AccordionDetails>
-                <Button variant="contained" sx={{margin: marginPx}}
+                <Button variant="contained" sx={{margin: marginPx, float: "right"}}
                         onClick={() => handleDelete(idN)}><DeleteIcon/></Button>
+                <AccordionDetails>{allWords[idN].en}</AccordionDetails>
               </Accordion>)
           }) : <></>}
-          <Button variant="contained" sx={{margin: `${marginPx} 0 0`}}
-                  onClick={() => {
-                    localStorage.setItem(localStorageKey, "");
-                    setSavedIds("");
-                  }}><DeleteIcon/></Button>
+          <Button variant="contained" onClick={() => {
+            localStorage.setItem(localStorageKey, "");
+            setSavedIds("");
+          }}><DeleteIcon/></Button>
         </AccordionDetails>
       </Accordion>
     </Main>
