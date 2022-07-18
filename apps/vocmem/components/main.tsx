@@ -17,7 +17,7 @@ export function Main(props) {
         <Box component="footer"
              sx={{
                maxWidth: "400px",
-               width: "100%",
+               width: "80%",
                padding: "10px",
                borderTop: '0.5px ridge',
                display: "flex",
