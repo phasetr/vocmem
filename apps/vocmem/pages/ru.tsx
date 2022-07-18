@@ -215,10 +215,13 @@ export function Ru() {
                 <AccordionDetails>{allWords[idN].en}</AccordionDetails>
               </Accordion>)
           }) : <></>}
-          <Button variant="contained" onClick={() => {
-            localStorage.setItem(localStorageKey, "");
-            setSavedIds("");
-          }}><DeleteIcon/></Button>
+          <Button
+            sx={{margin: `${marginPx} 0 0 0`}}
+            variant="contained"
+            onClick={() => {
+              localStorage.setItem(localStorageKey, "");
+              setSavedIds("");
+            }}><DeleteIcon/></Button>
         </AccordionDetails>
       </Accordion>
     </Main>
