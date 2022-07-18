@@ -1,15 +1,12 @@
-import {Accordion, AccordionDetails, AccordionSummary, Box, Button, TextField, Typography} from "@mui/material";
-import {marginPx, ruData} from "@vocmem/data";
+import {Box} from "@mui/material";
+import {ruData} from "@vocmem/data";
 import {SyntheticEvent, useEffect, useState} from "react";
 import RuProblem from "../components/ru-problem";
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import SaveIcon from '@mui/icons-material/Save';
-import DeleteIcon from '@mui/icons-material/Delete';
-import NavigateNextIcon from '@mui/icons-material/NavigateNext';
-import SkipNextIcon from '@mui/icons-material/SkipNext';
-import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 import Main from "../components/main";
-import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
+import AppSett from "../components/app-sett";
+import Controllers from "../components/controllers";
+import WordInfo from "../components/word-info";
+import SavedWords from "../components/saved-words";
 
 export function Ru() {
   const allWords = ruData.data;
@@ -20,7 +17,7 @@ export function Ru() {
   const localStorageKey = "vocmem-ru";
 
   const [wordNumberPerBlock, setWordNumberPerBlock] = useState(origWordNumberPerBlock);
-  const [block, setBlock] = useState(origBlock);
+  const [blockNumber, setBlockNumber] = useState(origBlock);
   const [problemId, setProblemId] = useState(origProblemId);
   const [word, setWord] = useState(allWords[problemId]);
   const [problem, setProblem] = useState(<RuProblem {...allWords[problemId]} />);
@@ -63,7 +60,7 @@ export function Ru() {
   }
 
   function initProblemId() {
-    return (block - 1) * wordNumberPerBlock;
+    return (blockNumber - 1) * wordNumberPerBlock;
   }
 
   function handleSett() {
@@ -74,14 +71,14 @@ export function Ru() {
 
   function handleWordNumberPerBlock(event) {
     setWordNumberPerBlock(Number(event.target.value));
-    setBlock(origBlock);
+    setBlockNumber(origBlock);
     setProblemId(initProblemId());
     setWord(allWords[problemId]);
     setProblem(<RuProblem {...allWords[problemId]} />);
   }
 
   function handleBlock(e) {
-    setBlock(Number(e.target.value));
+    setBlockNumber(Number(e.target.value));
     setProblemId(initProblemId());
     setWord(allWords[problemId]);
     setProblem(<RuProblem {...allWords[problemId]} />);
@@ -89,7 +86,7 @@ export function Ru() {
 
   function handleBefore(_e) {
     const nextProblemId = problemId - 1;
-    const newId = nextProblemId <= (block - 1) * wordNumberPerBlock ? block * wordNumberPerBlock - 1 : nextProblemId;
+    const newId = nextProblemId <= (blockNumber - 1) * wordNumberPerBlock ? blockNumber * wordNumberPerBlock - 1 : nextProblemId;
     setProblemId(newId);
     setWord(allWords[newId]);
     setIsSaved(isSavedId(newId))
@@ -98,7 +95,7 @@ export function Ru() {
 
   function handleNext(_e) {
     const nextProblemId = problemId + 1;
-    const newId = nextProblemId >= block * wordNumberPerBlock ? initProblemId() : nextProblemId;
+    const newId = nextProblemId >= blockNumber * wordNumberPerBlock ? initProblemId() : nextProblemId;
     setProblemId(newId);
     setWord(allWords[newId]);
     setIsSaved(isSavedId(newId))
@@ -106,25 +103,25 @@ export function Ru() {
   }
 
   function handleBlockBefore(_e) {
-    const nextBlock = block - 1;
+    const nextBlock = blockNumber - 1;
     const newBlock = nextBlock <= 0 ? Math.ceil(maxLength / wordNumberPerBlock) : nextBlock;
     const newId = wordNumberPerBlock * (newBlock - 1);
 
     setProblemId(newId);
-    setBlock(newBlock);
+    setBlockNumber(newBlock);
     setWord(allWords[newId]);
     setIsSaved(isSavedId(newId))
     setProblem(<RuProblem {...allWords[newId]} />);
   }
 
   function handleBlockNext(_e) {
-    const nextBlock = block + 1;
+    const nextBlock = blockNumber + 1;
     const newBlock = nextBlock > Math.ceil(maxLength / wordNumberPerBlock) ? 1 : nextBlock;
     const newId = wordNumberPerBlock * (newBlock - 1);
 
     console.log(initProblemId(), newId, newBlock);
     setProblemId(newId);
-    setBlock(newBlock);
+    setBlockNumber(newBlock);
     setWord(allWords[newId]);
     setIsSaved(isSavedId(newId))
     setProblem(<RuProblem {...allWords[newId]} />);
@@ -142,7 +139,7 @@ export function Ru() {
 
   function handleReset(_e) {
     setWordNumberPerBlock(origWordNumberPerBlock);
-    setBlock(origBlock);
+    setBlockNumber(origBlock);
     setProblemId(origProblemId);
     setWord(allWords[origProblemId]);
     setProblem(<RuProblem {...allWords[origProblemId]} />);
@@ -156,78 +153,36 @@ export function Ru() {
     <Main>
       <Box component="h1">ロシア語{maxLength}単語暗記</Box>
 
-      <Accordion>
-        <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
-          <Typography component="h2">アプリ設定</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Box component="section"
-               sx={{margin: marginPx, display: "flex", justifyContent: "center", flexDirection: "column"}}>
-            <TextField id="one-block" label="1ブロックごとの単語数" variant="outlined"
-                       type="number" maxRows={maxLength} minRows={1}
-                       sx={{margin: "10px"}}
-                       onChange={handleWordNumberPerBlock}
-                       value={wordNumberPerBlock}/>
-            <TextField id="block" label="ブロック指定" variant="outlined"
-                       type="number" maxRows={Math.ceil(maxLength / wordNumberPerBlock)} minRows={1}
-                       sx={{margin: "10px"}}
-                       onChange={handleBlock}
-                       value={block}/>
-            <Button variant="contained" onClick={() => setWordNumberPerBlock(maxLength)}
-                    sx={{margin: "10px"}}> 全体周回</Button>
-            <Button variant="contained" onClick={handleSett} sx={{margin: "10px"}}>変更</Button>
-            <Button variant="contained" onClick={handleReset} sx={{margin: "10px"}}>リセット</Button>
-          </Box>
-        </AccordionDetails>
-      </Accordion>
+      <AppSett block={blockNumber} maxLength={maxLength} wordNumberPerBlock={wordNumberPerBlock}
+               handleBlock={handleBlock}
+               handleReset={handleReset}
+               handleSett={handleSett}
+               handleWordNumberPerBlock={handleWordNumberPerBlock}
+               setWordNumberPerBlock={setWordNumberPerBlock}/>
 
-      <Box sx={{margin: `${marginPx} 0`, width: '80%', display: 'flex', justifyContent: 'space-between'}}>
-        <Button sx={{width: "20px"}} variant="text" onClick={handleBefore}><NavigateBeforeIcon/></Button>
-        <Button variant="text" onClick={handleNext}><NavigateNextIcon/></Button>
-        {isSaved ? <Button variant="contained" onClick={() => handleDelete(problemId)}><DeleteIcon/></Button> :
-          <Button variant="text" onClick={() => handleSave(problemId)}><SaveIcon/></Button>}
-        <Button variant="text" onClick={handleBlockBefore}><SkipPreviousIcon/></Button>
-        <Button variant="text" onClick={handleBlockNext}><SkipNextIcon/></Button>
-      </Box>
+      <Controllers
+        isSaved={isSaved}
+        problemId={problemId}
+        handleBefore={handleBefore}
+        handleBlockBefore={handleBlockBefore}
+        handleBlockNext={handleBlockNext}
+        handleDelete={handleDelete}
+        handleNext={handleNext}
+        handleSave={handleSave}/>
 
-      <Accordion>
-        <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
-          <Typography component="h2">{word ? `${word.id}: ${word.ru}` : ""}</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Box component="section">{problem}</Box>
-        </AccordionDetails>
-      </Accordion>
-
-      <Accordion>
-        <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
-          <Typography component="h2">保存した単語</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          {savedIds !== "" && allWords.length !== 0 ? savedIds.split(",").map(id => {
-            const idN = Number(id);
-            return (
-              <Accordion key={idN} expanded={expanded === `panel${id}`} onChange={handleSavedItems(`panel${id}`)}>
-                <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
-                  <Typography component="h2">{allWords[idN].ru}</Typography>
-                </AccordionSummary>
-                <Button variant="contained" sx={{margin: marginPx, float: "right"}}
-                        onClick={() => handleDelete(idN)}><DeleteIcon/></Button>
-                <AccordionDetails>{allWords[idN].en}</AccordionDetails>
-              </Accordion>)
-          }) : <></>}
-          <Button
-            sx={{margin: `${marginPx} 0 0 0`}}
-            variant="contained"
-            onClick={() => {
-              localStorage.setItem(localStorageKey, "");
-              setSavedIds("");
-            }}><DeleteIcon/></Button>
-        </AccordionDetails>
-      </Accordion>
+      <WordInfo word={word} problem={problem}/>
+      <SavedWords
+        allWords={allWords}
+        expanded={expanded}
+        handleDelete={handleDelete}
+        handleSavedItems={handleSavedItems}
+        localStorageKey={localStorageKey}
+        savedIds={savedIds}
+        setSavedIds={setSavedIds}
+      />
     </Main>
-  )
-    ;
+  );
 }
 
+// noinspection JSUnusedGlobalSymbols
 export default Ru;
