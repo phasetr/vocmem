@@ -1,15 +1,4 @@
-import {
-  Accordion,
-  AccordionDetails,
-  AccordionSummary,
-  Box,
-  Button,
-  List,
-  ListItem,
-  Modal,
-  TextField,
-  Typography
-} from "@mui/material";
+import {Accordion, AccordionDetails, AccordionSummary, Box, Button, TextField, Typography} from "@mui/material";
 import {marginPx, ruData} from "@vocmem/data";
 import {SyntheticEvent, useEffect, useState} from "react";
 import RuProblem from "../components/ru-problem";
@@ -19,8 +8,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
 import RestartAltIcon from '@mui/icons-material/RestartAlt';
-import IconButton from "@mui/material/IconButton";
-import CloseIcon from "@mui/icons-material/Close";
+import Main from "../components/main";
 
 export function Ru() {
   const allWords = ruData.data;
@@ -38,10 +26,11 @@ export function Ru() {
   const [isSaved, setIsSaved] = useState(false);
   const [savedIds, setSavedIds] = useState("");
   const [expanded, setExpanded] = useState<string | false>(false);
-  const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    localStorage.setItem(localStorageKey, "");
+    if (localStorage.getItem(localStorageKey) === null) {
+      localStorage.setItem(localStorageKey, "");
+    }
     setSavedIds(localStorage.getItem(localStorageKey));
   }, []);
 
@@ -142,54 +131,9 @@ export function Ru() {
   };
 
   return (
-    <Box component="main" sx={{maxWidth: "400px", padding: "20px"}}>
-      <Box component="h1">ロシア語</Box>
-      <Typography>全単語数: {maxLength}</Typography>
-
-      <Box sx={{margin: `10px 0`, display: "flex", justifyContent: "center", flexDirection: "column"}}>
-        <Button variant="contained" onClick={() => setOpen(true)}>マニュアル</Button>
-      </Box>
-      <Modal
-        open={open}
-        onClose={() => setOpen(false)}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={{
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          width: 400,
-          bgcolor: 'background.paper',
-          border: '2px solid #000',
-          boxShadow: 24,
-          p: 4,
-        }}>
-          <Box sx={{
-            height: 0,
-            textAlign: "right",
-          }}>
-            <IconButton onClick={() => setOpen(false)}>
-              <CloseIcon/>
-            </IconButton>
-          </Box>
-          <Typography id="modal-modal-title" variant="h6" component="h2">マニュアル
-          </Typography>
-          <Typography id="modal-modal-description" sx={{mt: 2}}>
-            <Box component="section">
-              <List>
-                <ListItem>メインアイコンは左から「次の単語」「単語の保存」「次のブロック」「アプリ設定のリセット」です。</ListItem>
-                <ListItem>現状アプリ設定は保存されないので必要に応じて都度設定してください。</ListItem>
-                <ListItem>ボタンを2回クリックしないと正しく動かないことがあります。</ListItem>
-                <ListItem>単語保存はLocalStorageを使っているため大量の単語は保存しきれない可能性があります。随時整理してください。</ListItem>
-                <ListItem>大量の単語を保存すると動作が重くなる可能性があります。</ListItem>
-                <ListItem>Wiktionaryのリンクをクリックして出てくるページに音声が再生できるリンクがあ（る場合があ）ります。</ListItem>
-              </List>
-            </Box>
-          </Typography>
-        </Box>
-      </Modal>
+    <Main>
+      <Box component="h1">ロシア語単語暗記</Box>
+      <Typography component="h2">全単語数: {maxLength}</Typography>
 
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
@@ -251,7 +195,7 @@ export function Ru() {
                   }}><DeleteIcon/></Button>
         </AccordionDetails>
       </Accordion>
-    </Box>
+    </Main>
   );
 }
 
