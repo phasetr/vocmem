@@ -59,7 +59,7 @@ export function Main(props) {
               <Typography id="modal-modal-description" sx={{mt: 2}}>
                 <Box component="section">
                   <List>
-                    <ListItem>メインアイコンは左から「次の単語」「単語の保存」「次のブロック」「アプリ設定のリセット」です。</ListItem>
+                    <ListItem>メインアイコンは左から「前の単語」「次の単語」「単語の保存」「前のブロック」「次のブロック」です。</ListItem>
                     <ListItem>現状アプリ設定は保存されないので必要に応じて都度設定してください。</ListItem>
                     <ListItem>ボタンを2回クリックしないと正しく動かないことがあります。</ListItem>
                     <ListItem>単語保存はLocalStorageを使っているため大量の単語は保存しきれない可能性があります。随時整理してください。</ListItem>

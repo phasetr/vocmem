@@ -14,7 +14,7 @@ import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 export function Ru() {
   const allWords = ruData.data;
   const maxLength = allWords.length;
-  const origWordNumberPerBlock = 10;
+  const origWordNumberPerBlock = 5;
   const origBlock = 1;
   const origProblemId = 0;
   const localStorageKey = "vocmem-ru";
@@ -168,9 +168,10 @@ export function Ru() {
                        sx={{margin: "10px"}}
                        onChange={handleWordNumberPerBlock}
                        value={wordNumberPerBlock}/>
-            <TextField id="block" label="ブロック指定" variant="outlined" onChange={handleBlock}
+            <TextField id="block" label="ブロック指定" variant="outlined"
                        type="number" maxRows={Math.ceil(maxLength / wordNumberPerBlock)} minRows={1}
                        sx={{margin: "10px"}}
+                       onChange={handleBlock}
                        value={block}/>
             <Button variant="contained" onClick={() => setWordNumberPerBlock(maxLength)}
                     sx={{margin: "10px"}}> 全体周回</Button>
