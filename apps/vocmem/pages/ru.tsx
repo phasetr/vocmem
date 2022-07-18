@@ -7,8 +7,9 @@ import SaveIcon from '@mui/icons-material/Save';
 import DeleteIcon from '@mui/icons-material/Delete';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
-import RestartAltIcon from '@mui/icons-material/RestartAlt';
+import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 import Main from "../components/main";
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 
 export function Ru() {
   const allWords = ruData.data;
@@ -86,7 +87,16 @@ export function Ru() {
     setProblem(<RuProblem {...allWords[problemId]} />);
   }
 
-  function handleNext(_event) {
+  function handleBefore(_e) {
+    const nextProblemId = problemId - 1;
+    const newId = nextProblemId <= (block - 1) * wordNumberPerBlock ? block * wordNumberPerBlock - 1 : nextProblemId;
+    setProblemId(newId);
+    setWord(allWords[newId]);
+    setIsSaved(isSavedId(newId))
+    setProblem(<RuProblem {...allWords[newId]} />);
+  }
+
+  function handleNext(_e) {
     const nextProblemId = problemId + 1;
     const newId = nextProblemId >= block * wordNumberPerBlock ? initProblemId() : nextProblemId;
     setProblemId(newId);
@@ -95,9 +105,23 @@ export function Ru() {
     setProblem(<RuProblem {...allWords[newId]} />);
   }
 
-  function handleBlockNext(_ev) {
-    const newId = wordNumberPerBlock * block;
-    const newBlock = block + 1;
+  function handleBlockBefore(_e) {
+    const nextBlock = block - 1;
+    const newBlock = nextBlock <= 0 ? Math.ceil(maxLength / wordNumberPerBlock) : nextBlock;
+    const newId = wordNumberPerBlock * (newBlock - 1);
+
+    setProblemId(newId);
+    setBlock(newBlock);
+    setWord(allWords[newId]);
+    setIsSaved(isSavedId(newId))
+    setProblem(<RuProblem {...allWords[newId]} />);
+  }
+
+  function handleBlockNext(_e) {
+    const nextBlock = block + 1;
+    const newBlock = nextBlock > Math.ceil(maxLength / wordNumberPerBlock) ? 1 : nextBlock;
+    const newId = wordNumberPerBlock * (newBlock - 1);
+
     console.log(initProblemId(), newId, newBlock);
     setProblemId(newId);
     setBlock(newBlock);
@@ -106,15 +130,13 @@ export function Ru() {
     setProblem(<RuProblem {...allWords[newId]} />);
   }
 
-  function handleSave(_e) {
+  function handleSave(problemId) {
     saveId(problemId);
     setIsSaved(true);
   }
 
-  function handleDelete(_e) {
-    console.log(problemId);
+  function handleDelete(problemId) {
     deleteId(problemId);
-    console.log(localStorage.getItem(localStorageKey));
     setIsSaved(false);
   }
 
@@ -132,8 +154,7 @@ export function Ru() {
 
   return (
     <Main>
-      <Box component="h1">ロシア語単語暗記</Box>
-      <Typography component="h2">全単語数: {maxLength}</Typography>
+      <Box component="h1">ロシア語{maxLength}単語暗記</Box>
 
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
@@ -151,17 +172,21 @@ export function Ru() {
                        type="number" maxRows={Math.ceil(maxLength / wordNumberPerBlock)} minRows={1}
                        sx={{margin: "10px"}}
                        value={block}/>
-            <Button variant="contained" onClick={handleSett} sx={{margin: "10px"}}>設定</Button>
+            <Button variant="contained" onClick={() => setWordNumberPerBlock(maxLength)}
+                    sx={{margin: "10px"}}> 全体周回</Button>
+            <Button variant="contained" onClick={handleSett} sx={{margin: "10px"}}>変更</Button>
+            <Button variant="contained" onClick={handleReset} sx={{margin: "10px"}}>リセット</Button>
           </Box>
         </AccordionDetails>
       </Accordion>
 
-      <Box sx={{margin: marginPx, width: 'auto', display: 'flex', justifyContent: 'space-between'}}>
+      <Box sx={{margin: `${marginPx} 0`, width: '80%', display: 'flex', justifyContent: 'space-between'}}>
+        <Button sx={{width: "20px"}} variant="text" onClick={handleBefore}><NavigateBeforeIcon/></Button>
         <Button variant="text" onClick={handleNext}><NavigateNextIcon/></Button>
-        {isSaved ? <Button variant="contained" onClick={handleDelete}><DeleteIcon/></Button> :
-          <Button variant="text" onClick={handleSave}><SaveIcon/></Button>}
+        {isSaved ? <Button variant="contained" onClick={() => handleDelete(problemId)}><DeleteIcon/></Button> :
+          <Button variant="text" onClick={() => handleSave(problemId)}><SaveIcon/></Button>}
+        <Button variant="text" onClick={handleBlockBefore}><SkipPreviousIcon/></Button>
         <Button variant="text" onClick={handleBlockNext}><SkipNextIcon/></Button>
-        <Button variant="text" onClick={handleReset}><RestartAltIcon/></Button>
       </Box>
 
       <Accordion>
@@ -186,6 +211,8 @@ export function Ru() {
                   <Typography component="h2">{allWords[idN].ru}</Typography>
                 </AccordionSummary>
                 <AccordionDetails>{allWords[idN].en}</AccordionDetails>
+                <Button variant="contained" sx={{margin: marginPx}}
+                        onClick={() => handleDelete(idN)}><DeleteIcon/></Button>
               </Accordion>)
           }) : <></>}
           <Button variant="contained" sx={{margin: `${marginPx} 0 0`}}
@@ -196,7 +223,8 @@ export function Ru() {
         </AccordionDetails>
       </Accordion>
     </Main>
-  );
+  )
+    ;
 }
 
 export default Ru;
