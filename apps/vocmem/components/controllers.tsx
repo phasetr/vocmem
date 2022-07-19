@@ -18,7 +18,7 @@ export function Controllers(
     handleNext,
     handleSave
   }) {
-  return (<Box sx={{margin: `${marginPx} 0`, width: '80%', display: 'flex', justifyContent: 'space-between'}}>
+  return (<Box sx={{margin: `${marginPx} 0`, display: 'flex', justifyContent: 'space-between'}}>
     <Button sx={{width: "20px"}} variant="text" onClick={handleBefore}><NavigateBeforeIcon/></Button>
     <Button variant="text" onClick={handleNext}><NavigateNextIcon/></Button>
     {isSaved ? <Button variant="contained" onClick={() => handleDelete(problemId)}><DeleteIcon/></Button> :

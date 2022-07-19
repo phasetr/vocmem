@@ -1,26 +1,26 @@
 import {Box} from "@mui/material";
 import {ruData} from "@vocmem/data";
 import {SyntheticEvent, useEffect, useState} from "react";
-import RuProblem from "../components/ru-problem";
-import Main from "../components/main";
-import AppSett from "../components/app-sett";
-import Controllers from "../components/controllers";
-import WordInfo from "../components/word-info";
-import SavedWords from "../components/saved-words";
+import RuProblem from "../../components/ru-problem";
+import Main from "../../components/main";
+import AppSett from "../../components/app-sett";
+import Controllers from "../../components/controllers";
+import WordInfo from "../../components/word-info";
+import SavedWords from "../../components/saved-words";
 
-export function Ru() {
-  const allWords = ruData.data;
-  const maxLength = allWords.length;
+export function MemWords() {
+  const allExprs = ruData.data;
+  const maxLength = allExprs.length;
   const origWordNumberPerBlock = 5;
   const origBlock = 1;
   const origProblemId = 0;
-  const localStorageKey = "vocmem-ru";
+  const localStorageKey = "vocmem-ru-mem-words";
 
   const [wordNumberPerBlock, setWordNumberPerBlock] = useState(origWordNumberPerBlock);
   const [blockNumber, setBlockNumber] = useState(origBlock);
   const [problemId, setProblemId] = useState(origProblemId);
-  const [word, setWord] = useState(allWords[problemId]);
-  const [problem, setProblem] = useState(<RuProblem {...allWords[problemId]} />);
+  const [word, setWord] = useState(allExprs[problemId]);
+  const [problem, setProblem] = useState(<RuProblem {...allExprs[problemId]} />);
   const [isSaved, setIsSaved] = useState(false);
   const [savedIds, setSavedIds] = useState("");
   const [expanded, setExpanded] = useState<string | false>(false);
@@ -65,41 +65,41 @@ export function Ru() {
 
   function handleSett() {
     setProblemId(initProblemId());
-    setWord(allWords[problemId]);
-    setProblem(<RuProblem {...allWords[problemId]} />);
+    setWord(allExprs[problemId]);
+    setProblem(<RuProblem {...allExprs[problemId]} />);
   }
 
   function handleWordNumberPerBlock(event) {
     setWordNumberPerBlock(Number(event.target.value));
     setBlockNumber(origBlock);
     setProblemId(initProblemId());
-    setWord(allWords[problemId]);
-    setProblem(<RuProblem {...allWords[problemId]} />);
+    setWord(allExprs[problemId]);
+    setProblem(<RuProblem {...allExprs[problemId]} />);
   }
 
   function handleBlock(e) {
     setBlockNumber(Number(e.target.value));
     setProblemId(initProblemId());
-    setWord(allWords[problemId]);
-    setProblem(<RuProblem {...allWords[problemId]} />);
+    setWord(allExprs[problemId]);
+    setProblem(<RuProblem {...allExprs[problemId]} />);
   }
 
   function handleBefore(_e) {
     const nextProblemId = problemId - 1;
     const newId = nextProblemId <= (blockNumber - 1) * wordNumberPerBlock ? blockNumber * wordNumberPerBlock - 1 : nextProblemId;
     setProblemId(newId);
-    setWord(allWords[newId]);
+    setWord(allExprs[newId]);
     setIsSaved(isSavedId(newId))
-    setProblem(<RuProblem {...allWords[newId]} />);
+    setProblem(<RuProblem {...allExprs[newId]} />);
   }
 
   function handleNext(_e) {
     const nextProblemId = problemId + 1;
     const newId = nextProblemId >= blockNumber * wordNumberPerBlock ? initProblemId() : nextProblemId;
     setProblemId(newId);
-    setWord(allWords[newId]);
+    setWord(allExprs[newId]);
     setIsSaved(isSavedId(newId))
-    setProblem(<RuProblem {...allWords[newId]} />);
+    setProblem(<RuProblem {...allExprs[newId]} />);
   }
 
   function handleBlockBefore(_e) {
@@ -109,9 +109,9 @@ export function Ru() {
 
     setProblemId(newId);
     setBlockNumber(newBlock);
-    setWord(allWords[newId]);
+    setWord(allExprs[newId]);
     setIsSaved(isSavedId(newId))
-    setProblem(<RuProblem {...allWords[newId]} />);
+    setProblem(<RuProblem {...allExprs[newId]} />);
   }
 
   function handleBlockNext(_e) {
@@ -119,12 +119,11 @@ export function Ru() {
     const newBlock = nextBlock > Math.ceil(maxLength / wordNumberPerBlock) ? 1 : nextBlock;
     const newId = wordNumberPerBlock * (newBlock - 1);
 
-    console.log(initProblemId(), newId, newBlock);
     setProblemId(newId);
     setBlockNumber(newBlock);
-    setWord(allWords[newId]);
+    setWord(allExprs[newId]);
     setIsSaved(isSavedId(newId))
-    setProblem(<RuProblem {...allWords[newId]} />);
+    setProblem(<RuProblem {...allExprs[newId]} />);
   }
 
   function handleSave(problemId) {
@@ -141,8 +140,8 @@ export function Ru() {
     setWordNumberPerBlock(origWordNumberPerBlock);
     setBlockNumber(origBlock);
     setProblemId(origProblemId);
-    setWord(allWords[origProblemId]);
-    setProblem(<RuProblem {...allWords[origProblemId]} />);
+    setWord(allExprs[origProblemId]);
+    setProblem(<RuProblem {...allExprs[origProblemId]} />);
   }
 
   const handleSavedItems = (panel: string) => (event: SyntheticEvent, isExpanded: boolean) => {
@@ -172,7 +171,7 @@ export function Ru() {
 
       <WordInfo word={word} problem={problem}/>
       <SavedWords
-        allWords={allWords}
+        allWords={allExprs}
         expanded={expanded}
         handleDelete={handleDelete}
         handleSavedItems={handleSavedItems}
@@ -185,4 +184,4 @@ export function Ru() {
 }
 
 // noinspection JSUnusedGlobalSymbols
-export default Ru;
+export default MemWords;

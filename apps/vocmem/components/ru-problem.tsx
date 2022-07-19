@@ -24,7 +24,7 @@ export function RuProblem({ru, en}) {
   }
 
   return (
-    <Box component={Card} sx={{width: "auto", margin: marginPx}}>
+    <Card sx={{width: "auto", margin: marginPx}}>
       <CardContent>
         <Typography sx={{fontSize: 14}} color="text.secondary" gutterBottom>meaning</Typography>
         <Typography variant="h5" component="div">{en}</Typography></CardContent>
@@ -40,7 +40,7 @@ export function RuProblem({ru, en}) {
       <Box component="div" sx={{display: "flex", justifyContent: "center"}}>
         <iframe src={src} height={src ? 300 : 0} style={{maxWidth: "100%"}}/>
       </Box>
-    </Box>)
+    </Card>)
 }
 
 export default RuProblem;
