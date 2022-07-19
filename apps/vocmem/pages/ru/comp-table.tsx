@@ -14,7 +14,7 @@ export function CompTable() {
   const rs = cyrillicToRomanConverter.romans;
   return (<Main>
     <Box component="h1">文字対照表</Box>
-    <Box component="div">
+    <Box component="div" sx={{marginBottom: "50px"}}>
       <TableContainer component={Paper}>
         <Table aria-label="simple table">
           <TableHead>

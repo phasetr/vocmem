@@ -7,7 +7,7 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
-import {cyrillicToRomanConverter, romanToCyrillicConverter} from "../../constants/alphabets";
+import {convertCyrillicToRoman, convertRomanToCyrillic} from "../../utils/russian";
 
 const cyrillicToRoman = 'cyrillic-to-roman';
 const romanToCyrillic = "roman-to-cyrillic";
@@ -21,50 +21,9 @@ export function Conv() {
     setConvertType((event.target as HTMLInputElement).value);
   };
 
-  function convertCyrillicToRoman(inputText) {
-    const acc = [];
-    const cs = cyrillicToRomanConverter.cyrillics;
-    const rs = cyrillicToRomanConverter.romans;
-    for (let i = 0; i < inputText.length; i++) {
-      const tmpChar = inputText.charAt(i);
-      const index = cs.indexOf(tmpChar);
-      if (index >= 0) {
-        acc.push(rs[index]);
-      } else {
-        acc.push(tmpChar);
-      }
-    }
-    return acc;
-  }
-
-  function convertRomanToCyrillic(str) {
-    let strFrag, strFrags;
-    let converted = "";
-    let pos = 0;
-    let i;
-    const rs = romanToCyrillicConverter.romans;
-    const cs = romanToCyrillicConverter.cyrillics;
-    while (pos < str.length) {
-      for (i = 0; i < rs.length; i++) {
-        strFrag = str.substring(pos, pos + rs[i].length);
-        strFrags = strFrag.toLowerCase();
-        if ((strFrag == rs[i]) || (strFrags == rs[i])) {
-          converted += (strFrag == rs[i]) ? cs[i] : cs[i].toUpperCase();
-          pos += rs[i].length;
-          break;
-        }
-      }
-      if (i == rs.length) {
-        converted += str.substring(pos, pos + 1);
-        pos++;
-      }
-    }
-    return converted;
-  }
-
   function handleClick() {
     if (convertType === cyrillicToRoman) {
-      setRetVal(convertCyrillicToRoman(inputText).join(""));
+      setRetVal(convertCyrillicToRoman(inputText));
     } else {
       setRetVal(convertRomanToCyrillic(inputText));
     }

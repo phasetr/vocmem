@@ -27,12 +27,15 @@ type LangType = {
 
 const languages: LangType[] = [
   {
-    lang: "English", data: [
+    lang: "Misc", data: [{to:"misc/search",text:"一括検索"}]
+  },
+  {
+    lang: "英語", data: [
       {to: "en/expr", text: "英語表現"}
     ]
   },
   {
-    lang: "Russian", data: [
+    lang: "ロシア語", data: [
       {to: "ru/comp-table", text: "文字対照表"},
       {to: "ru/conv", text: "文字変換ツール"},
       {to: "ru/mem-words", text: "ロシア語単語"}
