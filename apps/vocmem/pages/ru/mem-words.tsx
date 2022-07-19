@@ -1,5 +1,5 @@
 import {Box} from "@mui/material";
-import {ruData} from "@vocmem/data";
+import {ruData} from "../../data/ru/ru";
 import {SyntheticEvent, useEffect, useState} from "react";
 import RuProblem from "../../components/ru-problem";
 import Main from "../../components/main";
@@ -169,7 +169,7 @@ export function MemWords() {
         handleNext={handleNext}
         handleSave={handleSave}/>
 
-      <WordInfo word={word} problem={problem}/>
+      <WordInfo id={problemId} word={word} problem={problem}/>
       <SavedWords
         allWords={allExprs}
         expanded={expanded}

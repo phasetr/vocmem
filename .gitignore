@@ -38,7 +38,7 @@ testem.log
 .DS_Store
 Thumbs.db
 
-libs/data/src/data/ru.ts
+apps/vocmem/data/ru/ru.ts
 
 # PWA files
 **/public/sw.js
