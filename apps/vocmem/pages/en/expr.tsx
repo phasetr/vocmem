@@ -86,7 +86,13 @@ export function Expr() {
 
   function handleBefore(_e) {
     const nextProblemId = problemId - 1;
-    const newId = nextProblemId <= (blockNumber - 1) * wordNumberPerBlock ? blockNumber * wordNumberPerBlock - 1 : nextProblemId;
+    let newId = (blockNumber - 1) * wordNumberPerBlock;
+    if (nextProblemId <= newId) {
+      const tmpId = blockNumber * wordNumberPerBlock - 1;
+      newId = (maxLength <= tmpId) ? newId : tmpId;
+    } else {
+      newId = nextProblemId;
+    }
     setProblemId(newId);
     setWord(allWords[newId]);
     setIsSaved(isSavedId(newId))
@@ -95,7 +101,7 @@ export function Expr() {
 
   function handleNext(_e) {
     const nextProblemId = problemId + 1;
-    const newId = nextProblemId >= blockNumber * wordNumberPerBlock ? initProblemId() : nextProblemId;
+    const newId = (nextProblemId >= blockNumber * wordNumberPerBlock || nextProblemId >= maxLength) ? initProblemId() : nextProblemId;
     setProblemId(newId);
     setWord(allWords[newId]);
     setIsSaved(isSavedId(newId))

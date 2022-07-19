@@ -2,7 +2,8 @@ import * as fs from 'fs';
 
 type RuWordData = {
   ru: string,
-  en: string
+  en: string,
+  roman: string
 }
 
 function csvToJson(csv: string, write: string) {
@@ -11,7 +12,7 @@ function csvToJson(csv: string, write: string) {
   xa.shift();
   xa.forEach((s) => {
     const a = s.split(",");
-    data.push({ru: a[0], en: a[1]});
+    data.push({ru: a[0], en: a[1], roman: a[2]});
   })
   fs.writeFileSync(write, "export const ruData = " + JSON.stringify({data: data}))
   return data;

@@ -38,8 +38,6 @@ testem.log
 .DS_Store
 Thumbs.db
 
-apps/vocmem/data/ru/ru.ts
-
 # PWA files
 **/public/sw.js
 **/public/workbox-*.js

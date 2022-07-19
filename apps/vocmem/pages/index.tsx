@@ -33,6 +33,8 @@ const languages: LangType[] = [
   },
   {
     lang: "Russian", data: [
+      {to: "ru/comp-table", text: "文字対照表"},
+      {to: "ru/conv", text: "文字変換ツール"},
       {to: "ru/mem-words", text: "ロシア語単語"}
     ]
   }
@@ -63,7 +65,7 @@ export function Index() {
             <AccordionDetails>
               {data.map(({to, text}: DataType) => {
                 return (
-                  <List key="to">
+                  <List key={to}>
                     <Link href={to}>
                       <ListItem>
                         <ListItemButton>
