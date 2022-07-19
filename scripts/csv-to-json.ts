@@ -18,7 +18,7 @@ function csvToJson(csv: string, write: string) {
 }
 
 function ru() {
-  csvToJson("scripts/ru.csv", 'apps/vocmem/data/ru.ts');
+  csvToJson("scripts/ru.csv", 'apps/vocmem/data/ru/ru.ts');
 }
 
 ru()
