@@ -1,5 +1,5 @@
 import {Autocomplete, TextField} from "@mui/material";
-import {marginPx, maxWidth} from "@vocmem/data";
+import {marginPx, maxWidth} from "../constants/styles";
 
 export function SelectBlock({allBlocks, handleSelect}){
   return <Autocomplete

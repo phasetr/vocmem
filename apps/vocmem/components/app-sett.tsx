@@ -1,5 +1,5 @@
 import {Accordion, AccordionDetails, AccordionSummary, Box, Button, TextField, Typography} from "@mui/material";
-import {marginPx} from "@vocmem/data";
+import {marginPx} from "../constants/styles";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export function AppSett(

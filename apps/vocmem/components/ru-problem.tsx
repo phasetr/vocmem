@@ -1,6 +1,6 @@
 import {Box, Button, Card, CardActions, CardContent, Typography} from "@mui/material";
 import {useState} from "react";
-import {marginPx} from "@vocmem/data";
+import {marginPx} from "../constants/styles";
 
 export type RuProblemType = {
   id: number,
