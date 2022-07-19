@@ -1,5 +1,4 @@
 import {Box} from "@mui/material";
-import {ruData} from "../../data/ru/ru";
 import {SyntheticEvent, useEffect, useState} from "react";
 import RuProblem from "../../components/ru-problem";
 import Main from "../../components/main";
@@ -7,6 +6,7 @@ import AppSett from "../../components/app-sett";
 import Controllers from "../../components/controllers";
 import WordInfo from "../../components/word-info";
 import SavedWords from "../../components/saved-words";
+import {ruData} from "../../data/ru/ru";
 
 export function MemWords() {
   const allExprs = ruData.data;
