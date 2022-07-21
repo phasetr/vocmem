@@ -1,4 +1,4 @@
-import {Box} from "@mui/material";
+import {Box, Typography} from "@mui/material";
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -12,11 +12,12 @@ import Main from "../../components/main";
 export function CompTable() {
   const cs = cyrillicToRomanConverter.cyrillics;
   const rs = cyrillicToRomanConverter.romans;
-  return (<Main>
-    <Box component="h1">文字対照表</Box>
-    <Box component="div" sx={{marginBottom: "50px"}}>
+  return (
+    <Main>
+      <Box component="h1">文字対照表</Box>
+      <Typography>大文字のあとに小文字が出てきます。</Typography>
       <TableContainer component={Paper}>
-        <Table aria-label="simple table">
+        <Table aria-label="simple table" sx={{maxWidth: "250px", margin: "0 auto"}}>
           <TableHead>
             <TableRow>
               <TableCell>キリル文字</TableCell>
@@ -38,8 +39,7 @@ export function CompTable() {
           </TableBody>
         </Table>
       </TableContainer>
-    </Box>
-  </Main>);
+    </Main>);
 }
 
 export default CompTable;

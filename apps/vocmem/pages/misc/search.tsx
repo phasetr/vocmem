@@ -7,8 +7,11 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, {SelectChangeEvent} from '@mui/material/Select';
 import {convertRomanToCyrillic} from "../../utils/russian";
+import {useGetWindowSize} from "../../utils/get-window-size";
+import muiBreakPoints from "../../constants/mui-break-points";
 
 export function Search() {
+  const width = ((obj) => obj.width)(useGetWindowSize());
   const [searchWord, setSearchWord] = useState("");
   const [convertedSearchWord, setConvertedSearchWord] = useState("")
   const [src, setSrc] = useState("");
@@ -26,11 +29,23 @@ export function Search() {
       setSearchWord(newSearchWord);
       setButtons(
         <>
-          <Button variant="text" onClick={() => setSrc("")}>empty</Button>
-          <Button variant="text"
-                  onClick={() => setSrc(`https://en.m.wiktionary.org/wiki/${newSearchWord}#English`)}>Wiktionary</Button>
-          <Button variant="text"
-                  onClick={() => setSrc(`https://www.etymonline.com/search?q=${newSearchWord}`)}>Etymonline</Button>
+          {width < muiBreakPoints.sm ?
+            <>
+              <Button variant="text" onClick={() => setSrc("")}>empty</Button>
+              <Button variant="text"
+                      onClick={() => setSrc(`https://en.m.wiktionary.org/wiki/${newSearchWord}#English`)}>Wiktionary</Button>
+              <Button variant="text"
+                      onClick={() => setSrc(`https://www.etymonline.com/search?q=${newSearchWord}`)}>Etymonline</Button>
+            </>
+            :
+            <>
+              <Button variant="text" onClick={() => setSrc("")}>empty</Button>
+              <Button variant="text"
+                      onClick={() => setSrc(`https://en.wiktionary.org/wiki/${newSearchWord}#English`)}>Wiktionary</Button>
+              <Button variant="text"
+                      onClick={() => setSrc(`https://www.etymonline.com/search?q=${newSearchWord}`)}>Etymonline</Button>
+            </>
+          }
         </>);
     } else if (lang === "ru") {
       const newSearchWord = ev.target.value;
@@ -39,10 +54,21 @@ export function Search() {
       setConvertedSearchWord(newConvertedSearchWord);
       setButtons(
         <>
-          <Button variant="text" onClick={e => handleSrc(e, 'empty', newConvertedSearchWord)}>empty</Button>
-          <Button variant="text" onClick={e => handleSrc(e, 'en', newConvertedSearchWord)}>en Wiktionary</Button>
-          <Button variant="text" onClick={e => handleSrc(e, 'ja', newConvertedSearchWord)}>ja Wiktionary</Button>
-          <Button variant="text" onClick={e => handleSrc(e, 'ru', newConvertedSearchWord)}>ru Wiktionary</Button>
+          {width < muiBreakPoints.sm ?
+            <>
+              <Button variant="text" onClick={e => handleSrc(e, 'empty', newConvertedSearchWord)}>empty</Button>
+              <Button variant="text" onClick={e => handleSrc(e, 'en', newConvertedSearchWord)}>en</Button>
+              <Button variant="text" onClick={e => handleSrc(e, 'ja', newConvertedSearchWord)}>ja</Button>
+              <Button variant="text" onClick={e => handleSrc(e, 'ru', newConvertedSearchWord)}>ru</Button>
+            </>
+            :
+            <>
+              <Button variant="text" onClick={e => handleSrc(e, 'empty', newConvertedSearchWord)}>empty</Button>
+              <Button variant="text" onClick={e => handleSrc(e, 'en', newConvertedSearchWord)}>en Wiktionary</Button>
+              <Button variant="text" onClick={e => handleSrc(e, 'ja', newConvertedSearchWord)}>ja Wiktionary</Button>
+              <Button variant="text" onClick={e => handleSrc(e, 'ru', newConvertedSearchWord)}>ru Wiktionary</Button>
+            </>
+          }
         </>)
     }
   }
@@ -109,7 +135,7 @@ export function Search() {
       </Box>
 
       <Box component="div" sx={{margin: "10px 0", display: "flex", justifyContent: "center"}}>
-        <iframe src={src} height={src ? 500 : 0} width="100%" style={{maxWidth: "100%"}}/>
+        <iframe src={src} height={src ? 300 : 0} width="100%" style={{maxWidth: "100%"}}/>
       </Box>
 
     </Main>
