@@ -9,5 +9,11 @@ export const enExprData: ExprData[] = [
         "ja": "私たちは依然として極めて不安定な中で生活しているため, 新型コロナウイルス流行の新たな波を防げるよう夏休みの間は慎重に行動しなければならない."
       }
     ]
+  },
+  {
+    expr: "have to go", translation: "廃止しなければならない", examples: [
+      {"orig": "The room numbers with fours have to go because four is an unlucky number.", "ja": "4は縁起の悪い数字だから、部屋番号からは取り除かねばならない."},
+      {"orig": "These old boxes have to go.", "ja": "古い箱は処分しなければならない."}
+    ]
   }
 ];

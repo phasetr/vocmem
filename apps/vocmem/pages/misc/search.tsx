@@ -117,16 +117,13 @@ export function Search() {
           sx={{margin: "10px 0"}}
           value={searchWord}
           onChange={handleSearchWordChange}/>
-        {convertedSearchWord ?
-          <>
-            <TextField
-              id="converted-search-word" label="検索語を変換：検索に利用する値" variant="outlined"
-              fullWidth={true}
-              sx={{margin: "10px 0"}}
-              value={convertedSearchWord}
-              disabled={true}
-            />
-          </> : <></>}
+        <TextField
+          id="converted-search-word" label="検索語を変換：検索に利用する値" variant="outlined"
+          fullWidth={true}
+          sx={{margin: "10px 0"}}
+          value={convertedSearchWord}
+          disabled={true}
+        />
       </Box>
 
       <Box component="section"
@@ -135,7 +132,7 @@ export function Search() {
       </Box>
 
       <Box component="div" sx={{margin: "10px 0", display: "flex", justifyContent: "center"}}>
-        <iframe src={src} height={src ? 300 : 0} width="100%" style={{maxWidth: "100%"}}/>
+        <iframe src={src} height="300px" width="100%" style={{maxWidth: "100%"}}/>
       </Box>
 
     </Main>
