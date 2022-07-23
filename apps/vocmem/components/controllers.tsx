@@ -18,14 +18,15 @@ export function Controllers(
     handleNext,
     handleSave
   }) {
-  return (<Box sx={{margin: `${marginPx} 0`, display: 'flex', justifyContent: 'space-between'}}>
-    <Button sx={{width: "20px"}} variant="text" onClick={handleBefore}><NavigateBeforeIcon/></Button>
-    <Button variant="text" onClick={handleNext}><NavigateNextIcon/></Button>
-    {isSaved ? <Button variant="contained" onClick={() => handleDelete(problemId)}><DeleteIcon/></Button> :
-      <Button variant="text" onClick={() => handleSave(problemId)}><SaveIcon/></Button>}
-    <Button variant="text" onClick={handleBlockBefore}><SkipPreviousIcon/></Button>
-    <Button variant="text" onClick={handleBlockNext}><SkipNextIcon/></Button>
-  </Box>)
+  return (
+    <Box sx={{margin: `${marginPx} 0`, display: 'flex', justifyContent: 'space-between'}}>
+      <Button sx={{width: "20px"}} variant="text" onClick={handleBefore}><NavigateBeforeIcon/></Button>
+      <Button variant="text" onClick={handleNext}><NavigateNextIcon/></Button>
+      {isSaved ? <Button variant="contained" onClick={() => handleDelete(problemId)}><DeleteIcon/></Button> :
+        <Button variant="text" onClick={() => handleSave(problemId)}><SaveIcon/></Button>}
+      <Button variant="text" onClick={handleBlockBefore}><SkipPreviousIcon/></Button>
+      <Button variant="text" onClick={handleBlockNext}><SkipNextIcon/></Button>
+    </Box>)
 }
 
 export default Controllers;

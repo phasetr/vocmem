@@ -29,6 +29,7 @@ const languages: LangType[] = [
   {
     lang: "Misc", data: [
       {to: "misc/search", text: "一括検索"},
+      {to: "misc/math-expr", text: "サンプル：いろいろな式"},
       {to: "https://phasetr.com/archive/fc/lang", text: "外部リンク：phasetr.com 語学情報"}
     ]
   },
