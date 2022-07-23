@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
-    "build": "yarn build:data ; nx build",
+    "build": "nx build",
     "test": "nx test",
     "dev": "yarn build:data ; nx serve --port 8080",
     "build:data": "ts-node scripts/csv-to-json.ts"
