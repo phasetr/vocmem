@@ -15,6 +15,9 @@ export function MemWords() {
   const origBlock = 1;
   const origProblemId = 0;
   const localStorageKey = "vocmem-ru-mem-words";
+  const ruObjectId = "vocmem-ru-object-id";
+  const ruWordNumberPerBlockKey = "vocmem-ru-wnum";
+  const ruBlockNumber = "vocmem-ru-bnum";
 
   const [wordNumberPerBlock, setWordNumberPerBlock] = useState(origWordNumberPerBlock);
   const [blockNumber, setBlockNumber] = useState(origBlock);
@@ -29,7 +32,19 @@ export function MemWords() {
     if (localStorage.getItem(localStorageKey) === null) {
       localStorage.setItem(localStorageKey, "");
     }
+    if (localStorage.getItem(ruWordNumberPerBlockKey) === null) {
+      localStorage.setItem(ruWordNumberPerBlockKey, "0");
+    }
+    if (localStorage.getItem(ruBlockNumber) === null) {
+      localStorage.setItem(ruBlockNumber, "0");
+    }
+    if (localStorage.getItem(ruObjectId) === null) {
+      localStorage.setItem(ruObjectId, "0")
+    }
     setSavedIds(localStorage.getItem(localStorageKey));
+    //setProblemId(Number(localStorage.getItem(ruObjectId)));
+    //setWordNumberPerBlock(Number(localStorage.getItem(ruWordNumberPerBlockKey)));
+    //setBlockNumber(Number(localStorage.getItem(ruBlockNumber)));
   }, []);
 
   function isSavedId(problemId) {
@@ -71,10 +86,11 @@ export function MemWords() {
 
   function handleWordNumberPerBlock(event) {
     setWordNumberPerBlock(Number(event.target.value));
-    setBlockNumber(origBlock);
     setProblemId(initProblemId());
     setWord(allWords[problemId]);
     setProblem(<RuProblem {...allWords[problemId]} />);
+    //localStorage.setItem(ruObjectId, problemId.toString());
+    //localStorage.setItem(ruWordNumberPerBlockKey, event.target.value);
   }
 
   function handleBlock(e) {
@@ -84,22 +100,24 @@ export function MemWords() {
     setProblem(<RuProblem {...allWords[problemId]} />);
   }
 
-  function handleBefore(_e) {
+  function handleBefore() {
     const nextProblemId = problemId - 1;
     const newId = nextProblemId <= (blockNumber - 1) * wordNumberPerBlock ? blockNumber * wordNumberPerBlock - 1 : nextProblemId;
     setProblemId(newId);
     setWord(allWords[newId]);
     setIsSaved(isSavedId(newId))
     setProblem(<RuProblem {...allWords[newId]} />);
+    //localStorage.setItem(ruWordNumberPerBlockKey, newId.toString());
   }
 
-  function handleNext(_e) {
+  function handleNext() {
     const nextProblemId = problemId + 1;
     const newId = nextProblemId >= blockNumber * wordNumberPerBlock ? initProblemId() : nextProblemId;
     setProblemId(newId);
     setWord(allWords[newId]);
     setIsSaved(isSavedId(newId))
     setProblem(<RuProblem {...allWords[newId]} />);
+    //localStorage.setItem(ruWordNumberPerBlockKey, newId.toString());
   }
 
   function handleBlockBefore(_e) {
@@ -112,6 +130,7 @@ export function MemWords() {
     setWord(allWords[newId]);
     setIsSaved(isSavedId(newId))
     setProblem(<RuProblem {...allWords[newId]} />);
+    //localStorage.setItem(ruBlockNumber, newBlock.toString());
   }
 
   function handleBlockNext(_e) {
@@ -124,6 +143,7 @@ export function MemWords() {
     setWord(allWords[newId]);
     setIsSaved(isSavedId(newId))
     setProblem(<RuProblem {...allWords[newId]} />);
+    //localStorage.setItem(ruBlockNumber, newBlock.toString());
   }
 
   function handleSave(problemId) {
@@ -142,6 +162,8 @@ export function MemWords() {
     setProblemId(origProblemId);
     setWord(allWords[origProblemId]);
     setProblem(<RuProblem {...allWords[origProblemId]} />);
+    //localStorage.setItem(ruWordNumberPerBlockKey, "0");
+    //localStorage.setItem(ruBlockNumber, "0")
   }
 
   const handleSavedItems = (panel: string) => (event: SyntheticEvent, isExpanded: boolean) => {
