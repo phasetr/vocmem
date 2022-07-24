@@ -170,7 +170,7 @@ export function Search() {
       </Box>
 
       <Box component="div" sx={{margin: "10px 0", display: "flex", justifyContent: "center"}}>
-        <iframe src={src} height="240px" width="100%" style={{maxWidth: "100%"}}/>
+        <iframe src={src} height="240px" width="100%" style={{maxWidth: "100%"}} sandbox="" />
       </Box>
     </Main>
   );
