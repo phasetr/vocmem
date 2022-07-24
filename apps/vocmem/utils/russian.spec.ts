@@ -1,5 +1,5 @@
-import {cyrillicToRomanConverter} from "../constants/alphabets";
-import {convertCyrillicToRoman, convertRomanToCyrillic} from "./russian";
+import {cyrillicToRomanConverter} from "./ru-alphabets";
+import {convertCyrillicToRoman, convertRomanToCyrillic} from "./ru-converter";
 
 describe("Roman to cyrillic", () => {
   const cyrs = cyrillicToRomanConverter.cyrillics;

@@ -7,7 +7,7 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
-import {convertCyrillicToRoman, convertRomanToCyrillic} from "../../utils/russian";
+import {convertCyrillicToRoman, convertRomanToCyrillic} from "../../utils/ru-converter";
 
 const cyrillicToRoman = 'cyrillic-to-roman';
 const romanToCyrillic = "roman-to-cyrillic";

@@ -1,4 +1,4 @@
-import {Box, Button, TextField} from "@mui/material";
+import {Box, Button, TextField, Tooltip} from "@mui/material";
 import {useState} from "react";
 import Main from "../../components/main";
 import {maxWidth} from "../../constants/styles";
@@ -6,9 +6,11 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, {SelectChangeEvent} from '@mui/material/Select';
-import {convertRomanToCyrillic} from "../../utils/russian";
+import {convertRomanToCyrillic} from "../../utils/ru-converter";
 import {useGetWindowSize} from "../../utils/get-window-size";
 import muiBreakPoints from "../../constants/mui-break-points";
+import HelpIcon from '@mui/icons-material/Help';
+import {cyrillicToRomanConverter} from "../../utils/ru-alphabets";
 
 export function Search() {
   const width = ((obj) => obj.width)(useGetWindowSize());
@@ -17,19 +19,40 @@ export function Search() {
   const [src, setSrc] = useState("");
   const [lang, setLang] = useState('');
   const [buttons, setButtons] = useState(<></>);
+  const [showTooltip, setShowTooltip] = useState(false);
+  const [tooltipMessage, setTooltipMessage] = useState("");
 
   const handleLangChange = (ev: SelectChangeEvent) => {
-    setLang(ev.target.value);
+    const lang = ev.target.value
+    setLang(lang);
     setConvertedSearchWord("");
-  };
+
+    if (lang === "ru") {
+      const cyrillics = cyrillicToRomanConverter.cyrillics;
+      const romans = cyrillicToRomanConverter.romans;
+      const msgs = []
+      for (let i = 33; i < romans.length; i++) {
+        msgs.push(`${cyrillics[i]} -> ${romans[i]}`);
+      }
+      setTooltipMessage(msgs.join("; "));
+    } else {
+      setTooltipMessage("");
+    }
+  }
+
+  function handleShowOrHideTooltip() {
+    const newFlag = !showTooltip;
+    setShowTooltip(newFlag);
+  }
 
   function handleSearchWordChange(ev) {
+    const newSearchWord = ev.target.value;
+    const wikUrl = width < muiBreakPoints.sm ? "m.wiktionary.org" : "wiktionary.org"
+    setSearchWord(newSearchWord);
+    setConvertedSearchWord(newSearchWord);
     if (lang === "en") {
-      const newSearchWord = ev.target.value;
-      const wikUrl = width < muiBreakPoints.sm ? "m.wiktionary.org" : "wiktionary.org"
       const wiktionaryButtonName = width < muiBreakPoints.sm ? "wik" : "Wiktionary";
       const etymonlineButtonName = width < muiBreakPoints.sm ? "ety" : "Etymonline";
-      setSearchWord(newSearchWord);
       setButtons(
         <>
           <Button variant="text"
@@ -37,35 +60,56 @@ export function Search() {
           <Button variant="text"
                   onClick={() => setSrc(`https://www.etymonline.com/search?q=${newSearchWord}`)}>{etymonlineButtonName}</Button>
         </>);
+    } else if (lang === "fr") {
+      const enButtonName = width < muiBreakPoints.sm ? "en" : "en Wiktionary";
+      const frButtonName = width < muiBreakPoints.sm ? "fr" : "fr Wiktionary";
+      setButtons(
+        <>
+          <Button variant="text"
+                  onClick={() => setSrc(`https://en.${wikUrl}/wiki/${newSearchWord}#french`)}>{enButtonName}</Button>
+          <Button variant="text"
+                  onClick={() => setSrc(`https://fr.${wikUrl}/wiki/${newSearchWord}#Français`)}>{frButtonName}</Button>
+        </>);
+    } else if (lang === "de") {
+      const enButtonName = width < muiBreakPoints.sm ? "en" : "en Wiktionary";
+      const deButtonName = width < muiBreakPoints.sm ? "de" : "de Wiktionary";
+      const dwdeButtonName = "DWDE";
+      setButtons(
+        <>
+          <Button variant="text"
+                  onClick={() => setSrc(`https://en.${wikUrl}/wiki/${newSearchWord}#french`)}>{enButtonName}</Button>
+          <Button variant="text"
+                  onClick={() => setSrc(`https://de.${wikUrl}/wiki/${newSearchWord}#Deutsch`)}>{deButtonName}</Button>
+          <Button variant="text"
+                  onClick={() => setSrc(`https://www.dwds.de/wb/${newSearchWord}`)}>{dwdeButtonName}</Button>
+        </>);
+    } else if (lang == "it") {
+      const enButtonName = width < muiBreakPoints.sm ? "en" : "en Wiktionary";
+      const itButtonName = width < muiBreakPoints.sm ? "it" : "it Wiktionary";
+      setButtons(
+        <>
+          <Button variant="text"
+                  onClick={() => setSrc(`https://en.${wikUrl}/wiki/${newSearchWord}#french`)}>{enButtonName}</Button>
+          <Button variant="text"
+                  onClick={() => setSrc(`https://it.${wikUrl}/wiki/${newSearchWord}#Français`)}>{itButtonName}</Button>
+        </>);
     } else if (lang === "ru") {
-      const newSearchWord = ev.target.value;
       const newConvertedSearchWord = convertRomanToCyrillic(newSearchWord);
       const enButtonName = width < muiBreakPoints.sm ? "en" : "en Wiktionary";
       const jaButtonName = width < muiBreakPoints.sm ? "ja" : "ja Wiktionary";
       const ruButtonName = width < muiBreakPoints.sm ? "ru" : "ru Wiktionary";
-      setSearchWord(newSearchWord);
       setConvertedSearchWord(newConvertedSearchWord);
       setButtons(
         <>
-          <Button variant="text" onClick={e => handleSrc(e, 'empty', newConvertedSearchWord)}>empty</Button>
-          <Button variant="text" onClick={e => handleSrc(e, 'en', newConvertedSearchWord)}>{enButtonName}</Button>
-          <Button variant="text" onClick={e => handleSrc(e, 'ja', newConvertedSearchWord)}>{jaButtonName}</Button>
-          <Button variant="text" onClick={e => handleSrc(e, 'ru', newConvertedSearchWord)}>{ruButtonName}</Button>
+          <Button variant="text" onClick={() => setSrc("")}>empty</Button>
+          <Button variant="text"
+                  onClick={() => setSrc(`https://en.${wikUrl}/wiki/${newConvertedSearchWord}#Russian`)}>{enButtonName}</Button>
+          <Button variant="text"
+                  onClick={() => setSrc(`https://ja.${wikUrl}/wiki/${newConvertedSearchWord}#ロシア語`)}>{jaButtonName}</Button>
+          <Button variant="text"
+                  onClick={() => setSrc(`https://ru.${wikUrl}/wiki/${newConvertedSearchWord}#Русский`)}>{ruButtonName}</Button>
         </>)
     }
-  }
-
-  function handleSrc(_ev, lang, searchWord) {
-    let id = '';
-    if (lang === "en") {
-      id = 'Russian';
-    } else if (lang === "ja") {
-      id = 'ロシア語';
-    } else if (lang === "ru") {
-      id = 'Русский';
-    }
-    const url = `https://${lang}.m.wiktionary.org/wiki/${searchWord}#${id}`;
-    setSrc(url);
   }
 
   return (
@@ -90,16 +134,27 @@ export function Search() {
             onChange={handleLangChange}
           >
             <MenuItem value="en">英語</MenuItem>
+            <MenuItem value="ja">日本語</MenuItem>
+            <MenuItem value="fr">フランス語</MenuItem>
+            <MenuItem value="de">ドイツ語</MenuItem>
+            <MenuItem value="it">イタリア語</MenuItem>
             <MenuItem value="ru">ロシア語</MenuItem>
           </Select>
         </FormControl>
 
-        <TextField
-          id="search-box" label="検索語" variant="outlined"
-          fullWidth={true}
-          sx={{margin: "10px 0"}}
-          value={searchWord}
-          onChange={handleSearchWordChange}/>
+        <Box component="div" sx={{display: "flex"}}>
+          <TextField
+            id="search-box" label="検索語" variant="outlined"
+            fullWidth={true}
+            sx={{margin: "10px 0"}}
+            value={searchWord}
+            onChange={handleSearchWordChange}/>
+          <Tooltip placement="top" title={tooltipMessage}
+                   open={showTooltip}
+                   enterTouchDelay={0} arrow>
+            <Button onClick={handleShowOrHideTooltip}><HelpIcon/></Button>
+          </Tooltip>
+        </Box>
         <TextField
           id="converted-search-word" label="検索語を変換：検索に利用する値" variant="outlined"
           fullWidth={true}
@@ -115,9 +170,8 @@ export function Search() {
       </Box>
 
       <Box component="div" sx={{margin: "10px 0", display: "flex", justifyContent: "center"}}>
-        <iframe src={src} height="300px" width="100%" style={{maxWidth: "100%"}}/>
+        <iframe src={src} height="240px" width="100%" style={{maxWidth: "100%"}}/>
       </Box>
-
     </Main>
   );
 }
