@@ -42,7 +42,7 @@ export function RuProblem({ru, en}) {
         </Box>
       </CardActions>
       <Box component="div" sx={{display: "flex", justifyContent: "center"}}>
-        <iframe src={src} height={src ? 300 : 0} style={{width: "100%"}}/>
+        <iframe src={src} height={src ? 300 : 0} style={{width: "100%"}} sandbox="" />
       </Box>
     </Card>)
 }
