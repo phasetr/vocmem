@@ -12,8 +12,48 @@ export const enExprData: ExprData[] = [
   },
   {
     expr: "have to go", translation: "廃止しなければならない", examples: [
-      {"orig": "The room numbers with fours have to go because four is an unlucky number.", "ja": "4は縁起の悪い数字だから、部屋番号からは取り除かねばならない."},
+      {
+        "orig": "The room numbers with fours have to go because four is an unlucky number.",
+        "ja": "4は縁起の悪い数字だから、部屋番号からは取り除かねばならない."
+      },
       {"orig": "These old boxes have to go.", "ja": "古い箱は処分しなければならない."}
     ]
+  },
+  {expr: "beat around the bush", translation: "遠回しに言う", examples: []},
+  {expr: "be born with a silver spoon in one's mouth", translation: "裕福な家に生まれる", examples: []},
+  {expr: "be on cloud nine", translation: "天にも昇る心地である", examples: []},
+  {expr: "bring home the bacon", translation: "生計を支える", examples: []},
+  {expr: "bury one's head in the sand", translation: "困難から目をそらす", examples: []},
+  {expr: "a chip off the old block", translation: "父親そっくりの息子", examples: []},
+  {expr: "Dear John letter", translation: "絶縁状", examples: []},
+  {expr: "face the music", translation: "潔く現実に立ち向かう", examples: []},
+  {expr: "get out of bed on the wrong side", translation: "目覚めが悪い", examples: []},
+  {expr: "have an ear to the ground", translation: "いち早く情報を得る", examples: []},
+  {expr: "in one's birthday suit", translation: "すっぽんぽんで", examples: []},
+  {expr: "jump on the bandwagon", translation: "時流に乗る", examples: []},
+  {expr: "lock, stock and barrel", translation: "一切合切（なにからなにまで）", examples: []},
+  {expr: "once in a blue moon", translation: "ごくまれに", examples: []},
+  {expr: "a skeleton in the closet", translation: "家庭内の知られたくない秘密", examples: []},
+  {expr: "I'm gonna change clothes real quick.", translation: "すぐ着替えてくるね", examples: []},
+  {
+    expr: "test positive",
+    translation: "陽性反応が出る",
+    examples: [{orig: "The athlete tested positive for steroids.", ja: "そのスポーツ選手はステロイドの陽性反応が出た."},
+      {
+        orig: "If you had close contact with someone who tested positive, please report promptly.",
+        ja: "陽性反応が出た人の濃厚接触者となった場合、速やかに報告してください."
+      }]
+  },
+  {
+    expr: "I'm broke.",
+    translation: "私はお金がない. I have no money.",
+    examples: [{
+      orig: "A: Why don't we go to the Italian restaurant for lunch? B: That sounds good, but unfortunately, I'm broke now.",
+      ja: "A: ランチにイタリア料理のレストランに行かない？ B: いいね～, でもあいにく今お金ないんだよ."
+    },
+      {
+        orig: "A: I've been broke since I bought a new laptop computer. B: Oh, that's the reason why you've been bringing your lunch from home recently.",
+        ja: "「新しいノートパソコンを買ってからお金がないんだ. B: ああ, だから最近家からお昼持ってきてるんだ."
+      }]
   }
 ];

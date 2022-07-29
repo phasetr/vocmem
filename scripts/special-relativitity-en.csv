@@ -1,0 +1,863 @@
+ggen,paricle,ja,fr,de,zh-cn,it,es,ru,el,da
+for,接続詞,というのも,pour,für,该对,per,por,за,Για,til
+call,動詞,呼ぶ,l'appel,Anruf,通话,chiamare,llamar,звонить,για να καλέσετε,at ringe
+direction,名詞,方向,la direction,Richtung,方向,direzione,dirección,направление,κατεύθυνση,retning
+equal,動詞,等しい,l'égalité,gleich,平等,a pari,A igual,равному,σε ίσο,til lig
+equal,形容詞,等しい,l'égalité,gleich,平等,pari,igual,равный,ίσος,lige
+field,名詞,場 (e.g. 電磁場),champ,Feld,场,campo,campo,поле,πεδίο,Mark
+first,形容詞,最初の,la première,Erste,首先,primo,primero,первый,πρώτα,først
+following,形容詞,以下のような,suivant,folgende,下列,seguente,siguiendo,следующий,ΕΠΟΜΕΝΟ,følge
+parallel,形容詞,平行な,parallèle,parallelen,并行,parallelo,paralela,параллель,παράλληλο,parallel
+place,名詞,場所,lieu,Ort,的地方,posto,lugar,место,θέση,placere
+synchronous,形容詞,同期した,synchrone,synchrone,同步,sincrono,sincrónico,синхронно,σύγχρονος,synkron
+than,接続詞・前置詞,より,l'que,als,在比,di,que,чем,από,end
+by,前置詞,によって,par,durch,通过该,di,por,по,με,ved
+the,冠詞,,la les,die,在该,il,la,а,ο,det
+with,前置詞,とともに,avec,mit,和,insieme a,con,с,με,med
+be,動詞,be 動詞の原形,être,sein,是,essere,ser,быть,είναι,være
+assume,動詞,仮定する,présumer,annehmen,假设,assumere,asumir,предположить,να υποθέσω,at antage
+can,助動詞,できる,pouvoir,können,可,Potere,pueden,Можно,μπορώ,kan
+editor,名詞,編集者,l'éditeur,Editor,编辑,editore,editor,редактор,συντάκτης,redaktør
+event,名詞,事象 (物理の専門用語としての訳),l'événement,Ereignis,事件,evento,evento,мероприятие,Εκδήλωση,begivenhed
+find,動詞,見つける,trouver,finden,找到,trovare,encontrar,найти,να βρω,at finde
+good,形容詞,良い,bon,gute,良好,Buona,bueno,хороший,Καλός,godt
+measuring-rod,名詞,測定棒,la tige de mesure,Messstab,测量杆,Misuration-Rod,vara de medir,измерение,ράβδος μέτρησης,måle-stang
+only,副詞,のみ,seul,einzige,唯一的,solo,solamente,Только,μόνο,kun
+the part,名詞,部、部分,la partie,Teil,那个部分,la parte,la parte,часть,το μέρος,den del
+since,接続詞,...だから,depuis,seit,在自,da,ya que,поскольку,Από,siden
+small,形容詞,小さい,petit,kleine,小,piccolo,pequeña,маленький,μικρό,lille
+so,副詞,そのように,soi,so,所谓,Così,asi que,так,Έτσι,så
+unit,名詞,単位,l'unité,Einheit,那个单位,unità,unidad,Ед. изм,μονάδα,enhed
+what,関係代名詞、疑問詞,何,quoi,was,在什么,che cosa,qué,какие,τι,hvad
+the accordance,名詞,一致、合致、調和,la conformité,gemäß,按照该,la conformità,el acuerdo,Соглашение,τη συμφωνία,i overensstemmelse
+the case,名詞,場合,l'affaire,Fall,案子,il caso,el caso,дело,η υπόθεση,sagen
+the conductor,名詞,導体,conducteur,Schaffner,导体,il conduttore,el conductor,проводник,ο αγωγός,lederen
+determine,動詞,決める,déterminer,bestimmen,确定,determinare,para determinar,определить,να καθορίσει,at bestemme
+develop,動詞,発展する,développer,entwickeln,发展,sviluppare,desarrollar,развивать,για να αναπτυχθεί,at udvikle
+electromagnetic,形容詞,電磁的,électromagnétique,elektromagnetische,电磁,elettromagnetico,electromagnético,электромагнитный,ηλεκτρομαγνητικός,elektromagnetisk
+empty,形容詞,空の,vide,leere,空,vuoto,vacío,пустой,αδειάζω,tom
+the function,名詞,関数,la fonction,Funktion,功能,la funzione,la función,функция,η λειτουργία,funktionen
+hold,動詞,保持する、成り立つ,la cale,Halt,保持,tenere,sostener,держать,να κρατήσω,at holde
+imagine,動詞,想像する,l'imaginer,vorstellen,在想象,immaginare,imaginar,представить,φαντάζομαι,at forestille sig
+the law,名詞,物理法則,la loi,Gesetz,法律,la legge,la Ley,закон,ο νόμος,loven
+the line,名詞,線,la ligne,Linie,行,la linea,la línea,линия,η γραμμή,linjen
+the magnet,名詞,磁石,l'aimant,Magnet,磁铁,il magnete,el imán,магнит,ο μαγνήτης,Magneten
+the position,名詞,位置,la position,Position,位置,la posizione,la posición,позиция,η θεση,positionen
+second,名詞,2,la deuxième,Zweite,第二,il secondo,el segundo,секунда,το δεύτερο,Sekundet
+second,名詞,秒,la deuxième,Sekunde,第二,il secondo,el segundo,секунда,το δεύτερο,Sekundet
+state,動詞,述べる,établir,sagen,说明,a dichiarare,a estado,в заявление,να δηλώσω,at angive
+the state,名詞,状態,l'état,Staat,国家,lo stato,el estado,штат,το κράτος,staten
+such,形容詞,そのような,tel le,solche,在这样的,tale,tal,такой,τέτοιος,sådan
+valid,形容詞,妥当な,la validité,gültig,有效,valido,válido,действительный,έγκυρος,gyldig
+without,前置詞,---なしで,sans la,ohne,在无,senza,sin que,без,χωρίς,uden
+which,副詞、関係代名詞,これ,Which,die,哪家,quale,cual,который,οι οποίες,hvilken
+time,動詞,時間を決める,temps,Zeit,时间,a tempo,al tiempo,ко времени,προς το χρόνο,til tiden
+the time,名詞,時間,temps,Zeit,时间,il tempo,el tiempo,время,Η ωρα,tiden
+for,前置詞,にとって,pour,für,该对,per,por,за,Για,til
+from,前置詞,から,la de,von,从该,da,de,из,από,fra
+stationary,形容詞,定常的な、静止した,stationnaire,stationäre,固定,stazionario,estacionario,стационарный,ακίνητος,stationær
+this,名詞,この,la présente,diese,这将,questo,este,это,Αυτό,dette
+act,動詞,作用する,agir,Handeln,行动,recitare,actuar,играть,να ενεργήσω,at handle
+the addition,名詞,和 (数学),l'addition,Zugabe,加,l'addizione,la adicion,дополнение,η προσθήκη,tilføjelsen
+another,形容詞,別の,l'Autre,anderen,另一,altro,otro,еще один,αλλο,en anden
+do,動詞,する,fait,do,该做的,fare,hacer,делать,κάνω,Gør
+forces,名詞 (複数形),-> force,les forces,Mächte,力量,forze,efectivo,силы,δυνάμεις,kræfter
+locate,動詞,位置する,pour localiser,lokalisieren,定位,localizzare,localizar,найти,για να εντοπίσω,at lokalisere
+the manner,名詞,やり方,la manière,Methode,方式,Il modo,la manera,манера,ο τρόπος,måde
+the mass,名詞,質量 (物理の専門用語),la masse,Masse,质量,la massa,la masa,масса,η μάζα,massen
+note,動詞,注意する,À noter,notieren,要注意,da notare,notar,отметить,να σημειωθεί,At notere
+the quantity,名詞,量,la quantité,Quantität,数量,la quantità,la cantidad,количество,η ποσότητα,mængden
+reflected,動詞 (過去分詞),-> reflect,réfléchi,reflektierte,反射,riflesso,reflejado,отражен,αντανακλασμένος,reflekteret
+simultaneous,形容詞,同時の,simultanée,gleichzeitige,同时,simultaneo,simultáneo,одновременный,ταυτόχρονος,samtidig
+they,代名詞,彼ら,plus ils,sie,在他们,essi,ellos,Oни,αυτοί,de
+the value,名詞,値,la valeur,Wert,价值,il valore,el valor,Значение,η αξία,værdien
+the watch,名詞,時計,la montre,Uhr,手表,l'orologio,el reloj,часы,το ρολόι,uret
+it,代名詞,それ,plus il,es,在这,esso,eso,Это,το,det
+as,前置詞,として,comme,als,作为该,come,como,в качестве,όπως και,som
+if,接続詞,もし,si le,if,中频,Se,si,если,αν,hvis
+the light,名詞,光,la lumière,Licht,光,la luce,la luz,свет,το φως,lyset
+the velocity,名詞,速度,la vitesse,Geschwindigkeit,速度,la velocità,la velocidad,скорость,η ταχύτητα,hastigheden
+Einstein,名詞,アインシュタイン (人名),Einstein,Einstein,爱因斯坦,Einstein,Einstein,Эйнштейн,Αϊνστάιν,Einstein
+Maxwell-Hertz,名詞,マクスウェル-ヘルツ (両方とも人名),Maxwell-Hertz,Maxwell-Hertz,麦克斯韦-赫兹,Maxwell-Hertz,Maxwell-hertz,Максвелл-Херц,Maxwell-Hertz,Maxwell-Hertz
+above,前置詞,上の,ce qui précède,obenstehendes,以上,sopra,arriba,выше,πάνω από,over
+always,副詞,常に,toujours,immer,总是,sempre,siempre,всегда,πάντα,altid
+appear,動詞,現れる、見える、思える,apparaître,erscheinen,出现,apparire,a aparecer,появляться,να εμφανιστεί,vises
+complex,形容詞,複雑な,complexe,Komplex,复杂,complesso,complejo,сложный,συγκρότημα,kompleks
+the constancy,名詞,恒常性,la constance,Konstanz,恒常,la costanza,la constancia,постоянство,η σταθερότητα,Konstansen
+the constant,名詞,定数,la constante,Konstante,恒,il costante,el constante,постоянная,η σταθερά,den konstante
+definite,形容詞,一定の,précise,definitive,定,preciso,definido,определенный,σαφής,bestemt
+each,名詞,各,EACH,jeweils,各,a testa,cada,каждый,καθε,hver
+the electricity,名詞,電気,l'électricité,Strom,电力,l'elettricità,la electricidad,электричество,ο ηλεκτρισμός,elektricitet
+electromotive,形容詞,起電の,électromotrice,elektro,电动,elettromotivo,electromotivo,электродвигьев,ηλεκτροπαραγωγός,elektromotorisk
+the expression,名詞,表現,l'expression,Ausdruck,表达方式,l'espressione,la expresion,выражение,η έκφραση,udtrykket
+laws,名詞 (複数形),-> law,les lois,Gesetze,法律,leggi,leyes,законы,του νόμου,love
+less,形容詞 (比較級),-> little,moins,je weniger,少,meno,menos,меньше,πιο λιγο,mindre
+the material,名詞,物質,matériel,Material,材料,il materiale,el material,материал,το υλικό,materialet
+might,助動詞 (過去形),-> may,la puissance,Macht,威力,potrebbe,puede que,мощь,θα μπορούσε,magt
+more,副詞,さらに,plus,je mehr,越,Di più,más,более,περισσότερο,mere
+original,形容詞,元の,l'original,Original,原本的,originale,original,оригинал,πρωτότυπο,original
+possible,形容詞,可能な,possible,Mögliche,可能,possibile,posible,возможный,δυνατόν,muligt
+present,形容詞,現在,cadeau,gegenwärtig,当下,regalo,presente,подарок,παρόν,til stede
+propagate,動詞,伝播する,Propager,Fortpflanzungs,在繁殖,propagare,propagar,распространять,να διαδοθεί,at forplantes
+result,動詞,起因する,résulter,Ergebnis,结果,risultato,resultar,результат,αποτέλεσμα,resultat
+the result,名詞,結果,résultat,Ergebnis,结果,il risultato,el resultado,результат,το αποτέλεσμα,resultatet
+say,動詞,言う,la parole,Mitsprache,发言权,dire,decir,сказать,να πω,at sige
+see,動詞,見る,voir,See,教廷,vedere,para ver,увидеть,για να δω,at se
+shall,助動詞,,doit,soll,在应,deve,deberá,должен,θα,skal
+the source,名詞,源,la source,Quelle,来源,la fonte,la fuente,источник,η πηγή,kilden
+the sphere,名詞,球体,la sphère,Sphäre,球体,la sfera,la esfera,Сфера,η σφαίρα,kuglen
+spherical,形容詞,球状の,la sphérique,sphärische,球形,sferico,esférico,сферический,σφαιρικός,sfærisk
+take,動詞,取る,la prise,Aufnahme,取,prendere,tomar,брать,να παρεις,at tage
+three,名詞,三,les trois,Drei,他们三个,tre,Tres,три,τρία,tre
+us,代名詞 (目的格),私達を,les Etats Unis,uns,美国,noi,a nosotros,нас,μας,os
+of,前置詞,の,la de,von,对的,di,de,из,του,af
+according,(熟語),---によって (according to で),suivant,entsprechenden,根据该,secondo,de acuerdo a,в соответствии,σύμφωνα με,ifølge
+the approximation,名詞,近似,rapprochement,Annäherung,逼近,l'approssimazione,la aproximación,приближение,η προσέγγιση,tilnærmelsen
+base,動詞,基礎づける,la base,Basis,基,basare,a la base,на основание,στη βάση,at basere
+change,動詞,変化する,changer,ändern,改变,cambiare,cambiar,изменить,να αλλάξει,at skifte
+the consideration,名詞,考慮,la prise en compte,Gegenleistung,考虑,la considerazione,la consideración,рассмотрение,η σκέψη,overvejelsen
+different,形容詞,異なる (-> differ),différent,Unterschied,不同,diverso,diferente,другой,διαφορετικός,forskellige
+directly,副詞,直接,directement le,direkt,直接,direttamente,directamente,напрямую,κατευθείαν,direkte
+the edition,名詞,版 (-> edit),l'édition,Ausgabe,版本,L'edizione,la edición,издание,η έκδοση,udgaven
+electrodynamic,形容詞,電気力学的,l'électrodynamique,elektro,该电动,elettrodinamico,electrodinámico,электродинамический,ηλεκτροδυναμικός,elektrodynamisk
+emit,動詞,放出する,émettre,emittieren,发射,per emettere,emitir,излучать,να εκπέμπω,at udsende
+evidently,副詞,-> evident,l'évidence,offenbar,显然的,chiaramente,evidentemente,очевидно,προφανώς,åbenbart
+the example,名詞,例,l'exemple,Beispiel,这个例子,l'esempio,el ejemplo,пример,το παράδειγμα,eksemplet
+the frequency,名詞,周波数,la fréquence,Frequenz,频率,la frequenza,la frecuencia,Частота,η συχνότητα,frekvensen
+give,動詞,与える,donner,geben,该给予,dare,dar,давать,το να δίνεις,at give
+the help,名詞,助け,l'aide,Hilfe,帮助,l'aiuto,la ayuda,помощь,η βοήθεια,hjælpen
+i.e.,副詞,すなわち (ラテン語の id est=that is),savoir,d.h.,该即,cioè.,es decir.,т.е.,δηλαδή,dvs.
+independent,形容詞,独立の,L'indépendant,Unabhängige,独立,indipendente,independiente,независимый,ανεξάρτητος,uafhængig
+inquire,動詞,問い合わせる,l'Renseignez-,Anfragen,该查询,per indagare,para inquirir,чтобы узнать,να ρωτήσω,at spørge
+introduce,動詞,紹介する,l'introduisons,Einführung,的介绍,introdurre,introducir,вводить,παρουσιάζω,indføre
+just,副詞,ただ,juste,Gerechte,刚,Appena,sólo,просто,μόλις,lige
+occur,動詞,起きる,lieu,auftreten,在发生,verificarsi,ocurrir,происходить,συμβούν,forekomme
+order,名詞,次数,l'ordre,Bestellung,命令,ordine,ordenar,заказ,Σειρά,bestille
+physical,形容詞,物理的な,la physique,körperliche,物理,fisico,físico,физический,φυσικός,fysisk
+plane,形容詞,平面の,l'avion,Flugzeug,飞机,aereo,plano,самолет,επίπεδο,fly
+pressure,名詞,圧力,la pression,Druck,压力,pressione,presión,давление,πίεση,tryk
+property,名詞,性質,la propriété,Eigenschaft,属性,proprietà,propiedad,имущество,ιδιοκτησία,ejendom
+reason,名詞,理由,la raison,Grund,原因,Motivo,razón,причина,λόγος,grund
+remark,動詞,注意する,remarquer,bemerken,说,notare,para observar,чтобы отметить,να παρατηρήσω,at bemærke
+the remark,名詞,注意,la remarque,Bemerkung,此言,l'osservazione,el comentario,замечание,η παρατήρηση,bemærkningen
+the respect,名詞,点,respect,Respekt,尊重,il rispetto,el respeto,уважение,ο σεβασμός,respekten
+respectively,副詞,各々,respectivement le,jeweils,分别,rispettivamente,respectivamente,соответственно,αντίστοιχα,henholdsvis
+set,動詞,置く,l'ensemble,Satz,集合,impostare,para establecer,устанавливать,να ορίσει,at sætte
+simple,形容詞,単純な,simple,Einfache,简单,semplice,simple,просто,απλός,enkel
+the symbol,名詞,記号,symbole,Symbol,符号,il simbolo,el símbolo,символ,το σύμβολο,symbolet
+the symmetry,名詞,対称,la symétrie,Symmetrie,对称性,la simmetria,la simetría,Симметрия,η συμμετρία,Symmetrien
+synchronize,動詞,同期する,la synchronisation,Synchronisierungs,在同步,sincronizzare,para sincronizar,синхронизировать,για συγχρονισμό,at synkronisere
+their,代名詞 (所有格),彼らの,la leur,ihre,在他们的,i loro,sus,их,δικα τους,deres
+under,前置詞,下,la sous,Untere,下,sotto,por debajo,под,υπό,under
+uniform,形容詞,一様な,l'uniforme,Uniform,制服,uniforme,uniforme,униформа,στολή,uniform
+vector,名詞,ベクトル,vecteur,Vektor,矢量,vettore,vector,вектор,διάνυσμα,Vector
+view,動詞,見る,la vue,Aussicht,风景,vedere,para ver,смотреть,προς προβολή,at se
+the view,名詞,見方,la vue,Aussicht,风景,la vista,la vista,вид,η θέα,udsigten
+the wave,名詞,波,la vague,Welle,海浪,l'onda,la ola,волна,το κύμα,bølgen
+the motion,名詞,動き,mouvement,Bewegung,运动,la mozione,el movimiento,движение,η κίνηση,bevægelsen
+when,副詞、接続詞,いつ,quand,wenn,该时,quando,cuando,когда,πότε,hvornår
+have,動詞,持つ,l'ont,haben,在有,avere,tener,иметь,να έχω,at have
+two,名詞,2,les deux,Zwei,他们俩,Due,dos,два,δύο,to
+the electron,名詞,電子,l'électron,Elektron,电子,l'elettrone,el electrón,Электрон,το ηλεκτρόνιο,elektronet
+Lorentz,名詞,ローレンツ (人名),Lorentz,Lorentz,洛伦兹,Lorentz,Lorentz,Лоренц,Λορίδιο,Lorentz
+the account,名詞,計算,compte,Konto,帐号,l'account,la cuenta,счет,ο λογαριασμός,kontoen
+the action,名詞,作用,l'action,Aktion,那个行动,l'azione,la acción,Действие,η δράση,handlingen
+after,副詞、前置詞,後に,l'après,nach,后,dopo,después,после,μετά,efter
+the agreement,名詞,一致,l'accord,Vereinbarung,协议,l'accordo,el acuerdo,соглашение,η συμφωνία,aftalen
+the amplitude,名詞,振幅,l'amplitude,Amplitude,振幅,l'ampiezza,la amplitud,амплитуда,το εύρος,amplituden
+the angle,名詞,角度,l'angle,Winkel,角,l'angolo,el ángulo,угол,η γωνία,vinklen
+apply,動詞,適用する,l'appliquer,Anwendung,该申请,applicare,Aplicar,применять,να εφαρμόσει,at ansøge
+the arrival,名詞,到着,l'arrivée,Ankunft,到货,l'arrivo,la llegada,Прибытие,η άφιξη,ankomsten
+arrive,動詞,到着する,l'arrive,ankommen,在到达,arrivare,llegar,прибыть,να φτάσω,at ankomme
+the assumption,名詞,仮定,l'hypothèse,Annahme,假设,il presupposto,la suposición,предположение,το συμπέρασμα,antagelsen
+the basis,名詞,基礎,la base,Basis,依据,la base,la base,основа,η βάση,grundlaget
+the calculation,名詞,計算,calcul,Berechnung,计算,il calcolo,el cálculo,расчет,ο υπολογισμός,beregningen
+cannot,助動詞,-> can not,ne peut pas,kann nicht,在不能,non può,no poder,не может,δεν μπορώ,kan ikke
+coincide,動詞,一致する,coïncident,fallen zusammen,该不谋而合,coincidere,para coincidir,совпадать,να συμπίπτει,at falde sammen
+common,形容詞,一般,commun,gemeinsame,常见,Comune,común,общий,κοινός,almindelige
+the composition,名詞,組成、合成,la composition,Zusammensetzung,组成,la composizione,la composición,сочинение,η σύνθεση,sammensætningen
+the concept,名詞,概念,concept,Konzept,这个概念,il concetto,el concepto,концепт,η ιδέα,konceptet
+the current,名詞,電流,courant,jetzige,当前,il corrente,la corriente,электрический ток,το τρέχον,den nuværende
+deduce,動詞,推定する,déduire,folgern,推断,dedurre,deducir,вывести,να συμπεράνουμε,at udlede
+define,動詞,定義する,définir,definieren,界定,definire,definir,определить,Για να ορίσω,at definere
+the document,名詞,資料,document,Dokument,文件,il documento,el documento,документ,το έγγραφο,dokumentet
+electrostatic,形容詞,静電的な,l'électrostatique,elektrostatische,静电,elettrostatico,electrostático,электростатический,ηλεκτροστατικός,elektrostatisk
+the end,名詞,終了,la fin,Ende,结束,la fine,el fin,конец,το τέλος,slutningen
+the epoch,名詞,時代,l'époque,Epoche,时代,l'epoca,la época,эпоха,Η εποχή,epoken
+figure,動詞,考える,la figure,Figur,图,capire,para figurar,чтобы фигурировать,να υπολογίζω,at finde ud af
+the figure,名詞,形,la figure,Figur,图,la figura,la figura,фигура,η εικόνα,figuren
+the former,名詞,前者,l'ancien,Vorherige,前者,l'ex,el primero,бывший,το προηγούμενο,den tidligere
+hence,副詞,それゆえに,l'où,damit,因此，该,quindi,por eso,следовательно,ως εκ τούτου,Derfor
+high,形容詞,高い,haut,Hoch,高,alto,alto,высокая,υψηλός,høj
+identical,形容詞,同じ,l'identique,identische,相同,identico,idéntico,идентичный,πανομοιότυπο,identisk
+increase,動詞,増える,augmenter,erhöhen,增加,aumentare,para aumentar,увеличивать,αύξηση,at forøge
+initial,形容詞,初期の,la première,Anfangs,最初的,iniziale,inicial,исходный,αρχικός,initial
+the instant,名詞,瞬間,l'instant,Moment,瞬间,L'istante,el instante,Мгновенный,η στιγμή,det øjeblik
+the intensity,名詞,強さ,l'intensité,Intensität,力度,l'intensità,la intensidad,интенсивность,η ένταση,intensiteten
+the introduction,名詞,導入,l'introduction,Einleitung,引进,l'introduzione,la introducción,вступление,η ΕΙΣΑΓΩΓΗ,introduktionen
+the kinematics,名詞,運動学,la cinématique,Kinematik,运动学,la cinematica,la cinemática,Кинематика,η κινηματική,Kinematikken
+kinetic,形容詞,動的な,la cinétique,kinetische,动能,cinetico,cinético,кинетический,κινητικός,kinetisk
+meaning,名詞,意味,sens,Bedeutung,意义,significato,sentido,значение,έννοια,betyder
+mechanics,名詞,力学,la mécanique,Mechaniker,力学,meccanica,mecánica,механика,Μηχανική,mekanik
+mind,名詞,精神,l'esprit,Verstand,思想,mente,mente,разум,μυαλό,sind
+moment,名詞,瞬間,moment,Moment,此时此刻,momento,momento,мгновенный,στιγμή,øjeblik
+my,代名詞 (所有格),自分の,la ma,meine,我的,mio,mi,мой,μου,min
+neighbourhood,名詞,周囲、近傍,quartier,Nachbarschaft,附近,quartiere,vecindario,район,γειτονιά,kvarter
+perpendicularly,副詞,垂直に,perpendiculairement,senkrecht,在垂直,perpendicolarmente,perpendicularmente,перпендикулярно,κάθετα,vinkelret
+play,動詞,役割を果たす,jeu,Spiel,表演,giocare a,desempeñar,играть в,παίζω,Spil
+ponderable,形容詞,測れる,pondérable,ponderable,在有重量,ponderabile,ponderable,размышляющий,ζυγιστός,overvejes
+ratio,名詞,比率,rapport,Verhältnis,比例,rapporto,relación,соотношение,αναλογία,forhold
+relation,名詞,関係,la relation,Beziehung,关系,relazione,relación,связь,σχέση,relation
+relative,形容詞,相対的な,rapport,relativen,相对,parente,pariente,родственник,συγγενής,i forhold
+sense,名詞,感覚,sens,Sinn,感,senso,sentido,смысл,έννοια,følelse
+signal,名詞,信号,signal,Signal,信号,segnale,señal,сигнал,σήμα,signal
+signals,名詞 (複数形),-> signal,les signaux,Signale,信号,Segnali,señales,сигналы,σήματα,signaler
+simply,副詞,単に,simple,einfach,简,semplicemente,simplemente,просто,απλά,ganske enkelt
+simultaneity,名詞,同時性,la simultanéité,Gleichzeitigkeit,同时性,simultaneità,simultaneidad,одновременность,ταυτόχρονη,samtidighed
+situate,動詞,置く,la sis et situés,situate,该宅院,situare,situar,сидеть,θέτω,placere
+situated,動詞 (過去分詞),-> situate,situé,Lage,在位于,situato,situado,расположенный,ευρισκόμενος,beliggende
+slow,形容詞,遅い,ralentissement,langsame,慢,Lento,lento,медленный,αργός,langsom
+slowly,副詞,ゆっくり,lentement,langsam,慢慢,lentamente,despacio,медленно,αργά,Langsomt
+still,副詞,やはり,l'alambic,noch,仍然,ancora,todavía,Все еще,ακόμη,Stadig
+taken,動詞 (過去分詞),-> take,la prise,genommen,拍摄,prese,tomado,взятый,λήφθηκε,taget
+them,代名詞 (目的格),それら,leur,ihnen,在他们,loro,a ellos,их,τους,dem
+those,名詞,それら,les personnes,diejenigen,在这些,quelli,aquellos,те,εκείνοι,de der
+together,副詞,一緒に,l'ensemble,zusammen,在一起的,insieme,juntos,вместе,μαζί,sammen
+unknown,形容詞,未知の,l'inconnu,Unbekannte,未知,sconosciuto,desconocido,неизвестный,άγνωστος,ukendt
+up,副詞,上へ,haut,oben,向上,su,arriba,вверх,πάνω,op
+vectors,名詞 (複数形),-> vector,les vecteurs,Vektoren,矢量,vettori,vectores,векторы,φορείς,Vektorer
+very,形容詞,非常に,la très,genau dieses,很,molto,muy,очень,πολύ,meget
+volume,名詞,ボリューム,volume,Lautstärke,音量,volume,volumen,объем,Ενταση ΗΧΟΥ,bind
+way,名詞,方法,chemin,Weg,方式,modo,camino,путь,τρόπος,vej
+whether,疑問副詞,かどうか,si,ob,在是否,se,ya sea,будь то,αν,om
+wish,動詞,望む,souhait,Wunsch,愿望,desiderio,deseo,желание,επιθυμία,ønske
+would,助動詞 (過去形),-> will,serait,würde,该会,voluto,haría,бы,θα,Ville
+let,動詞,---してみよう,LET,let,在让利,permettere,dejar,позволять,αφήνω,lade
+rest,名詞,静止,reste,Rest,其余的部分,riposo,descansar,отдыхать,υπόλοιπο,hvile
+the force,名詞,力,la force,Kraft,力,la forza,la fuerza,сила,η δύναμη,kraften
+measure,動詞,測定する,la mesure,Maßnahme,的措施,misurare,para medir,измерять,να μετρήσετε,at måle
+clocks,名詞 (複数形),-> clock,les horloges,Uhren,时钟,Orologi,relojes,часы,ρολόγια,ure
+clock,名詞,時計,l'horloge,Uhr,时钟,orologio,reloj,Часы,ρολόι,ur
+these,代名詞,これら,la ces,diese,这些将,queste,estas,эти,αυτά τα,Disse
+now,名詞,今,maintenant,jetzt,现在,adesso,ahora,в настоящее время,τώρα,nu
+on,前置詞,に,sur,auf,在上,Su,en,на,επί,på
+point,名詞,点,point,Punkt,点,punto,punto,точка,σημείο,punkt
+relatively,副詞,比較的、相対的,relativement,relativ,相对,relativamente,relativamente,относительно,σχετικά,forholdsvis
+electric,形容詞,電気の,l'électrique,elektrische,电,elettrico,eléctrico,электрический,ηλεκτρικός,elektrisk
+energy,名詞,エネルギー,l'énergie,Energie,能量,energia,energía,энергия,ενέργεια,energi
+obtain,動詞,得る,l'obtenir,erhalten,在获得,ottenere,para obtener,чтобы получить,αποκτώ,at opnå
+in,前置詞,に,l'en,in,中频,in,en,в,σε,i
+its,代名詞 (所有格),それの,son,ihre,在其他,suo,su,это,του,dens
+or,接続詞,若しくは,ou,oder,在或,o,o,или же,ή,eller
+there,副詞,そこ,l'y,Dort,在那里,là,allá,там,εκεί,der
+Maxwell,名詞,マクスウェル (人名),Maxwell,Maxwell,麦克斯韦,Maxwell,Maxwell,Максвелл,Maxwell,Maxwell
+aberration,名詞,収差,l'aberration,Aberration,像差,aberrazione,aberración,аберрация,εκτροπή,Aberration
+absolute,形容詞,絶対の,l'absolu,Absolute,绝对,assoluto,absoluto,абсолютный,απόλυτος,absolut
+accelerate,動詞,加速する,l'accélération,beschleunigen,在加快,accelerare,acelerar,ускорить,επιταχύνω,fremskynde
+accelerated,動詞 (過去分詞),-> accelerate,l'accélération,beschleunigte,加速,accelerato,acelerado,ускорен,επιταχυνόμενος,accelereret
+acceleration,名詞,加速度,l'accélération,Beschleunigung,加速,accelerazione,aceleración,ускорение,επιτάχυνση,acceleration
+again,副詞,再び,nouveau,wieder,再次,ancora,otra vez,опять таки,πάλι,igen
+agree,動詞,一致する,l'accord,stimmen,在同意,essere d'accordo,aceptar,соглашаться,συμφωνώ,enig
+already,副詞,既に,déjà,bereits,已经,già,ya,уже,ήδη,allerede
+analogous,形容詞,類似した,l'analogue,analoge,类似,analogo,análogo,аналогичный,ανάλογος,Analog
+application,名詞,応用,L'application,Anwendung,应用程序,applicazione,solicitud,заявление,εφαρμογή,Ansøgning
+arise,動詞,発生する,poser,entstehen,在出现,presentarsi,surgir,возникнуть,σηκώνομαι,opstå
+assistance,名詞,援助,l'aide,Unterstützung,援助,assistenza,asistencia,помощь,βοήθεια,hjælp
+attention,名詞,注意,l'attention,Aufmerksamkeit,注意力,Attenzione,atención,внимание,προσοχή,opmærksomhed
+become,動詞,---になる,devenir,werden,将成为,diventare,convertirse en,стали,γίνομαι,blive
+belong,動詞,所属する,la appartiennent,gehören,在属于,appartenere,pertenecer,принадлежать,ανήκω,tilhører
+both,形容詞、代名詞,両方,tous les deux,beiden,两,Entrambi,ambas cosas,оба,και τα δυο,begge
+certain,形容詞,ある,certain,bestimmte,一定,certo,cierto,определенный,βέβαιος,bestemte
+charge,動詞,荷電する,la charge,Ladung,费用,carica,cobrar,обвинение,χρέωση,oplade
+choose,動詞,選ぶ,choix,wählen,在选择,scegliere,elegir,выбирать,επιλέγω,vælge
+circumstance,名詞,事情,la circonstance,Umstand,情节,circostanza,circunstancia,обстоятельство,περίσταση,omstændighed
+combination,名詞,組み合わせ,la combinaison,Kombination,组合,combinazione,combinación,комбинация,συνδυασμός,kombination
+compatible,形容詞,両立する,la compatibilité,kompatibel,兼容,compatibile,compatible,совместимый,σύμφωνος,kompatibel
+consequence,名詞,結果,la conséquence,Konsequenz,后果,conseguenza,consecuencia,последствие,συνέπεια,følge
+consequently,副詞,結果として,la conséquence,Folglich,因此在,Di conseguenza,como consecuencia,вследствие этого,συνεπώς,følgelig
+consider,動詞,考える,à envisager,berücksichtigen,考虑,considerare,considerar,рассматривать,να εξετάσω,at overveje
+correspond,動詞,対応する,correspondre,korrespondieren,对应,corrispondere,corresponder,соответствовать,Για να αντιστοιχίσω,at korrespondere
+customary,形容詞,慣用的な,l'usage,üblichen,习惯,consuetudinario,acostumbrado,обычный,συνήθης,sædvanlig
+decide,動詞,決める,décider,entscheiden,该决定,decidere,decidir,решать,αποφασίζω,beslutte
+deflective,形容詞,偏向性の,la déflection,ablenkende,挠曲,deflettivo,declinativo,отклонение,παρεκτρέπων,afbyder
+deflexion,名詞,たわみ,la deflexion,deflexion,该偏转,deflessione,deflexión,дефлексия,εκφοβισμός,Deflexion
+denote,動詞,表す,la désignent,bezeichnen,在分别表示,per denotare,para denotar,Чтобы обозначить,να υποδηλώσει,at betegne
+difference,名詞,差 (-> differ),la différence,Unterschied,区别,differenza,diferencia,разница,διαφορά,forskel
+difficulty,名詞,難しさ,la difficulté,Schwierigkeit,难度,difficoltà,dificultad,трудность,δυσκολία,vanskelighed
+direction-cosines,名詞,方向余弦,l'orientation cosinus,Richtungskosinus,该方向余弦,Direzione-Cosine,cosinas de dirección,Направление-сосуды,κατεύθυνση-Κοσίνες,Retningskosiner
+distance,名詞,距離,la distance,Distanz,距离,distanza,distancia,расстояние,απόσταση,afstand
+domain,名詞,領域,domaine,Domain,域,dominio,dominio,домен,τομέα,domæne
+doppler,名詞,ドップラー (人名、cf. ドップラー効果),doppler,Doppler,多普勒,Doppler,doppler,доплеровский,ντοπέλλερ,Doppler
+down,副詞,(いわゆる) ダウン,bas,nach unten,向下,fuori uso,abajo,вниз,κάτω,ned
+during,前置詞,の間,cours,während,期间,in occasione,durante,в течение,στη διάρκεια,i løbet af
+earth,名詞,地球,La terre,Erde,地球,terra,tierra,земной шар,γη,jorden
+easily,副詞,簡単に,la facilement,leicht,易,facilmente,fácilmente,без труда,εύκολα,let
+electrically,副詞,電気的に,l'électricité,elektrisch,电,elettricamente,electricamente,электрически,ηλεκτρικά,elektrisk
+ellipsoid,名詞,楕円,l'ellipsoïde,Ellipsoid,椭球,ellissoide,elipsoide,эллипсоид,ελλειψοειδής,ellipsoid
+else,形容詞,他の,l'autre,sonst,在其他,altro,más,еще,αλλού,andet
+employ,動詞,使う、雇用する,l'emploi,employ,打工的,impiegare,emplear,применять,χρησιμοποιώ,beskæftige
+enclose,動詞,囲う、閉じる,l'enferment,enclose,内附,accludere,encerrar,приложить,επισυνάπτω,vedlægge
+ensue,動詞,続く,se ensuivent,ensue,在接着发生,ne consegui,sobrevenir,последовательно,επακολουθώ,følger
+erroneously,副詞,誤った,l'erreur,fälschlicherweise,该错误,erroneamente,erróneamente,ошибочно,εσφαλμένα,fejlagtigt
+essential,形容詞,本質的な,l'essentiel,Essenzielle,重要的,essenziale,básico,существенный,ουσιώδης,vigtig
+every,形容詞,すべての,tout,jeder,每对,ogni,cada,каждый,κάθε,hver
+examine,動詞,検討する,l'examiner,untersuchen,在检查,esaminare,examinar,исследовать,εξετάζω,undersøge
+exception,名詞,例外,l'éxéption,Ausnahme,异常,eccezione,excepción,исключение,εξαίρεση,undtagelse
+experience,名詞,経験,l'expérience,Erfahrung,体验,Esperienza,experiencia,опыт,εμπειρία,erfaring
+experiment,名詞,実験,l'expérience,Experiment,本实验,sperimentare,experimento,эксперимент,πείραμα,eksperiment
+express,動詞,表す,l'Express,Express,快递,esprimere,Rápido,выражать,εξπρές,Express
+far,形容詞,遠い,l'extrême,weit,远,lontano,lejos,далеко,μακριά,langt
+firstly,副詞,はじめに,la part,zunächst,首先将,In primo luogo,primeramente,во-первых,Πρώτα,for det første
+formula,名詞,式,la formule,Formel,公式,formula,fórmula,формула,τύπος,formel
+fourth,名詞,第4,quatrième,vierte,第四个,il quarto,cuatro,четвертый,τέταρτος,fjerde
+general,形容詞,一般的な,général,allgemeine,一般,generale,general,Генеральная,γενικός,generel
+hand,名詞,時計の針,la main,Hand,手,mano,mano,рука,χέρι,hånd
+hereafter,副詞,以後,l'au-delà,Jenseits,后世,di seguito,lo sucesivo,в дальнейшем,εφεξής,i det følgende
+however,副詞,しかしながら,toutefois,jedoch,然而，该,però,sin embargo,Однако,ωστόσο,imidlertid
+immediate,形容詞,直接の,l'immédiat,unmittelbare,眼前,immediato,inmediato,немедленный,άμεσος,umiddelbar
+immediately,副詞,すぐに,la suite,sofort,紧接,subito,inmediatamente,немедленно,αμέσως,straks
+impart,動詞,与える,impart,impart,在传授,impartire,impartir,придавать,μεταδίδω,formidle
+incorrectly,副詞,間違って,mal,falsch,不正确,erroneamente,incorrectamente,неправильно,εσφαλμένος,forkert
+indeed,副詞,確かに,En effet,la die in der Tat,在确,infatti,Por supuesto,верно,πράγματι,Ja
+infinite,形容詞,無限,l'infini,Unendliche,无限,infinito,infinito,бесконечный,άπειρος,uendelig
+infinitely,副詞,無限に,l'infiniment,unendlich,无限,infinitamente,infinitamente,бесконечно,απεριόριστα,uendeligt
+interchange,動詞,入れ替える,l'échangeur,Austausch,交换,interscambio,intercambio,обмен,ανταλλαγή,udveksling
+interval,名詞,間隔,l'intervalle,Intervall,间隔,intervallo,intervalo,интервал,διάστημα,interval
+journey,名詞,旅,voyage,Reise,旅程,viaggio,viaje,путешествие,ταξίδι,rejse
+judgments,名詞,判断,les jugements,Urteile,判决,sentenze,juicios,суждения,αποφάσεις,domme
+kinematical,形容詞,運動学的,la cinématique,kinematischen,运动学,cinematico,cinemático,кинематический,κινηματικός,kinematisk
+know,動詞,知っている,savoir,Wissen,知道了,sapere,saber,знать,ξέρω,ved godt
+latter,名詞,後者,dernier,letztere,后者,quest'ultimo,último,последний,τελευταίος,sidstnævnte
+lie,動詞,位置する,mensonge,Lüge,谎言,menzogna,mentir,ложь,ψέμα,ligge
+like,形容詞,以下のような,etc.,ähnliches,类似,piace,me gusta,как,σαν,synes godt om
+linear,形容詞,線型の (数学の専門用語),linéaire,lineare,线性,lineare,lineal,линейный,γραμμικός,lineær
+longitudinal,形容詞,縦の,sens longitudinal,Längs,纵向,longitudinale,longitudinal,продольный,γεωγραφικού μήκους,langsgående
+look,動詞,見える,regard,Aussehen,外观,Guarda,Mira,Смотреть,Κοίτα,se
+magnitude,名詞,大きさ、光度,la magnitude,Größenordnung,幅度,grandezza,magnitud,величина,μέγεθος,størrelse
+matter,名詞,事柄、物質,la question,Sache,此事,importa,asunto,иметь значение,ύλη,stof
+medium,名詞,媒質,moyen,Medium,媒介,medio,medio,средний,Μεσαίο,medium
+method,名詞,方法,la méthode,Methode,方法,metodo,método,метод,μέθοδος,metode
+mirror,名詞,鏡,miroir,Spiegel,镜子,specchio,espejo,зеркало,καθρέφτης,spejl
+modify,動詞,修正する,Modifier la,modify,修改,modificare,modificar,модифицировать,τροποποιώ,modificere
+most,形容詞、副詞,最も,plus,meisten,最多,più,la mayoría,самый,πλέον,mest
+move,動詞,動く,bouger,bewegen,移动,spostare,para mover,двигаться,να μετακινήσω,at flytte
+nothing,名詞,何もない,néant,Nichts,没事,niente,nada,ничего такого,τίποτα,ikke noget
+number,動詞,数える,nombre,Nummer,数字,numero,número,количество,αριθμός,nummer
+numerical,形容詞,数の,numérique,numerische,数值,numerico,numérico,числовой,αριθμητικός,numerisk
+operation,名詞,操作,l'opération,Operation,操作,operazione,operación,операция,λειτουργία,operation
+path,名詞,経路,chemin,Weg,路径,sentiero,sendero,дорожка,μονοπάτι,sti
+per,前置詞,あたり,par,pro,每,per,por,перемещение,ανά,om
+perfectly,副詞,完全に,la parfaite,perfekt,在完美,perfettamente,perfectamente,отлично,τέλεια,perfekt
+physically,副詞,物理的に,physiquement,physikalisch,物理,fisicamente,físicamente,физически,φυσικώς,fysisk
+place,動詞,置く,placer,hinstellen,放置,piazzare,poner,положить,στον τόπο,at placere
+polygonal,形容詞,多角形の,la polygonal,polygonale,多边形,poligonale,poligonal,полигональный,πολυγωνικός,polygonal
+ponderomotive,形容詞,測定可能な,ponderomotive,ponderomotorischen,有质,ponderomotive,ponderomotivo,пондеромотив,τεκμηριωμένος,Ponderomotive
+possess,動詞,所有する,la possèdent,besitzen,在具备,possedere,poseer,владеть,κατέχω,have
+postulate,名詞,仮定、公準,postulat,Postulat,公设,postulato,postulado,постулат,αξιώ,påstå
+power,名詞,力,la puissance,Macht,动力,potenza,energía,сила,εξουσία,strøm
+precisely,副詞,ちょうど,la précision,genau,在精确,precisamente,precisamente,именно так,ακριβώς,netop
+proceed,動詞,進む,Proceed,gehen,在继续,procedere,Continuar,продолжить,προχωρώ,Fortsæt
+process,名詞,プロセス,processus,Prozess,过程,processi,proceso,процесс,"επεξεργάζομαι, διαδικασία",behandle
+produce,動詞,生み出す,les produits,Produkt,农产品,produrre,producir,производить,παράγω,fremstille
+proof,名詞,証明,la preuve,Beweis,证据,prova,prueba,доказательство,απόδειξη,bevis
+prove,動詞,証明する,prouver,Beweis,该证明,dimostrare,demostrar,доказывать,αποδεικνύω,bevise
+provide,動詞,提供する,Provide,bieten,在提供,fornire,proveer,предоставлять,προμηθεύω,give
+radiation,名詞,放射線,rayonnement,Strahlung,辐射,radiazione,radiación,излучение,ακτινοβολία,stråling
+radius,名詞,半径,rayon,Radius,半径,raggio,radio,радиус,ακτίνα κύκλου,radius
+reciprocal,形容詞,相互の,l'inverse,reziproke,倒数,reciproco,recíproco,взаимный,αμοιβαίος,gensidig
+refer,動詞,参照する,REFER,verweisen,该指,fare riferimento,referirse,ссылаться,αναφέρομαι,henvise
+reference,名詞,参照,référence,Referenz,参考资料,riferimento,referencia,ссылка,αναφορά,reference
+relationship,名詞,関係,la relation,Beziehung,关系,relazione,relación,отношение,σχέση,forhold
+remain,動詞,残る,reste,bleibt,在保持,rimanere,permanecer,оставаться,παραμένει,forblive
+represent,動詞,代表する,représentent,darstellen,该代表,rappresentare,representar,представлять,εκπροσωπώ,repræsentere
+right,形容詞,右の,la droite,Recht,正确的,Giusto,Correcto,Правильно,σωστά,ret
+satisfactory,形容詞,満足のいく,la satisfaction,zufriedenstellend,满意,soddisfacente,satisfactorio,удовлетворительно,ικανοποιητικός,tilfredsstillende
+secondly,副詞,第 2 に,l'autre part,zweitens,其次，在,in secondo luogo,en segundo lugar,во-вторых,κατα δευτερον,for det andet
+seek,動詞,探す,Seek,Such,寻道,cercare,buscar,стремиться,ψάχνω,søge
+series,名詞,系列,les séries,Serie,该系列,serie,serie,серии,σειρά,serie
+sign,名詞,符号,signe,Schild,标志,cartello,señal,знак,σημάδι,skilt
+signification,名詞,意義,la signification,Bedeutung,的意义,significato,significación,Значение,σημασία,Betegnelse
+simplify,動詞,簡素化する,la simplify,simplify,在简化,semplificare,simplificar,упрощать,απλοποιώ,forenkle
+start,動詞,出発する、はじまる,début,Anfang,开始,inizio,comienzo,Начало,αρχή,Start
+substitute,動詞,代入する,substitut,Ersatz,替代,sostituto,sustituto,заменять,υποκατάστατο,erstatning
+suggest,動詞,提案する,suggèrent,vorschlagen,该建议,suggerire,sugerir,предложить,προτείνω,antyder
+thence,副詞,そこから,là,von dort,在那里,quindi,de allí,оттуда,κατόπιν,derfra
+thing,名詞,事,la chose,Sache,事情,cosa,cosa,вещь,πράγμα,ting
+through,前置詞,---を通って,traversantes,durch,该通,attraverso,mediante,через,διά μέσου,igennem
+train,名詞,列車,train,Zug,火车,treno,tren,тренироваться,τρένο,tog
+transform,動詞,変換する,la transformation,Transformation,变换,trasformare,transformar,преобразование,μεταμορφώνω,Transform
+transform,名詞,変換,la transformation,Transformation,变换,trasformare,transformar,преобразование,μεταμορφώνω,Transform
+translatory,形容詞,並進の,translatoire,translatorische,平移,traslatoria,traductor,перевод,μεταφραστικός,translatorisk
+transverse,形容詞,横の,sens transversal,Quer,横向,trasversale,transverso,поперечный,εγκάρσιος,tværgående
+travel,動詞,旅行する,voyage,Reise,旅游,viaggiare,viajar,путешествовать,ταξίδι,rejse
+unless,接続詞,---しない限り,moins,es sei denn,除非该,salvo che,a no ser que,пока не,εκτός,med mindre
+use,動詞,使う,l'utilisation,Verwendung,使用,uso,usar,использовать,χρήση,brug
+velocity-vector,名詞,速度ベクトル,la vitesse de vecteur,Geschwindigkeitsvektor,速度矢量,Velocità-vettore,vector de velocidad,Velocity-Vector,ταχύτης,Hastighedsvektor
+virtue,名詞,美徳,la vertu,Tugend,美德,virtù,virtud,добродетель,αρετή,dyd
+well,副詞,良く,puits,Brunnen,井,bene,bien,Что ж,Καλά,godt
+whatever,副詞,なんでも,Whatever,was auch immer,无论在,qualunque cosa,lo que sea,что бы ни,"ό, τι να 'ναι",uanset hvad
+whereas,接続詞,一方,l'alors,während,而在,invece,mientras,тогда как,ενώ,henviser til
+withdraw,動詞,引っこむ,retrait,zurückziehen,在退出,ritirare,retirar,отзывать,αποσύρω,trække sig tilbage
+work,動詞,はたらく,l'oeuvre,Arbeit,工作,opera,trabajar,Работа,δουλειά,arbejde
+work,名詞,仕事 (物理の専門用語),les travaux,Werke,作品,opera,trabajar,Работа,δουλειά,arbejde
+yet,副詞,未だ,la encore,noch,在尚未,ancora,aún,пока что,Ακόμη,endnu
+zero,名詞,ゼロ,zéro,Null,零,zero,cero,нуль,μηδέν,nul
+all,形容詞,すべて,tout,alle,全部,tutto,todos,все,όλα,alle
+also,副詞,さらに,la aussi,auch,在还,anche,además,также,επίσης,også
+not,副詞,ではない,la non,nicht,在不,non,no,нет,δεν,ikke
+the principle,名詞,原理、原則,principe,Prinzip,原则,il principio,el principio,принцип,ο ΔΙΕΥΘΥΝΤΗΣ,princippet
+to,前置詞,に,la Défense,zu,在以,a,a,к,προς την,til
+the equation,名詞,方程式,l'équation,gleichung,公式,l'equazione,la ecuacion,уравнение,η εξίσωση,ligningen
+must,助動詞,しなければならない,meilleur,Ein Muss,必须的,dovere,deber,должен,πρέπει,skal
+rod,名詞,棒,la tige,Stange,杆,asta,varilla,стержень,ράβδος,Rod
+transformation,名詞,変換,la transformation,Transformation,改造,trasformazione,transformación,трансформация,μεταμόρφωση,transformation
+where,疑問副詞,どこ,l'où,where,在,dove,dónde,куда,όπου,hvor
+axis,名詞,軸,l'axe,Achse,轴,asse,eje,ось,άξονας,akse
+and,接続詞,そして,et,und,在与,e,y,а также,και,og
+any,形容詞,どれか,ANY,jede,在任何,qualunque,ningún,Любые,όποιος,nogen
+length,名詞,長さ,la durée,Länge,长度,lunghezza,longitud,длина,μήκος,længde
+one,名詞,1,celui,Eine,唯一的那个,uno,una,один,ένας,en
+origin,名詞,原点 (数学用語),l'origine,Ursprung,起源,origine,origen,источник,προέλευση,oprindelse
+space,名詞,空間,l'espace,Raum,空间,spazio,espacio,пространство,χώρος,plads
+then,副詞,それから,alors,dann,当时,poi,después,тогда,έπειτα,derefter
+will,助動詞,(未来形を表す),la volonté,Wille,意志,volere,voluntad,будут,θα,vilje
+follow,動詞,続く,suivi,folgende,后续,Seguire,seguir,следить,ακολουθηστε,følge efter
+no,形容詞,全く---ない,non,Nein,无,No,no,нет,όχι,ingen
+theory,名詞,理論,la théorie,Theorie,理论,teoria,teoría,теория,θεωρία,teori
+system,名詞,系,système,System,系统,sistema,sistema,система,Σύστημα,system
+we,代名詞,我々,nous,Wir,在我们的,noi,nosotros,мы,εμείς,vi
+form,名詞,形,la forme,Form,表格,modulo,forma,форма,μορφή,form
+magnetic,形容詞,磁気の,champ magnétique,magnetische,磁,magnetico,magnético,магнитный,μαγνητικός,Magnetisk
+observer,名詞,観察者,l'observateur,Beobachter,观察者,osservatore,observador,наблюдатель,παρατηρητής,Observer
+same,形容詞,同じ,même,Gleiche,相同,stesso,mismo,такой же,ίδιο,samme
+thus,副詞,こうして,ainsi,so,这样,così,de este modo,таким образом,έτσι,dermed
+along,前置詞,---に沿って,long,entlang,沿着该,lungo,a lo largo de,вместе,κατά μήκος,langs med
+between,前置詞,の間に,l'entre,zwischen,之间,fra,Entre,между,μεταξύ,mellem
+body,名詞,物体,corps,Körper,身体,corpo,cuerpo,тело,σώμα,legeme
+charge,名詞,電荷,la charge,Ladung,费用,carica,cobrar,обвинение,χρέωση,oplade
+may,助動詞,かもしれない,mai,Mai,,Maggio,mayo,май,ενδέχεται,kan
+relativity,名詞,相対性,la relativité,Relativität,相对论,relatività,relatividad,относительность,σχετικότητα,relativitet
+rigid,形容詞,厳格な,semi-rigide,starre,刚性,rigido,rígido,жесткий,άκαμπτος,stiv
+surface,名詞,表面,la surface,Oberfläche,表面,superficie,superficie,поверхность,επιφάνεια,overflade
+at,前置詞,---に,au,bei,在该,a,a,в,στο,på
+that,代名詞・関係代名詞,それ,que,das,在这,Quello,que,что,ότι,at
+definition,名詞,定義,la définition,Definition,定义,definizione,definición,определение,ορισμός,definition
+here,副詞,ここに,ici,Hier,此时此地,qui,aquí,здесь,εδώ,her
+into,前置詞,に,INTO,in,在成,in,dentro,в,σε,ind i
+therefore,副詞,故に,Therefore,daher,因此，该,dunque,por lo tanto,следовательно,επομένως,derfor
+translation,名詞,翻訳,la traduction,Übersetzung,译文,traduzione,traducción,перевод,μετάφραση,oversættelse
+upon,前置詞,に,la sur,auf,以上的这些,su,al,на,επάνω σε,på
+but,接続詞,しかし,mais,aber,但在,ma,pero,но,αλλά,men
+clear,形容詞,明確な,clair,Klare,清,chiaro,claro,Чисто,Σαφή,klar
+electrodynamics,名詞,電気力学,l'électrodynamique,Elektrodynamik,电动力学,elettrodinamica,electrodinámica,электродинамика,ηλεκτροδυναμική,Elektrodynamik
+english,名詞,英語,l'anglais,Englisch,英语,inglese,inglés,английский,Αγγλικά,engelsk
+further,形容詞,さらに遠く,la poursuite,weitere,进一步,ulteriore,más lejos,дальше,περαιτέρω,yderligere
+other,名詞、形容詞,他,L'autre,andere,另一个,Altro,otro,Другой,άλλα,Andet
+ray,名詞,光線,rayon,Strahl,光线,Ray,rayo,луча,ακτίνα,Ray
+Cartesian,形容詞,デカルトの,cartésien,cartesianischen,笛卡尔,cartesiano,cartesiano,Картезианский,Καρτεσιανός,Kartesisk
+Euclidean,形容詞,ユークリッドの,euclidienne,euklidische,欧几里得,euclideo,Euclidiano,Евклидовый,Ευκλείος,Euklidisk
+Lorentzian,形容詞,ローレンツの (e.g. ローレンツ収縮),lorentzienne,Lorentz,洛伦兹,Lorentzian,Lorentziano,Лоренциан,Λοριστικός,Lorentzian
+Newtonian,形容詞,ニュートンの,newtonien,Newton,牛顿,Newtoniano,newtoniano,Ньютоновский,Νευρώνας,Newtonian
+Planck,名詞,プランク (人名),Planck,Planck,普朗克,Planck,Plancho,Планк,Παχουλός,Planck
+about,副詞,約,propos de,über,在约,di,sobre,о,σχετικά με,om
+absolutely,副詞,全く、絶対,l'absolument,absolut,绝对,assolutamente,absolutamente,абсолютно,απολύτως,absolut
+abstraction,名詞,抽象,l'abstraction,Abstraktion,抽象,astrazione,abstracción,абстракция,αφαίρεση,abstraktion
+accessible,形容詞,アクセス可能な,l'accès,zugänglich,可访问,accessibile,accesible,доступный,προσιτός,tilgængelig
+accordingly,副詞,それに応じて,la conséquence,entsprechend,在相应,di conseguenza,respectivamente,соответственно,αναλόγως,derfor
+acquire,動詞,得る,ACQUIRE,erwerben,在获取,acquisire,adquirir,приобретать,αποκτώ,erhverve
+act,名詞,作用、行為,l'acte,Akt,法案,atto,Actuar,действовать,υποκρίνομαι,handling
+additive,形容詞,加法的な,l'additif,Additiv,添加剂,additivo,aditivo,добавка,πρόσθετος,tilsætningsstof
+adjust,動詞,調整する,adjust,einstellen,该调整,regolare,ajustar,регулировать,προσαρμόζω,justere
+advanced,形容詞,高度な,la pointe,erweiterte,先进,Avanzate,avanzado,передовой,προχωρημένος,fremskreden
+advantageous,形容詞,有利な,l'avantageux,vorteilhaft,有利的,vantaggioso,ventajoso,выгодно,επωφελής,fordelagtige
+affect,動詞,影響を受ける,l'effet,Auswirkungen auf,的影响,influenzare,afectar,оказывать воздействие,επηρεάζουν,påvirke
+aid,名詞,援助、補助,l'aide,Hilfe,援助,aiuto,ayuda,помогать,βοήθεια,hjælpe
+alike,形容詞,同じ,la Alike,gleichermaßen,的一致好评,nello stesso modo,similar,одинаково,ομοίως,ens
+allow,動詞,許す,permettent,erlauben,在允许,permettere,permitir,разрешать,επιτρέπω,tillade
+alter,動詞,変更する,l'alter,Alter,圣坛,altera,alterar,альтернативный,αλλάζω,ændre
+ambiguity,名詞,あいまいさ,l'ambiguïté,Mehrdeutigkeit,模糊,ambiguità,ambigüedad,двусмысленность,ασάφεια,tvetydighed
+amount,名詞,量,montant,Summe,数量,Quantità,Monto,количество,ποσό,beløb
+analogy,名詞,類推,l'analogie,Analogie,类比,analogia,analogía,аналогия,αναλογία,analogi
+anywhere,副詞,どこでも,partout,überall,在任何地方,ovunque,en cualquier sitio,в любом месте,οπουδήποτε,overalt
+apparent,形容詞,見かけ上の,l'apparente,scheinbare,明显,apparente,aparente,очевидный,εμφανής,tilsyneladende
+apparently,副詞,明らかに,l'apparence,scheinbar,显然,apparentemente,aparentemente,по всей видимости,προφανώς,tilsyneladende
+approach,動詞,近づく,l'approche,Vorgehensweise,该方法,approccio,Acercarse,подход,πλησιάζω,nærme sig
+appropriate,形容詞,適切な,approprié,angemessene,适当的,adeguata,adecuado,соответствующий,κατάλληλος,passende
+approximately,副詞,約,environ la,etwa,大约,circa,aproximadamente,примерно,κατά προσέγγιση,rundt regnet
+area,名詞,エリア,la zone,Gebiet,区域,la zona,área,область,περιοχή,areal
+argument,名詞,議論、引数,l'argument,Argument,参数,discussione,argumento,аргумент,διαφωνία,argument
+ascertain,動詞,確かめる,ascertain,ascertain,在探明,accertare,cerciorarse,выяснить,διαπιστώνω,fastslå
+assertion,名詞,主張,l'affirmation,Behauptung,断言,asserzione,afirmación,утверждение,ισχυρισμός,påstand
+assign,動詞,割り当てる,l'assign,assign,该分配,assegnare,asignar,назначать,αναθέτω,tildele
+asymmetry,名詞,非対称、非対称性,l'asymétrie,Asymmetrie,不对称,asimmetria,asimetría,асимметрия,ασυμμετρία,Asymmetri
+attach,動詞,取りつける,attach,anhängen,附装,allegare,adjuntar,прикреплять,συνδέω,Vedhæft
+attainment,名詞,到達、達成,la réalisation,Erreichung,的实现,raggiungimento,logro,достижение,επίτευξη,opnåelse
+attempt,名詞,試み,la tentative,Versuch,尝试,tentativo,intentar,пытаться,απόπειρα,forsøg
+attend,動詞,出席する,l'assister,attend,在出席,frequentare,asistir,посещать,παραβρίσκομαι,deltage
+attribute,動詞,---に帰する,l'attribut,Attribut,属性,attributo,atributo,атрибут,Χαρακτηριστικό,attribut
+attribution,名詞,帰属,l'attribution,Zuschreibung,归属,attribuzione,atribución,атрибуция,απόδοση,attribution
+author,名詞,著者,l'auteur,Autor,作者,autore,autor,автор,συγγραφέας,forfatter
+auxiliary,形容詞,補助の、予備の,l'auxiliaire,Hilfs,辅助,ausiliario,auxiliar,вспомогательный,βοηθητική,Hjælp
+available,形容詞,利用可能な,la mise à disposition,zur Verfügung stehenden,可用,a disposizione,disponible,доступный,διαθέσιμος,ledig
+back,名詞,後ろ,l'arrière,Rücken,背部,Indietro,espalda,назад,πίσω,tilbage
+balance,名詞,バランス,l'équilibre,Balance,余额,equilibrio,balance,остаток средств,ισορροπία,balance
+balance-clock,名詞,バランス時計 (?),la balance horloge,Balance Uhr,平衡时钟,Balance-Clock,balance de equilibrio,баланс,μοσχεύματος,Balance-klokk
+bear,動詞,持つ,l'ours,Bär,熊,orso,llevar,медведь,αρκούδα,bjørn
+bearing,動詞 (現在分詞),-> bear,palier,Lager,轴承,cuscinetto,Llevando,несущий,ρουλεμάν,leje
+because,接続詞,なぜなら,la raison,da,由于该,perché,porque,потому что,επειδή,fordi
+behind,副詞、前置詞,後ろに,derrière,hinter,背后,dietro,detrás,позади,πίσω,bag
+book,名詞,本,livre,Buch,书,prenotare,libro,книга,Βιβλίο,Bestil
+born,動詞,生まれる,les personnes nées,geborene,该生,Nato,nacido,Родился,γεννημένος,Født
+brevity,名詞,簡潔,la brièveté,Kürze,简洁,brevità,brevedad,Краткость,συντομία,kortfattethed
+briefly,副詞,簡単に,brièvement,kurz,在简要,brevemente,brevemente,вкратце,εν ολίγοις,kort
+calculate,動詞,計算する,calculate,calculate,该计算,calcolare,calcular,рассчитывать,υπολογίζω,Beregn
+carefully,副詞,注意深く,soigneusement,sorgfältig,仔细,con attenzione,con cuidado,осторожно,προσεκτικά,omhyggeligt
+cautiously,副詞,慎重に,la prudence,vorsichtig,小心翼翼的,cautamente,cautelosamente,осторожно,προσεκτικά,forsigtigt
+centre,名詞,中心,centre,Zentrum,中心,centro,centro,центр,κέντρο,centrum
+character,動詞,特徴づける,personnage,Charakter,人物,carattere,personaje,персонаж,χαρακτήρας,Karakter
+character,名詞,性質,personnage,Charakter,人物,carattere,personaje,персонаж,χαρακτήρας,Karakter
+close,動詞,閉まる,la fermeture,nahe,关闭,chiudere,cerca,Закрыть,Κλείσε,tæt
+clothe,動詞,着る,vêtement,bekleiden,在衣,vestito,vestir,одеял,ντύνω,klæde
+cm,名詞,センチメートル,cm,cm,该厘米,centimetro,cm,см,εκ,CM
+co-ordinate,名詞,座標,la coordonnée,Koordinate,的坐标,coordinata,coordinar,координировать,συντεταγμένη,koordinere
+colleague,名詞,同僚,collègue,Kollege,同事,collega,colega,коллега,συνάδελφος,kollega
+collection,名詞,コレクション、収集、採集,la collection,Sammlung,集合,collezione,recopilación,коллекция,συλλογή,kollektion
+come,動詞,来る,come,kommen,在来,venire,venir,прийти,Έλα,komme
+communicate,動詞,伝える,communiquer,Kommunikation,在沟通,comunicare,comunicar,общаться,ΕΠΙΚΟΙΝΩΝΩ,kommunikere
+company,名詞,会社、人の集まり,l'entreprise,Unternehmen,公司,azienda,empresa,Компания,Εταιρία,Selskab
+compare,動詞,比較する,la comparaison,Vergleichs-,比较,confrontare,comparar,сравнивать,συγκρίνω,sammenligne
+compensation,名詞,補償,la compensation,Entschädigung,补偿,compensazione,compensación,компенсация,αποζημίωση,kompensation
+complete,形容詞,完全な,la complète,Ganze,完整,completare,completo,полный,πλήρης,komplet
+completely,副詞,完全に,entièrement,vollständig,完全,completamente,completamente,полностью,εντελώς,fuldstændig
+components,名詞,要素,les composants,Komponenten,组件,componenti,componentes,составные части,συστατικά,komponenter
+compound,動詞,混ぜ合わせる、調合する,composé,Verbindung,该化合物,composto,compuesto,сложный,χημική ένωση,forbindelse
+concern,動詞,心配する,la préoccupation,Sorge,关注,preoccupazione,inquietud,беспокойство,ανησυχία,bekymring
+conclude,動詞,結論する,la conclusion,Schluss,该结论,concludere,concluir,заключить,καταλήγω,konkludere
+conclusion,名詞,結論,la conclusion,Schlussfolgerung,结论,conclusione,conclusión,вывод,συμπέρασμα,konklusion
+condition,名詞,条件,la condition,Bedingung,条件,condizione,condición,условие,κατάσταση,tilstand
+conform,動詞,従う、一致する,conforme,konform,在符合,conformare,ajustarse,соответствовать,συμμορφώνομαι,konform
+conjecture,名詞,予想,la conjecture,Vermutung,猜想,congetturare,conjetura,гипотеза,εικασία,formodning
+connect,動詞,接続する,la connexion,Verbindungs,该连接,Collegare,conectar,соединять,συνδέω-συωδεομαι,Opret forbindelse
+consistent,形容詞,首尾一貫した,la cohérence,konsequente,一致,coerente,coherente,последовательный,σταθερός,konsekvent
+constitution,名詞,構成、構造,la Constitution,Verfassung,宪法,costituzione,constitución,Конституция,σύνταγμα,forfatning
+contain,動詞,含む,la contiennent,enthalten,在含有,contenere,contener,содержать,περιέχω,indeholde
+content,動詞,満足させる,contenu,Inhalt,内容,contenuto,contenido,содержание,περιεχόμενο,indhold
+continuously,副詞,連続した,la permanence,kontinuierlich,不断,continuamente,continuamente,непрерывно,συνεχώς,kontinuerligt
+contradiction,名詞,矛盾,la contradiction,Widerspruch,矛盾,contraddizione,contradicción,противоречие,αντίφαση,modsigelse
+contrast,名詞,コントラスト,contraste,Kontrast,对比,contrasto,contraste,контраст,αντίθεση,kontrast
+convection-currents,名詞,対流 (物理の専門用語),les courants de convection-,Konvektion-Strom,所述对流电流,Convezione-corrente,corrientes de convección,конвекционные потоки,κινηματογραφικά ρεύματα,Konvektionstrømme
+correct,形容詞,正しい,la bonne,richtige,正确的,corretta,correcto,правильный,σωστός,korrekt
+correctly,副詞,正しい,correctement,richtig,正确,correttamente,correctamente,правильно,σωστά,korrekt
+couple,動詞,結合する,couple,Ehepaar,夫妇,coppia,pareja,пара,ζευγάρι,par
+course,名詞,コース,cours,Kurs,课程,corso,curso,курс,σειρά μαθημάτων,Rute
+create,動詞,創造する,créer,schaffen,在创建,creare,crear,Создайте,δημιουργώ,skab
+criterion,名詞,基準,critère,Kriterium,标准,criterio,criterio,критерий,κριτήριο,Kriterium
+curvature,名詞,曲率,la courbure,Krümmung,曲率,curvatura,curvatura,кривизна,καμπυλότητα,krumning
+curve,動詞,曲げる、曲がる,la courbe,Kurve,曲线,curva,curva,изгиб,καμπύλη,kurve
+curve,名詞,曲線,la courbe,Kurve,曲线,curva,curva,изгиб,καμπύλη,kurve
+data,名詞,データ,les données,Daten,数据,dati,datos,данные,δεδομένα,data
+deal,動詞,対処する,l'accord,Deal,交易,affare,acuerdo,иметь дело,συμφωνία,del
+declare,動詞,宣言する,déclarer,declare,该声明,dichiarare,declarar,объявить,δηλώνω,erklære
+degree,名詞,度,degré,Grad,度,livello,la licenciatura,степень,βαθμός,grad
+deliberation,名詞,熟慮,la délibération,Überlegung,审议,deliberazione,deliberación,обсуждение,σύσκεψη,overvejelse
+density,名詞,密度,la densité,Dichte,密度,densità,densidad,плотность,πυκνότητα,massefylde
+depart,動詞,立ち去る,départ,depart,在启程,partenza,salir,вылетать,παρεκκλίνω,afgang
+depend,動詞,依存する,la dépendent,abhängig,的依赖,dipendere,depender,зависеть,εξαρτώμαι,afhænge af
+derive,動詞,導出する,la dérive,derive,派生,derivare,derivar,вывести,αντλώ,Udled
+describe,動詞,記述する,la décrivent,beschreiben,该描述,descrivere,describir,описывать,περιγράφω,beskrive
+designate,動詞,示す,la personne désignée,designierte,在候,designare,designado,назначить,ορίζω,udpege
+despite,前置詞,にもかかわらず,malgré la,trotz,尽管该,nonostante,A pesar de,несмотря на,παρά,på trods af
+determination,名詞,決定、決断,la determination,Entschlossenheit,确定,determinazione,determinación,решимость,προσδιορισμός,beslutsomhed
+differ,動詞,異なる,la diffèrent,abweichen,在不同,differire,diferir de,отличается,διαφέρω,afvige
+dimension,名詞,寸法、次元,la dimension,Dimension,维,dimensione,dimensión,измерение,διάσταση,dimension
+disadvantage,名詞,欠点,désavantage,Nachteil,缺点,svantaggio,desventaja,недостаток,μειονέκτημα,ulempe
+disappear,動詞,消える,la disparaissent,verschwinden,将消失,scomparire,desaparecer,пропадать,εξαφανίζομαι,forsvinde
+discover,動詞,発見する,la découverte,entdecken,该发现,scoprire,descubrir,обнаружить,ανακαλύπτω,opdage
+discuss,動詞,話し合う,discuter,diskutieren,在讨论,discutere,conversar,обсуждать,συζητώ,drøfte
+discussion,名詞,討論,la discussion,Diskussion,讨论,discussione,discusión,дискуссия,συζήτηση,diskussion
+distant,形容詞,遠く (-> distance),lointain,ferne,遥远,distante,distante,далекий,μακρινός,fjern
+distinction,名詞,区別 (-> distinct、distinguish),la distinction,Unterscheidung,区别,distinzione,distinción,различие,διάκριση,forskel
+distinguish,動詞,区別する,la distinction,Unterscheidung,在区分,distinguere,distinguir,выделить,διακρίνω,skelne
+divide,動詞,分割する,la fracture,divide,划分,dividere,dividir,разделять,διαιρέστε,dele
+draw,動詞,描く,dessin,Unentschieden,平局,disegno,dibujar,рисовать,σχεδιάζω,tegne
+dynamics,名詞,ダイナミクス、動力学,la dynamique,Dynamik,动态,dinamica,dinámica,динамика,δυναμική,Dynamik
+dyne,名詞,ダイン (物理量の単位),la dyne,dyn,达因,Dyne,dina,дар,δυστυχία,Dyne
+e.g.,熟語,例えば (= for example、ラテン語の exempli gratia から),par exemple le,z.B.,例如在,per esempio.,p.ej.,например,π.χ.,for eksempel.
+effect,名詞,効果,l'effet,Effekt,效果,effetto,efecto,эффект,αποτέλεσμα,effekt
+either,形容詞,どちらか,l'une ou l'autre,entweder,在任,o,o,либо,είτε,enten
+electrical,形容詞,電気の,électrique,elektrische,电,elettrico,eléctrico,электрический,ηλεκτρικός,Elektrisk
+electrodynamical,形容詞,電気的な,l'électrodynamique,electrodynamical,在电动力,elettrodinamico,electrodinámico,электродинамический,ηλεκτροδυναμικός,elektrodynamisk
+element,名詞,要素,l'élément,Element,元素,elemento,elemento,элемент,στοιχείο,element
+ellipsoidal,名詞,楕円の,l'ellipsoïde,ellipsenförmige,椭圆形,ellissoidale,elipsoidal,эллипсоидальный,ελλειψοειδής,ellipsoidal
+employment,名詞,装置,l'emploi,Anstellung,就业,occupazione,empleo,трудоустройство,εργασία,beskæftigelse
+encounter,名詞,出会い,la rencontre,Begegnung,遭遇,incontrare,encontrar,сталкиваться,συνάντηση,komme ud for
+enter,動詞,入る,la saisir,Eingabe,回车,accedere,ingresar,войти,εισαγω,gå ind
+entitle,動詞,題する,donnent droit,entitle,在赋予,diritto,dar derecho,право,δίνω δικαίωμα,ret
+enumerate,動詞,数える,l'enumerate,enumerate,该枚举,enumerare,enumerar,перечислять,απαριθμώ,Tæller
+envisage,動詞,想定する,l'envisage,ins Auge fassen,该设想,prevedere,prever,предусмотрено,εικονίζω,forestil dig
+equality,名詞,等号,l'égalité,Gleichheit,平等,uguaglianza,igualdad,равенство,ισότητα,lighed
+equally,副詞,等しく,tout aussi,gleichermaßen,同样的,Allo stesso modo,igualmente,в равной степени,εξίσου,ligeligt
+equator,名詞,赤道,l'Équateur,Equator,赤道,equatore,ecuador,экватор,ισημερινός,ækvator
+equivalent,形容詞,同じ,l'équivalent,Äquivalent,等效,equivalente,equivalente,эквивалент,ισοδύναμος,tilsvarende
+error,名詞,エラー、間違い,l'erreur,Fehler,错误,errore,error,ошибка,λάθος,fejl
+establish,動詞,確立する,l'établissement,etablieren,在建立,stabilire,establecer,учреждать,εγκαθιδρύω,etablere
+ether,名詞,エーテル,l'éther,Ether,乙醚,etere,éter,эфир,αιθέρας,æter
+evaluate,動詞,評価する,l'évaluer,Evaluierung,该评估,valutare,evaluar,оценивать,αξιολογώ,vurdere
+evident,形容詞,明らかな,l'évidence,offensichtliche,在明显,evidente,evidente,очевидный,εμφανές,tydeligt
+exactly,副詞,ちょうど,exactement la,genau,完全相同,Esattamente,exactamente,в яблочко,ακριβώς,Nemlig
+exclude,動詞,除外する,exclure,ausschließen,排除,escludere,excluir,исключать,αποκλείω,udelukke
+exclusively,副詞,もっぱら、排他的に,l'exclusivité,ausschließlich,该专,esclusivamente,exclusivamente,исключительно,αποκλειστικά,udelukkende
+exert,動詞,及ぼす,l'exercent,exert,在使出,esercitare,ejercer,подать,ασκώ,udøve
+exist,動詞,存在する,l'exist,exist,在存在,esistere,existir,существует,υπάρχει,eksisterer
+existence,名詞,存在,l'existence,Existenz,存在,esistenza,existencia,существование,ύπαρξη,eksistens
+experimentally,副詞,実験的に,expérimentalement,experimentell,该实验,sperimentalmente,experimentalmente,экспериментально,πειραματικά,Eksperimentelt
+experiments,名詞 (複数形),experiment,les expériences,Experimente,实验,esperimenti,experimentos,эксперименты,πειράματα,eksperimenter
+explicitly,副詞,明示的に,explicitement,ausdrücklich,在明确,esplicitamente,explícitamente,явно,ρητά,eksplicit
+fact,名詞,事実,fait,Tatsache,事实,fatto,hecho,факт,γεγονός,faktum
+factor,名詞,因子,facteur,Faktor,因素,fattore,factor,фактор,παράγοντας,faktor
+finally,副詞,最後に,finally,schließlich,最终,finalmente,finalmente,в конце концов,τελικά,langt om længe
+fixed,形容詞,一定の,fixe,fest,固定,fisso,fijado,исправлено,σταθερός,fast
+footnote,名詞,脚注,la note,Fußnote,脚注,nota,nota,сноска,υποσημείωση,fodnote
+footnotes,名詞 (複数形),脚注,les notes,Fußnoten,脚注,Note,notas al pie,сноски,υποσημειώσεις,fodnoter
+format,名詞,フォーマット,format,Format,格式,formato,formato,формат,μορφή,format
+foundation,名詞,基礎付け,la Fondation,Grundlage,基础,fondazione,Fundación,Фонд,θεμέλιο,fundament
+frame,名詞,枠,cadre,Rahmen,框架,telaio,cuadro,Рамка,πλαίσιο,ramme
+free,形容詞,自由な,la libre,Freiheit,免费,gratuito,libre,свободно,Ελεύθερος,ledig
+friend,名詞,友人,l'ami,Freund,朋友,amico,amigo,друг,φίλος,ven
+fundamental,形容詞,基本的な,Les fondamentaux,Fundamentale,根本,fondamentale,fundamental,фундаментальный,θεμελιώδης,grundlæggende
+furnish,動詞,備えつける,la pâte,Eintrag,配料,fornire,amoblar,мебель,επιπλώνω,levere
+furthermore,副詞,更に,En outre le,darüber hinaus,在另外,inoltre,además,более того,επί πλέον,desuden
+geometrical,形容詞,幾何学的な,la géométrie,geometrische,几何,geometrico,geométrico,геометрический,γεωμετρικός,Geometrisk
+geometry,名詞,幾何学,la géométrie,Geometrie,几何,geometria,geometría,геометрия,γεωμετρία,Geometri
+get,動詞,得る,get,get,的get,ottenere,obtener,получить,παίρνω,få
+go,動詞,行く,feu vert,unterwegs,旅途中,andare,Vamos,идти,πηγαίνω,gå
+great,形容詞,大きい,grand,große,最棒的,grande,estupendo,большой,μεγάλος,store
+group,名詞,群 (数学の専門用語・概念),groupe,Gruppe,群组,gruppo,grupo,группа,ομάδα,gruppe
+happen,動詞,起こる,l'arrive,passieren,在发生,accadere,suceder,случаться,συμβεί,ske
+homogeneity,名詞,等質性,l'homogénéité,Homogenität,同质性,omogeneità,homogeneidad,однородность,ομοιογένεια,homogenitet
+how,副詞、疑問詞、関係詞,どうやって,la façon dont,wie,该怎么办,come,cómo,как,πως,hvordan
+idea,名詞,概念、アイディア,l'idée,Idee,这个想法,idea,ocurrencia,идея,ιδέα,ide
+imaginary,形容詞,仮想的な,l'imaginaire,Imaginärteil,虚,immaginario,imaginario,мнимый,φανταστικο,imaginært
+important,形容詞,重要な,l'important,Wichtige,重要,importante,importante,важный,σπουδαίος,vigtig
+inasmuch,接続詞,(inasmuch as で) だから,la mesure,insofern,在因为,in quanto,en la medida,в общении,επειδή,I det omfang
+incident,形容詞,投射された,L'incident,Vorfall,事件,incidente,incidente,инцидент,περιστατικό,utilsigtet hændelse
+incidental,形容詞,偶発的な,l'accessoire,Neben,附带,accidentale,incidental,случайный,τυχαίος,Tilfældig
+indebt,動詞,負債を負わせる,endettent,indebt,将责成,in debito,en deuda,в долгу,χρεωμένος,i gæld
+independently,副詞,単独で,indépendamment,unabhängig,该独立,indipendentemente,independientemente,независимо,ανεξάρτητα,uafhængigt
+indicate,動詞,示す,l'indiquent,zeigen,该指示,indicare,indicar,указывать,υποδεικνύω,angive
+indication,名詞,指示,l'indication,Angabe,指示,indicazione,indicación,Индикация,ένδειξη,tegn
+inexactitude,名詞,不正確,l'inexactitude,inexactitude,该不精确,inesattezza,inexactitud,неточность,ανακρίβεια,Uforsikring
+infinitesimally,副詞,無限に小さく,infinitésimale,verschwindend,在无穷,infinitesimamente,infinitesimalmente,бесконечно,απειλητικά,infinitesimalt
+influence,動詞,影響を与える,l'influence,Einfluss,影响,influenza,influencia,влияние,επιρροή,indflydelse
+inherent,形容詞,固有,inhérent,inhärenten,内在,inerente,inherente,присущий,συμφυής,iboende
+insert,動詞,挿入する,l'insert,Einsatz,插件,inserire,insertar,вставлять,εισάγετε,indsæt
+instance,名詞,例,l'instance,Instanz,实例,esempio,instancia,пример,παράδειγμα,forekomst
+instead,副詞,その代わり,la place,statt,在代替,invece,en cambio,вместо,αντι αυτου,i stedet
+insufficient,形容詞,不十分な,l'insuffisance,unzureichende,不足,insufficiente,insuficiente,недостаточный,ανεπαρκής,utilstrækkelig
+interpretation,名詞,解釈,L'interprétation,Interpretation,解读,interpretazione,interpretación,интерпретация,ερμηνεία,Fortolkning
+invariably,副詞,必ず,invariablement,immer,在不约而同,invariabilmente,invariablemente,неизменно,κατά κανόνα,altid
+inverse,形容詞,逆の,l'inverse,inverse,逆,inverso,inverso,обратный,αντίστροφος,inverse
+ion,名詞,イオン (化学),l'ion,Ionen,离子,ione,ion,ион,ιόν,ion
+irreconcilable,形容詞,和解できない、調和しない,l'inconciliable,unversöhnliche,不可调和,inconciliabile,irreconciliable,непримиримый,ασυμβίβαστος,uforenelig
+issue,動詞,発行する,problème,Thema,问题,problema,tema,проблема,θέμα,problem
+itself,名詞,自体,lui-même,selbst,在自身,si,sí mismo,сам,εαυτό,sig selv
+kind,名詞,種類,genre,Art,那种,tipo,tipo,Добрый,είδος,venlig
+lag,名詞,遅れ,décalage,Verzögerung,滞后,ritardo,retraso,задержка,καθυστέρηση,forsinkelse
+lags,名詞 (複数形),ラグ,les retards,Lags,该滞后,ritardi,retraso,отставание,καθυστερεί,forsinkelser
+last,動詞,持続する,dernier,Letzte,最后,Ultimo,ultimo,последний,τελευταίος,sidst
+last-mentioned,形容詞,先に述べた,dernier mentionné,letztgenannte,最后提到的,ultimo menzionato,mencionado por última vez,Последний раз,τελευταίος,Sidste nævnt
+later,副詞,後,plus tard,später,后来,dopo,luego,потом,αργότερα,senere
+lead,動詞,導く,la tête,Führung,带头,piombo,Plomo,привести,οδηγω,at føre
+leave,動詞,退出する,congé,Verlassen,休假,partire,abandonar,оставлять,άδεια,forlade
+left,名詞,左,la gauche,linke,左边,sinistra,izquierda,оставил,αριστερά,venstre
+likewise,副詞,同様に,même,ebenfalls,同样的,allo stesso modo,igualmente,так же,επίσης,ligeledes
+little,形容詞,少ない,la petite,kleine,小,piccolo,poco,маленький,λίγο,lille
+locality,名詞,局所性,la localité,Ortschaft,当地,località,localidad,местонахождение,τοποθεσία,lokalitet
+long,形容詞,長い,long,lange,长,lungo,largo,длинная,μακρύς,lang
+loyal,形容詞,誠実な、義理堅い,fidèle,loyale,忠诚,leale,leal,верный,πιστός,loyal
+luminiferous,形容詞,光を発する,luminifère,luminiferous,该发光性的,luminifero,luminífero,светящаяся,φωτεινός,Luminiferous
+lurk,動詞,潜む,Lurk,lurk,在潜伏,nascondersi,Acechar,скрываться,ενεδρεύω,lurer
+machine,名詞,機械,la machine,Maschine,机器,macchina,máquina,машина,μηχανή,maskine
+magnetomotive,形容詞,起磁力の,magnétomotrice,Magneto,磁势,magnetomotive,magnetomotivo,магнитомотив,μαγνητικός,Magnetomotiv
+maintain,動詞,維持する,maintenir,Aufrechterhaltung,在维持,mantenere,mantener,поддерживать,διατηρούν,opretholde
+make,動詞,作る,la marque,Marke,厂名,rendere,hacer,делать,"φτιαχνω, κανω",lave
+makes,動詞 (三単元),make,les marques,Marken,该品牌,fa,hace,производит,κάνει,gør
+mark,動詞,印をつける,la marque,Note,标记,marchio,Marcos,отметка,σημάδι,mærke
+mark,名詞,マーク,la marque,Note,标记,marchio,Marcos,отметка,σημάδι,mærke
+marks,名詞 (複数形),マーク,les marques,Noten,标记,segni,marcas,Метки,σημάδια,mærker
+mathematical,形容詞,数学の,la mathématique,mathematische,数学,matematico,matemático,математический,μαθηματικός,Matematisk
+mean,動詞,意味する,signifier,bedeuten,意思是,significare,significar,иметь в виду,σημαίνω,betyde
+meaningless,形容詞,無意味な,sens,sinnlos,无意义,senza senso,sin sentido,бессмысленный,χωρίς νόημα,meningsløs
+measurement,名詞,測定,la mesure,Messung,测量,misurazione,medición,измерение,μέτρηση,måling
+memoir,名詞,回顧録,mémoire,Memoiren,回忆录,memoriale,memoria,мемуар,απομνημόνευμα,Memoir
+mention,動詞,言及する,la mention,Erwähnung,提,citare,mencion,упомянуть,αναφέρω,nævne
+mentioned,動詞 (過去分詞),mention,dit,erwähnte,提到,menzionato,mencionado,упомянул,που αναφέρθηκαν,nævnte
+merely,副詞,単に,simple,lediglich,在仅仅,semplicemente,meramente,просто,απλώς,blot
+momentum,名詞,運動量 (物理の専門用語),L'élan,Momentum,势头,quantità di moto,impulso,импульс,ορμή,momentum
+moreover,副詞,さらに,l'ailleurs,des Weiteren,而且在,inoltre,es más,Кроме того,Εξάλλου,i øvrigt
+much,形容詞、副詞,はるかに,bien,viel,备受,tanto,mucho,много,πολύ,meget
+multiply,動詞,掛ける,la multiplication,mehrfach,乘法,moltiplicare,multiplicar,умножить,πολλαπλασιάζω,formere sig
+namely,副詞,つまり,savoir,nämlich,该即,vale a dire,a saber,а именно,και συγκεκριμένα,nemlig
+naturally,副詞,当然,naturel,natürlich,自然,naturalmente,naturalmente,естественно,Φυσικά,naturligt
+nature,名詞,自然,la nature,Natur,自然,natura,naturaleza,природа,φύση,natur
+necessarily,副詞,必ずしも,nécessairement,notwendigerweise,在一定,necessariamente,necesariamente,обязательно,αναγκαίως,nødvendigvis
+neglect,動詞,無視する,la négligence,Vernachlässigung,忽视,trascurare,negligencia,пренебрегать,παραμέληση,forsømme
+new,形容詞,新しい,nouveau,neue,新的,nuovo,nuevo,новый,νέος,ny
+next,形容詞,次の,suivant,nächste,下一个,prossimo,Siguiente,следующий,Επόμενο,Næste
+nor,接続詞,...もまたない,nor,noch,在也不,né,ni,ни,ούτε,heller ikke
+notation,名詞,表記法,la notation,Notation,符号,notazione,notación,обозначение,σημειογραφία,Notation
+o'clock,副詞,---時,l'heure,Uhr,该点,O'Clock,en punto,Орт,ώρα,klokken
+object,名詞,物体,L'object,Objekt,物体,oggetto,objeto,объект,αντικείμενο,objekt
+observable,形容詞,観測可能な,l'observable,beobachtbare,可观察,osservabile,observable,наблюдаемый,αισθητός,observerbar
+occupy,動詞,占有する,Occupons,besetzen,在占据,occupare,ocupar,занимать,ασχολούμαι,besætte
+off,副詞,オフ,hors,Aus,关闭,spento,apagado,выключенный,μακριά από,af
+old,形容詞,古い,l'ancien,alte,老人,vecchio,antiguo,старый,παλαιός,gammel
+once,名詞,一度,la fois,einmal,一次,una volta,una vez,однажды,μια φορά,enkelt gang
+ordinary,形容詞,一般の,l'ordinaire,Gewöhnlichen,普通,ordinario,común,обычный,συνήθης,almindelig
+oscillate,動詞,振動する,la oscillent,oszillieren,在振荡,oscillare,oscilar,колебаться,ταλαντεύω,svinger
+otherwise,副詞,さもないと,l'autre,sonst,否则,altrimenti,de lo contrario,в противном случае,σε διαφορετική περίπτωση,Ellers
+ourselves,,自分自身,nous-mêmes,uns,在我们自己,noi stessi,Nosotros mismos,сами,εμείς οι ίδιοι,os selv
+out,副詞,外に,l'out,aus,在出,fuori,afuera,вне,έξω,ud
+overcome,動詞,克服する,la surmonter,Überwindung,在克服,superare,superar,превосходить,καταβάλλω,overvinde
+owe,動詞,負う,devons,schulden,在欠,essere debitore,deber,быть должным,οφείλω,skylde
+parallelogram,名詞,平行四辺形,parallélogramme,Parallelogramm,平行四边形,parallelogramma,paralelogramo,параллелограмм,παραλληλόγραμμο,Parallelogram
+particle,名詞,粒子,la particule,Partikel,粒子,particella,partícula,частица,σωματίδιο,partikel
+pass,動詞,通り抜ける,laissez-passer,Pass,通,passaggio,pasar,проходить,πέρασμα,passere
+peculiar,形容詞,特有な,particulier,eigentümliche,奇特,peculiare,peculiar,своеобразный,ιδιόμορφος,ejendommelige
+pendulum-clock,名詞,振り子時計,pendule d'horloge,Pendeluhr,钟摆时钟,pendolo,relój de péndulo,маятник,εκκρεμών,Pendul-klokk
+perceive,動詞,認識する,la Percevoir,perceive,在感知,percepire,percibir,понимать,αντιλαμβάνομαι,erkende
+perfect,形容詞,完全な,parfait,Perfekte,完美的,Perfetto,Perfecto,идеально,τέλειος,Perfekt
+permanently,副詞,永久に,la permanence,dauerhaft,永久,permanentemente,permanentemente,постоянно,μόνιμα,permanent
+permission,名詞,許可,la permission,Erlaubnis,许可,autorizzazione,permiso,разрешение,άδεια,tilladelse
+perpendicular,形容詞,垂直な,la perpendiculaire,senkrechte,垂直,perpendicolare,perpendicular,перпендикуляр,κάθετος,vinkelret
+perspicuous,形容詞,明快に,perspicuous,perspicuous,该明了,perspicuo,perspicuo,проницательный,διαυγής,perspektiv
+phenomenon,名詞,現象,phénomène,Phänomen,现象,fenomeno,fenómeno,явление,φαινόμενο,fænomen
+phrase,名詞,句,la phrase,Satz,词组,frase,frase,фраза,φράση,udtryk
+pointing,名詞,指し示している点,pointage,Zeige,指点,puntato,apuntado,указание,στίξη,peger
+pole,名詞,極,pôle,Pol,极,palo,polo,столб,Πόλος,pol
+positive,形容詞,正の,positif,Positive,正,positivo,positivo,положительный,θετικός,positiv
+possibility,名詞,可能性,la possibilité,Möglichkeit,可能性,possibilità,posibilidad,возможность,δυνατότητα,mulighed
+potential,形容詞,潜在的な,potentiel,Potenzial,潜力,potenziale,potencial,потенциал,δυνητικός,potentiel
+practical,形容詞,実用的、現実的,la pratique,praktische,实际,pratico,práctico,практичный,πρακτικός,praktisk
+precede,動詞,先んずる,la précéder,precede,在上一页,precedere,preceder,предшествующий,προηγούμαι,gå forud
+precise,形容詞,精密な,la précision,genaue,精确,preciso,preciso,точный,ακριβής,præcis
+prepare,動詞,準備する,préparer la,Vorbereitung,在准备,preparare,preparar,подготовить,προετοιμάζω,forberede
+presentation,名詞,議論,la présentation,Präsentation,演示,presentazione,presentación,презентация,παρουσίαση,præsentation
+previous,形容詞,前の,la précédente,Vorherige,以前的,precedente,anterior,предыдущий,προηγούμενος,Tidligere
+previously,副詞,前に,précédemment,zuvor,以前,in precedenza,previamente,ранее,προηγουμένως,tidligere
+problem,名詞,問題,problème,Problem,问题,problema,problema,проблема,πρόβλημα,problem
+product,名詞,積 (数学),produit,Produkt,产品,Prodotto,producto,товар,προϊόν,produkt
+propagating,動詞 (現在分詞),伝播,la propagation,sich ausbreitende,传播,propagare,propagador,распространение,πολλαπλασιασμός,udbredende
+propagation,名詞,伝播,la propagation,Ausbreitungs,传播,propagazione,propagación,распространение,διάδοση,Formering
+proximity,名詞,近接,la proximité,Nähe,接近,prossimità,proximidad,близость,εγγύτητα,nærhed
+purport,名詞,趣旨、意味,la portée,purport,主旨,pretentuare,significado,промежуточный,σκοπός,Purport
+purpose,名詞,目的,but,Absicht,目的,scopo,objetivo,цель,σκοπός,formål
+put,動詞,置く,la vente,Verkauf,认沽,mettere,poner,помещать,βάζω,sætte
+qualify,動詞,資格を与える,qualifier,qualifizieren,该资格,qualifica,calificar,квалифицировать,έχω τα προσόντα,kvalificere
+question,名詞,質問,la question,Frage,问题,domanda,pregunta,вопрос,ερώτηση,spørgsmål
+quite,副詞,かなり,tout,ganz,相当,piuttosto,bastante,довольно,αρκετά,temmelig
+raise,動詞,上げる,l'augmentation,Erhöhung,加薪,aumentare,elevar,поднимать,υψώνω,hæve
+rapidly,副詞,すばやく,rapide,schnell,迅速,rapidamente,rápidamente,быстро,ταχέως,hurtigt
+rate,名詞,割合,taux,Rate,比率,Vota,Velocidad,оценивать,τιμή,sats
+rather,副詞,かなり、むしろ,lieu,eher,相当,piuttosto,bastante,скорее,μάλλον,hellere
+reach,動詞,到達する,la portée,Reichweite,覆盖面,portata,alcanzar,достигать,φθάνω,nå
+reach,動詞,届く,la portée,Reichweite,覆盖面,portata,alcanzar,достигать,φθάνω,nå
+reduce,動詞,減る,Réduc,Verringerung,在减少,ridurre,reducir,уменьшать,περιορίζω,reducere
+reflector,名詞,反射するもの,réflecteur,Reflektor,反射器,riflettore,reflector,отражатель,κάτοπτρο,Reflektor
+reflexion,名詞,反射,la réflexion,Reflexion,该反思,riflessione,reflexión,отражение,αντανάκλαση,refleksion
+regard,動詞,みなす,la matière,Bezug,在考虑,considerare,respecto,внимание,σχέση,betragtning
+remarkable,形容詞,顕著な,remarquable,bemerkenswerte,显着,notevole,Notable,замечательный,αξιοσημείωτος,bemærkelsesværdig
+remote,形容詞,遠くの,la télécommande,Fernbedienung,遥控器,a distanza,remoto,удаленный,μακρινός,fjern
+remove,動詞,削除する,retirer,entfernen,去除,rimuovere,para eliminar,удалять,για να αφαιρέσετε,at fjerne
+render,動詞,与える,rendu,machen,渲染,rendere,prestar,оказывать,καθιστώ,Render
+reproduce,動詞,再現する,reproduire,reproduce,为重放,riprodurre,reproducir,воспроизводить,αναπαράγω,reproducere
+require,動詞,要求する,l'exigent,erforderlich,的要求,richiedere,requerir,требовать,απαιτώ,kræve
+requisite,形容詞,必要な,la condition,erforderliche,必要,Requisito,requisito,реквизит,απαιτούμενο,krævet
+resemble,動詞,似ている,ressemblent,gleichen,在像,assomigliare,parecerse,напоминать,μοιάζω,ligne
+restriction,名詞,制限,la restriction,Beschränkung,限制,restrizione,restricción,ограничение,περιορισμός,begrænsning
+resultant,形容詞,結果として生じる,la résultante,sich ergeb,得到的,risultante,resultante,результирующий,επακόλουθο,resulterende
+return,動詞,戻る,retour,Rückkehr,回报,Restituzione,devolver,возвращаться,ΕΠΙΣΤΡΟΦΗ,Vend tilbage
+revolution,名詞,回転,la révolution,Revolution,革命,rivoluzione,revolución,революция,επανάσταση,revolution
+rise,名詞,上がり,la hausse,Aufgang,崛起,salita,elevar,подниматься,αύξηση,stige
+root,名詞,根、根源、平方根,la racine,Ursprung,根,radice,raíz,корень,ρίζα,rod
+rule,名詞,規則,la règle,Regel,规则,regola,regla,правило,κανόνας,Herske
+satisfy,動詞,満たす,satisfaire,satisfy,在满足,soddisfare,satisfacer,удовлетворять,ικανοποιώ,tilfredsstille
+seat,名詞,シート,siège,Sitz,这个座位;专座;席位,posto a sedere,asiento,сиденье,έδρα,sæde
+sentence,名詞,文,la phrase,Satz,这句话,frase,frase,приговор,πρόταση,dømme
+sequel,名詞,続き,la suite,Fortsetzung,续集,Continuazione,continuación,продолжение,η συνέχεια,efterfølger
+settle,動詞,決める,Settle,settle,在落户,fissare,asentarse,решить,εγκαθιστώ,Sæt dig
+several,形容詞,いくつかの,les divers,mehr,几个,parecchi,varios,несколько,αρκετά,flere
+sharp,形容詞,鋭い,la forte,scharfe,锐,affilato,agudo,острый,αιχμηρός,skarp
+shorten,動詞,短縮する,Raccourcir,shorten,在缩短,accorciare,acortar,сокращать,βραχύνω,forkort
+should,助動詞,,devrait,sollte,在应,dovrebbe,debería,должен,πρέπει,skulle gerne
+show,動詞,示す,spectacle,Show,演出,mostrare,mostrar,показывать,προβολή,at vise
+shrivel,動詞,しぼむ,ratatiner,shrivel,该枯萎,avvizzire,marchitar,сжимать,ζαρώνω,Shrivel
+side,名詞,側,côté,Seite,旁边,lato,lado,сторона,πλευρά,side
+similar,形容詞,同様の,la même,ähnlich,类似,simile,similar,похожий,παρόμοιος,lignende
+similarly,副詞,同様に,De même la,in ähnlicher Weise,同样的,Allo stesso modo,similar,по аналогии,ομοίως,Tilsvarende
+simultaneously,副詞,同時に,même temps,gleichzeitig,同时该,contemporaneamente,simultaneamente,одновременно,ΤΑΥΤΟΧΡΟΝΑ,samtidigt
+solve,動詞,解決する,la solution,lösen,求解,risolvere,resolver,решать,λύσει,løse
+something,名詞,何か,quelque chose,etwas,的东西,qualche cosa,alguna cosa,что-нибудь,κάτι,noget
+sort,名詞,種類,genre,Art,排序,ordinare,clasificar,Сортировать,είδος,sortere
+sources,名詞 (複数形),ソース,les sources,Quellen,来源,fonti,fuentes,источники,πηγές,kilder
+special,形容詞,特殊な,spécial,Sonderangebot,特殊,speciale,especial,специальный,ειδικός,særlig
+specify,動詞,指定する,préciser,angeben,在指定,specificare,especificar,указать,προσδιορίζω,Angiv
+speed,名詞,速度,la vitesse,Geschwindigkeit,速度,velocità,velocidad,скорость,Ταχύτητα,hastighed
+spring,名詞,ばね,printemps,Frühling,春天,molla,primavera,весна,άνοιξη,forår
+standard,名詞,標準,standard,Standard,标准,standard,estándar,стандартный,πρότυπο,standard
+standpoint,名詞,位置,point de vue,Standpunkt,的观点,punto di vista,punto de vista,точка зрения,άποψη,synspunkt
+stated,動詞 (過去分詞),述べました,dit,angegebenen,该声明,ha dichiarato,fijado,заявлено,δηλωθείς,angivet
+status,名詞,状態,statut,Status,状态,stato,estado,статус,κατάσταση,status
+strong,形容詞,強い,fort,starke,强,forte,fuerte,сильный,ισχυρός,stærk
+subsequent,形容詞,後の,la suite,anschließende,随后,successivo,subsecuente,последующий,μεταγενέστερος,efterfølgende
+suffice,動詞,十分である,l'suffisent,suffice,该足矣,Basti,satisfacer,достаточно,επαρκώ,tilstrækkeligt
+sufficient,形容詞,十分な,suffisant,ausreichend,充分,sufficiente,suficiente,достаточный,επαρκής,tilstrækkelig
+suggestion,名詞,提案,la suggestion,Vorschlag,建议,suggerimento,sugerencia,предложение,πρόταση,forslag
+summary,名詞,概要,résumé,Zusammenfassung,摘要,riepilogo,resumen,резюме,περίληψη,Resumé
+superfluous,形容詞,余分な,superflu,überflüssig,多余的,superfluo,superfluo,лишний,περιττός,overflødig
+superpose,動詞,重ね合わせる,superposer,superpose,在叠加,sovrappongo,superpuesto,суперпонъект,επιθέτω,Superpose
+symmetrical,形容詞,対称の,symétrique,symmetrische,对称,simmetrico,simétrico,симметричный,συμμετρικός,Symmetrisk
+synchronism,名詞,同期,synchronisme,Synchronität,同步性,sincronismo,sincronismo,синхронизм,συγχρονισμός,Synkronisme
+synchronization,名詞,同期,la synchronisation,Synchronisation,同步,sincronizzazione,sincronización,синхронизация,συγχρονισμός,Synkronisering
+tacitly,副詞,暗に,l'tacite,stillschweigend,在默认,tacitamente,tácitamente,молчаливо,σιωπηλός,Stiltiende
+task,名詞,仕事,la tâche,Aufgabe,任务,compito,tarea,задача,έργο,opgave
+term,名詞,項,terme,Begriff,期限,termine,término,срок,όρος,semester
+terms,名詞 (複数形),-> term,les termes,Begriffe,条款,termini,términos,условия,όροι,vilkår
+test,動詞,テストする,test,Test,考试,test,prueba,тест,δοκιμή,prøve
+tested,動詞 (過去分詞),-> test,test,getestet,测试,testato,probado,протестирован,δοκιμασμένος,testet
+themselves,代名詞,自分自身,eux-mêmes,sich,在自己,loro stessi,ellos mismos,сами себя,τους εαυτούς τους,dem selv
+theorem,名詞,定理,théorème,Satz,定理,teorema,teorema,Теорема,θεώρημα,sætning
+therefrom,副詞,そこから,ci,daraus,由此将,esso,de eso,Поэтому,εκ τούτου,derfra
+thereof,副詞,その,de celui-ci,davon,其在,di ciò,del mismo,это,τούτου,deraf
+thereto,副詞,これに,l'y,daran,其在,ad esso,al mismo,это,εκεί,dertil
+third,名詞、形容詞,三番,troisième,dritte,第三,Terzo,tercera,в третьих,τρίτος,tredje
+thought,名詞,思想 -> think,la pensée,Gedanke,那个想法,pensiero,pensamiento,мысль,σκέψη,tanke
+towards,前置詞,向かって,la direction,Richtung,在对,verso qualcosa,hacia,в направлении,προς,hen imod
+translate,動詞,翻訳する,traduire,übersetzen,该翻译,tradurre,traducir,перевести,μεταφράζω,Oversætte
+traverse,動詞,横切る,la traverse,Traverse,遍历,attraversare,atravesar,проезд,διασχίζω,Traverse
+twofold,形容詞,二倍の,double,zweifache,双重,duplice,doble,двойной,διπλάσιος,todelt
+type,名詞,タイプ,type,Typ,方式,genere,escribe,тип,τύπος,type
+undergo,動詞,経験する,subir,unterziehen,在经历,subire,someterse,проходить,υφίσταμαι,gennemgå
+understand,動詞,わかる,la comprendre,verstehen,的理解,comprendere,comprender,понять,καταλαβαίνουν,forstå
+unipolar,形容詞,単極の,unipolaires,unipolare,单极,unipolare,unipolar,Unipolar,μονοπολικός,unipolar
+universal,形容詞,普遍的な,l'universel,universelle,通用,universale,universal,универсальный,Παγκόσμιος,universel
+universally,副詞,普遍的に,l'universel,allgemeinhin,普遍,universalmente,universalmente,универсально,καθολικά,universelt
+unsuccessful,形容詞,不成功な,l'échec,unterliegende,不成功,senza esito,fracasado,безуспешно,ανεπιτυχής,mislykket
+until,前置詞,まで,UNTIL,bis,在直到,Fino a,Hasta que,до того как,μέχρι,så længe
+usually,副詞,通常,plus souvent,in der Regel,平时,Generalmente,normalmente,обычно,συνήθως,som regel
+valuable,形容詞,貴重な,la valeur,wertvolle,有价值的,prezioso,valioso,ценный,πολύτιμος,værdifuld
+variety,名詞,多様性,la variété,Vielfalt,品种,varietà,variedad,разнообразие,ποικιλία,bred vifte
+vary,動詞,変わる,la varient,variieren,的变化,variare,variar,отличаться,ποικίλλω,variere
+vector-product,名詞,ベクトル積,vecteur-produit,Vektor-Produkt,向量积,prodotto vettoriale,vector productora,векторный продукт,διανυσματικό προϊόν,Vector-produkt
+verbally,副詞,言葉で,verbalement la,verbal,在口头上,verbalmente,verbalmente,устно,προφορικά,verbalt
+version,名詞,版,la version,Version,版本,versione,versión,версия,εκδοχή,version
+wave-normal,名詞,波面の法線,l'onde normale,Wellen normalen,波法线,onda-normale,ola normal,волновой нормальный,κανονικός κύματος,bølge-normal
+wave-train,名詞,波,train d'ondes,Wellenzug,在波列,tratto d'onda,trenza de onda,волновой пост,κυματοδόχοι,Bølgetog
+ways,名詞 (複数形),-> way,les chemins,Wege,道路,modi,maneras,Пути,τρόποι,måder
+whence,疑問副詞,どこから,où le,von wo aus,在那里,da dove,De dónde,откуда,από πού,hvorfra
+while,接続詞,と同時に,tout,Während,在同时,mentre,tiempo,пока,ενώ,mens
+whole,形容詞,全体,la totalité,Ganze,整体,totale,entero,весь,ολόκληρος,hel
+word,名詞,言葉、単語,mot,Wort,这个单词,parola,palabra,слово,λέξη,ord
+worthy,形容詞,価値がある,digne,würdigen,当之无愧,degno,valioso,достойный,άξιος,værdig
+write,動詞,書く,l'écrit,Schreib,写,scrivere,escribe,записывать,γράφω,skrive
+reflect,動詞,反映する、反射する,reflet,reflektieren,在反映,riflettere,reflejar,отражать,κατοπτρίζω,afspejle
