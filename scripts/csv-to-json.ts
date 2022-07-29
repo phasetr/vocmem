@@ -14,7 +14,7 @@ function csvToJson(csv: string, write: string) {
     const a = s.split(",");
     data.push({ru: a[0], en: a[1], roman: a[2]});
   })
-  fs.writeFileSync(write, "export const memWords = " + JSON.stringify({data: data}))
+  fs.writeFileSync(write, "export const memWords = " + JSON.stringify({data: data}).replace(/},/ig, "},\n"))
   return data;
 }
 
