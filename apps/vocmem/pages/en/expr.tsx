@@ -1,9 +1,7 @@
 import {Box} from "@mui/material";
 import {SyntheticEvent, useEffect, useState} from "react";
-import {AppSett, Controllers, Main, SavedWords} from "@vocmem/ui";
+import {AppSett, Controllers, Expression, ExpressionInfo, Main, SavedWords} from "@vocmem/ui";
 import {enExprData} from "@vocmem/data";
-import Expression from "../../components/expression";
-import ExpressionInfo from "../../components/expression-info";
 
 export function Expr() {
   const allWords = enExprData;

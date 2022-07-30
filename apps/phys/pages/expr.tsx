@@ -27,12 +27,12 @@ export function Expr() {
 
   return (
     <Main>
-      <Box component="h1">鑑賞</Box>
+      <Box component="h1">鑑賞: 全{maxLength}枚</Box>
       <Box sx={{margin: `${marginPx} 0`, display: 'flex', justifyContent: 'space-between'}}>
         <Button sx={{width: "20px"}} variant="text" onClick={handleBefore}><NavigateBeforeIcon/></Button>
         <Button variant="text" onClick={handleNext}><NavigateNextIcon/></Button>
       </Box>
-      <Box component="h2">{data[targetId].title}</Box>
+      <Box component="h2">{targetId+1}. {data[targetId].title}</Box>
       <BlockMath sx={{minHeight: "300px"}}>{data[targetId].expression}</BlockMath>
 
       <Accordion>
@@ -41,10 +41,10 @@ export function Expr() {
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography>解説</Typography>
+          <Typography sx={{fontFamily: "serif"}}>解説</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>{data[targetId].commentary}</Typography>
+          <Typography sx={{fontFamily: "serif"}}>{data[targetId].commentary}</Typography>
         </AccordionDetails>
       </Accordion>
     </Main>

@@ -1,7 +1,6 @@
 import {Box} from "@mui/material";
 import {SyntheticEvent, useEffect, useState} from "react";
-import RuProblem from "../../components/ru-problem";
-import {AppSett, Controllers, Main, SavedWords, WordInfo} from "@vocmem/ui";
+import {AppSett, Controllers, Main, RuProblem, SavedWords, WordInfo} from "@vocmem/ui";
 import {memWords} from "@vocmem/data";
 
 export function MemWords() {

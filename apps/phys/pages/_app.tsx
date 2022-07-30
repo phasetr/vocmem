@@ -7,7 +7,7 @@ function CustomApp({Component, pageProps}: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to phys!</title>
+        <title>物理学ギャラリー</title>
       </Head>
       <Box component="main" className="app" sx={{margin: `0 ${marginPx}`, fontFamily: "serif"}}>
         <Component {...pageProps} />

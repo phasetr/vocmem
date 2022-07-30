@@ -1,7 +1,7 @@
 import {Box, Button, Card, CardActions, CardContent, Typography} from "@mui/material";
 import {useState} from "react";
 import {marginPx, muiBreakPoints} from "@vocmem/data";
-import {useGetWindowSize} from "../utils/get-window-size";
+import {useGetWindowSize} from "./get-window-size";
 
 export type RuProblemType = {
   id: number,

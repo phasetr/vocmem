@@ -1,4 +1,4 @@
-import {frAlphabets} from "./fr-alphabets";
+import {frAlphabets} from "../data/fr-alphabets";
 
 export function convertFromNative(lang: string, inputText: string): string {
   let input: string[] = [];
@@ -20,7 +20,7 @@ export function convertFromNative(lang: string, inputText: string): string {
   return acc.join("");
 }
 
-export function convertToNative(lang, inputText){
+export function convertToNative(lang: string, inputText: string) {
   let strFrag, strFrags;
   let converted = "";
   let pos = 0;

@@ -1,4 +1,4 @@
-import {cyrillicToRomanConverter, romanToCyrillicConverter} from "./ru-alphabets";
+import {cyrillicToRomanConverter, romanToCyrillicConverter} from "@vocmem/data";
 
 export function convertCyrillicToRoman(inputText: string): string {
   const acc = [];

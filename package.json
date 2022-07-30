@@ -5,10 +5,11 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
+    "build:data": "ts-node scripts/csv-to-json.ts",
     "build:phys": "nx run-many --target=build --projects=phys --parallel=true",
+    "build:vocmem": "nx run-many --target=build --projects=vocmem --parallel=true",
     "test": "nx test",
-    "dev": "yarn nx run-many --target=serve --projects=vocmem,phys --maxParallel=3 --parallel=true",
-    "build:data": "ts-node scripts/csv-to-json.ts"
+    "dev": "yarn nx run-many --target=serve --projects=vocmem,phys --maxParallel=3 --parallel=true"
   },
   "private": true,
   "dependencies": {

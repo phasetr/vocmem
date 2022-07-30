@@ -1,16 +1,18 @@
 import {Box, Button, TextField, Tooltip} from "@mui/material";
 import {useState} from "react";
 import {Main} from "@vocmem/ui";
-import {maxWidth} from "@vocmem/data";
+import {
+  convertRomanToCyrillic,
+  cyrillicToRomanConverter,
+  maxWidth,
+  muiBreakPoints,
+  useGetWindowSize
+} from "@vocmem/data";
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, {SelectChangeEvent} from '@mui/material/Select';
-import {convertRomanToCyrillic} from "../../utils/ru-converter";
-import {useGetWindowSize} from "../../utils/get-window-size";
-import {muiBreakPoints} from "@vocmem/data";
 import HelpIcon from '@mui/icons-material/Help';
-import {cyrillicToRomanConverter} from "../../utils/ru-alphabets";
 
 export function Search() {
   const width = ((obj) => obj.width)(useGetWindowSize());
@@ -170,7 +172,7 @@ export function Search() {
       </Box>
 
       <Box component="div" sx={{margin: "10px 0", display: "flex", justifyContent: "center"}}>
-        <iframe src={src} height="240px" width="100%" style={{maxWidth: "100%"}} sandbox="" />
+        <iframe src={src} height="240px" width="100%" style={{maxWidth: "100%"}} sandbox=""/>
       </Box>
     </Main>
   );
