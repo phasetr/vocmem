@@ -1,7 +1,7 @@
 import {Autocomplete, TextField} from "@mui/material";
-import {marginPx, maxWidth} from "../constants/styles";
+import {marginPx, maxWidth} from "@vocmem/data";
 
-export function SelectBlock({allBlocks, handleSelect}){
+export function SelectBlock({allBlocks, handleSelect}) {
   return <Autocomplete
     disablePortal
     id="block"
@@ -13,4 +13,5 @@ export function SelectBlock({allBlocks, handleSelect}){
     renderInput={(params) => <TextField {...params} label="ブロック指定"/>}
   />
 }
+
 export default SelectBlock;

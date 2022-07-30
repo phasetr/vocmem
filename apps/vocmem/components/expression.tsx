@@ -1,6 +1,5 @@
 import {Card, CardContent, List, ListItem, Typography} from "@mui/material";
-import {marginPx} from "../constants/styles";
-import {ExprData, ExprExample} from "../data/types";
+import {ExprData, ExprExample, marginPx} from "@vocmem/data";
 import TranslateIcon from '@mui/icons-material/Translate';
 import {Fragment} from "react";
 

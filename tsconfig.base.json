@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@vocmem/data": ["libs/data/src/index.ts"]
+      "@vocmem/data": ["libs/data/src/index.ts"],
+      "@vocmem/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

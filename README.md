@@ -7,6 +7,13 @@ yarn create nx-workspace
 yarn add @mui/material @emotion/react @emotion/styled @mui/styled-engine-sc styled-components
 ```
 
+## build(正確にはexport)
+
+```shell
+nx export phys --prod
+# `npx http-server dist/apps/phys/exported`で起動: これをリリースする
+```
+
 ## `Vercel`の設定
 
 - `Settings`タブを開く

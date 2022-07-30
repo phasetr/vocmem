@@ -1,4 +1,6 @@
 import * as fs from 'fs';
+import {createReadStream} from 'fs';
+import {parse} from "csv-parse";
 
 type RuWordData = {
   ru: string,
@@ -18,8 +20,23 @@ function csvToJson(csv: string, write: string) {
   return data;
 }
 
-function ru() {
-  csvToJson("scripts/ru.csv", 'libs/data/src/data/ru.ts');
+type MathExprData = { title: string, expression: string, commentary: string };
+
+function mathExprCsvToJson(csvFileName: string, writeFileName: string) {
+  const data: MathExprData[] = [];
+  createReadStream(csvFileName)
+    .pipe(parse({delimiter: ",", from_line: 2}))
+    .on("data", (row) => {
+      data.push({title: row[1], expression: row[2], commentary: row[3]});
+    })
+    .on("end", () => {
+      fs.writeFileSync(writeFileName, "export const physExprData = " + JSON.stringify({data: data}).replace(/},/ig, "},\n"));
+    });
 }
 
-ru()
+function main() {
+  csvToJson("scripts/ru.csv", 'libs/data/src/data/ru.ts');
+  mathExprCsvToJson("scripts/phys-exprs.csv", "libs/data/src/data/phys-exprs.ts");
+}
+
+main()

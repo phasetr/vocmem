@@ -1,10 +1,7 @@
 import {Box} from "@mui/material";
 import {SyntheticEvent, useEffect, useState} from "react";
-import Main from "../../components/main";
-import AppSett from "../../components/app-sett";
-import Controllers from "../../components/controllers";
-import SavedWords from "../../components/saved-words";
-import {enExprData} from "../../data/en/expr";
+import {AppSett, Controllers, Main, SavedWords} from "@vocmem/ui";
+import {enExprData} from "@vocmem/data";
 import Expression from "../../components/expression";
 import ExpressionInfo from "../../components/expression-info";
 

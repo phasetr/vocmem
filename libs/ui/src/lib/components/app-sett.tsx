@@ -38,5 +38,4 @@ export function AppSett(
     </AccordionDetails>
   </Accordion>);
 }
-
 export default AppSett;

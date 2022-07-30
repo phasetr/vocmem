@@ -7,7 +7,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import {cyrillicToRomanConverter} from "../../utils/ru-alphabets";
-import Main from "../../components/main";
+import {Main} from "@vocmem/ui";
 
 export function CompTable() {
   const cs = cyrillicToRomanConverter.cyrillics;

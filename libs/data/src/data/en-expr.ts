@@ -1,4 +1,4 @@
-import {ExprData} from "../types";
+import {ExprData} from "./types";
 
 export const enExprData: ExprData[] = [
   {

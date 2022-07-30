@@ -10,7 +10,7 @@ import {
   ListItemText,
   Typography
 } from "@mui/material";
-import Main from "../components/main";
+import {Main} from "@vocmem/ui";
 import {SyntheticEvent, useState} from "react";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import BookIcon from '@mui/icons-material/Book';
@@ -29,9 +29,11 @@ const languages: LangType[] = [
   {
     lang: "Misc", data: [
       {to: "misc/search", text: "一括検索"},
-      {to: "misc/math-expr", text: "サンプル：いろいろな式"},
       {to: "https://www.google.com/inputtools/try/", text: "外部リンク：Google入力ツール"},
-      {to: "https://docs.google.com/spreadsheets/d/1aL3mw_I4_sSdnW7LarP_3BwlpR9lc5Fub9QA8XIVV6M/edit#gid=92137165", text: "外部リンク：Google翻訳による簡易多言語翻訳"},
+      {
+        to: "https://docs.google.com/spreadsheets/d/1aL3mw_I4_sSdnW7LarP_3BwlpR9lc5Fub9QA8XIVV6M/edit#gid=92137165",
+        text: "外部リンク：Google翻訳による簡易多言語翻訳"
+      },
       {to: "https://phasetr.com/archive/fc/lang", text: "外部リンク：phasetr.com 語学情報"}
     ]
   },

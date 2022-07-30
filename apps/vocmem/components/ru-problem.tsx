@@ -1,7 +1,6 @@
 import {Box, Button, Card, CardActions, CardContent, Typography} from "@mui/material";
 import {useState} from "react";
-import {marginPx} from "../constants/styles";
-import muiBreakPoints from "../constants/mui-break-points";
+import {marginPx, muiBreakPoints} from "@vocmem/data";
 import {useGetWindowSize} from "../utils/get-window-size";
 
 export type RuProblemType = {
@@ -42,7 +41,7 @@ export function RuProblem({ru, en}) {
         </Box>
       </CardActions>
       <Box component="div" sx={{display: "flex", justifyContent: "center"}}>
-        <iframe src={src} height={src ? 300 : 0} style={{width: "100%"}} sandbox="" />
+        <iframe src={src} height={src ? 300 : 0} style={{width: "100%"}} sandbox=""/>
       </Box>
     </Card>)
 }

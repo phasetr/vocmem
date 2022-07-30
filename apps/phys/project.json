@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/vocmem",
+  "sourceRoot": "apps/phys",
   "projectType": "application",
   "targets": {
     "build": {
@@ -8,12 +8,12 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "root": "apps/vocmem",
-        "outputPath": "dist/apps/vocmem"
+        "root": "apps/phys",
+        "outputPath": "dist/apps/phys"
       },
       "configurations": {
         "development": {
-          "outputPath": "tmp/apps/vocmem"
+          "outputPath": "tmp/apps/phys"
         },
         "production": {}
       }
@@ -22,17 +22,17 @@
       "executor": "@nrwl/next:server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "vocmem:build",
+        "buildTarget": "phys:build",
         "dev": true,
-        "port": 5000
+        "port": 5001
       },
       "configurations": {
         "development": {
-          "buildTarget": "vocmem:build:development",
+          "buildTarget": "phys:build:development",
           "dev": true
         },
         "production": {
-          "buildTarget": "vocmem:build:production",
+          "buildTarget": "phys:build:production",
           "dev": false
         }
       }
@@ -40,14 +40,14 @@
     "export": {
       "executor": "@nrwl/next:export",
       "options": {
-        "buildTarget": "vocmem:build:production"
+        "buildTarget": "phys:build:production"
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/apps/vocmem"],
+      "outputs": ["coverage/apps/phys"],
       "options": {
-        "jestConfig": "apps/vocmem/jest.config.ts",
+        "jestConfig": "apps/phys/jest.config.ts",
         "passWithNoTests": true
       }
     },
@@ -55,7 +55,7 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["apps/vocmem/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["apps/phys/**/*.{ts,tsx,js,jsx}"]
       }
     }
   },

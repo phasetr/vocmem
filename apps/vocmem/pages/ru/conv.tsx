@@ -1,7 +1,7 @@
 import {Box, Button, TextareaAutosize} from "@mui/material";
-import {marginPx, maxWidth} from "../../constants/styles";
+import {marginPx, maxWidth} from "@vocmem/data";
 import {ChangeEvent, useState} from "react";
-import Main from "../../components/main";
+import {Main} from "@vocmem/ui";
 import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';

@@ -73,5 +73,4 @@ export function Main(props) {
     </Box>
   );
 }
-
 export default Main;

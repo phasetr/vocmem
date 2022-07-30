@@ -1,5 +1,5 @@
 import {Accordion, AccordionDetails, AccordionSummary, Button, Typography} from "@mui/material";
-import {marginPx} from "../constants/styles";
+import {marginPx} from "@vocmem/data";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import DeleteIcon from '@mui/icons-material/Delete';
 
@@ -43,4 +43,3 @@ export function SavedWords(
 }
 
 export default SavedWords;
-
