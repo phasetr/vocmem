@@ -9,6 +9,15 @@ yarn add @mui/material @emotion/react @emotion/styled @mui/styled-engine-sc styl
 
 ## build(正確にはexport)
 
+- [設定](https://pgmemo.tokyo/data/archives/2127.html): `next.config.js`に設定
+
+```js
+module.exports = {
+  reactStrictMode: true,
+  trailingSlash: true,
+}
+```
+
 ```shell
 nx export phys --prod
 # `npx http-server dist/apps/phys/exported`で起動: これをリリースする

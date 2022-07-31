@@ -4,3 +4,5 @@ title,expression,commentary
 "相対性理論","相対性理論でのローレンツ変換","\begin{aligned}x' &= \frac{x-vt}{\sqrt{1 - \frac{v^2}{c^2}}}, \\ y' &= y, \\ z' &= z, \\ t' &= \frac{ct- \frac{v}{c}x}{\sqrt{1 - \frac{v^2}{c^2}}}.\end{aligned}","四次元時空座標の変換."
 "相対性理論","アインシュタインの公式","E=mc^2","誰もが知る質量とエネルギーの等価性."
 "相対性理論","時空の計量","\begin{aligned}c^2 d \tau^2 &= \sum_{\mu,\nu=1}^4 g_{\mu,\nu}(x) dx^{\mu} dx^{\nu} \\ &= g_{\mu,\nu}(x) dx^{\mu} dx^{\nu}\end{aligned}","一般相対性理論での基本的な概念."
+"相対性理論","測地線の方程式","\begin{aligned}\frac{d^2 x^{\mu}}{d \tau^2} + \Gamma^{\mu}_{\nu \sigma} \frac{dx^{\nu}}{d \tau} \frac{dx^{\sigma}}{d \tau} = 0.\end{aligned}","一般相対性理論での自由落下を記述する方程式. 一般論は微分幾何で."
+"相対性理論","アインシュタイン方程式","\begin{aligned}R^{\mu \nu}(x) - \frac{1}{2}R(x) g^{\mu \nu}(x) = \kappa T^{\mu \nu}(x).\end{aligned}","計量テンソルの決定方程式."

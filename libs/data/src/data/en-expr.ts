@@ -55,5 +55,27 @@ export const enExprData: ExprData[] = [
         orig: "A: I've been broke since I bought a new laptop computer. B: Oh, that's the reason why you've been bringing your lunch from home recently.",
         ja: "「新しいノートパソコンを買ってからお金がないんだ. B: ああ, だから最近家からお昼持ってきてるんだ."
       }]
+  },
+  {
+    expr: "covet", translation: "切望する",
+    examples: [
+      {orig: "He got the coveted job as a chef in the famous restaurant.", ja: "彼は切望していた, 有名レストランでのシェフとしての職を手に入れた."},
+      {orig: "That is the most coveted award for singers.", ja: "「その賞は歌手が最も切望する賞だ」"}
+    ]
+  },
+  {
+    expr: "got it", translation: "わかった",
+    examples: [{
+      orig: "A: I'll be back around 3pm.  Make sure to finish your homework by then. B: Got it.",
+      ja: "A: 3時頃に戻るからそれまでに宿題を終わらせておいてね. B: わかったよ."
+    }]
+  },
+  {expr: "Don't worry about it.", translation: "適当でいいよ.", examples: []},
+  {expr: "Don't work too hard.", translation: "ほどほどにね.", examples: []},
+  {expr: "Let's wing it!", translation: "適当でいいんじゃない.", examples: []},
+  {
+    expr: "unsettled", translation: "落ち着かない", examples: [
+      {orig: "Children often feel unsettled when their parents argue.", ja: "両親が言い争いをしていると子供は不穏になりがちだ."},
+      {orig: "Those rumors were unsettling for us..", ja: "その噂で不穏な気持ちになった."}]
   }
 ];

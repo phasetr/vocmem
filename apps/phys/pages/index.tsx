@@ -3,22 +3,30 @@ import {Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText} from "@
 import BookIcon from '@mui/icons-material/Book';
 import Link from "next/link";
 
+type DataType = { href: string, primary: string };
+const data: DataType[] = [
+  {href: "/expr", primary: "鑑賞"},
+  {href: "/quote", primary: "【作成中】物理学者の名言"}
+]
+
 export function Index() {
   return (
     <Main>
       <Box component="h1">物理学ギャラリー</Box>
       <Box component="h2">方程式とともに</Box>
       <List>
-        <Link href="/expr">
-          <ListItem>
-            <ListItemButton>
-              <ListItemIcon>
-                <BookIcon/>
-              </ListItemIcon>
-              <ListItemText primary="鑑賞"/>
-            </ListItemButton>
-          </ListItem>
-        </Link>
+        {data.map(({href, primary}: DataType) => (
+          <Link href={href} key={href}>
+            <ListItem>
+              <ListItemButton>
+                <ListItemIcon>
+                  <BookIcon/>
+                </ListItemIcon>
+                <ListItemText primary={primary}/>
+              </ListItemButton>
+            </ListItem>
+          </Link>
+        ))}
       </List>
     </Main>
   );

@@ -1,8 +1,8 @@
 {
   "name": "Gallery for Physics",
-  "short_name": "vocmem",
-  "description": "Vocabulary Memorization Application for Several Languages",
-  "start_url": "/",
+  "short_name": "gallery-phys",
+  "description": "物理学ギャラリー. 基礎方程式や物理学者明言集を収録.",
+  "start_url": "/service/phys-gallery",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#fff",
@@ -10,7 +10,7 @@
   "dir": "itr",
   "icons": [
     {
-      "src": "/android-chrome-192x192.png",
+      "src": "service/phys-gallery/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     }
