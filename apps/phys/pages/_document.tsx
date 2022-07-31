@@ -3,9 +3,8 @@ import Document, {Head, Html, Main, NextScript} from "next/document";
 class MyDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="ja">
         <Head>
-          <title>物理学ギャラリー</title>
           <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico"/>
           <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico"/>
           <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png"/>

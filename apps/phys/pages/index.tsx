@@ -6,7 +6,8 @@ import Link from "next/link";
 type DataType = { href: string, primary: string };
 const data: DataType[] = [
   {href: "/expr", primary: "鑑賞"},
-  {href: "/quote", primary: "【作成中】物理学者の名言"}
+  {href: "/quote", primary: "【作成中】物理学者の名言"},
+  {href: "https://phasetr.com/archive", primary: "外部リンク：相転移プロダクション"}
 ]
 
 export function Index() {
