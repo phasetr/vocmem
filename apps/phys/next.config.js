@@ -3,6 +3,9 @@ const withNx = require('@nrwl/next/plugins/with-nx');
 const withPWA = require("next-pwa");
 const runtimeCaching = require("next-pwa/cache");
 
+const SUB_DIRECTORY = "/service/phys-gallery";
+const isProd = process.env.NODE_ENV === "production";
+
 /**
  * @type {import('@nrwl/next/plugins/with-nx').WithNxOptions}
  * @type {import('next').NextConfig}
@@ -20,12 +23,12 @@ const nextConfig = {
 module.exports = withNx(nextConfig);
 module.exports = withPWA({
   pwa: {
-    disable: process.env.NODE_ENV !== 'production',
+    disable: !isProd,
     dest: "public",
     register: true,
     skipWaiting: true,
     runtimeCaching
   },
-  assetPrefix: "/service/phys-gallery",
-  basePath: "/service/phys-gallery"
+  assetPrefix: isProd ? SUB_DIRECTORY : "",
+  basePath: isProd ? SUB_DIRECTORY : ""
 });
