@@ -1,13 +1,7 @@
 import {Box, Button, TextField, Tooltip} from "@mui/material";
 import {useState} from "react";
-import {Main} from "@vocmem/ui";
-import {
-  convertRomanToCyrillic,
-  cyrillicToRomanConverter,
-  maxWidth,
-  muiBreakPoints,
-  useGetWindowSize
-} from "@vocmem/data";
+import {Main, useGetWindowSize} from "@vocmem/ui";
+import {convertRomanToCyrillic, cyrillicToRomanConverter, maxWidth, muiBreakPoints} from "@vocmem/data";
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';

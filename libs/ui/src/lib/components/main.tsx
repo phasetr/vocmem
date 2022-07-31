@@ -12,7 +12,7 @@ export function Main(props) {
   return (
     <Box component="section"
          sx={{padding: "0 20px", minHeight: "calc(100vh-30px)", height: "100%"}}>
-      <Box component="main" sx={{marginBottom: "50px"}}>{props.children}</Box>
+      <Box component="main" sx={{marginBottom: "60px"}}>{props.children}</Box>
       <Box component="footer"
            sx={{
              width: "80%",
