@@ -3,8 +3,7 @@ import {useState} from "react";
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import 'katex/dist/katex.min.css';
-import {BlockMath} from 'react-katex';
-import {Main, marginPx} from "@vocmem/ui";
+import {BlockMath, Main, marginPx} from "@vocmem/ui";
 import {physExprData} from "@vocmem/data";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
@@ -32,8 +31,8 @@ export function Expr() {
         <Button sx={{width: "20px"}} variant="text" onClick={handleBefore}><NavigateBeforeIcon/></Button>
         <Button variant="text" onClick={handleNext}><NavigateNextIcon/></Button>
       </Box>
-      <Box component="h2">{targetId+1}. {data[targetId].title}</Box>
-      <BlockMath sx={{minHeight: "300px"}}>{data[targetId].expression}</BlockMath>
+      <Box component="h2">{targetId + 1}. {data[targetId].title}</Box>
+      <BlockMath texstring={data[targetId].expression}/>
 
       <Accordion>
         <AccordionSummary
