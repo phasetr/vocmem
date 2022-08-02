@@ -32,7 +32,7 @@ export function Expr() {
         <Button variant="text" onClick={handleNext}><NavigateNextIcon/></Button>
       </Box>
       <Box component="h2">{targetId + 1}. {data[targetId].title}</Box>
-      <BlockMath texstring={data[targetId].expression}/>
+      <BlockMath>{data[targetId].expression}</BlockMath>
 
       <Accordion>
         <AccordionSummary
