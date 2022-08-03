@@ -11,3 +11,7 @@ title,expression,commentary
 "解析力学","オイラー・ラグランジュ方程式","\begin{aligned}\frac{d}{dt} \frac{\partial L}{\partial \dot{q}^k} - \frac{\partial L}{\partial q^k} = 0.\end{aligned}","最小作用の原理にしたがう経路がみたす微分方程式."
 "解析力学","ハミルトンの正準方程式","\begin{align}\frac{dq^k}{dt}&=\frac{\partial H(q,p,t)}{\partial p_k}, \\ \frac{dp_k}{dt}&=-\frac{\partial H(q,p,t)}{\partial q^k}.\end{align}","二階の運動方程式が一階の微分方程式系に書き換わっている. 詳しくは解析力学で."
 "解析力学","ハミルトン-ヤコビ方程式","\begin{align}\frac{\partial S}{\partial t} + H \rbk{q, \frac{\partial S}{\partial q}, t} = 0.\end{align}","ニュートンの運動方程式やオイラー・ラグランジュ方程式と等価な, 力学を支配する方程式."
+"電磁気学","マクスウェル方程式","\begin{align}\divergence \vectorE &= \rho, \\ \divergence \vectorB &= 0, \\ \rot \vectorE &= - \frac{1}{c} \frac{\partial \vectorB}{\partial t}, \\ \rot \vectorB &= \frac{1}{c} \frac{\partial \vectorE}{\partial t} + \frac{1}{c} \vectorj.\end{align}","電磁場がなす偏微分方程式系で電磁気学の基礎方程式."
+"電磁気学","電磁場中を運動する荷電粒子の運動方程式","\begin{align}m \frac{d^2 \vectorr}{dt^2} = e \vectorE(\vectorr(t),t) + \frac{e}{c} \vectorv \times \vectorB(\vectorr(t),t).\end{align}","第一項は電場, 第二項は磁場によるローレンツ力の項."
+"電磁気学","電磁ポテンシャル","\begin{align} \vectorE &= - \grad \phi - \frac{1}{c} \frac{\partial \vectorA}{\partial t}, \\ \vectorB &= \rot \vectorA. \end{align}","電場はスカラーポテンシャル(電位)の勾配とベクトルポテンシャルの時間微分の和で書け, 磁場はベクトルポテンシャルの回転で書ける."
+"電磁気学","電磁ポテンシャルの波動方程式","\begin{align}\mylaplacian \vectorA - \frac{1}{c^2} \frac{\partial^2 \vectorA}{\partial t^2} = - \frac{1}{c} \vectorj.\end{align}","電磁場がみたすマクスウェル方程式に電磁ポテンシャルを代入すれば電磁ポテンシャルは波動方程式をみたす."
