@@ -1,5 +1,4 @@
-export const physExprData = {"data":[{"title":"ルベーグ積分","expression":"\\int_{\\Omega} f(x) \\, d \\mu(x).","commentary":"一般的な測度による全空間積分."},
-{"title":"量子ビットのブロッホ球表示","expression":"\\ket{\\psi} = e^{i \\delta} \\rbk{\\cos \\frac{\\theta}{2} \\ket{\\uparrow} + \\sin \\frac{\\theta}{2} e^{i \\phi} \\ket{\\downarrow}}.","commentary":"量子ビットの状態を半径1の単位球面上の点として表したモデル."},
+export const physExprData = {"data":[{"title":"量子ビットのブロッホ球表示","expression":"\\ket{\\psi} = e^{i \\delta} \\rbk{\\cos \\frac{\\theta}{2} \\ket{\\uparrow} + \\sin \\frac{\\theta}{2} e^{i \\phi} \\ket{\\downarrow}}.","commentary":"量子ビットの状態を半径1の単位球面上の点として表したモデル."},
 {"title":"ローレンツ変換","expression":"\\begin{aligned}x' &= \\frac{x-vt}{\\sqrt{1 - \\frac{v^2}{c^2}}}, \\\\ y' &= y, \\\\ z' &= z, \\\\ t' &= \\frac{ct- \\frac{v}{c}x}{\\sqrt{1 - \\frac{v^2}{c^2}}}.\\end{aligned}","commentary":"四次元時空座標の変換."},
 {"title":"アインシュタインの公式","expression":"E=mc^2.","commentary":"誰もが知る質量とエネルギーの等価性."},
 {"title":"時空の計量","expression":"\\begin{aligned}c^2 d \\tau^2 &= \\sum_{\\mu,\\nu=1}^4 g_{\\mu,\\nu}(x) dx^{\\mu} dx^{\\nu} \\\\ &= g_{\\mu,\\nu}(x) dx^{\\mu} dx^{\\nu}.\\end{aligned}","commentary":"一般相対性理論での基本的な概念."},

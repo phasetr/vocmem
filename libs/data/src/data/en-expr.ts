@@ -77,5 +77,30 @@ export const enExprData: ExprData[] = [
     expr: "unsettled", translation: "落ち着かない", examples: [
       {orig: "Children often feel unsettled when their parents argue.", ja: "両親が言い争いをしていると子供は不穏になりがちだ."},
       {orig: "Those rumors were unsettling for us..", ja: "その噂で不穏な気持ちになった."}]
-  }
+  },
+  {
+    expr: "play with fire", translation: "危険を冒す", examples: [
+      {orig: "You are playing with fire if you try to cheat on the test.", ja: "テストで不正をしようとしているなら危険を冒すことになると思う."},
+      {orig: "They are playing with fire by supplying arms to our enemies.", ja: "彼らは我々の敵に武器を供給し, 危険を冒している."}
+    ]
+  },
+  {expr: "take pains to do", translation: "苦労して---する", examples: []},
+  {expr: "be in good/bad shape", translation: "元気がいい/しょげている", examples: []},
+  {expr: "give my best regards to A", translation: "Aさんによろしく", examples: []},
+  {expr: "keep early (hours)", translation: "早寝早起きする", examples: []},
+  {expr: "make both (ends) meet", translation: "収支を合わせる / 何とかやりくりする", examples: []},
+  {expr: "take (sides) with A", translation: "Aに味方する", examples: []},
+  {expr: "have (words) with A", translation: "Aと口論する", examples: []},
+  {expr: "Practice makes perfect.", translation: "習うより慣れよ.", examples: []},
+  {expr: "Slow and steady wins the race. / Haste makes waste.", translation: "急がば回れ.", examples: []},
+  {expr: "Roma was not built in a day.", translation: "ローマは一日にしてならず", examples: []},
+  {expr: "There is no accounting for taste.", translation: "蓼食う虫も好き好き（人の好みは説明しようがない）.", examples: []},
+  {expr: "It is no use crying over spilt milk.", translation: "覆水盆に帰らず.", examples: []},
+  {
+    expr: "Birds of a feather flock together. / Like attracts like./Great minds think alike.",
+    translation: "類は友を呼ぶ.",
+    examples: []
+  },
+  {expr: "A friend in need is a friend indeed.", translation: "まさかの時こそ真の友.", examples: []},
+  {expr: "When in Roma.do as the Romans do.", translation: "郷に入っては郷に従え.", examples: []},
 ];
