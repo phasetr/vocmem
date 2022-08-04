@@ -103,4 +103,15 @@ export const enExprData: ExprData[] = [
   },
   {expr: "A friend in need is a friend indeed.", translation: "まさかの時こそ真の友.", examples: []},
   {expr: "When in Roma.do as the Romans do.", translation: "郷に入っては郷に従え.", examples: []},
+  {
+    expr: "unprecedented", translation: "前例のない", examples: [
+      {orig: "COVID-19 has created an unprecedented situation.", ja: "新型コロナウイルスは前例のない事態が引き起こした."},
+      {orig: "We are facing an unprecedented issue.", ja: "私たちは前例のない問題に直面している"}
+    ]
+  },
+  {expr: "not a problem", translation: "(お礼に対して)気にしないで.", examples: []},
+  {expr: "(please) don't mention it", translation: "(お礼に対して)気にしないで.", examples: []},
+  {expr: "don't worry about it", translation: "(謝罪に対して)気にしないで.", examples: []},
+  {expr: "please don't be sorry", translation: "(謝罪に対して)気にしないで.", examples: []},
+  {expr: "it doesn't matter", translation: "(謝罪に対して)気にしないで.", examples: []},
 ];
