@@ -114,4 +114,9 @@ export const enExprData: ExprData[] = [
   {expr: "don't worry about it", translation: "(謝罪に対して)気にしないで.", examples: []},
   {expr: "please don't be sorry", translation: "(謝罪に対して)気にしないで.", examples: []},
   {expr: "it doesn't matter", translation: "(謝罪に対して)気にしないで.", examples: []},
+  {expr: "tension", translation: "緊張", examples: [
+    {orig: "The tension along the border is high", ja: "国境沿いの緊張感は高い."},
+    {orig: "The tension between them was obvious at the meeting.", ja: "    会議中, 彼らの間に緊張感が漂っていたことは明らかだった."}
+  ]},
+  {expr: "run off with someone", translation: "駆け落ちする", examples: []}
 ];

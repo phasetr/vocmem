@@ -1,5 +1,7 @@
 title,expression,commentary
 "量子力学","量子ビットのブロッホ球表示","\ket{\psi} = e^{i \delta} \rbk{\cos \frac{\theta}{2} \ket{\uparrow} + \sin \frac{\theta}{2} e^{i \phi} \ket{\downarrow}}.","量子ビットの状態を半径1の単位球面上の点として表したモデル."
+"量子力学","抽象的なシュレディンガー方程式","\begin{align}i \hbar \frac{\partial \psi}{\partial t} = H \psi.\end{align}","一般的なハミルトニアンに対するシュレディンガー方程式."
+"量子力学","一体問題のシュレディンガー方程式","\begin{align}i \hbar \frac{\partial}{\partial t} \psi(\vectorr,t) = - \frac{\hbar^2}{2m} \mylaplacian \psi(\vectorr,t) + V(\vectorr,t) \psi(\vectorr,t).\end{align}","あるポテンシャルの支配下にある粒子のシュレディンガー方程式."
 "相対性理論","ローレンツ変換","\begin{aligned}x' &= \frac{x-vt}{\sqrt{1 - \frac{v^2}{c^2}}}, \\ y' &= y, \\ z' &= z, \\ t' &= \frac{ct- \frac{v}{c}x}{\sqrt{1 - \frac{v^2}{c^2}}}.\end{aligned}","四次元時空座標の変換."
 "相対性理論","アインシュタインの公式","E=mc^2.","誰もが知る質量とエネルギーの等価性."
 "相対性理論","時空の計量","\begin{aligned}c^2 d \tau^2 &= \sum_{\mu,\nu=1}^4 g_{\mu,\nu}(x) dx^{\mu} dx^{\nu} \\ &= g_{\mu,\nu}(x) dx^{\mu} dx^{\nu}.\end{aligned}","一般相対性理論での基本的な概念."
