@@ -1,6 +1,6 @@
 {
-  "name": "Gallery for Physics",
-  "short_name": "gallery-phys",
+  "name": "物理学ギャラリーby相転移プロダクション",
+  "short_name": "物理学ギャラリー",
   "description": "物理学ギャラリー. 基礎方程式や物理学者明言集を収録.",
   "start_url": "/service/phys-gallery",
   "display": "standalone",

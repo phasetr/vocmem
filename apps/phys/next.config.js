@@ -15,15 +15,13 @@ const nextConfig = {
     // Set this to true if you would like to to use SVGR
     // See: https://github.com/gregberge/svgr
     svgr: false
-  },
-  reactStrictMode: true,
-  trailingSlash: true
+  }
 };
 
 module.exports = withNx(nextConfig);
 module.exports = withPWA({
   pwa: {
-    disable: !isProd,
+    disable: process.env.NODE_ENV !== 'production',
     dest: "public",
     register: true,
     skipWaiting: true,

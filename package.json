@@ -7,7 +7,7 @@
     "build": "nx build",
     "build:data": "ts-node scripts/csv-to-json.ts",
     "build:phys": "nx run phys:build && nx run phys:export",
-    "build:vocmem": "nx run-many --target=build --projects=vocmem --parallel=true",
+    "build:vocmem": "nx run vocmem:build && nx run vocmem:export",
     "test": "nx test",
     "dev": "yarn nx run-many --target=serve --projects=vocmem,phys --maxParallel=3 --parallel=true"
   },
