@@ -7,6 +7,6 @@ export * from './lib/components/main';
 export * from './lib/components/ru-problem';
 export * from './lib/components/saved-words';
 export * from './lib/components/select-block';
-export * from './lib/components/block-math';
+export * from './lib/components/tex-block';
 export * from './lib/components/word-info';
 export * from './lib/constants/styles';

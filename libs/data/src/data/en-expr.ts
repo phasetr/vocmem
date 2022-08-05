@@ -114,9 +114,30 @@ export const enExprData: ExprData[] = [
   {expr: "don't worry about it", translation: "(謝罪に対して)気にしないで.", examples: []},
   {expr: "please don't be sorry", translation: "(謝罪に対して)気にしないで.", examples: []},
   {expr: "it doesn't matter", translation: "(謝罪に対して)気にしないで.", examples: []},
-  {expr: "tension", translation: "緊張", examples: [
-    {orig: "The tension along the border is high", ja: "国境沿いの緊張感は高い."},
-    {orig: "The tension between them was obvious at the meeting.", ja: "    会議中, 彼らの間に緊張感が漂っていたことは明らかだった."}
-  ]},
-  {expr: "run off with someone", translation: "駆け落ちする", examples: []}
+  {
+    expr: "tension", translation: "緊張", examples: [
+      {orig: "The tension along the border is high", ja: "国境沿いの緊張感は高い."},
+      {orig: "The tension between them was obvious at the meeting.", ja: "    会議中, 彼らの間に緊張感が漂っていたことは明らかだった."}
+    ]
+  },
+  {expr: "run off with someone", translation: "駆け落ちする", examples: []},
+  {
+    expr: "constitutions", translation: "憲法", examples: [
+      {
+        orig: "Thomas Jefferson wrote “Every constitution naturally expires at the end of 19 years,” in his letter.",
+        ja: "トーマス・ジェファーソンは手紙の中で『どのような憲法も19年で自然失効する』と書いた."
+      },
+      {orig: "This is a violation of the constitution.", ja: "これは憲法に反しています"}
+    ]
+  },
+  {
+    expr: "eyeball (verb)",
+    translation: "(スラング) 誰かまたは何かを直接注意深く見る, じっと見る",
+    examples: [{
+      orig: "My teacher eyeballed me when I was using my smartphone during class.",
+      ja: "先生は授業中にスマートフォンを使っていた時に私をじっと見ていた."
+    }]
+  },
+  {expr: "The beer is ice-cold.", translation: "ビールがキンキンに冷えている.", examples: []},
+  {expr: "You can say that again.", translation: "全く同感です;完全に同意します. I completely agree.", examples: []}
 ];
