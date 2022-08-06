@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
-    "build": "nx build",
+    "build": "yarn build:vocmem && yarn build:phys",
     "build:data": "ts-node scripts/csv-to-json.ts",
     "build:phys": "nx run phys:build && nx run phys:export",
     "build:vocmem": "nx run vocmem:build && nx run vocmem:export",

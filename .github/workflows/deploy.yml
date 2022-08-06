@@ -1,0 +1,24 @@
+name: deploy to remote
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: nrwl/nx-set-shas@v2
+      - run: yarn install --frozen-lockfile && yarn build
+      - name: ssh key generate
+        run: echo "$SSH_PRIVATE_KEY" > key && chmod 600 key
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: rsync deploy vocmem
+        run: rsync -avz -e "ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022" --delete ./dist/apps/vocmem/exported/* phasetr@sv935.xserver.jp:~/phasetr.com/public_html/service/vocmem
+      - name: rsync deploy phys-gallery
+        run: rsync -avz -e "ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022" --delete ./dist/apps/phys/exported/*   phasetr@sv935.xserver.jp:~/phasetr.com/public_html/service/phys-gallery
