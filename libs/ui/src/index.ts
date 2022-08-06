@@ -10,3 +10,4 @@ export * from './lib/components/select-block';
 export * from './lib/components/tex-block';
 export * from './lib/components/word-info';
 export * from './lib/constants/styles';
+export * from './lib/google-analytics/gtag';
