@@ -1,7 +1,8 @@
 {
-  "name": "多言語学習アプリby相転移プロダクション",
+  "name": "多言語学習アプリ",
   "short_name": "多言語単語学習アプリ",
   "description": "相転移プロダクションによる多言語単語学習アプリ",
+  "scope": "/service/vocmem",
   "start_url": "/service/vocmem",
   "display": "standalone",
   "orientation": "portrait-primary",
@@ -10,7 +11,7 @@
   "dir": "itr",
   "icons": [
     {
-      "src": "service/vocmem/icon-192x192.png",
+      "src": "icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     }
