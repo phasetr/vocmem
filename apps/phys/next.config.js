@@ -25,8 +25,12 @@ module.exports = withPWA({
     dest: "public",
     register: true,
     skipWaiting: true,
-    runtimeCaching
+    runtimeCaching,
+    fallbacks: {
+      document: '/service/phys-gallery/_offline.html'
+    }
   },
+  buildExcludes: [/.*\.js\.map/],
   assetPrefix: isProd ? SUB_DIRECTORY : "",
   basePath: isProd ? SUB_DIRECTORY : ""
 });
