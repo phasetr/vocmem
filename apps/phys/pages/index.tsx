@@ -15,9 +15,9 @@ export function Index() {
     <Main>
       <Box component="h1">物理学ギャラリー</Box>
       <Box component="h2">方程式とともに</Box>
-      <List>
-        {data.map(({href, primary}: DataType) => (
-          <Link href={href} key={href}>
+      {data.map(({href, primary}: DataType) => (
+        <List key={href}>
+          <Link href={href}>
             <ListItem>
               <ListItemButton>
                 <ListItemIcon>
@@ -27,8 +27,8 @@ export function Index() {
               </ListItemButton>
             </ListItem>
           </Link>
-        ))}
-      </List>
+        </List>
+      ))}
     </Main>
   );
 }
