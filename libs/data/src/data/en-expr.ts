@@ -139,5 +139,17 @@ export const enExprData: ExprData[] = [
     }]
   },
   {expr: "The beer is ice-cold.", translation: "ビールがキンキンに冷えている.", examples: []},
-  {expr: "You can say that again.", translation: "全く同感です;完全に同意します. I completely agree.", examples: []}
+  {expr: "You can say that again.", translation: "全く同感です;完全に同意します. I completely agree.", examples: []},
+  {
+    expr: "My hands are tied.", translation: "(特に規則や法律などのために)やりたいことができない.", examples: [
+      {
+        orig: "A: Can I get a bottle of whiskey? B: You look so young. I can't sell it to you. My hands are tied.",
+        ja: "A: ウィスキーのボトルをいただけますか? B: あなたはとても若く見えますね. あなたにそれを売ることはできません. 売りたくても売れません."
+      },
+      {
+        orig: "A: I'd like to borrow this book but I forgot to bring my library card. B: I'm sorry. My hands are tied. You can't check out a book without your card.",
+        ja: "A: この本を借りたいのですが, 図書館カードを持ってくるのを忘れてしまいました. B: すみません. 規則でお貸しできません. カードがないと本を借りることができません."
+      }
+    ]
+  }
 ];
