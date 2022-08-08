@@ -20,17 +20,15 @@ function csvToJson(csv: string, write: string) {
   return data;
 }
 
-type MathExprData = { title: string, expression: string, commentary: string };
-
 function mathExprCsvToJson(csvFileName: string, writeFileName: string) {
-  const data: MathExprData[] = [];
+  const data: string[] = [];
   createReadStream(csvFileName)
     .pipe(parse({delimiter: ",", from_line: 2}))
     .on("data", (row) => {
-      data.push({title: row[1], expression: row[2], commentary: row[3]});
+      data.push(`{"title":"${row[1]}","expression":"${row[2].replace(/\\/ig,`\\\\`)}","commentary":"${row[3]}"}`);
     })
     .on("end", () => {
-      fs.writeFileSync(writeFileName, "export const physExprData = " + JSON.stringify({data: data}).replace(/},/ig, "},\n"));
+      fs.writeFileSync(writeFileName, `export const physExprData = {"data":[` + data.join(",\n") + "]}");
     });
 }
 
