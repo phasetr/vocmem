@@ -151,5 +151,69 @@ export const enExprData: ExprData[] = [
         ja: "A: この本を借りたいのですが, 図書館カードを持ってくるのを忘れてしまいました. B: すみません. 規則でお貸しできません. カードがないと本を借りることができません."
       }
     ]
+  },
+  {
+    expr: "ballistic missile", translation: "弾道ミサイル", examples: [
+      {
+        orig: "If there is a possibility that a ballistic missile will fall into Japan, J Alert will be used to notify citzens.",
+        ja: "弾道ミサイルが日本国内に落下する可能性がある場合, 国民に知らせるためにJアラートが使用される."
+      },
+      {
+        orig: "Japan began developing the Ballistic Missile Defense system in FY2004.",
+        ja: "「日本では2004年度から弾道ミサイル防衛システムの整備を開始した」"
+      }
+    ]
+  },
+  {
+    expr: "strengthen",
+    translation: "より強くする：抽象物にも物理的な対象にも使える",
+    examples: [{orig: "Let’s strengthen our ties with local industry.", ja: "地元産業との結びつきを強化しましょう. (「効果的にする」ニュアンスもある)"},
+      {orig: "Exercises will strengthen your muscle.", ja: "運動で筋肉が強化されます. (機能や性能を強化する)"}]
+  },
+  {
+    expr: "toughen", translation: "より堅固にする, 丈夫にする", examples: [
+      {orig: "The government toughened the rules.", ja: "政府が規則を強化しました. (より厳しくする)"},
+      {orig: "How can we toughen up the team?", ja: "チームを強化する(精神的に強くする)にはどうすればいいでしょうか?"}
+    ]
+  },
+  {
+    expr: "reinforce", translation: "補強する, 理論を支える", examples: [
+      {orig: "We need to reinforce our sales team.", ja: "営業チームを強化する必要があります. (人員を加えてチームを強くする)"},
+      {orig: "We will reinforce the walls with exterior beams.", ja: "外側の梁で壁を補強します."},
+      {
+        orig: "The computer-based simulation is used to reinforce the theory.",
+        ja: "コンピューターシミュレーションを使用して理論を強化します. (理論の正しさを補強する)"
+      }
+    ]
+  },
+  {
+    expr: "enhance", translation: "さらによくする, 向上させる", examples: [
+      {orig: "We strive to enhance our products.", ja: "私たちは商品を強化するべく努めています."},
+      {orig: "Develop your skills and enhance your job opportunities.", ja: "スキルを伸ばして仕事を得る機会を強化しましょう."}
+    ]
+  },
+  {
+    expr: "beef up",
+    translation: "強化する",
+    examples: [{orig: "We need to beef up our project.", ja: "プロジェクトを強化する必要があります."}]
+  },
+  {
+    expr: "I’d rather be hated for who I am, than loved for who I am not.",
+    translation: "偽りの自分を愛されるより, ありのままの自分を憎まれるほうがいい.",
+    examples: []
+  },
+  {
+    expr: "blockbuster",
+    translation: "大ヒット作: もともと街のブロック・街区を破壊する爆弾を意味していて, 衝撃的で驚かされるたことから同じく衝撃的で驚くべき大ヒット作の意味に転じた.",
+    examples: [
+      {
+        orig: "A: What movie do you think is a recent blockbuster?, B: I think Top Gun: Maverick is.",
+        ja: "A: どの映画が最近の大ヒットだと思いますか? B: トップガン マーベリックだと思います."
+      },
+      {
+        orig: "A: Are there any popular books for kids? I want to introduce one to my children. B: There are a lot of blockbuster books. I'll send you the list later.",
+        ja: "A: 子供に人気のある本はありますか? 私の子供たちに1冊紹介したいんです. B: たくさん大ヒットの本がありますよ. 後でリストを送ります."
+      }
+    ]
   }
 ];
