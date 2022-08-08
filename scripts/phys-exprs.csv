@@ -1,5 +1,10 @@
-title,expression,commentary
+category,title,expression,commentary
 "量子力学","量子ビットのブロッホ球表示","\ket{\psi} = e^{i \delta} \rbk{\cos \frac{\theta}{2} \ket{\uparrow} + \sin \frac{\theta}{2} e^{i \phi} \ket{\downarrow}}.","量子ビットの状態を半径1の単位球面上の点として表したモデル."
+"量子力学","CHSH不等式","\begin{align}-2 \leq \physmean{\sigma_{yA} \sigma_{y'B}} - \physmean{\sigma_{yA} \sigma_{z'B}} + \physmean{\sigma_{zA} \sigma_{y'B}} + \physmean{\sigma_{zA} \sigma_{z'B}} \leq 2.\end{align}","ベルの不等式の一形態. Clause, Horne, Shimony, Holtらによる."
+"量子力学","チレルソン不等式","\begin{align}-2 \sqrt{2} \leq \physmean{\sigma_{yA} \sigma_{y'B}} - \physmean{\sigma_{yA} \sigma_{z'B}} + \physmean{\sigma_{zA} \sigma_{y'B}} + \physmean{\sigma_{zA} \sigma_{z'B}} \leq 2 \sqrt{2}. \end{align}","量子限界を表す不等式の一つ. チレルソン限界ともいう."
+"量子力学","パウリ行列","\begin{align}\sigma_x = \begin{pmatrix}0 & 1 \\ 1 & 0 \end{pmatrix}, \quad\sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad\sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}. \end{align}","電子のスピンを表す行列. 自己共役かつユニタリでいろいろな関係式をみたす."
+"量子力学","N準位系のブロッホ表現","\begin{align}\rho = \frac{1}{N} \rbk{1 + \sum_{n=1}^{N^2-1} \physmean{\lambda_n} \lambda_n}. \end{align}","この密度行列は量子トモグラフィ, つまりラムダに対する実験データから決められる."
+"量子力学","ボルン則","\begin{align}p(\Lambda = \lambda) = \Tr{\rho P(\lambda)}.\end{align}","ある値が観測される確率の定式化."
 "量子力学","抽象的なシュレディンガー方程式","\begin{aligned}i \hbar \frac{\partial \psi}{\partial t} = H \psi.\end{aligned}","一般的なハミルトニアンに対するシュレディンガー方程式."
 "量子力学","一体問題のシュレディンガー方程式","\begin{aligned}i \hbar \frac{\partial}{\partial t} \psi(\vectorr,t) = - \frac{\hbar^2}{2m} \mylaplacian \psi(\vectorr,t) + V(\vectorr,t) \psi(\vectorr,t).\end{aligned}","あるポテンシャルの支配下にある粒子のシュレディンガー方程式."
 "量子力学","正準交換関係","\begin{aligned}\sqbk{x_k,p_l} = x_k p_l - p_l x_k = i \hbar \delta_{kl}.\end{aligned}","量子力学的粒子の位置・運動量に対応する演算子の代数的な関係."
