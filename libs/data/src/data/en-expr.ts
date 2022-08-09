@@ -155,7 +155,7 @@ export const enExprData: ExprData[] = [
   {
     expr: "ballistic missile", translation: "弾道ミサイル", examples: [
       {
-        orig: "If there is a possibility that a ballistic missile will fall into Japan, J Alert will be used to notify citzens.",
+        orig: "If there is a possibility that a ballistic missile will fall into Japan, J Alert will be used to notify citizens.",
         ja: "弾道ミサイルが日本国内に落下する可能性がある場合, 国民に知らせるためにJアラートが使用される."
       },
       {
@@ -214,6 +214,16 @@ export const enExprData: ExprData[] = [
         orig: "A: Are there any popular books for kids? I want to introduce one to my children. B: There are a lot of blockbuster books. I'll send you the list later.",
         ja: "A: 子供に人気のある本はありますか? 私の子供たちに1冊紹介したいんです. B: たくさん大ヒットの本がありますよ. 後でリストを送ります."
       }
+    ]
+  },
+  {
+    expr: "夏バテ", translation: "summer fatigue, summer lethargy; heat / hot weatherを主語で表現", examples: [
+      {
+        orig: "A: I feel more tired during the summer in Japan. B: I think it is called 'summer fatigue' in Japan.",
+        ja: "A: 日本の夏の方が疲れが溜まりやすい気がする. B: 日本では「夏バテ」って言うらしいよ."
+      },
+      {orig: "This heat is making me feel tired.", ja: "この暑さのせいでバテ気味だよ."},
+      {orig: "I feel exhausted because of this hot weather.", ja: "この暑い気候のせいでもうバテ気味だよ."}
     ]
   }
 ];
