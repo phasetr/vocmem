@@ -1,3 +1,4 @@
+export * from './lib/components/from-md';
 export * from './lib/components/app-sett';
 export * from './lib/components/controllers';
 export * from './lib/components/expression';
