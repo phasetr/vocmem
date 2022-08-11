@@ -237,5 +237,14 @@ export const enExprData: ExprData[] = [
     expr: "（人に）期待している",
     translation: "I'm counting you; I believe in you; You got this; You'll do great. cf. expectはプレッシャーがかかるような言い方.",
     examples: []
+  },
+  {
+    expr: "intimidation", translation: "脅し", examples: [
+      {
+        orig: "He is trying to intimidate you. If you ignore him, hopefully he’ll stop.",
+        ja: "「彼はあなたを脅そうとしている. 無視すればきっとやめると思う."
+      },
+      {orig: "He was intimidated by her ability.", ja: "「彼は彼女の才能に恐れを抱いた."}
+    ]
   }
 ];
