@@ -231,5 +231,11 @@ export const enExprData: ExprData[] = [
       {orig: "He upended the chessboard when he realized he was about to lose.", ja: "「負けそうだと気付き、彼はチェス盤をひっくり返した」"},
       {orig: "The pandemic has completely upended the tourism industry.", ja: "感染症の流行で観光業界に強烈な影響が及んだ."}
     ]
+  },
+  {expr: "マンション", translation: "US: apartment, EN: flat", examples: []},
+  {
+    expr: "（人に）期待している",
+    translation: "I'm counting you; I believe in you; You got this; You'll do great. cf. expectはプレッシャーがかかるような言い方.",
+    examples: []
   }
 ];
