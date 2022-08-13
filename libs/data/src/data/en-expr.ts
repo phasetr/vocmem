@@ -251,5 +251,31 @@ export const enExprData: ExprData[] = [
     expr: "一杯おごるよ.",
     translation: "It's my treat. / It's on me. / I'll buy you a drink. / Let me buy you a drink. / I'll pay.",
     examples: []
+  },
+  {
+    expr: "off the top of my head", translation: "深く考えずにすぐに, 思い付きでは: 頭のてっぺんからパッと考えが思い浮かぶイメージ.", examples: [
+      {
+        orig: "A: What is whiskey made from? B: I can't think of anything off the top of my head.",
+        ja: "A: ウイスキーは何で作られているの? B: すぐには思いつきません."
+      },
+      {
+        orig: "A: Do you have any ideas to improve our sales?, B: Off the top of my head, I'd say we can discount our top-selling products.",
+        ja: "A: 売上を向上させるためのアイデアはありますか? B: 単なる思いつきですが, 売れ筋商品を値引きできると思います."
+      }
+    ]
+  },
+  {
+    expr: "go the extra mile", translation: "より一層努力する", examples: [{
+      orig: "A: Don’t know what to do now. B: Go the extra mile, you can do this.",
+      ja: "A: もう何すれば良いかわからない. B: より一層努力しなさい. あなたならできる."
+    }]
+  },
+  {
+    expr: "inventory",
+    translation: "在庫",
+    examples: [
+      {orig: "The inventory will be disposed of over the next three weeks.", ja: "「あと三週間で在庫は処分される."},
+      {orig: "The store checks its inventory at the end of every month.", ja: "その店舗では毎月末に在庫をチェックする."}
+    ]
   }
 ];
