@@ -246,5 +246,10 @@ export const enExprData: ExprData[] = [
       },
       {orig: "He was intimidated by her ability.", ja: "「彼は彼女の才能に恐れを抱いた."}
     ]
+  },
+  {
+    expr: "一杯おごるよ.",
+    translation: "It's my treat. / It's on me. / I'll buy you a drink. / Let me buy you a drink. / I'll pay.",
+    examples: []
   }
 ];
