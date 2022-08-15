@@ -277,5 +277,22 @@ export const enExprData: ExprData[] = [
       {orig: "The inventory will be disposed of over the next three weeks.", ja: "「あと三週間で在庫は処分される."},
       {orig: "The store checks its inventory at the end of every month.", ja: "その店舗では毎月末に在庫をチェックする."}
     ]
-  }
+  },
+  {
+    expr: "お手頃価格",
+    translation: "reasonable price / inexpensive, affordable, good",
+    examples: [{orig: "I bought this watch at a reasonable price.", ja: "この腕時計をお手頃価格で買いました."}]
+  },
+  {
+    expr: "be on the lookout for",
+    translation: "注視する; lookout = 注意",
+    examples: [{
+      orig: "A: Any tips for the next area? B: Always be on the lookout for any suspicious activity.",
+      ja: "A: 次のエリアに向けてのアドバイスは? B: 怪しい動きがないか注視した方がいい."
+    }]
+  },
+  {expr: "ワンピース", translation: "dress", examples: []},
+  {expr: "パーカー", translation: "hoodie", examples: []},
+  {expr: "(服の)トレーナー", translation: "sweatshirt", examples: []},
+  {expr: "ノースリーブ", translation: "sleeveless, cf. sleeveless dress = ノースリーブワンピース", examples: []}
 ];
