@@ -339,10 +339,12 @@ export const enExprData: ExprData[] = [
       orig: "A: How are you? B: Same old really.",
       ja: "A: 調子はどう? B: (疲れたような顔をして) 特に変わったことはない. 毎日おんなじさ."
     }]
-  }, {
+  },
+  {
     expr: "oust", translation: "追放する", examples: [
       {orig: "The board decided to oust the CEO.", ja: "取締役会はCEOを追放する（解任する）ことを決定した."},
       {orig: "The president was ousted in a coup last year.", ja: "その大統領は昨年のクーデターで追放された."}
     ]
-  }
+  },
+  {expr: "I have a sweet tooth.", translation: "私は甘いものに目がない.", examples: []}
 ];

@@ -25,7 +25,7 @@ function mathExprCsvToJson(csvFileName: string, writeFileName: string) {
   createReadStream(csvFileName)
     .pipe(parse({delimiter: ",", from_line: 2}))
     .on("data", (row) => {
-      data.push(`{"title":"${row[1]}","expression":"${row[2].replace(/\\/ig,`\\\\`)}","commentary":"${row[3]}"}`);
+      data.push(`{"title":"${row[1].replace(/\\/ig,`\\\\`)}}","expression":"${row[2].replace(/\\/ig,`\\\\`)}","commentary":"${row[3].replace(/\\/ig,`\\\\`)}}"}`);
     })
     .on("end", () => {
       fs.writeFileSync(writeFileName, `export const physExprData = {"data":[` + data.join(",\n") + "]}");
