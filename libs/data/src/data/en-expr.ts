@@ -59,7 +59,10 @@ export const enExprData: ExprData[] = [
   {
     expr: "covet", translation: "切望する",
     examples: [
-      {orig: "He got the coveted job as a chef in the famous restaurant.", ja: "彼は切望していた, 有名レストランでのシェフとしての職を手に入れた."},
+      {
+        orig: "He got the coveted job as a chef in the famous restaurant.",
+        ja: "彼は切望していた, 有名レストランでのシェフとしての職を手に入れた."
+      },
       {orig: "That is the most coveted award for singers.", ja: "「その賞は歌手が最も切望する賞だ」"}
     ]
   },
@@ -167,7 +170,10 @@ export const enExprData: ExprData[] = [
   {
     expr: "strengthen",
     translation: "より強くする：抽象物にも物理的な対象にも使える",
-    examples: [{orig: "Let’s strengthen our ties with local industry.", ja: "地元産業との結びつきを強化しましょう. (「効果的にする」ニュアンスもある)"},
+    examples: [{
+      orig: "Let’s strengthen our ties with local industry.",
+      ja: "地元産業との結びつきを強化しましょう. (「効果的にする」ニュアンスもある)"
+    },
       {orig: "Exercises will strengthen your muscle.", ja: "運動で筋肉が強化されます. (機能や性能を強化する)"}]
   },
   {
@@ -228,7 +234,10 @@ export const enExprData: ExprData[] = [
   },
   {
     expr: "upend", translation: "強烈な影響を与える", examples: [
-      {orig: "He upended the chessboard when he realized he was about to lose.", ja: "「負けそうだと気付き、彼はチェス盤をひっくり返した」"},
+      {
+        orig: "He upended the chessboard when he realized he was about to lose.",
+        ja: "「負けそうだと気付き、彼はチェス盤をひっくり返した」"
+      },
       {orig: "The pandemic has completely upended the tourism industry.", ja: "感染症の流行で観光業界に強烈な影響が及んだ."}
     ]
   },
@@ -294,5 +303,46 @@ export const enExprData: ExprData[] = [
   {expr: "ワンピース", translation: "dress", examples: []},
   {expr: "パーカー", translation: "hoodie", examples: []},
   {expr: "(服の)トレーナー", translation: "sweatshirt", examples: []},
-  {expr: "ノースリーブ", translation: "sleeveless, cf. sleeveless dress = ノースリーブワンピース", examples: []}
+  {expr: "ノースリーブ", translation: "sleeveless, cf. sleeveless dress = ノースリーブワンピース", examples: []},
+  {expr: "早送り", translation: "fast forward", examples: []},
+  {
+    expr: "地下鉄に乗る",
+    translation: "take the subway",
+    examples: [{orig: "I take the subway to go to the office every day.", ja: "私はオフィスに行くのに毎日地下鉄に乗ります"}]
+  },
+  {
+    expr: "blast",
+    translation: "爆発",
+    examples: [
+      {orig: "Ukraine war: Crimea blasts significantly hit Russian navy", ja: "ウクライナ戦争：クリミアでの爆発によりロシア海軍が大破"},
+      {orig: "The blast was heard as far as five kilometers away.", ja: "「爆発音は５キロ離れた場所まで聞こえた."},
+      {orig: "The space shuttle has successfully blasted off.", ja: "無事スペースシャトルの打ち上げに成功した."}
+    ]
+  },
+  {
+    expr: "dating",
+    translation: "（恋愛関係で）付き合っている",
+    examples: [{orig: "Are you and David dating？", ja: "あなたとデイビッドは付き合っているの?"}]
+  },
+  {
+    expr: "The more I learn about people, the more I like my dog.",
+    translation: "人間のことを知れば知るほど飼い犬のことが好きになる.",
+    examples: [
+      {orig: "The faster the car is, the more dangerous it is to drive.", ja: "車が速ければ速いほど運転が危険になる."},
+      {orig: "The more famous you become, the less privacy you have.", ja: "有名になればなるほどプライバシーがなくなる."}
+    ]
+  },
+  {
+    expr: "Same old really.",
+    translation: "特に変わったことはない. 毎日おんなじさ.",
+    examples: [{
+      orig: "A: How are you? B: Same old really.",
+      ja: "A: 調子はどう? B: (疲れたような顔をして) 特に変わったことはない. 毎日おんなじさ."
+    }]
+  }, {
+    expr: "oust", translation: "追放する", examples: [
+      {orig: "The board decided to oust the CEO.", ja: "取締役会はCEOを追放する（解任する）ことを決定した."},
+      {orig: "The president was ousted in a coup last year.", ja: "その大統領は昨年のクーデターで追放された."}
+    ]
+  }
 ];
