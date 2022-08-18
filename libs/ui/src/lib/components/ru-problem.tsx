@@ -3,12 +3,6 @@ import {useState} from "react";
 import {marginPx, muiBreakPoints} from "@vocmem/data";
 import {useGetWindowSize} from "./get-window-size";
 
-export type RuProblemType = {
-  id: number,
-  ru: string,
-  en: string
-}
-
 export function RuProblem({ru, en}) {
   const width = ((obj) => obj.width)(useGetWindowSize());
   const [src, setSrc] = useState("");
@@ -41,7 +35,7 @@ export function RuProblem({ru, en}) {
         </Box>
       </CardActions>
       <Box component="div" sx={{display: "flex", justifyContent: "center"}}>
-        <iframe src={src} height={src ? 300 : 0} style={{width: "100%"}} sandbox=""/>
+        <iframe title="web-dict" src={src} height={src ? 300 : 0} style={{width: "100%"}} sandbox=""/>
       </Box>
     </Card>)
 }

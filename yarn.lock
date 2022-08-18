@@ -4057,7 +4057,7 @@ comma-separated-tokens@^2.0.0:
   resolved "https://registry.yarnpkg.com/comma-separated-tokens/-/comma-separated-tokens-2.0.2.tgz#d4c25abb679b7751c880be623c1179780fe1dd98"
   integrity sha512-G5yTt3KQN4Yn7Yk4ed73hlZ1evrFKXeUW3086p3PRFNp7m2vIjI6Pg+Kgb+oyzhd9F2qdcoj67+y3SdxL5XWsg==
 
-commander@^2.19.0, commander@^2.20.0:
+commander@^2.20.0:
   version "2.20.3"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
@@ -7222,13 +7222,6 @@ jsprim@^2.0.2:
     array-includes "^3.1.5"
     object.assign "^4.1.2"
 
-katex@^0.10.0:
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/katex/-/katex-0.10.2.tgz#39973edbb65eda5b6f9e7f41648781e557dd4932"
-  integrity sha512-cQOmyIRoMloCoSIOZ1+gEwsksdJZ1EW4SWm3QzxSza/QsnZr6D4U1V9S4q+B/OLm2OQ8TCBecQ8MaIfnScI7cw==
-  dependencies:
-    commander "^2.19.0"
-
 katex@^0.13.0:
   version "0.13.24"
   resolved "https://registry.yarnpkg.com/katex/-/katex-0.13.24.tgz#fe55455eb455698cb24b911a353d16a3c855d905"
@@ -9033,12 +9026,10 @@ rc@^1.0.1, rc@^1.1.6:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-autolatex@^1.1.2:
+react-autolatex@../react-autolatex:
   version "1.1.2"
-  resolved "https://registry.yarnpkg.com/react-autolatex/-/react-autolatex-1.1.2.tgz#f9981d3edaa2c5ba0fb401865b1a0954c74e70a4"
-  integrity sha512-+a6UD46o9tL9VHPM3lgChJFPp+B4buxdKZ/Qg4flE4ngY2oaJIWUSP2Nm0Wc26d44iOt6cK7m7bJNR0NpmxuSA==
   dependencies:
-    katex "^0.10.0"
+    katex "^0.16.0"
     lodash.isequal "^4.5.0"
 
 react-dom@18.2.0:
@@ -9063,6 +9054,11 @@ react-is@^17.0.1:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-katex-auto-render@../react-katex-auto-render:
+  version "0.0.1"
+  dependencies:
+    katex "^0.16.0"
 
 react-latex-next@^2.1.0:
   version "2.1.0"

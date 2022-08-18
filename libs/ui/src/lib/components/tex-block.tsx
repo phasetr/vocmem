@@ -2070,7 +2070,7 @@ const macros = {
   "\\yn": "(y_n)_{n{\\in}{\\bN}}"
 };
 
-export function BlockMath(props) {
+export function BlockMath(props: { children: string; }) {
   return (
     <Box
       dangerouslySetInnerHTML={{
@@ -2082,7 +2082,7 @@ export function BlockMath(props) {
       }}/>)
 }
 
-export function InlineMath(props) {
+export function InlineMath(props: { children: string; }) {
   return (
     <Box
       dangerouslySetInnerHTML={{

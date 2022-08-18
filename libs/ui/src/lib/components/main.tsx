@@ -3,11 +3,11 @@ import HomeIcon from '@mui/icons-material/Home';
 import DescriptionIcon from '@mui/icons-material/Description';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import {useRouter} from "next/router";
-import {useState} from "react";
+import {JSXElementConstructor, ReactElement, ReactFragment, ReactPortal, useState} from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import Link from "next/link";
 
-export function Main(props) {
+export function Main(props: { children: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; }) {
   const [modalOpen, setModalOpen] = useState(false);
   const [inquiryModalOpen, setInquiryModalOpen] = useState(false);
 
