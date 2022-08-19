@@ -370,5 +370,6 @@ export const enExprData: ExprData[] = [
       {orig: "I feel dizzy.", ja: "めまいがします."},
       {orig: "I feel itchy.", ja: "かゆみがあります."}
     ]
-  }
+  },
+  {expr: "cry wolf", translation: "何もないのに騒ぎ立てる・泣く：狼少年から, cf. a cry-wolf phenomenon", examples: []}
 ];
