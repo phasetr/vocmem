@@ -1,7 +1,16 @@
-import {Box} from "@mui/material";
-import katex from "katex";
+export const defaultDelimiters = [
+  {left: "$$", right: "$$", display: true},
+  {left: "$", right: "$", display: false},
+  {left: "\\(", right: "\\)", display: false},
+  {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+  {left: "\\begin{align}", right: "\\end{align}", display: true},
+  {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+  {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+  {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+  {left: "\\[", right: "\\]", display: true}
+];
 
-const macros = {
+export const macros = {
   "\\algbigoplus": "\\hat{\\bigoplus}",
   "\\algbigotimes": "\\hat{\\bigotimes}",
   "\\algoplus": "\\hat{\\oplus}",
@@ -2069,27 +2078,3 @@ const macros = {
   "\\xti": "x \\to \\infty",
   "\\yn": "(y_n)_{n{\\in}{\\bN}}"
 };
-
-export function BlockMath(props: { children: string; }) {
-  return (
-    <Box
-      dangerouslySetInnerHTML={{
-        __html: katex.renderToString(props.children, {
-          throwOnError: false,
-          displayMode: true,
-          macros: macros
-        })
-      }}/>)
-}
-
-export function InlineMath(props: { children: string; }) {
-  return (
-    <Box
-      dangerouslySetInnerHTML={{
-        __html: katex.renderToString(props.children, {
-          throwOnError: false,
-          displayMode: false,
-          macros: macros
-        })
-      }}/>)
-}
