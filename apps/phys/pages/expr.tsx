@@ -3,7 +3,7 @@ import {useState} from "react";
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import 'katex/dist/katex.min.css';
-import {BlockMath, Main, marginPx} from "@vocmem/ui";
+import {BlockMath, Main, marginPx, MyLatex} from "@vocmem/ui";
 import {physExprData} from "@vocmem/data";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
@@ -31,7 +31,7 @@ export function Expr() {
         <Button sx={{width: "20px"}} variant="text" onClick={handleBefore}><NavigateBeforeIcon/></Button>
         <Button variant="text" onClick={handleNext}><NavigateNextIcon/></Button>
       </Box>
-      <Box component="h2">{targetId + 1}. {data[targetId].title}</Box>
+      <Box component="h2">{targetId + 1}. <MyLatex>{data[targetId].title}</MyLatex></Box>
       <BlockMath>{data[targetId].expression}</BlockMath>
 
       <Accordion>
@@ -43,7 +43,7 @@ export function Expr() {
           <Typography sx={{fontFamily: "serif"}}>解説</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography sx={{fontFamily: "serif"}}>{data[targetId].commentary}</Typography>
+          <Typography sx={{fontFamily: "serif"}}><MyLatex>{data[targetId].commentary}</MyLatex></Typography>
         </AccordionDetails>
       </Accordion>
     </Main>

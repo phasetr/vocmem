@@ -1,7 +1,8 @@
 import {Box} from "@mui/material";
 import katex from "katex";
-import {macros} from "./data";
+import {defaultDelimiters, macros} from "./data";
 import React from "react";
+import Latex from "react-latex-next";
 
 export function BlockMath(props: { children: string; }) {
   return (
@@ -25,4 +26,8 @@ export function InlineMath(props: { children: string; }) {
           macros: macros
         })
       }}/>)
+}
+
+export function MyLatex(props: {children: string}){
+  return (<Latex delimiters={defaultDelimiters}>{props.children}</Latex>)
 }

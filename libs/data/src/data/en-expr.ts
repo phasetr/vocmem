@@ -353,5 +353,22 @@ export const enExprData: ExprData[] = [
     examples: [{orig: "The seventh wave of Covid－19 cases past the peak", ja: "コロナ第7波はピークを過ぎた."}]
   },
   {expr: "覗く", translation: "peek out", examples: [{orig: "He's peeking out from the window", ja: "彼が窓からのぞいている."}]},
-  {expr: "テイクアウト", translation: "to go, take away", examples: []}
+  {expr: "テイクアウト", translation: "to go, take away", examples: []},
+  {
+    expr: "tax break",
+    translation: "優遇税制措置",
+    examples: [{
+      orig: "You can receive a tax break if you buy an electric car.",
+      ja: "電気自動車を購入すると優遇税制措置を受けられる."
+    }]
+  },
+  {
+    expr: "気分が悪い", translation: "be sick / feel sick", examples: [
+      {orig: "I have been sick for a couple of days.", ja: "2-3日前から体調を崩しています."},
+      {orig: "I have a fever and feel quite dull.", ja: "熱があって体がだるいです."},
+      {orig: "I feel sick.", ja: "気分が悪いです."},
+      {orig: "I feel dizzy.", ja: "めまいがします."},
+      {orig: "I feel itchy.", ja: "かゆみがあります."}
+    ]
+  }
 ];
