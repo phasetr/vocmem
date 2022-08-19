@@ -346,5 +346,12 @@ export const enExprData: ExprData[] = [
       {orig: "The president was ousted in a coup last year.", ja: "その大統領は昨年のクーデターで追放された."}
     ]
   },
-  {expr: "I have a sweet tooth.", translation: "私は甘いものに目がない.", examples: []}
+  {expr: "I have a sweet tooth.", translation: "私は甘いものに目がない.", examples: []},
+  {
+    expr: "ピークアウト",
+    translation: "past the peak",
+    examples: [{orig: "The seventh wave of Covid－19 cases past the peak", ja: "コロナ第7波はピークを過ぎた."}]
+  },
+  {expr: "覗く", translation: "peek out", examples: [{orig: "He's peeking out from the window", ja: "彼が窓からのぞいている."}]},
+  {expr: "テイクアウト", translation: "to go, take away", examples: []}
 ];
