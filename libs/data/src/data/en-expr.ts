@@ -371,5 +371,22 @@ export const enExprData: ExprData[] = [
       {orig: "I feel itchy.", ja: "かゆみがあります."}
     ]
   },
-  {expr: "cry wolf", translation: "何もないのに騒ぎ立てる・泣く：狼少年から, cf. a cry-wolf phenomenon", examples: []}
+  {expr: "cry wolf", translation: "何もないのに騒ぎ立てる・泣く：狼少年から, cf. a cry-wolf phenomenon", examples: []},
+  {
+    expr: "H. G. Wells: We all have our time machines, don’t we. Those that take us back are memories…And those that carry us forward, are dreams.",
+    translation: "私たちはみんな実はタイムマシンを持っている. 過去に連れていってくれるものが記憶, 未来へ連れていってくれるものが夢だ.", examples: []
+  },
+  {
+    expr: "---にはまっている",
+    translation: "I'm into ---; I'm hooked on ---; I'm addicted to ---",
+    examples: [{orig: "I'm hooked on shopping", ja: "買い物にはまっている."}]
+  },
+  {expr: "電話して", translation: "Give me a call.", examples: []},
+  {
+    expr: "radiation exposure", translation: "放射線被曝", examples: [
+      {
+        orig: "Even a brief exposure to radiation is very dangerous.",
+        ja: "短時間でも放射線に当たることは大変危険だ."
+      }]
+  }
 ];
