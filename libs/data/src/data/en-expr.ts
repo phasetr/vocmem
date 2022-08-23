@@ -388,5 +388,11 @@ export const enExprData: ExprData[] = [
         orig: "Even a brief exposure to radiation is very dangerous.",
         ja: "短時間でも放射線に当たることは大変危険だ."
       }]
+  },
+  {
+    expr: "boisterous", translation: "羽目を外した", examples: [
+      {orig: "The boisterous teenagers were disturbing the neighborhood.", ja: "羽目を外した若者たちは近所に迷惑をかけていた."},
+      {orig: "It was a very boisterous event.", ja: "とても騒がしいイベントだった."}
+    ]
   }
 ];
