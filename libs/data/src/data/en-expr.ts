@@ -394,5 +394,28 @@ export const enExprData: ExprData[] = [
       {orig: "The boisterous teenagers were disturbing the neighborhood.", ja: "羽目を外した若者たちは近所に迷惑をかけていた."},
       {orig: "It was a very boisterous event.", ja: "とても騒がしいイベントだった."}
     ]
-  }
+  },
+  {
+    expr: "危ない!",
+    translation: "look out",
+    examples: [{orig: "Look out! There's a car coming.", ja: "危ない! 車が来てるよ."}]
+  },
+  {
+    expr: "一期一会", translation: "once-in-a-lifetime change", examples: [{
+      orig: "A: I really appreciate your support. B: Me too, this really is a once-in-a-lifetime chance.",
+      ja: "A: あなたの支援に感謝いたします. B: 私もです. 本当に一期一会ですね."
+    }]
+  },
+  {
+    expr: "chock-a-block", translation: "人や物でいっぱい", examples: [{
+      orig: "A: You're late! B: I know. I'm so sorry. The traffic was chock-a-block this morning.",
+      ja: "A: 遅い! B: 知っている. ごめんなさい, 今朝は渋滞がひどくて."
+    }]
+  },
+  {
+    expr: "セルフレジ",
+    translation: "self-checkout machine; cf. セルフサービス: self-service, 外出自粛: self-quarantine, 自主隔離: self-isolation",
+    examples: []
+  },
+  {expr: "5段階認証", translation: "five-factor authentication", examples: []}
 ];
