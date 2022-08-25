@@ -12,3 +12,4 @@ export * from './lib/katex/tex-block';
 export * from './lib/components/word-info';
 export * from './lib/constants/styles';
 export * from './lib/google-analytics/gtag';
+export * from './lib/components/types';

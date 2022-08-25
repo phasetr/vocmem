@@ -15,7 +15,7 @@
     "rsync:phys": "rsync -avz -e \"ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022\" --delete ./dist/apps/phys/exported/*   phasetr@sv935.xserver.jp:~/phasetr.com/public_html/service/phys-gallery",
     "rsync:vocmem": "rsync -avz -e \"ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022\" --delete ./dist/apps/vocmem/exported/* phasetr@sv935.xserver.jp:~/phasetr.com/public_html/service/vocmem",
     "test": "nx test",
-    "dev": "yarn nx run-many --target=serve --projects=vocmem,phys --maxParallel=3 --parallel=true",
+    "dev": "yarn nx run-many --target=serve --projects=vocmem,phys,society --maxParallel=3 --parallel=true",
     "dev:clean": "rimraf tmp"
   },
   "private": true,

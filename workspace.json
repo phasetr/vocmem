@@ -4,6 +4,7 @@
   "projects": {
     "data": "libs/data",
     "phys": "apps/phys",
+    "society": "apps/society",
     "ui": "libs/ui",
     "vocmem": "apps/vocmem"
   }
