@@ -6,7 +6,6 @@
     "phys": "apps/phys",
     "phys-e2e": "apps/phys-e2e",
     "ui": "libs/ui",
-    "vocmem": "apps/vocmem",
-    "vocmem-e2e": "apps/vocmem-e2e"
+    "vocmem": "apps/vocmem"
   }
 }
