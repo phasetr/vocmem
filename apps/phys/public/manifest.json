@@ -1,7 +1,7 @@
 {
   "name": "物理学ギャラリー",
   "short_name": "物理学ギャラリー",
-  "description": "物理学ギャラリー. 基礎方程式や物理学者明言集を収録.",
+  "description": "物理学ギャラリー. 基礎方程式や物理学者名言集を収録.",
   "scope": "/service/phys-gallery",
   "start_url": "/service/phys-gallery",
   "display": "standalone",

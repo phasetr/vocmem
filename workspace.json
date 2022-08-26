@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "data": "libs/data",
+    "math": "apps/math",
     "phys": "apps/phys",
     "society": "apps/society",
     "ui": "libs/ui",
