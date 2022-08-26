@@ -2,6 +2,9 @@ import {useRouter} from 'next/router'
 import Script from 'next/script'
 import {useEffect} from 'react'
 
+declare global {
+  interface Window { gtag: any; }
+}
 export const GA_ID = "UA-48328952-1";
 
 // PVを測定する
