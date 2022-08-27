@@ -8560,9 +8560,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-"react-latex-next@https://github.com/phasetr/react-latex-next.git#add-other-options":
-  version "2.1.0"
-  resolved "https://github.com/phasetr/react-latex-next.git#ccf7fa44f6330384acb08bde484a985c8c67661b"
+react-latex-next@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/react-latex-next/-/react-latex-next-2.2.0.tgz#8f4839adfebe3ba70c05ef66f2b94112e564a4fa"
+  integrity sha512-tQqIuC+OQBgiEYQObDZeHugVy+gtiWdLnAb3hWbo4jlchLF8FR0tIAErtJz7t4VA2VO03rRr8LwSZVTGu0cCxg==
   dependencies:
     katex "^0.13.0"
 

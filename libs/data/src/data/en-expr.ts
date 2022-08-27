@@ -417,5 +417,12 @@ export const enExprData: ExprData[] = [
     translation: "self-checkout machine; cf. セルフサービス: self-service, 外出自粛: self-quarantine, 自主隔離: self-isolation",
     examples: []
   },
-  {expr: "5段階認証", translation: "five-factor authentication", examples: []}
+  {expr: "5段階認証", translation: "five-factor authentication", examples: []},
+  {
+    expr: "exacerbate",
+    translation: "悪化させる",
+    examples: [
+      {orig: "This measure will only exacerbate the situation.", ja: "この対策は状況を悪化させるだけだろう."},
+      {orig: "Sweating is thought to exacerbate itch.", ja: "汗をかくと痒みが悪化すると考えられている."}]
+  }
 ];
