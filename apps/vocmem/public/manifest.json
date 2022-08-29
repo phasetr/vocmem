@@ -1,7 +1,7 @@
 {
-  "name": "多言語単語学習アプリ",
-  "short_name": "多言語単語学習アプリ",
-  "description": "相転移プロダクションによる多言語単語学習アプリ",
+  "name": "多言語学習アプリ",
+  "short_name": "多言語学習アプリ",
+  "description": "相転移プロダクションによる多言語学習アプリ",
   "scope": "/service/vocmem",
   "start_url": "/service/vocmem",
   "display": "standalone",

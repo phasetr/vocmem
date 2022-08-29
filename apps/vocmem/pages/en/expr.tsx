@@ -170,7 +170,7 @@ export function Expr() {
         handleNext={handleNext}
         handleSave={handleSave}/>
 
-      <ExpressionInfo word={word} problem={expression}/>
+      <ExpressionInfo problemId={problemId} word={word} problem={expression}/>
       <SavedWords
         allWords={allWords}
         expanded={expanded}

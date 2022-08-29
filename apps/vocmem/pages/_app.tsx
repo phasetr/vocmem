@@ -7,7 +7,7 @@ function CustomApp({Component, pageProps}: AppProps) {
   return (
     <>
       <Head>
-        <title>単語暗記アプリ</title>
+        <title>語学学習アプリ</title>
       </Head>
       <GoogleAnalytics/>
       <Component {...pageProps} />

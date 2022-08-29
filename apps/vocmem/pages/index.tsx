@@ -62,7 +62,7 @@ export function Index() {
 
   return (
     <Main>
-      <Box component="h1">単語学習アプリ</Box>
+      <Box component="h1">語学学習アプリ</Box>
       {languages.map(({lang, data}: LangType) => {
         return (
           <Accordion key={lang} expanded={expanded === lang} onChange={handleChange(lang)}>
