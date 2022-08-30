@@ -7,3 +7,4 @@ export * from './data/ru-converter';
 export * from './data/styles';
 export * from './data/types';
 export * from './utils/converter';
+export * from './data/writing';

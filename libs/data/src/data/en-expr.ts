@@ -424,5 +424,29 @@ export const enExprData: ExprData[] = [
     examples: [
       {orig: "This measure will only exacerbate the situation.", ja: "この対策は状況を悪化させるだけだろう."},
       {orig: "Sweating is thought to exacerbate itch.", ja: "汗をかくと痒みが悪化すると考えられている."}]
-  }
+  },
+  {
+    expr: "somber", translation: "厳粛な, 陰鬱な", examples: [
+      {
+        orig: "She had somber expression on her face, and I knew she was about to tell me some bad news.",
+        ja: "彼女は陰鬱な表情を顔に浮かべていて, 何か悪い知らせを伝えようとしているのだとわかった."
+      },
+      {orig: "The room was in a somber mood.", ja: "その部屋には厳粛な雰囲気が漂っていた."}
+    ]
+  },
+  {
+    expr: "段ボール", translation: "cardboard; 段ボール箱: cardboard box", examples: [{
+      orig: "A: Are there any cardboard boxes left at this office? B: We still have about seven of them.",
+      ja: "A: このオフィスにまだ段ボール箱はありますか? B: あと7つぐらいなら."
+    }]
+  },
+  {
+    expr: "You nailed it!",
+    translation: "完璧だった: You made it; You did it., 図星だ.",
+    examples: [{
+      orig: "A: How was my violin performance? B: You nailed it! All the audience were really impressed.",
+      ja: "A: 私のヴァイオリンの演奏はどうでした? B: 完璧だったよ. みんな本当に感動してた."
+    }, {orig: "A: I failed the test. B: Oh, you nailed it!", ja: "A: 試験に落ちちゃった. B: あら, やっちゃったね!"}]
+  },
+  {expr: "援護射撃", translation: "backup, supported", examples: []}
 ];
