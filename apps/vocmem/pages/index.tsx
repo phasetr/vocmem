@@ -39,7 +39,8 @@ const languages: LangType[] = [
   },
   {
     lang: "英語", data: [
-      {to: "en/expr", text: "英語表現"}
+      {to: "en/expr", text: "英語表現"},
+      {to: "en/writing", text: "言い換え英作文"}
     ]
   },
   {
