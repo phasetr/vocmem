@@ -1,6 +1,6 @@
-import {ExprData} from "./types";
+import {EnExprData} from "./types";
 
-export const enExprData: ExprData[] = [
+export const enExprData: EnExprData[] = [
   {
     expr: "on a knife-edge", translation: "極めて不安定な状態", examples: [
       {"orig": "He lived on a knife-edge between genius and insanity.", "ja": "彼は天才と愚かさの狭間の危うさの中で暮らしていた."},
@@ -448,5 +448,60 @@ export const enExprData: ExprData[] = [
       ja: "A: 私のヴァイオリンの演奏はどうでした? B: 完璧だったよ. みんな本当に感動してた."
     }, {orig: "A: I failed the test. B: Oh, you nailed it!", ja: "A: 試験に落ちちゃった. B: あら, やっちゃったね!"}]
   },
-  {expr: "援護射撃", translation: "backup, supported", examples: []}
+  {expr: "援護射撃", translation: "backup, supported", examples: []},
+  {expr: "甘党", translation: "sweet tooth, have a sweet tooth", examples: []},
+  {expr: "ある程度", translation: "in a measure", examples: []},
+  {expr: "運動会", translation: "an excursion, a field day, a sports day", examples: []},
+  {
+    expr: "花粉症",
+    translation: "hay fever",
+    examples: [{orig: "I'm suffering from serious hay fever.", ja: "ひどい花粉症でつらい."}]
+  },
+  {expr: "関係者", translation: "concerned parties", examples: []},
+  {expr: "教頭先生", translation: "a vice president", examples: []},
+  {expr: "校長先生", translation: "a principal, a head teacher", examples: []},
+  {expr: "さらに加えて, おまけに", translation: "for good measure", examples: []},
+  {expr: "最先端", translation: "cutting-edge", examples: []},
+  {expr: "正面写真", translation: "a picture from the front", examples: []},
+  {expr: "(基準に) 達する, 期待に応える", translation: "measure up", examples: []},
+  {expr: "担任", translation: "a homeroom teacher", examples: []},
+  {expr: "知名度", translation: "profile", examples: []},
+  {expr: "とにかく, 何らかの手段で", translation: "by any measure", examples: []},
+  {expr: "二桁", translation: "two-digit", examples: []},
+  {expr: "ねじ回しの+(プラスのドライバー)", translation: "Philips screwdriver", examples: []},
+  {expr: "ねじ回しの-(マイナスのドライバー)", translation: "regular/flat-head screwdriver", examples: []},
+  {expr: "---の寸法を測る", translation: "take the measure of ---", examples: []},
+  {
+    expr: "How old are you? の粋な切り返し",
+    translation: "Age is just a number.; I have no idea.; I'm older than I have ever been.; Older than I look.; Younger than I look.; I've lost count.; Sorry. Can you say that again?",
+    examples: []
+  },
+  {expr: "必死に戦う", translation: "fight tooth and nail (動物が歯と爪を使って荒々しく戦うイメージ)", examples: []},
+  {expr: "見直される数学", translation: "math revised, math reevaluated, math reassessed", examples: []},
+  {
+    expr: "水虫",
+    translation: "athlete's foot",
+    examples: [{orig: "I've got athlete's foot for the first time in my life.", ja: "初めて水虫になった."}]
+  },
+  {expr: "魅力", translation: "charm, appeal", examples: []},
+  {expr: "難しい", translation: "like pulling teeth (歯を抜くことは簡単ではないので)", examples: []},
+  {expr: "養護教諭(保健の先生)", translation: "a school nurse", examples: []},
+  {expr: "横からの写真", translation: "a picture from the side", examples: []},
+  {expr: "力量を見極める", translation: "take someone's measure", examples: []},
+  {expr: "64GB(メモリ, HDD/SSD 容量)", translation: "a storage of 64 GB, 64 GB of RAM, 64 GB of memory", examples: []},
+  {expr: "(彼女に)アタックする", translation: "hit on her", examples: []},
+  {expr: "win-winのプロジェクト", translation: "a win-win project", examples: []},
+  {expr: "オープンマインド", translation: "with an open mind, open-minded", examples: []},
+  {expr: "家のリフォーム", translation: "renovate", examples: []},
+  {expr: "カモフラージュ", translation: "camouflage", examples: []},
+  {expr: "(有名人の)サイン", translation: "autograph, signature", examples: []},
+  {expr: "スマホ", translation: "a smartphone", examples: []},
+  {expr: "ドクターストップ", translation: "doctor's order", examples: []},
+  {expr: "バーゲン品", translation: "a bargain-priced item, a bargain product", examples: []},
+  {expr: "ハードスケジュール", translation: "tight schedule", examples: []},
+  {expr: "ピンチ", translation: "be in a hot water", examples: []},
+  {expr: "フリーサイズのTシャツ", translation: "The T-shirts are one size fits all.", examples: []},
+  {expr: "マジックテープ", translation: "velcro", examples: []},
+  {expr: "(体重が)リバウンドする", translation: "regain one's weight", examples: []},
+  {expr: "六角レンチ", translation: "a hex wrench", examples: []}
 ];

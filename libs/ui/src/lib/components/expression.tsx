@@ -1,9 +1,9 @@
 import {Card, CardContent, List, ListItem, Typography} from "@mui/material";
-import {ExprData, ExprExample, marginPx} from "@vocmem/data";
+import {EnExprData, ExprExample, marginPx} from "@vocmem/data";
 import TranslateIcon from '@mui/icons-material/Translate';
 import {Fragment} from "react";
 
-export function Expression({expr, translation, examples}: ExprData) {
+export function Expression({expr, translation, examples}: EnExprData) {
   return (
     <Card sx={{width: "auto", margin: marginPx}}>
       <CardContent>

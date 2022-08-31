@@ -2,7 +2,7 @@ export type ExprExample = {
   orig: string,
   ja: string
 }
-export type ExprData = {
+export type EnExprData = {
   expr: string,
   translation: string,
   examples: ExprExample[]

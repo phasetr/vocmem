@@ -82,7 +82,7 @@ export function Expr() {
   function handleBefore(_e) {
     const nextProblemId = problemId - 1;
     let newId = (blockNumber - 1) * wordNumberPerBlock;
-    if (nextProblemId <= newId) {
+    if (nextProblemId < newId) {
       const tmpId = blockNumber * wordNumberPerBlock - 1;
       newId = (maxLength <= tmpId) ? newId : tmpId;
     } else {
@@ -170,7 +170,7 @@ export function Expr() {
         handleNext={handleNext}
         handleSave={handleSave}/>
 
-      <ExpressionInfo problemId={problemId} word={word} problem={expression}/>
+      <ExpressionInfo problemId={problemId} word={word} expression={expression}/>
       <SavedWords
         allWords={allWords}
         expanded={expanded}

@@ -1,17 +1,18 @@
 import {Accordion, AccordionDetails, AccordionSummary, Box, Typography} from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import {ExprData} from "@vocmem/data";
+import {EnExprData} from "@vocmem/data";
 
-type ExpressInfoType = {
+type ExpressionInfoType = {
   problemId: number,
-  word: ExprData,
-  problem: string
+  word: EnExprData,
+  expression: JSX.Element
 }
-export function ExpressionInfo({problemId, word: expr, problem: expression}: ExpressInfoType) {
+
+export function ExpressionInfo({problemId, word, expression}: ExpressionInfoType) {
   return (
     <Accordion>
       <AccordionSummary expandIcon={<ExpandMoreIcon/>} aria-controls="panel1a-content">
-        <Typography component="h2">{problemId+1}: {expr ? `${expr.expr}` : ""}</Typography>
+        <Typography component="h2">{problemId + 1}: {word ? `${word.expr}` : ""}</Typography>
       </AccordionSummary>
       <AccordionDetails>
         <Box component="section">{expression}</Box>
