@@ -397,8 +397,10 @@ export const enExprData: EnExprData[] = [
   },
   {
     expr: "危ない!",
-    translation: "look out",
-    examples: [{orig: "Look out! There's a car coming.", ja: "危ない! 車が来てるよ."}]
+    translation: "look out, watch out",
+    examples: [{orig: "Look out! There's a car coming.", ja: "危ない! 車が来てるよ."},
+      {orig: "Watch out! A car is coming.", ja: "危ない! 車が来るよ."},
+      {orig: "Watch out! The floor is slippery.", ja: "気をつけて! 床が滑りやすいから."}]
   },
   {
     expr: "一期一会", translation: "once-in-a-lifetime change", examples: [{
@@ -503,5 +505,30 @@ export const enExprData: EnExprData[] = [
   {expr: "フリーサイズのTシャツ", translation: "The T-shirts are one size fits all.", examples: []},
   {expr: "マジックテープ", translation: "velcro", examples: []},
   {expr: "(体重が)リバウンドする", translation: "regain one's weight", examples: []},
-  {expr: "六角レンチ", translation: "a hex wrench", examples: []}
+  {expr: "六角レンチ", translation: "a hex wrench", examples: []},
+  {
+    expr: "びっくりした!",
+    translation: "You scared me!",
+    examples: [{
+      orig: "Cindy! You scared me! You should knock first.",
+      ja: "シンディったら! びっくりしたじゃない! ノックぐらいしてよ."
+    }, {
+      orig: "You scared me to death! I almost hit you with this baseball bat!",
+      ja: "死ぬほどびっくりした! もうちょっとでバットで殴りつけるところだったよ"
+    }]
+  },
+  {
+    expr: "ピックアップする",
+    translation: "pick out",
+    examples: [{orig: "Pick out anything you like.", ja: "好きなものをピックアップしてください."},
+      {orig: "I picked up a Nagoya accent.", ja: "名古屋弁を身につけた."}]
+  },
+  {expr: "森羅万象", translation: "all creations", examples: []},
+  {expr: "他力本願", translation: "leaving it to others", examples: []},
+  {expr: "適材適所", translation: "right people, right place", examples: []},
+  {expr: "不言実行", translation: "action before words", examples: []},
+  {expr: "本末転倒", translation: "put the cart before the horse", examples: []},
+  {expr: "正三角形", translation: "equilateral triangle", examples: []},
+  {expr: "二等辺三角形", translation: "isosceles triangle", examples: []},
+  {expr: "直角三角形", translation: "right triangle", examples: []},
 ];
