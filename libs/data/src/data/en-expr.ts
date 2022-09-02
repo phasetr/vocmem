@@ -531,4 +531,11 @@ export const enExprData: EnExprData[] = [
   {expr: "正三角形", translation: "equilateral triangle", examples: []},
   {expr: "二等辺三角形", translation: "isosceles triangle", examples: []},
   {expr: "直角三角形", translation: "right triangle", examples: []},
+  {
+    expr: "clobber",
+    translation: "大打撃を与える",
+    examples: [
+      {orig: "The Tigers clobbered the Giants.", ja: "タイガースはジャイアンツに圧勝した."},
+      {orig: "She clobbered the man who tried to attack her.", ja: "彼女は自分を襲おうとした男性を打ちのめした."}]
+  }
 ];

@@ -1087,6 +1087,7 @@ export const macros = {
   "\\cotspN": "T_{#1}^* N",
   "\\cotsp": "T_{#1}^* #2",
   "\\cpt": "\\dot{#1}",
+  "\\dAlembertian": "\\Box",
   "\\dA": "\\, dA",
   "\\dElambda": "\\, dE (\\lambda)",
   "\\dEx": "\\, dE(x)",
@@ -2092,5 +2093,5 @@ export const macros = {
   "\\xm": "(x_m)_{m{\\in}{\\bN}}",
   "\\xn": "(x_n)_{n{\\in}{\\bN}}",
   "\\xti": "x \\to \\infty",
-  "\\yn": "(y_n)_{n{\\in}{\\bN}}"
+  "\\yn": "(y_n)_{n{\\in}{\\bN}}",
 };
