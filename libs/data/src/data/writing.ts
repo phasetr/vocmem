@@ -68,7 +68,7 @@ export const writingData = [
       "Though I have experienced a few problems, I've been very happy being a teacher for 20 years."]
   },
   {
-    orig: "彼は柔道経験者だ. けんかになったらとても太刀打ちでない.", en: ["He is a judo specialist. He will outpower me.",
+    orig: "彼は柔道経験者だ. けんかになったらとても太刀打ちできない.", en: ["He is a judo specialist. He will outpower me.",
       "He has specialty in judo, so he will beat me.",
       "He used to do judo. I cannot beat him at all no matter how many times I fight against him.",
       "He used to do judo, so it would be impossible for me to beat him in a fight."]
