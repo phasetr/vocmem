@@ -5,7 +5,6 @@ import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import {useRouter} from "next/router";
 import {JSXElementConstructor, ReactElement, ReactFragment, ReactPortal, useState} from "react";
 import CloseIcon from "@mui/icons-material/Close";
-import Link from "next/link";
 
 export function Main(props: { children: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | ReactFragment | ReactPortal | null | undefined; }) {
   const [modalOpen, setModalOpen] = useState(false);
@@ -60,11 +59,13 @@ export function Main(props: { children: string | number | boolean | ReactElement
             <Typography id="inquiry-modal-modal-title" variant="h6" component="h2">お問い合わせ</Typography>
             <Typography id="inquiry-modal-modal-description" sx={{mt: 2}}>
               <Box component="section">
-                <Box component="p">機能追加のご要望やお問い合わせは<Link href="https://phasetr.com/contact"
-                                                         passHref><MuiLink>こちら</MuiLink></Link>からお受けします。</Box>
-                <Box component="p">数学・物理・プログラミング・語学に関する学習相談もお受けします。</Box>
-                <Box component="p">その他コンテンツは<Link href="https://phasetr.com/archive/"
-                                                  passHref><MuiLink>アーカイブサイト</MuiLink></Link>をご覧ください。</Box>
+                <Box component="p">機能追加のご要望やお問い合わせは<MuiLink href="https://phasetr.com/contact" target="_blank"
+                                                                    rel="noopener noreferrer">こちら</MuiLink>からお受けします。</Box>
+                <Box component="p">数学・物理・プログラミング・語学に関する学習相談もお受けします。メルマガ登録は<MuiLink
+                  href="https://phasetr.com/archive/fc/course/mm/" target="_blank"
+                  rel="noopener noreferrer">こちら</MuiLink>からどうぞ。</Box>
+                <Box component="p">その他コンテンツは<MuiLink href="https://phasetr.com/archive/" target="_blank"
+                                                      rel="noopener noreferrer">アーカイブサイト</MuiLink>をご覧ください。</Box>
               </Box>
             </Typography>
           </Box>

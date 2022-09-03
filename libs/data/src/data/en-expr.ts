@@ -549,5 +549,14 @@ export const enExprData: EnExprData[] = [
     examples: []
   },
   {expr: "聞きたくて仕方ない質問", translation: "burning question", examples: []},
-  {expr: "ファーストクラスで飛行機に乗る", translation: "fly business class/first class", examples: []}
+  {expr: "ファーストクラスで飛行機に乗る", translation: "fly business class/first class", examples: []},
+  {
+    expr: "fettility rate",
+    translation: "出生率",
+    examples: [{orig: "Smoking affects fertility in both men and women.", ja: "喫煙は男女両方の生殖能力に影響を及ぼす."},
+      {
+        orig: "Countries need a fertility rate of at least 2.1 to stop their populations decreasing.",
+        ja: "国の人口減少を食い止めるためには出生率が少なくとも2.1必要である."
+      }]
+  }
 ];
