@@ -537,5 +537,17 @@ export const enExprData: EnExprData[] = [
     examples: [
       {orig: "The Tigers clobbered the Giants.", ja: "タイガースはジャイアンツに圧勝した."},
       {orig: "She clobbered the man who tried to attack her.", ja: "彼女は自分を襲おうとした男性を打ちのめした."}]
-  }
+  },
+  {
+    expr: "水道",
+    translation: "waterworks, water supply, water service; 水道管: water pipe; 水道水: tap water",
+    examples: [{orig: "A: Have you paid for the waterworks? B: Not yet.", ja: "A: 水道代払った? B: まだ."}]
+  },
+  {
+    expr: "Flying planes can be dangerous.",
+    translation: "飛んでいる飛行機は危ない. (飛行機は墜落する可能性がある.); 飛行機を飛ばすことは危険だ.",
+    examples: []
+  },
+  {expr: "聞きたくて仕方ない質問", translation: "burning question", examples: []},
+  {expr: "ファーストクラスで飛行機に乗る", translation: "fly business class/first class", examples: []}
 ];

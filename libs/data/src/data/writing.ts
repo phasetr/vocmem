@@ -1,5 +1,5 @@
 export const writingData = [
-  {orig: "よろしくお願いします.", en: ["Thanks in advance for any help!"]},
+  {orig: "(ネット質問サイトで)よろしくお願いします.", en: ["Thanks in advance for any help!"]},
   {orig: "彼とは音信不通だ.", en: ["I have heard nothing from him.", "I have not talked to him for a long time."]},
   {orig: "彼女は玉の輿に乗った.", en: ["Her husband has a lot of money.", "She married a rich man."]},
   {orig: "病床に臥していた.", en: ["You were sick last week.", "Rest well.", "Don't work too hard!"]},
@@ -34,6 +34,39 @@ export const writingData = [
     orig: "FBよりLINEの方をやってる人が多いのは知っているのですが, FBの方が私には便利です.",
     en: ["I know LINE outnumbers FB, but I like FB.", "The number of LINE users exceeds that of Facebook, but I am good at FB.", "I like FB.", "I prefer FB to Line.", "FB eases communication.", "FB makes communication easier."]
   },
+  {
+    orig: "意外かも知れませんが, 趣味は料理で得意料理はパンプキンスープです.",
+    en: ["In fact, I like/enjoy cooking, and I can cook pumpking soup very well."]
+  },
+  {
+    orig: "たくさん素敵な友達がいるんですが, お酒が飲めないんです.",
+    en: ["I have many nice friends.", "I can't drink.", "I drink no alcohol."]
+  },
+  {orig: "今日朝食を食べなかった.", en: ["I have no breakfast.", "I skipped breakfast."]},
+  {orig: "家族は妻と息子が二人です. 猫も一匹います.", en: ["I have a wife, two sons, and a cat."]},
+  {
+    orig: "息子は高校でサッカー部です.",
+    en: ["My son plays soccer at high school.", "My son has joined a soccer club in high school."]
+  },
+  {orig: "娘は大学生. 音楽専攻です.", en: ["My daughter studies music at university."]},
+  {orig: "妻は朝の散歩を日課にしています.", en: ["My wife walks every morning.", "My wife enjoys morning walks."]},
+  {
+    orig: "父は京都で扇子屋をやっています.",
+    en: ["My father manage a japanese fan store in Kyoto.", "My father sells a japanese fans in Kyoto.", "My father sells a japanese folding fans in Kyoto.", "My father sells a japanese folding fans, called Sense, in Kyoto.", "My father sells a japanese folding fans, or Sense, in Kyoto."]
+  },
+  {
+    orig: "店は駅へのアクセスがよく, たくさんお客さんが来ます.",
+    en: ["His shop has a good access to the station, so he has many customers."]
+  },
+  {
+    orig: "外国人のお客さんも多いので, 父は英語のレッスンを受けています. 英文法が難しくて困っています. でも英語を勉強するのが楽しいと言っています.",
+    en: ["He has many forign customers, so he learns English."]
+  },
+  {
+    orig: "ナンシーは世界をまたにかけて仕事をしています.",
+    en: ["Nancy has work in all over the world.", "She has business partners around the world.", "Her job takes her to many places all over ther world."]
+  },
+  {orig: "エアカナダにご搭乗頂きありがとうございます.", en: ["Thank you for flying AIR CANADA."]},
   {
     orig: "それはまさに起死回生のホームランだった.", en: ["It was an important home run.",
       "We had an important home run.",
