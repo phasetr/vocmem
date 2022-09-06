@@ -12,3 +12,6 @@
 - 単語暗記でランダム化
 - キリル文字のローマ字転写再調整：日本語キーボードで簡単に入力できるような変換, あとテスト
 - 他の言語追加
+
+## 数学アート
+- [GenerativeArtWithMath-p5.js](https://github.com/tetunori/GenerativeArtWithMath-p5.js)
