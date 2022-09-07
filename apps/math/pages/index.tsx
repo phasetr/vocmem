@@ -10,6 +10,10 @@ export function Index() {
       primary: "外部リンク：相転移プロダクション",
       target: "_blank",
       rel: "noopener noreferrer"
+    },
+    {
+      href: "art/sample",
+      primary: "ジェネラティブアート：サンプル"
     }
   ]
 

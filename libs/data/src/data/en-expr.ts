@@ -558,5 +558,30 @@ export const enExprData: EnExprData[] = [
         orig: "Countries need a fertility rate of at least 2.1 to stop their populations decreasing.",
         ja: "国の人口減少を食い止めるためには出生率が少なくとも2.1必要である."
       }]
-  }
+  },
+  {
+    expr: "way to go",
+    translation: "よくやった; good job, well done",
+    examples: [
+      {
+        orig: "A: I passed my final exams. B: That's great. Way to go!",
+        ja: "A: 期末試験に合格したよ. B: それは素晴らしい. よくやった!"
+      },
+      {
+        orig: "A: I won the tennis match yesterday. B: Oh, nice. Way to go!",
+        ja: "A: 昨日テニスの試合に勝ったんだ. B: おおいいね. よくやった!"
+      }]
+  }, {
+    expr: "電源を切る",
+    translation: "turn off, switch off",
+    examples: [{orig: "Please turn off your computer.", ja: "コンピューターの電源を切って下さい."},
+      {orig: "Turn off the alarm! It’s noisy.", ja: "目覚まし止めてよ! うるさいんだけど."}]
+  },
+  {
+    expr: "burn the midnight oil", translation: "夜遅くまで勉強する/働く", examples: [{
+      orig: "A: Did you get some sleep? B: I was burning the midnight oil, because there was a big mistake.",
+      ja: "A: よく眠れた? B:大きなミスがあって夜遅くまで働いていたよ."
+    }]
+  },
+  {expr: "N/A", translation: "該当なし(Not Applicable), 利用不可(Not Available", examples: []}
 ];

@@ -152,5 +152,6 @@ export const writingData: WritingData[] = [
     en: ["She loves her family very well.", "She puts her family first.", "She values her family. (<- I am important --.)", "She values her family above anything else.", "She puts her family in the first place.", "Family outweighs career."],
     comment: ["above anything else: これ以上のものはない.", "outpower, outliveなどout系の単語を覚えておくといい.", "The ginger outpowers the lemon."]
   },
-  {orig: "ナンシーは和食好きです.", en: ["Nancy likes Japanese food."], comment: []}
+  {orig: "ナンシーは和食好きです.", en: ["Nancy likes Japanese food."], comment: []},
+  {orig:"そろそろ帰るね.", en:["It's about time to go home."], comment:[]},
 ];
