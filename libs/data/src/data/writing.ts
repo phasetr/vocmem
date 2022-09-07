@@ -168,5 +168,7 @@ export const writingData: WritingData[] = [
     comment: []
   },
   {orig: "私は三日坊主で.", en: ["I can't stick to anything for long."], comment: []},
-  {orig: "度忘れしちゃった.", en: ["I slipped my mind."], comment: []}
+  {orig: "度忘れしちゃった.", en: ["I slipped my mind."], comment: []},
+  {orig: "お金が足りない.", en: ["There is not enough money."], comment: []},
+  {orig: "時間が足りない.", en: ["THere is not enough time"], comment: []}
 ];

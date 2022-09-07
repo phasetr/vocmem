@@ -591,5 +591,13 @@ export const enExprData: EnExprData[] = [
   {expr: "塾", translation: "cram school", examples: []},
   {expr: "目標を立てる", translation: "set a goal", examples: []},
   {expr: "コツを知っている", translation: "know the ropes", examples: []},
-  {expr: "時差ボケ", translation: "have jet lag", examples: []}
+  {expr: "時差ボケ", translation: "have jet lag", examples: []},
+  {
+    expr: "by the book",
+    translation: "ルール通りに",
+    examples: [{
+      orig: "A: What should we do now? B: Just play it by the book and you’ll be fine.",
+      ja: "A: ここからどうすれば? B: ただルール通りに動けば良いだけだ"
+    }]
+  }
 ];
