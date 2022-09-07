@@ -583,5 +583,13 @@ export const enExprData: EnExprData[] = [
       ja: "A: よく眠れた? B:大きなミスがあって夜遅くまで働いていたよ."
     }]
   },
-  {expr: "N/A", translation: "該当なし(Not Applicable), 利用不可(Not Available", examples: []}
+  {expr: "N/A", translation: "該当なし(Not Applicable), 利用不可(Not Available", examples: []},
+  {expr: "義務教育", translation: "compulsory education", examples: []},
+  {expr: "文系と理系", translation: "arts and sciences; liberal arts and social sciences", examples: []},
+  {expr: "男女共学", translation: "co-ed; co-education", examples: []},
+  {expr: "物覚えがいい/悪い, 飲み込みが早い/遅い", translation: "a quick/slow learner", examples: []},
+  {expr: "塾", translation: "cram school", examples: []},
+  {expr: "目標を立てる", translation: "set a goal", examples: []},
+  {expr: "コツを知っている", translation: "know the ropes", examples: []},
+  {expr: "時差ボケ", translation: "have jet lag", examples: []}
 ];

@@ -153,5 +153,20 @@ export const writingData: WritingData[] = [
     comment: ["above anything else: これ以上のものはない.", "outpower, outliveなどout系の単語を覚えておくといい.", "The ginger outpowers the lemon."]
   },
   {orig: "ナンシーは和食好きです.", en: ["Nancy likes Japanese food."], comment: []},
-  {orig:"そろそろ帰るね.", en:["It's about time to go home."], comment:[]},
+  {orig: "そろそろ帰るね.", en: ["It's about time to go home."], comment: []},
+  {orig: "好きなアイドルに会ってめちゃくちゃテンションが上がったよ.", en: ["I got so excited when I met my favorite idol."], comment: []},
+  {orig: "めっちゃウケる.", en: ["Jonny's jokes cracked me up!"], comment: []},
+  {orig: "彼の子供時代の話は感動的だったね.", en: ["He told a touching story about his childhood."], comment: []},
+  {orig: "夏という言葉を聞くと何が脳裏に浮かびますか?", en: ["What comes to mind when you hear the word 'summer'?"], comment: []},
+  {orig: "たいていの子供は自己中心的だ.", en: ["Most children are self-centered."], comment: []},
+  {orig: "八方美人になってはいけない", en: ["Don't be everybody's friend."], comment: []},
+  {orig: "彼のような目立ちたがり屋は好きじゃない.", en: ["I don't like him because he is an attention seeker/posy."], comment: []},
+  {orig: "私が潔癖症に見える?", en: ["Do you think I'm a neat freak?"], comment: []},
+  {
+    orig: "うちの息子は好き嫌いが激しくて食事を準備するのが大変.",
+    en: ["My son is a picky eater, so it's hard to prepare meals."],
+    comment: []
+  },
+  {orig: "私は三日坊主で.", en: ["I can't stick to anything for long."], comment: []},
+  {orig: "度忘れしちゃった.", en: ["I slipped my mind."], comment: []}
 ];
