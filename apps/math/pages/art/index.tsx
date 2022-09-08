@@ -5,21 +5,13 @@ import Link from "next/link";
 
 export function Index() {
   const data: DataType[] = [
-    {
-      href: "https://phasetr.com/archive",
-      primary: "外部リンク：相転移プロダクション",
-      target: "_blank",
-      rel: "noopener noreferrer"
-    },
-    {
-      href: "art",
-      primary: "ジェネラティブアート"
-    }
+    {href: "art/sample", primary: "サンプル"}
+    , {href: "art/log-spiral-recur-polygon", primary: "対数ら線"}
   ]
 
   return (
     <Main>
-      <Box component="h1">数学ギャラリー</Box>
+      <Box component="h1">p5.js</Box>
       {data.map((props: DataType) => (
         <List key={props.href}>
           <Link {...props} passHref>

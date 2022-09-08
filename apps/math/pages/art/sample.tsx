@@ -1,6 +1,7 @@
 import {Main, P5Wrapper} from "@vocmem/ui";
 import p5Types from "p5";
 import {Box} from "@mui/material";
+import Link from "next/link";
 
 export function Sample() {
   const preload = () => {
@@ -21,13 +22,15 @@ export function Sample() {
       const barX = whichBar * barWidth;
       p5.fill(barX, p5.mouseY, 66);
       p5.rect(barX, 0, barWidth, p5.height);
+      // noinspection JSUnusedAssignment
       lastBar = whichBar;
     }
   }
 
   return (
     <Main>
-      <Box component="h1">ジェネラティブアート サンプル</Box>
+      <Box component="h1">サンプル</Box>
+      <Box><Link href="/art">一覧へ</Link></Box>
       <P5Wrapper preload={preload} setup={setup} draw={draw}/>
     </Main>
   )
