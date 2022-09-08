@@ -167,6 +167,45 @@ export const writingData: WritingData[] = [
     en: ["My son is a picky eater, so it's hard to prepare meals."],
     comment: []
   },
+  {
+    orig: "(父はナンシーを)回転寿司に連れて行くそうです.",
+    en: ["He will bring Nancy to sushi train bar."],
+    comment: ["回転寿司: conveyer belt sushi.",
+      "カナダだとsushi trainというらしい.",
+      "sushi barともいう.",
+      "sushi train bar"]
+  },
+  {
+    orig: "私の話を聞いてくれてありがとうございます.", en: ["Thank you for your time.",
+      "Thank you for listening to me."], comment: []
+  },
+  {
+    orig: "国境の長いトンネルを抜けると, そこは雪国だった.",
+    en: ["(E. Seidensticker訳): The train came out of the long tunnel into the snow country."],
+    comment: ["ドイツ語 (O. Benl 訳): Als der Zug aus dem langen Grenztunnel herauskroch, lag das Schneeland vor ihm ausgebreitet.", "これを直訳調で書くと「列車が長い国境のトンネルから這い出てくると，彼の前に雪国が広がっていた」", "参考文献 http://www.tufs.ac.jp/ts/personal/narita/jd-kontrastiv_20111109.pdf"]
+  },
+  {orig: "この部屋には窓がない.", en: ["We have no windows in this room.", "This room has no windows."], comment: []},
+  {orig: "私には子供がいない.", en: ["I have no children."], comment: ["No thanks."]},
+  {
+    orig: "圭子は苦しい胸中を吐露した.",
+    en: ["Keiko said how she felt hard.", "Keiko came out her serious problem.", "Keiko told her grief.", "Keiko expressed her deep trouble.", "Keiko told out her sad feeling.", "Keiko had some troubles. She talked about them."],
+    comment: []
+  },
+  {
+    orig: "あなたは病み上がりなのだから無理しないで.",
+    en: ["Take care of yourself.", "Rest well.", "You've been getting better, but rest more.", "Take care of yourseif. No time take you were sick.", "Do not try too hard. Take care of yourself.", "Take it easy. You've just got better.", "Take easy, rest well."],
+    comment: []
+  },
+  {orig: "彼女の宿題を手伝ってあげた.", en: ["I helped her with her homework."], comment: []},
+  {orig: "水を下さい.", en: ["I'll need some water."], comment: []},
+  {orig: "サラダがほしい.", en: ["I'll have salad."], comment: ["このwillは「今決めた」ことを意味する."]},
+  {orig: "(「これ今やらなきゃいけない?」に対して)あとでいいよ.", en: ["Whenever.", "It can wait.", "I can have to wait it."], comment: []},
+  {orig: "スミスさん一家は風邪を引いた.", en: ["The Smiths catch a bug.", "The Smiths had a cold."], comment: []},
+  {
+    orig: "何とかするさ.",
+    en: ["I will try it.", "I can do that!", "I'll find an answer.", "I'll find a way! (映画Bohemian Rhapsody)"],
+    comment: []
+  },
   {orig: "私は三日坊主で.", en: ["I can't stick to anything for long."], comment: []},
   {orig: "度忘れしちゃった.", en: ["I slipped my mind."], comment: []},
   {orig: "お金が足りない.", en: ["There is not enough money."], comment: []},
