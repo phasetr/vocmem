@@ -10,10 +10,11 @@ const Sketch = dynamic(import('react-p5'), {
 export type P5WrapperArgument = {
   preload: (p5: p5Types) => void,
   setup: (p5: p5Types, canvasParentRef: Element) => void,
-  draw: (p5: p5Types) => void
+  draw: (p5: p5Types) => void,
+  mouseClicked?: (p5: p5Types) => void
 }
 
-export function P5Wrapper({preload, setup, draw}: P5WrapperArgument) {
+export function P5Wrapper({preload, setup, draw, mouseClicked}: P5WrapperArgument) {
   const windowResized = (p5: p5Types) => {
     const w = 300 <= p5.windowWidth ? 300 : p5.windowWidth;
     const h = 500 <= p5.windowHeight ? 500 : p5.windowHeight;
@@ -24,6 +25,7 @@ export function P5Wrapper({preload, setup, draw}: P5WrapperArgument) {
       preload={preload}
       setup={setup}
       draw={draw}
+      mouseClicked={mouseClicked}
       windowResized={windowResized}
     />);
 }

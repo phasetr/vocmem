@@ -1,4 +1,4 @@
-import {Main, P5Wrapper} from "@vocmem/ui";
+import {getRandomInteger, Main, P5Wrapper} from "@vocmem/ui";
 import {Box} from "@mui/material";
 import p5Types from "p5";
 import Link from "next/link";
@@ -47,11 +47,6 @@ export function LogSpiralRecurPolygon() {
 
   const showValues = () => {
     console.log('gap: ' + gGap + ', gon: ' + gGon);
-  }
-
-// Get random integer between min and max
-  const getRandomInteger = (min, max) => {
-    return Math.floor(Math.random() * (max - min) + min);
   }
 
   const drawPolygon = (p5, vectors, gon) => {
