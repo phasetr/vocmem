@@ -1,4 +1,6 @@
 category,title,expression,commentary
+"量子力学","ボーア半径","\begin{align}a_0 = \frac{\fourpi \ep_0 \hbar^2}{me^2} = 5.3 \times 10^{-11} \mathrm{m}.\end{align}","古典的な量子論で得られる水素原子の安定状態での半径."
+"量子力学","微細構造定数","\begin{align}\alpha = \frac{e^2}{\fourpi \ep_0 \hbar c} = \frac{1}{137}.\end{align}","電磁相互作用の強さを表す結合定数."
 "量子力学","量子ビットのブロッホ球表示","\ket{\psi} = e^{i \delta} \rbk{\cos \frac{\theta}{2} \ket{\uparrow} + \sin \frac{\theta}{2} e^{i \phi} \ket{\downarrow}}.","量子ビットの状態を半径1の単位球面上の点として表したモデル."
 "量子力学","CHSH不等式","\begin{aligned}-2 \leq \physmean{\sigma_{yA} \sigma_{y'B}} - \physmean{\sigma_{yA} \sigma_{z'B}} + \physmean{\sigma_{zA} \sigma_{y'B}} + \physmean{\sigma_{zA} \sigma_{z'B}} \leq 2.\end{aligned}","ベルの不等式の一形態. Clause, Horne, Shimony, Holtらによる."
 "量子力学","チレルソン不等式","\begin{aligned}-2 \sqrt{2} \leq \physmean{\sigma_{yA} \sigma_{y'B}} - \physmean{\sigma_{yA} \sigma_{z'B}} + \physmean{\sigma_{zA} \sigma_{y'B}} + \physmean{\sigma_{zA} \sigma_{z'B}} \leq 2 \sqrt{2}. \end{aligned}","量子限界を表す不等式の一つ. チレルソン限界ともいう."
