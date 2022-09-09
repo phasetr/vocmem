@@ -13,7 +13,7 @@
     "build:phys": "nx run phys:build && nx run phys:export",
     "build:society": "nx run society:build && nx run society:export",
     "build:vocmem": "nx run vocmem:build && nx run vocmem:export",
-    "release": "yarn build && yarn rsync",
+    "deploy": "yarn build && yarn rsync",
     "rsync": "yarn rsync:phys && yarn rsync:vocmem && yarn rsync:math && yarn rsync:society",
     "rsync:math": "rsync -avz -e \"ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022\" --delete ./dist/apps/math/exported/*   phasetr@sv935.xserver.jp:~/phasetr.com/public_html/service/math-gallery",
     "rsync:phys": "rsync -avz -e \"ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022\" --delete ./dist/apps/phys/exported/*   phasetr@sv935.xserver.jp:~/phasetr.com/public_html/service/phys-gallery",
@@ -85,4 +85,3 @@
     "typescript": "~4.7.2"
   }
 }
-

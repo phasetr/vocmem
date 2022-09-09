@@ -18,7 +18,5 @@ jobs:
         run: echo "$SSH_PRIVATE_KEY" > key && chmod 600 key
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-      - name: rsync deploy vocmem
-        run: rsync -avz -e "ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022" --delete ./dist/apps/vocmem/exported/* phasetr@sv935.xserver.jp:~/phasetr.com/public_html/service/vocmem
-      - name: rsync deploy phys-gallery
-        run: rsync -avz -e "ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022" --delete ./dist/apps/phys/exported/*   phasetr@sv935.xserver.jp:~/phasetr.com/public_html/service/phys-gallery
+      - name: deploy
+        run: yarn deploy

@@ -25,7 +25,8 @@ export function ContinuedFractionDivRectZoom() {
   }
 
   const getPointerX = (p5: p5Types) => {
-    return p5.touches[0] ? p5.touches[0].x : p5.mouseX;
+    // return p5.touches[0] ? p5.touches[0].x : p5.mouseX;
+    return p5.mouseX;
   }
 
   const divRect = (p5: p5Types, xPos: number, yPos: number, squareWidth: number, ratio: number) => {
