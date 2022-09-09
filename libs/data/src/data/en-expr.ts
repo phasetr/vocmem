@@ -599,5 +599,13 @@ export const enExprData: EnExprData[] = [
       orig: "A: What should we do now? B: Just play it by the book and you’ll be fine.",
       ja: "A: ここからどうすれば? B: ただルール通りに動けば良いだけだ"
     }]
+  },
+  {
+    expr: "屋台",
+    translation: "stall; cf. food stall, game stall",
+    examples: [{
+      orig: "A: Where are all the stalls? B: They are on the other side of the street.",
+      ja: "A: 屋台はどこにあるの? B: 通りの反対側にあるよ."
+    }]
   }
 ];
