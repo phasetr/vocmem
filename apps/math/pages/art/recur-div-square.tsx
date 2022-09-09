@@ -1,4 +1,4 @@
-import {getRandomInteger, isEven, isOdd, Main, P5Wrapper} from "@vocmem/ui";
+import {DEFAULT_CANVAS_WIDTH, getRandomInteger, isEven, isOdd, Main, P5Wrapper} from "@vocmem/ui";
 import {Box} from "@mui/material";
 import p5Types from "p5";
 import Link from "next/link";
@@ -9,21 +9,19 @@ export function RecurDivSquare() {
   let gNumB = 6;
   let gRatio = gNumB / gNumA;
 
-  const WIDTH = 500;
-
   function preload() {
     return
   }
 
   function setup(p5: p5Types) {
-    const myCanvas = p5.createCanvas(WIDTH, WIDTH);
+    const myCanvas = p5.createCanvas(DEFAULT_CANVAS_WIDTH, DEFAULT_CANVAS_WIDTH);
     myCanvas.touchStarted(mouseClicked);
     p5.colorMode(p5.HSB, 100);
     p5.noLoop();
   }
 
   function draw(p5) {
-    divSquare(p5, 0, 0, WIDTH, gRatio, gThreshold);
+    divSquare(p5, 0, 0, DEFAULT_CANVAS_WIDTH, gRatio, gThreshold);
   }
 
   function mouseClicked(p5) {
@@ -35,7 +33,7 @@ export function RecurDivSquare() {
     gThreshold = getRandomInteger(10, 300);
     gRatio = gNumB / gNumA;
     p5.background(0, 0, 100);
-    divSquare(p5, 0, 0, WIDTH, gRatio, gThreshold);
+    divSquare(p5, 0, 0, DEFAULT_CANVAS_WIDTH, gRatio, gThreshold);
   }
 
   const divSquare = (p5: p5Types, xPos, yPos, squareWidth, ratio, threshold) => {

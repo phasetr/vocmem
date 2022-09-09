@@ -1,17 +1,18 @@
-import {Main, P5Wrapper} from "@vocmem/ui";
+import {Main, P5Wrapper, windowResized} from "@vocmem/ui";
 import p5Types from "p5";
 import {Box} from "@mui/material";
 import Link from "next/link";
 
 export function Sample() {
-  const preload = () => {
-    return
+  function preload() {
+    return;
   }
 
   const setup = (p5: p5Types, canvasParentRef: Element) => {
     p5.createCanvas(p5.windowWidth, p5.windowHeight).parent(canvasParentRef);
     p5.colorMode(p5.HSB, p5.width, p5.height, 100);
     p5.noStroke();
+    windowResized(p5);
   }
 
   const draw = (p5: p5Types) => {

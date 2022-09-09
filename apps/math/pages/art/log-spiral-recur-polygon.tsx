@@ -1,4 +1,4 @@
-import {getRandomInteger, Main, P5Wrapper} from "@vocmem/ui";
+import {DEFAULT_CANVAS_HEIGHT, DEFAULT_CANVAS_WIDTH, getRandomInteger, Main, P5Wrapper} from "@vocmem/ui";
 import {Box} from "@mui/material";
 import p5Types from "p5";
 import Link from "next/link";
@@ -8,15 +8,12 @@ export function LogSpiralRecurPolygon() {
   let gGap = 0.1;
   let gGon = 8;
 
-  const WIDTH = 500;
-  const HEIGHT = 500;
-
   function preload() {
     return;
   }
 
   function setup(p5: p5Types) {
-    const myCanvas = p5.createCanvas(WIDTH, HEIGHT);
+    const myCanvas = p5.createCanvas(DEFAULT_CANVAS_WIDTH, DEFAULT_CANVAS_HEIGHT);
     myCanvas.touchStarted(mouseClicked);
     p5.colorMode(p5.HSB, 100);
     showValues();
@@ -24,7 +21,7 @@ export function LogSpiralRecurPolygon() {
   }
 
   function draw(p5: p5Types) {
-    p5.translate(WIDTH / 2, HEIGHT / 2);
+    p5.translate(DEFAULT_CANVAS_WIDTH / 2, DEFAULT_CANVAS_HEIGHT / 2);
     drawPolygon(p5, gArrayVector, gGon);
     gArrayVector = getShiftedVectorArray(p5, gArrayVector, gGap, gGon);
   }
@@ -41,12 +38,12 @@ export function LogSpiralRecurPolygon() {
     gArrayVector = new Array(gGon);
     for (let index = 0; index < gGon; index++) {
       gArrayVector[index] = p5.constructor.Vector.fromAngle(2 * index * Math.PI / gGon);
-      gArrayVector[index].mult(WIDTH / 2);
+      gArrayVector[index].mult(DEFAULT_CANVAS_WIDTH / 2);
     }
   }
 
   const showValues = () => {
-    console.log('gap: ' + gGap + ', gon: ' + gGon);
+    console.log(`gap: ${gGap}, gon: ${gGon}`);
   }
 
   const drawPolygon = (p5, vectors, gon) => {
@@ -61,7 +58,6 @@ export function LogSpiralRecurPolygon() {
   const getShiftedVectorArray = (p5, vectors, gap, gon) => {
     const nextVectorArray = new Array(gon);
     for (let index = 0; index < gon; index++) {
-      // Get direction vector
       const directionVector = p5.constructor.Vector.sub(vectors[(index + 1) % gon], vectors[index]);
       // Shrink the vector
       directionVector.mult(gap);
