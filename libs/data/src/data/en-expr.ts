@@ -614,5 +614,13 @@ export const enExprData: EnExprData[] = [
     examples: [
       {orig: "A : How was the food? B: You nailed it.", ja: "A: 料理の味はどう? B: ばっちり."},
       {orig: "A: How was the English exam? B: I nailed it.", ja: "A: 英語のテストどうだった? B: 完璧!"}]
+  },
+  {
+    expr: "ちなみに",
+    translation: "by the way, you know what, actually",
+    examples: [
+      {orig: "By the way, did you call him?", ja: "ちなみに彼には電話した?"},
+      {orig: "You know what, they just broke up yesterday.", ja: "ちなみにあの二人昨日別れたって."},
+      {orig: "Actually, It’s been 10 years since we last met.", ja: "ちなみに私たち前に会ったときから10年経ったよ"}]
   }
 ];
