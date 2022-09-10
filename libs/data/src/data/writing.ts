@@ -210,4 +210,41 @@ export const writingData: WritingData[] = [
   {orig: "度忘れしちゃった.", en: ["I slipped my mind."], comment: []},
   {orig: "お金が足りない.", en: ["There is not enough money."], comment: []},
   {orig: "時間が足りない.", en: ["THere is not enough time"], comment: []}
+  , {
+    orig: "さっぱりわからないね.",
+    en: ["I have no idea.", "I don't know.", "Nothing came to my mind! (映画 Bohemian Rhapsody)"],
+    comment: []
+  }
+  , {
+    orig: "車を止めて!",
+    en: ["Stop the car!", "Pull over! (映画 Bohemian Rhapsody, もともと「馬の手綱を引っ張って馬を止める」)"],
+    comment: []
+  }
+  , {orig: "今日出社できない.", en: ["I'm not coming into work today.", "I have no time to work today."], comment: []}
+  , {
+    orig: "この風邪にやられてしまった.",
+    en: ["I have this cold I can't shake.", "I have a cold.", "The cold knocked me out."],
+    comment: ["ここのshakeは「治す」意味で, shake a coldでマジシャンが帽子を振ると鳩が出るイメージ."]
+  }
+  , {
+    orig: "英語に関する技術を改善したいです.",
+    en: ["I want to improve my English skills."],
+    comment: ["技術全てを伸ばしたいからskillsと複数形."]
+  }
+  , {orig: "運転免許は持っていますか?", en: ["Do you have a driver's license?", "Do you have a license?"], comment: []}
+  , {
+    orig: "車酔いしましたか?",
+    en: ["Did you get carsick?", "Do you trouble in a car?", "Do you have a trouble in a car?"],
+    comment: ["getは「ほしくてたまらないものを自分の努力で得た」という意味と「ほしくもないものを得てしまった」という意味がある.", "感情を表す単語を一緒に使える.", "He got angry.: 「彼は突然怒り出した」のように突発性が出てくる.", "He was angry. 「彼は怒っていた」"]
+  }
+  , {
+    orig: "車酔いしやすですか?",
+    en: ["Do you get carsick easily?", "Are you prone to car sickness?", "Do you get car sick easily?"],
+    comment: []
+  }
+  , {orig: "少しホームシックです", en: ["I am a little homesick."], comment: []}
+  , {orig: "日本のお米が恋しいです.", en: ["I miss Japanese rice!", "I want to eat Japanese rice."], comment: []}
+  , {orig: "今日はどうでしたか?", en: ["How was your day?"], comment: ["How about your day?は駄目: 話の切り出しには使えない."]}
+  , {orig: "まあまあでした.", en: ["It was pretty good.", "It was not bad."], comment: ["prettyは「割と」のニュアンスがある."]}
+  , {orig: "息を止めて!", en: ["Hold your breath!"], comment: []}
 ];
