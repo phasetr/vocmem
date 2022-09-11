@@ -6,6 +6,7 @@ import Link from "next/link";
 export function Index() {
   const data: DataType[] = [
     {href: "art/sample", primary: "サンプル"}
+    , {href: "art/sine-cosine", primary: "sin-cos"}
     , {href: "art/recur-div-square", primary:"ユークリッドの互除法"}
     , {href:"art/continued-fraction-div-rect-zoom", primary:"連分数 DivRectZoom"}
     , {href: "art/log-spiral-recur-polygon", primary: "対数ら線"}
