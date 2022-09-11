@@ -114,6 +114,8 @@ category,title,expression,commentary
 "相対性理論","計量によるクリストッフェル記号","\begin{aligned}\Gamma_{\mu \nu \lambda} = \frac{1}{2} \rbk{g_{\mu \nu, \lambda} + g_{\mu \lambda, \nu} - g_{\nu \lambda, \mu}}.\end{aligned}","本来クリストッフェル記号は接続から決まる量で計量なしで定義可能."
 "相対性理論","一般の時空の計量","\begin{aligned}c^2 d \tau^2 &= \sum_{\mu,\nu=1}^4 g_{\mu,\nu}(x) dx^{\mu} dx^{\nu} \\ &= g_{\mu,\nu}(x) dx^{\mu} dx^{\nu}.\end{aligned}","一般相対性理論での基本的な概念."
 "相対性理論","測地線の方程式","\begin{aligned}\frac{d^2 x^{\mu}}{d \tau^2} + \Gamma^{\mu}_{\nu \sigma} \frac{dx^{\nu}}{d \tau} \frac{dx^{\sigma}}{d \tau} = 0.\end{aligned}","一般相対性理論での自由落下を記述する方程式. 一般論は微分幾何で."
+"相対性理論","等価原理","\begin{aligned}g_{\mu\nu} (x) = \eta_{\mu\nu} + h_{\mu\nu}(x), \quad \abs{h_{\mu\nu}(x)} \ll 1.\end{aligned}","平坦時空を表す$\eta_{\mu\nu}$に対する弱い摂動で表せる座標系が取れる."
+"相対性理論","アインシュタイン-ヒルベルト作用","\begin{aligned}S_g = \frac{c^3}{16 \pi G} \int_{\Omega} \sqrt{-g} \rbk{R(x) - 2 \Lambda} \dx.\end{aligned}","それぞれ$R$はスカラー曲率, $\Lambda$は宇宙定数, $G$はニュートン定数."
 "相対性理論","アインシュタイン方程式","\begin{aligned}R^{\mu \nu}(x) - \frac{1}{2}R(x) g^{\mu \nu}(x) = \kappa T^{\mu \nu}(x).\end{aligned}","計量テンソルの決定方程式."
 "相対性理論","シュワルツシルト計量","\begin{aligned}c^2 d\tau^2 = \rbk{1 - \frac{2GM}{c^2 r}} c^2 dt^2 - \frac{1}{1 - \frac{2GM}{c^2r}} dr^2 - r^2 (d \theta^2 + \sin^2 \theta d \phi^2).\end{aligned}","球対称で静的な質量分布の外部にある重力場を記述するアインシュタイン方程式の解. ブラックホールを記述できる."
 "力学","運動方程式","\begin{aligned}m \frac{d^2 \vectorr}{dt^2} = \vectorF.\end{aligned}","高校以来のニュートンの運動方程式."

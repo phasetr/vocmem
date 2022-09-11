@@ -623,4 +623,14 @@ export const enExprData: EnExprData[] = [
       {orig: "You know what, they just broke up yesterday.", ja: "ちなみにあの二人昨日別れたって."},
       {orig: "Actually, It’s been 10 years since we last met.", ja: "ちなみに私たち前に会ったときから10年経ったよ"}]
   }
+  , {
+    expr: "お悔やみを述べる", translation: "offer/express/extend/send/convey one's condolences", examples: [
+      {
+        orig: "I offer my deepest condolences to the Royal Family and the people of the United Kingdom on the passing of Her Majesty Queen Elizabeth II.",
+        ja: "エリザベス2世女王陛下のご逝去に際し, 王室と英国の人々に心からお悔やみを申し上げます."
+      }
+      , {orig: "Please accept my sincere condolences.", ja: "心よりお悔やみ申し上げます."}
+      , {orig: "My sincere condolences.", ja: "心よりお悔やみ申し上げます."}
+    ]
+  }
 ];
