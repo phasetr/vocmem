@@ -238,7 +238,7 @@ export const writingData: WritingData[] = [
     comment: ["getは「ほしくてたまらないものを自分の努力で得た」という意味と「ほしくもないものを得てしまった」という意味がある.", "感情を表す単語を一緒に使える.", "He got angry.: 「彼は突然怒り出した」のように突発性が出てくる.", "He was angry. 「彼は怒っていた」"]
   }
   , {
-    orig: "車酔いしやすですか?",
+    orig: "車酔いしやすいですか?",
     en: ["Do you get carsick easily?", "Are you prone to car sickness?", "Do you get car sick easily?"],
     comment: []
   }
@@ -275,4 +275,49 @@ export const writingData: WritingData[] = [
     en: ["Can you put what you think into English words quickly.", "Can you translate what you think to English?", "Can you convert your thought to English?"],
     comment: ["'Can you tell what you think in English soon/quickly?'だと'in English'が「英語で考えている」になってしまうのでおかしい.", "'what you have in mind'も便利."]
   }
+  , {
+    orig: "今週末ディズニーランドに行くけど, 一緒に来る?",
+    en: ["I am going to Disneyland in this weekend. Let's go with me."],
+    comment: ["Do you want to come with me?"]
+  }
+  , {
+    orig: "(冷蔵庫を開けて)一つだけケーキ残ってる.",
+    en: ["Wow! A piece of cake exist.", "There is only one piece of cake left!"],
+    comment: ["cf. This room has a window."]
+  }
+  , {
+    orig: "質問があれば遠慮なくどうぞ.",
+    en: ["If you have any questions, don't hesitate to ask me.", "I welcome your questions."],
+    comment: []
+  }
+  , {
+    orig: "もう一回考えて.",
+    en: ["It requires thinking.", "Think it again.", "You should not take the plan.", "You should not plan it.", "You will do it more easily.", "You will have more suitable plan."],
+    comment: []
+  }
+  , {
+    orig: "刺身は足が早い.",
+    en: ["Sashimi goes bad soon.", "We have to eat Sashimi very quickly.", "We can't keep Sashimi for a long time.", "Sashimi gets bad soon."],
+    comment: ["人を主語にするよう工夫するとよい.", "row fishだと生け簀の魚を食べているような感じになってしまう."]
+  }
+  , {orig: "これは招き猫です.", en: ["This cat brings luck."], comment: []}
+  , {
+    orig: "本日のスープにします.",
+    en: ["I'll have today's soup."],
+    comment: ["willはその場で決めるときに使う.", "be going toは事前に予定しているときに使う.", "eatなどは使わない.", "eatやdrinkは「くちゃくちゃ」「ごくごく」という生々しさがあるらしい."]
+  }
+  , {
+    orig: "水をください",
+    en: ["May I have some (ice) water?"],
+    comment: ["someが大事.", "疑問文や否定文ではany, ただし依頼の場合はsome", "someをつけると丁寧になる."]
+  }
+  , {orig: "昼食では何を食べましたか?", en: ["What did you have for lunch?"], comment: ["forのコアミーニングは心的方向性."]}
+  , {
+    orig: "スープとサンドイッチを食べました.",
+    en: ["I had soup and a sandwich."],
+    comment: ["サンドイッチは人名.", "シルエットもそう.", "人名が名詞になっていることを調べる学問分野もある.", "人の固有名詞が動詞で使われていたりすることもある?", "数学での事例: 少なくともアーベル(Abel)はabelizeという動詞または動名詞(Abelization)を持つ."]
+  }
+  , {orig: "サラダしか食べませんでした.", en: ["I just/only had a salad."], comment: []}
+  , {orig: "夕食では何を食べましょうか?", en: ["What should we have for dinner?"], comment: ["やはりforが特徴的."]}
+  , {orig: "すごくお米が食べたいです.", en: ["I'd love to have some rice."], comment: ["want toよりもwould love toの方が強い意味."]}
 ];

@@ -648,4 +648,36 @@ export const enExprData: EnExprData[] = [
       {orig: "We need to take measures against the yen's depreciation.", ja: "我々は円安対策が必要です."}
     ]
   }
+  , {
+    expr: "---しようとしていた", translation: "bo about to", examples: [
+      {orig: "A: What were you doing? B: I was about to go to bed.", ja: "A: 何してたの? B: 寝ようとしてたとこだよ"}
+      , {orig: "A: Can we talk now? B: I was just about to call you.", ja: "A: 今話せる? B: ちょうど電話しようとしてたとこ"}
+    ]
+  }
+  , {
+    expr: "in hot water", translation: "困った状況にある, in trouble", examples: [
+      {
+        orig: "A: Why were you called in to the supervisor’s office? B: I’m in hot water because I lost the company smartphone yesterday and it has some confidential company information on it.",
+        ja: "A: なんで上司の部屋に呼び出されたのですか? B: 困っています. なぜなら昨日会社のスマートフォンをなくしてしまい, それには会社の機密情報が入っているんです."
+      }
+    ]
+  }
+  , {
+    expr: "bailout", translation: "救済措置", examples: [
+      {orig: "The company asked the government for a bailout.", ja: "その会社は政府に対して救済措置を求めた."}
+      , {
+        orig: "Taxpayers have begun to question the recent expensive corporate bailouts.",
+        ja: "最近の企業に対する多額の救済措置を受け, 納税者から疑問が浮上している."
+      }
+    ]
+  }
+  , {
+    expr: "近況報告", translation: "catch up", examples: [
+      {orig: "I am thrilled that we will be getting together.  It’s time to catch-up!", ja: "会うのが楽しみ. 近況報告しよう."}
+      , {
+        orig: "It was lovely that I was able to catch up with you this afternoon.",
+        ja: "今日の午後, 久しぶりにあなたに会って近況報告できて良かった"
+      }
+    ]
+  }
 ];
