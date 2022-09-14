@@ -261,4 +261,18 @@ export const writingData: WritingData[] = [
     en: ["What kind of preventive measures can we take against COVID-19?"],
     comment: []
   }
+  , {orig: "いまいちでした.", en: ["It was so so.", "It was OK."], comment: ["'so so'は「まあまあ」よりも評価が低い."]}
+  , {orig: "いろいろ忙しかったです.", en: ["I was busy with this and that.", "I had many things to do."], comment: []}
+  , {orig: "郵便物を取ってきます.", en: ["I'll get the mail."], comment: ["'I take a mail.'だと通じない."]}
+  , {
+    orig: "もう遅くなってきました. お休みなさい.",
+    en: ["It's getting late. Good night!", "I have no time to enjoy my day. Good night!"],
+    comment: []
+  }
+  , {orig: "コーヒーのせいで眠れない.", en: ["Coffee makes me awake.", "I cannot sleep by coffee."], comment: []}
+  , {
+    orig: "考えたことをぱっと英語にできますか?",
+    en: ["Can you put what you think into English words quickly.", "Can you translate what you think to English?", "Can you convert your thought to English?"],
+    comment: ["'Can you tell what you think in English soon/quickly?'だと'in English'が「英語で考えている」になってしまうのでおかしい.", "'what you have in mind'も便利."]
+  }
 ];
