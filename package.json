@@ -20,7 +20,8 @@
     "rsync:society": "rsync -avz -e \"ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022\" --delete ./dist/apps/society/exported/* phasetr@sv935.xserver.jp:~/phasetr.com/public_html/service/society",
     "rsync:vocmem": "rsync -avz -e \"ssh -i key -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -p 10022\" --delete ./dist/apps/vocmem/exported/* phasetr@sv935.xserver.jp:~/phasetr.com/public_html/service/vocmem",
     "test": "nx test",
-    "dev:clean": "rimraf tmp"
+    "dev:clean": "rimraf tmp",
+    "preinstall": "npx typesync || :"
   },
   "private": true,
   "dependencies": {

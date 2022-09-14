@@ -5,6 +5,7 @@
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "extends": ["plugin:react-hooks/recommended"],
       "rules": {
         "@nrwl/nx/enforce-module-boundaries": [
           "error",
@@ -22,7 +23,8 @@
         "no-unused-vars": [
           1,
           {
-            "argsIgnorePattern": "^_"
+            "argsIgnorePattern": "^_",
+            "varsIgnorePattern": "^_"
           }
         ]
       }

@@ -247,4 +247,18 @@ export const writingData: WritingData[] = [
   , {orig: "今日はどうでしたか?", en: ["How was your day?"], comment: ["How about your day?は駄目: 話の切り出しには使えない."]}
   , {orig: "まあまあでした.", en: ["It was pretty good.", "It was not bad."], comment: ["prettyは「割と」のニュアンスがある."]}
   , {orig: "息を止めて!", en: ["Hold your breath!"], comment: []}
+  , {
+    orig: "この問題を解決するベストな方法はなんでしょうか?",
+    en: ["What is the best way to solve this problem"],
+    comment: ["手段はway, means, measureなどがあるがそれぞれにニュアンスがある."]
+  }
+  , {orig: "それはどうすることもできない.", en: ["There’s no way around it."], comment: []}
+  , {orig: "私たちにはコミュニケーションの手段がない.", en: ["We have no means of communication."], comment: []}
+  , {orig: "私はどちらの方法も効果的だと思います", en: ["I think both of the means are effective."], comment: []}
+  , {orig: "我々は円安に対策を講じなければなりません", en: ["We need to take measures against the yen’s depreciation."], comment: []}
+  , {
+    orig: "コロナウイルスに対してどのような予防策が取れますか?",
+    en: ["What kind of preventive measures can we take against COVID-19?"],
+    comment: []
+  }
 ];

@@ -633,4 +633,19 @@ export const enExprData: EnExprData[] = [
       , {orig: "My sincere condolences.", ja: "心よりお悔やみ申し上げます."}
     ]
   }
+  , {
+    expr: "pay tribute", translation: "敬意を表する", examples: [
+      {
+        orig: "Brisbane landmarks were lit red and white to pay tribute to the former Japanese prime minister.",
+        ja: "日本の元首相への敬意を込め, ブリスベンのランドマークは赤と白にライトアップされた."
+      }
+    ]
+  }
+  , {
+    expr: "方法",
+    translation: "way, means, measure: それぞれニュアンスがあり, wayは一般的な手段, meansは特定の目的を達成するための具体的な方法, measureは対策が必要な問題に対する手段.",
+    examples: [
+      {orig: "We need to take measures against the yen's depreciation.", ja: "我々は円安対策が必要です."}
+    ]
+  }
 ];
