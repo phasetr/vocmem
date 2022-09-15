@@ -5,7 +5,7 @@
   "scripts": {
     "start": "yarn nx run-many --target=serve --projects=math,vocmem,phys,society --maxParallel=4 --parallel=true",
     "clean": "yarn build:clean && yarn dev:clean",
-    "build": "yarn build:vocmem && yarn build:phys && yarn build:math && yarn build:society",
+    "build": "yarn build:data && yarn build:vocmem && yarn build:phys && yarn build:math && yarn build:society",
     "build:clean": "rimraf dist",
     "build:data": "ts-node scripts/csv-to-json.ts",
     "build:full": "yarn build:data && yarn build",

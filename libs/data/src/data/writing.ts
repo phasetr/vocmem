@@ -320,4 +320,40 @@ export const writingData: WritingData[] = [
   , {orig: "サラダしか食べませんでした.", en: ["I just/only had a salad."], comment: []}
   , {orig: "夕食では何を食べましょうか?", en: ["What should we have for dinner?"], comment: ["やはりforが特徴的."]}
   , {orig: "すごくお米が食べたいです.", en: ["I'd love to have some rice."], comment: ["want toよりもwould love toの方が強い意味."]}
+  , {
+    orig: "A: どうも彼は仕事を失ったみたいだ. B: 自業自得だね.",
+    en: ["A: Maybe he lost his job. B: Well, he got what he deserved."],
+    comment: ["自業自得: A gets what A deserves", "A自身のせい: A’s own fault", "Aが望んだこと: A asked for it"]
+  }
+  , {
+    orig: "プロジェクトの状況を報告します.",
+    en: ["This is an update on the project."],
+    comment: ["最新情報を継続して共有したいときはupdateを使う.", "report, inform, announceなど「報告する」という意味の動詞は「継続して最新情報を共有する」というニュアンスはなく「断片的なその場限りの報告」というイメージ."]
+  }
+  , {orig: "現在の状況を手短にお伝えします.", en: ["This is a quick update on where we are now."], comment: []}
+  , {orig: "昨日は上司と1時間の打ち合わせがありました.", en: ["I had an hour-meeting with my boss yesterday."], comment: []}
+  , {orig: "予定通りです. 順調に進んでいます.", en: ["We are on schedule. It’s going well."], comment: []}
+  , {
+    orig: "ニューモデルの製造は予定からやや遅れがでています.",
+    en: ["Production of the new model is somewhat behind schedule."],
+    comment: []
+  }
+  , {orig: "依然厳しい状況です.", en: ["We are still under difficult circumstances."], comment: []}
+  , {
+    orig: "プレスリリースのスケジュールを延期せざるを得ませんでした.",
+    en: ["We had to put off the schedule of the press release."],
+    comment: []
+  }
+  , {
+    orig: "生産スケジュールを前倒しできるかどうか考えてみるべきです.",
+    en: ["We should find out whether the production schedule could be pushed forward."],
+    comment: []
+  }
+  , {orig: "本日は以上となります", en: ["That’s all I have for today."], comment: []}
+  , {orig: "また随時報告します", en: ["I’ll keep you updated."], comment: []}
+  , {
+    orig: "A: なんで彼はいつも塩対応なの? B: 人と話すのが嫌いみたい.",
+    en: ["A: Why is he always unfriendly? B: Looks like he doesn’t like talking with people."],
+    comment: []
+  }
 ];

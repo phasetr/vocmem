@@ -680,4 +680,20 @@ export const enExprData: EnExprData[] = [
       }
     ]
   }
+  , {
+    expr: "spill the beans", translation: "秘密を漏らす", examples: [
+      {
+        orig: "A: Why is he absent? B: He spilled the beans about the next project.",
+        ja: "A: なぜ彼は欠勤なのですか? B: 次のプロジェクトについて秘密を漏らしてしまったからです."
+      }]
+  }
+  , {
+    expr: "woe", translation: "災難, big problems or troubles", examples: [
+      {
+        orig: "The country has been beset by economic woes for the past decade.",
+        ja: "その国は過去数十年間経済的苦悩を抱えてきた."
+      }
+      , {orig: "We listened to her tale of woe without saying anything.", ja: "私たちは何も言わずに彼女の不幸話を聞いた."}
+    ]
+  }
 ];
