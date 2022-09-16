@@ -170,7 +170,7 @@ export const writingData: WritingData[] = [
   {
     orig: "(父はナンシーを)回転寿司に連れて行くそうです.",
     en: ["He will bring Nancy to sushi train bar."],
-    comment: ["回転寿司: conveyer belt sushi.",
+    comment: ["回転寿司: conveyor belt sushi.",
       "カナダだとsushi trainというらしい.",
       "sushi barともいう.",
       "sushi train bar"]
@@ -193,7 +193,7 @@ export const writingData: WritingData[] = [
   },
   {
     orig: "あなたは病み上がりなのだから無理しないで.",
-    en: ["Take care of yourself.", "Rest well.", "You've been getting better, but rest more.", "Take care of yourseif. No time take you were sick.", "Do not try too hard. Take care of yourself.", "Take it easy. You've just got better.", "Take easy, rest well."],
+    en: ["Take care of yourself.", "Rest well.", "You've been getting better, but rest more.", "Take care of yourself. No time take you were sick.", "Do not try too hard. Take care of yourself.", "Take it easy. You've just got better.", "Take easy, rest well."],
     comment: []
   },
   {orig: "彼女の宿題を手伝ってあげた.", en: ["I helped her with her homework."], comment: []},
@@ -273,7 +273,7 @@ export const writingData: WritingData[] = [
   , {
     orig: "考えたことをぱっと英語にできますか?",
     en: ["Can you put what you think into English words quickly.", "Can you translate what you think to English?", "Can you convert your thought to English?"],
-    comment: ["'Can you tell what you think in English soon/quickly?'だと'in English'が「英語で考えている」になってしまうのでおかしい.", "'what you have in mind'も便利."]
+    comment: ["'Can you tell what you think in English soon/quickly?'だとin Englishが「英語で考えている」になってしまうのでおかしい.", "what you have in mindも便利."]
   }
   , {
     orig: "今週末ディズニーランドに行くけど, 一緒に来る?",
@@ -353,7 +353,32 @@ export const writingData: WritingData[] = [
   , {orig: "また随時報告します", en: ["I’ll keep you updated."], comment: []}
   , {
     orig: "A: なんで彼はいつも塩対応なの? B: 人と話すのが嫌いみたい.",
-    en: ["A: Why is he always unfriendly? B: Looks like he doesn’t like talking with people."],
+    en: ["A: Why is he always unfriendly? B: Looks like he does not like talking with people."],
+    comment: []
+  }
+  , {
+    orig: "今夜はリゾットです.",
+    en: ["We're having risotto tonight."],
+    comment: ["確実に行なわれる未来は進行形でいい: 確定未来.", "We will haveだと心変わりしてもいい."]
+  }
+  , {orig: "コーヒーとアップルパイを頂きましょう.", en: ["Let's have a cup of coffee and an apple pie."], comment: []}
+  , {orig: "(私は)忙しい", en: ["I have many things to do.", "I have no time."], comment: []}
+  , {
+    orig: "私は音痴だ",
+    en: ["I have no sense to sing.", "I have no sense for song.", "I have talent in singing.", "I can't sing songs very well."],
+    comment: ["参考1: I have no ear for music.; earと単数なのは具体的な耳を意味しているのではなく音感の意味.", "参考2: Beauty is in the eye of the beholder.; ここでeyeは実際の目というよりも審美眼の意味."]
+  }
+  , {orig: "(パーティのときに)手ぶらで来てね.", en: ["Just bring yourself."], comment: ["Justがつくのは三拍子のリズムを意識している"]}
+  , {
+    orig: "彼女は私に喧嘩をふっかけた.",
+    en: ["She challenged me.", "She had a will to fight me.", "She was trying to fight me.", "She try to pick a fight with me."],
+    comment: []
+  }
+  , {orig: "(空港での)おかえりなさい/いらっしゃい", en: ["Welcome to Japan!"], comment: []}
+  , {orig: "私もほしい.", en: ["Me too.", "Same here."], comment: ["cf. ラテン語: Idem."]}
+  , {
+    orig: "タイの旅行はどうでした?",
+    en: ["How was your trip to Thailand?", "How did you find Thailand?", "Do you enjoy your trip to Thailand?"],
     comment: []
   }
 ];
