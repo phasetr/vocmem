@@ -182,7 +182,7 @@ export const writingData: WritingData[] = [
   {
     orig: "国境の長いトンネルを抜けると, そこは雪国だった.",
     en: ["(E. Seidensticker訳): The train came out of the long tunnel into the snow country."],
-    comment: ["ドイツ語 (O. Benl 訳): Als der Zug aus dem langen Grenztunnel herauskroch, lag das Schneeland vor ihm ausgebreitet.", "これを直訳調で書くと「列車が長い国境のトンネルから這い出てくると，彼の前に雪国が広がっていた」", "参考文献 http://www.tufs.ac.jp/ts/personal/narita/jd-kontrastiv_20111109.pdf"]
+    comment: ["ドイツ語 (O. Benl訳): Als der Zug aus dem langen Grenztunnel herauskroch, lag das Schneeland vor ihm ausgebreitet.", "これを直訳調で書くと「列車が長い国境のトンネルから這い出てくると，彼の前に雪国が広がっていた」", "参考文献 http://www.tufs.ac.jp/ts/personal/narita/jd-kontrastiv_20111109.pdf"]
   },
   {orig: "この部屋には窓がない.", en: ["We have no windows in this room.", "This room has no windows."], comment: []},
   {orig: "私には子供がいない.", en: ["I have no children."], comment: ["No thanks."]},
@@ -209,7 +209,7 @@ export const writingData: WritingData[] = [
   {orig: "私は三日坊主で.", en: ["I can't stick to anything for long."], comment: []},
   {orig: "度忘れしちゃった.", en: ["I slipped my mind."], comment: []},
   {orig: "お金が足りない.", en: ["There is not enough money."], comment: []},
-  {orig: "時間が足りない.", en: ["THere is not enough time"], comment: []}
+  {orig: "時間が足りない.", en: ["There is not enough time"], comment: []}
   , {
     orig: "さっぱりわからないね.",
     en: ["I have no idea.", "I don't know.", "Nothing came to my mind! (映画 Bohemian Rhapsody)"],
@@ -381,4 +381,25 @@ export const writingData: WritingData[] = [
     en: ["How was your trip to Thailand?", "How did you find Thailand?", "Do you enjoy your trip to Thailand?"],
     comment: []
   }
+  , {
+    orig: "元気だった?",
+    en: ["How have you been?", "How's everything?", "How are things?"],
+    comment: ["順調だよ: Everything's fine."]
+  }
+  , {
+    orig: "今夜の予定は?",
+    en: ["What are you up to tonight?"],
+    comment: ["What are you up to?: 今何してるの?/これから何するの?", "What are you up to this weekend? 今週末何してるの?", "What are you up to after school? 放課後の予定は?"]
+  }
+  , {orig: "A: 料理の味はどう? B: ばっちり!", en: ["A: How was the food? B: You nailed it!"], comment: []}
+  , {orig: "英語のテストどうだった? B: 完璧!", en: ["A : How was the English exam? B: I nailed it."], comment: []}
+  , {orig: "あなたらしいね.", en: ["It's so you!"], comment: []}
+  , {orig: "A: このシャツどう? B: ぴったりだよ.", en: ["A: How about this shirt? B: It's so you."], comment: []}
+  , {orig: "僕の部屋はちらかっているんだ. B: あなたらしいね.", en: ["A: My room is messy. B: It's so you."], comment: []}
+  , {
+    orig: "お大事に.",
+    en: ["Is everything okay?", "Take care of yourself.", "I hope you get better soon", "Don't work too hard.", "Hope you have a good rest and feel better soon."],
+    comment: []
+  }
+  , {orig: "写真はイメージです.", en: ["The photo is an image."], comment: []}
 ];

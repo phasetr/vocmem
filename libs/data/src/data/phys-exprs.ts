@@ -129,6 +129,8 @@ export const physExprData = {"data":[{"title":"ボーア半径","expression":"\\
 {"title":"シュワルツシルト計量","expression":"\\begin{aligned}c^2 d\\tau^2 = \\rbk{1 - \\frac{2GM}{c^2 r}} c^2 dt^2 - \\frac{1}{1 - \\frac{2GM}{c^2r}} dr^2 - r^2 (d \\theta^2 + \\sin^2 \\theta d \\phi^2).\\end{aligned}","commentary":"球対称で静的な質量分布の外部にある重力場を記述するアインシュタイン方程式の解. ブラックホールを記述できる."},
 {"title":"調和座標, ド・ドンダーゲージ","expression":"\\begin{aligned}\\gtwo^{\\mu \\nu} \\Gamma^{\\lambda}_{\\mu\\nu} = 0, \\quad \\rbk{\\sqrt{- \\gtwo} \\gtwo^{\\mu\\nu}}_{,\\nu} = 0.\\end{aligned}","commentary":"重力波の議論で現れる."},
 {"title":"運動方程式","expression":"\\begin{aligned}m \\frac{d^2 \\vectorr}{dt^2} = \\vectorF.\\end{aligned}","commentary":"高校以来のニュートンの運動方程式."},
+{"title":"理想気体の状態方程式","expression":"\\begin{align}pV = nRT.\\end{align}","commentary":"希薄な気体に対してよく成り立つ."},
+{"title":"ポアソンの関係","expression":"\\begin{align}T^{3/2} V = \\rbk{T'}^{3/2} V'.\\end{align}","commentary":"断熱準静操作のときに成り立つ."},
 {"title":"ハミルトンの最小作用の原理","expression":"\\begin{aligned}\\delta \\int_{t_i}^{t_f} L \\rbk{q(t), \\dot{q}(t), t} \\dt = 0.\\end{aligned}","commentary":"変分法の原点の一つ."},
 {"title":"オイラー・ラグランジュ方程式","expression":"\\begin{aligned}\\frac{d}{dt} \\frac{\\partial L}{\\partial \\dot{q}^k} - \\frac{\\partial L}{\\partial q^k} = 0.\\end{aligned}","commentary":"最小作用の原理にしたがう経路がみたす微分方程式."},
 {"title":"ハミルトンの正準方程式","expression":"\\begin{aligned}\\frac{dq^k}{dt}&=\\frac{\\partial H(q,p,t)}{\\partial p_k}, \\\\ \\frac{dp_k}{dt}&=-\\frac{\\partial H(q,p,t)}{\\partial q^k}.\\end{aligned}","commentary":"二階の運動方程式が一階の微分方程式系に書き換わっている. 詳しくは解析力学で."},

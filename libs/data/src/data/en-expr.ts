@@ -171,7 +171,7 @@ export const enExprData: EnExprData[] = [
     expr: "strengthen",
     translation: "より強くする：抽象物にも物理的な対象にも使える",
     examples: [{
-      orig: "Let’s strengthen our ties with local industry.",
+      orig: "Let's strengthen our ties with local industry.",
       ja: "地元産業との結びつきを強化しましょう. (「効果的にする」ニュアンスもある)"
     },
       {orig: "Exercises will strengthen your muscle.", ja: "運動で筋肉が強化されます. (機能や性能を強化する)"}]
@@ -204,7 +204,7 @@ export const enExprData: EnExprData[] = [
     examples: [{orig: "We need to beef up our project.", ja: "プロジェクトを強化する必要があります."}]
   },
   {
-    expr: "I’d rather be hated for who I am, than loved for who I am not.",
+    expr: "I'd rather be hated for who I am, than loved for who I am not.",
     translation: "偽りの自分を愛されるより, ありのままの自分を憎まれるほうがいい.",
     examples: []
   },
@@ -250,7 +250,7 @@ export const enExprData: EnExprData[] = [
   {
     expr: "intimidation", translation: "脅し", examples: [
       {
-        orig: "He is trying to intimidate you. If you ignore him, hopefully he’ll stop.",
+        orig: "He is trying to intimidate you. If you ignore him, hopefully he'll stop.",
         ja: "「彼はあなたを脅そうとしている. 無視すればきっとやめると思う."
       },
       {orig: "He was intimidated by her ability.", ja: "「彼は彼女の才能に恐れを抱いた."}
@@ -275,7 +275,7 @@ export const enExprData: EnExprData[] = [
   },
   {
     expr: "go the extra mile", translation: "より一層努力する", examples: [{
-      orig: "A: Don’t know what to do now. B: Go the extra mile, you can do this.",
+      orig: "A: Don't know what to do now. B: Go the extra mile, you can do this.",
       ja: "A: もう何すれば良いかわからない. B: より一層努力しなさい. あなたならできる."
     }]
   },
@@ -373,7 +373,7 @@ export const enExprData: EnExprData[] = [
   },
   {expr: "cry wolf", translation: "何もないのに騒ぎ立てる・泣く：狼少年から, cf. a cry-wolf phenomenon", examples: []},
   {
-    expr: "H. G. Wells: We all have our time machines, don’t we. Those that take us back are memories…And those that carry us forward, are dreams.",
+    expr: "H. G. Wells: We all have our time machines, don't we. Those that take us back are memories…And those that carry us forward, are dreams.",
     translation: "私たちはみんな実はタイムマシンを持っている. 過去に連れていってくれるものが記憶, 未来へ連れていってくれるものが夢だ.", examples: []
   },
   {
@@ -551,7 +551,7 @@ export const enExprData: EnExprData[] = [
   {expr: "聞きたくて仕方ない質問", translation: "burning question", examples: []},
   {expr: "ファーストクラスで飛行機に乗る", translation: "fly business class/first class", examples: []},
   {
-    expr: "fettility rate",
+    expr: "fertility rate",
     translation: "出生率",
     examples: [{orig: "Smoking affects fertility in both men and women.", ja: "喫煙は男女両方の生殖能力に影響を及ぼす."},
       {
@@ -575,7 +575,7 @@ export const enExprData: EnExprData[] = [
     expr: "電源を切る",
     translation: "turn off, switch off",
     examples: [{orig: "Please turn off your computer.", ja: "コンピューターの電源を切って下さい."},
-      {orig: "Turn off the alarm! It’s noisy.", ja: "目覚まし止めてよ! うるさいんだけど."}]
+      {orig: "Turn off the alarm! It's noisy.", ja: "目覚まし止めてよ! うるさいんだけど."}]
   },
   {
     expr: "burn the midnight oil", translation: "夜遅くまで勉強する/働く", examples: [{
@@ -596,7 +596,7 @@ export const enExprData: EnExprData[] = [
     expr: "by the book",
     translation: "ルール通りに",
     examples: [{
-      orig: "A: What should we do now? B: Just play it by the book and you’ll be fine.",
+      orig: "A: What should we do now? B: Just play it by the book and you'll be fine.",
       ja: "A: ここからどうすれば? B: ただルール通りに動けば良いだけだ"
     }]
   },
@@ -621,7 +621,7 @@ export const enExprData: EnExprData[] = [
     examples: [
       {orig: "By the way, did you call him?", ja: "ちなみに彼には電話した?"},
       {orig: "You know what, they just broke up yesterday.", ja: "ちなみにあの二人昨日別れたって."},
-      {orig: "Actually, It’s been 10 years since we last met.", ja: "ちなみに私たち前に会ったときから10年経ったよ"}]
+      {orig: "Actually, It's been 10 years since we last met.", ja: "ちなみに私たち前に会ったときから10年経ったよ"}]
   }
   , {
     expr: "お悔やみを述べる", translation: "offer/express/extend/send/convey one's condolences", examples: [
@@ -657,7 +657,7 @@ export const enExprData: EnExprData[] = [
   , {
     expr: "in hot water", translation: "困った状況にある, in trouble", examples: [
       {
-        orig: "A: Why were you called in to the supervisor’s office? B: I’m in hot water because I lost the company smartphone yesterday and it has some confidential company information on it.",
+        orig: "A: Why were you called in to the supervisor's office? B: I'm in hot water because I lost the company smartphone yesterday and it has some confidential company information on it.",
         ja: "A: なんで上司の部屋に呼び出されたのですか? B: 困っています. なぜなら昨日会社のスマートフォンをなくしてしまい, それには会社の機密情報が入っているんです."
       }
     ]
@@ -673,7 +673,7 @@ export const enExprData: EnExprData[] = [
   }
   , {
     expr: "近況報告", translation: "catch up", examples: [
-      {orig: "I am thrilled that we will be getting together.  It’s time to catch-up!", ja: "会うのが楽しみ. 近況報告しよう."}
+      {orig: "I am thrilled that we will be getting together.  It's time to catch-up!", ja: "会うのが楽しみ. 近況報告しよう."}
       , {
         orig: "It was lovely that I was able to catch up with you this afternoon.",
         ja: "今日の午後, 久しぶりにあなたに会って近況報告できて良かった"
@@ -694,6 +694,56 @@ export const enExprData: EnExprData[] = [
         ja: "その国は過去数十年間経済的苦悩を抱えてきた."
       }
       , {orig: "We listened to her tale of woe without saying anything.", ja: "私たちは何も言わずに彼女の不幸話を聞いた."}
+    ]
+  }
+  , {
+    expr: "cheeky", translation: "生意気な", examples: [
+      {
+        orig: "A: I have to stay after school today. B: Why? What happened? A: Ms. Jackson said I was too cheeky to her in class today.",
+        ja: "A: 今日放課後残らないといけない. B: なんで? 何があったの? A: ジャクソン先生が今日の授業で私が生意気すぎたと言った."
+      }]
+  }
+  , {
+    expr: "in the public eye", translation: "公衆の目に晒されて", examples: [
+      {
+        orig: "A: How is he? B: He always worries about the pressure of being in the public eye.",
+        ja: "A: 彼はどんな感じ? B: いつも公衆の目に晒されることのプレッシャーを気にしているよ."
+      }
+    ]
+  }
+  , {expr: "玉の輿に乗る", translation: "marry for money; She became a Cinderella.", examples: []}
+  , {
+    expr: "型にはまらない考え方をする", translation: "think outside the box", examples: [
+      {
+        orig: "A: これは難しいです. 良い解決策が見つかりません. B: 型にはまらない考え方をするべきだ. そうすれば答えが見えてくるはず.",
+        ja: "A: This is difficult, I can't find the right solution. B: Think outside the box. That'll lead you to the answer."
+      }]
+  }
+  , {
+    expr: "go through the roof", translation: "限度を越えて上昇する", examples: [
+      {
+        orig: "A: Why are you low on money? B: Gas prices have gone through the roof.",
+        ja: "A: なんでお金がないの? B: ガソリンが限度を超えて高くなってしまったから."
+      }]
+  }
+  , {
+    expr: "くつろぐ", translation: "loosen up", examples: [
+      {
+        orig: "A: How was your dinner party yesterday? B: After a few rounds of wine, the guests started to loosen up.",
+        ja: "A: 昨日のディナーパーティーはどうだった? B: ワインを何杯か飲んだらお客様はくつろぎ始めたよ."
+      }
+      , {
+        orig: "A: I have a big speech tomorrow. I'm really nervous. B: I'm sure you'll be OK. You just need to loosen up.",
+        ja: "A: 明日大事なスピーチがあるんだ. 本当に緊張しているよ. B: 君なら大丈夫だよ. ただリラックスする必要があるね."
+      }
+    ]
+  }
+  , {
+    expr: "lie in state", translation: "公開安置される", examples: [
+      {
+        orig: "Her lying-in-state will continue 24 hours a day until the day of the funeral.",
+        ja: "彼女の公開安置は葬儀の日まで24時間態勢で行われる."
+      }
     ]
   }
 ];
