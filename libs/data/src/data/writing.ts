@@ -402,4 +402,20 @@ export const writingData: WritingData[] = [
     comment: []
   }
   , {orig: "写真はイメージです.", en: ["The photo is an image."], comment: []}
+  , {orig: "案ずるより生むが易し.", en: ["You never know until you try."], comment: []}
+  , {orig: "以心伝心", en: ["We don't need to say anything because we are on the same page."], comment: []}
+  , {orig: "一触即発", en: ["The relationship is on the edge."], comment: []}
+  , {orig: "一歩間違えたら大変なことになっていた.", en: ["One false step and it could have been a disaster."], comment: []}
+  , {orig: "いまいちだ.", en: ["I'm not sure it's the best.", "It could be better."], comment: []}
+  , {
+    orig: "後ろ髪を引かれる.",
+    en: ["I quit the job with a heavy heart."],
+    comment: ["「I left my heart in 場所」という表現もある."]
+  }
+  , {orig: "打って出る.", en: ["Now is the time to go for it."], comment: ["to take bold action"]}
+  , {orig: "紆余曲折があった.", en: ["We took many twists and turns."], comment: [""]}
+  , {orig: "雲泥の差だ.", en: ["There is a huge gap in terms of profit."], comment: []}
+  , {orig: "ガラケーはオワコンだ.", en: ["Flip phones are said to be obsolete."], comment: []}
+  , {orig: "将来について考える余裕がないんです.", en: ["I have no room in my mind to think about my future."], comment: []}
+  , {orig: "しょうがないね.", en: ["It is what it is."], comment: []}
 ];

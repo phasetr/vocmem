@@ -746,4 +746,34 @@ export const enExprData: EnExprData[] = [
       }
     ]
   }
+  , {expr: "彼らは相性ばっちりだ.", translation: "They have perfect chemistry", examples: []}
+  , {expr: "荒療治が必要だ.", translation: "We need drastic measures.", examples: []}
+  , {expr: "胃が痛い; 緊張してる.", translation: "I have a knot in my stomach.", examples: []}
+  , {expr: "そんなに怒らないで. ちょっといじっただけだよ.", translation: "Don't be so mad. I was only teasing you.", examples: []}
+  , {expr: "彼の発言はイタいね; ドン引きだよ.", translation: "I cringed at what he said. / It made me cringe.", examples: []}
+  , {expr: "彼の決断を完全には支持できない.", translation: "I cannot fully endorse his decision.", examples: []}
+  , {expr: "マネージャーはその提案を支持した.", translation: "My manager endorsed the proposal.", examples: []}
+  , {
+    expr: "左利き", translation: "left-handed", examples: [
+      {
+        orig: "左利きの人は一部のスポーツで有利だと考えられています.",
+        ja: "Left-handed people are considered to have an advantage in some sports."
+      }]
+  }
+  , {
+    expr: "展開する", translation: "deploy", examples: [
+      {orig: "2000 troops were deployed in the area.", ja: "その地域に2000人の兵士が配置された."}
+      , {orig: "Two scientists were deployed to study the problem.", ja: "その問題の究明のために2人の科学者が駆り出された."}]
+  }
+  , {
+    expr: "いっぱいいっぱい", translation: "be swamped", examples: [
+      {orig: "仕事でいっぱいいっぱいです.", ja: "I'm swamped with work."}]
+  }
+  , {
+    expr: "とても高価だ", translation: "break the bank", examples: [
+      {
+        orig: "A: How much is this? B: 1000 euros, something that's gonna break the bank.",
+        ja: "A: これはいくら? B: 1000ユーロ, とても高価な物だよ."
+      }]
+  }
 ];
