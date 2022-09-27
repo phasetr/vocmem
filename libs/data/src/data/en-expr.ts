@@ -776,4 +776,20 @@ export const enExprData: EnExprData[] = [
         ja: "A: これはいくら? B: 1000ユーロ, とても高価な物だよ."
       }]
   }
+  , {
+    expr: "not someone's cup of tea", translation: "好みではない", examples: [
+      {
+        orig: "A: Why did he return the gift? B: Looks like that was not his cup of tea.",
+        ja: "A: なぜ彼は贈り物を返品したの? B: 彼の好みじゃなかったらしい."
+      }
+    ]
+  }
+  , {
+    expr: "寄り道する", translation: "drop by", examples: [
+      {
+        orig: "A: Shall we drop by the new coffee shop? B: Sounds good.",
+        ja: "A: 新しいコーヒー店に寄ってみる? B: いいね."
+      }
+    ]
+  }
 ];
