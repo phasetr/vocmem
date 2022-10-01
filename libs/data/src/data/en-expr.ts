@@ -792,4 +792,12 @@ export const enExprData: EnExprData[] = [
       }
     ]
   }
+  , {
+    expr: "watch one's mouth", translation: "発言に気をつける", examples: [
+      {
+        orig: "A: Hey! Watch your mouth! B: Sorry, didn’t mean it.",
+        ja: "A: ちょっと! 発言には気をつけてください! B: ごめんなさい. そういうつもりでは."
+      }
+    ]
+  }
 ];
