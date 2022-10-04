@@ -417,5 +417,10 @@ export const writingData: WritingData[] = [
   , {orig: "雲泥の差だ.", en: ["There is a huge gap in terms of profit."], comment: []}
   , {orig: "ガラケーはオワコンだ.", en: ["Flip phones are said to be obsolete."], comment: []}
   , {orig: "将来について考える余裕がないんです.", en: ["I have no room in my mind to think about my future."], comment: []}
-  , {orig: "しょうがないね.", en: ["It is what it is."], comment: []}
+  , {
+    orig: "しょうがないね.", en: ["It is what it is."], comment: ["A: こんな値段信じられない. B: しょうがないね",
+      "A: I can't believe the price of it. B: It is what it is.",
+      "A: 土曜日は仕事だよ. B: しょうがないね. 頑張って.",
+      "A: I have to work on Saturday. B: It is what it is. Good luck."]
+  }
 ];

@@ -800,4 +800,26 @@ export const enExprData: EnExprData[] = [
       }
     ]
   }
+  , {
+    expr: "be all ears", translation: "しっかりと聞く", examples: [
+      {
+        orig: "A: お願いを聞いてもらってもいいですか. B: しっかりと聞きますよ, 何が欲しいのですか.",
+        ja: "A: Would you do me a favor? B: “I'm all ears, what do you want."
+      }
+    ]
+  }
+  , {
+    expr: "cry over spilled milk", translation: "取り返しのつかないことを嘆く", examples: [
+      {
+        orig: "A: 取り返しのつかないことを嘆くのはやめて. もう終わったことだから. B: そうだね. もうやめるよ.",
+        ja: "A: Stop crying over spilled milk, it’s over. B: Yeah, I guess I should stop."
+      }
+    ]
+  }
+  , {
+    expr: "count on me", translation: "任せて; 期待して", examples: [
+      {orig: "A: Can you finish it by today? B: Count on me.", ja: "A: 今日中に終われる? B: 任せてよ"}
+      , {orig: "A: There's a problem. B: You can count on me.", ja: "A: 問題が起きた. B: わたしに任せて!"}
+    ]
+  }
 ];
