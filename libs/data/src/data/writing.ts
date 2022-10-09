@@ -423,4 +423,6 @@ export const writingData: WritingData[] = [
       "A: 土曜日は仕事だよ. B: しょうがないね. 頑張って.",
       "A: I have to work on Saturday. B: It is what it is. Good luck."]
   }
+  , { orig: "決めるのはあなた次第です.", en: ["It's up to you to decide."], comment: [] }
+  , { orig: "彼をあなたの誕生日会に呼びたい? あなた次第よ.", en: ["Do you want to invite him to your birthday party? It's up to you."], comment: []}
 ];
