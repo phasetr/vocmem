@@ -1,9 +1,9 @@
-import {EnExprData} from "./types";
+import { EnExprData } from "./types";
 
 export const enExprData: EnExprData[] = [
   {
     expr: "on a knife-edge", translation: "極めて不安定な状態", examples: [
-      {"orig": "He lived on a knife-edge between genius and insanity.", "ja": "彼は天才と愚かさの狭間の危うさの中で暮らしていた."},
+      { "orig": "He lived on a knife-edge between genius and insanity.", "ja": "彼は天才と愚かさの狭間の危うさの中で暮らしていた." },
       {
         "orig": "We still remain on a knife-edge and must act sensibly over the summer vacation to avoid another wave of COVID-19.",
         "ja": "私たちは依然として極めて不安定な中で生活しているため, 新型コロナウイルス流行の新たな波を防げるよう夏休みの間は慎重に行動しなければならない."
@@ -16,29 +16,29 @@ export const enExprData: EnExprData[] = [
         "orig": "The room numbers with fours have to go because four is an unlucky number.",
         "ja": "4は縁起の悪い数字だから、部屋番号からは取り除かねばならない."
       },
-      {"orig": "These old boxes have to go.", "ja": "古い箱は処分しなければならない."}
+      { "orig": "These old boxes have to go.", "ja": "古い箱は処分しなければならない." }
     ]
   },
-  {expr: "beat around the bush", translation: "遠回しに言う", examples: []},
-  {expr: "be born with a silver spoon in one's mouth", translation: "裕福な家に生まれる", examples: []},
-  {expr: "be on cloud nine", translation: "天にも昇る心地である", examples: []},
-  {expr: "bring home the bacon", translation: "生計を支える", examples: []},
-  {expr: "bury one's head in the sand", translation: "困難から目をそらす", examples: []},
-  {expr: "a chip off the old block", translation: "父親そっくりの息子", examples: []},
-  {expr: "Dear John letter", translation: "絶縁状", examples: []},
-  {expr: "face the music", translation: "潔く現実に立ち向かう", examples: []},
-  {expr: "get out of bed on the wrong side", translation: "目覚めが悪い", examples: []},
-  {expr: "have an ear to the ground", translation: "いち早く情報を得る", examples: []},
-  {expr: "in one's birthday suit", translation: "すっぽんぽんで", examples: []},
-  {expr: "jump on the bandwagon", translation: "時流に乗る", examples: []},
-  {expr: "lock, stock and barrel", translation: "一切合切（なにからなにまで）", examples: []},
-  {expr: "once in a blue moon", translation: "ごくまれに", examples: []},
-  {expr: "a skeleton in the closet", translation: "家庭内の知られたくない秘密", examples: []},
-  {expr: "I'm gonna change clothes real quick.", translation: "すぐ着替えてくるね", examples: []},
+  { expr: "beat around the bush", translation: "遠回しに言う", examples: [] },
+  { expr: "be born with a silver spoon in one's mouth", translation: "裕福な家に生まれる", examples: [] },
+  { expr: "be on cloud nine", translation: "天にも昇る心地である", examples: [] },
+  { expr: "bring home the bacon", translation: "生計を支える", examples: [] },
+  { expr: "bury one's head in the sand", translation: "困難から目をそらす", examples: [] },
+  { expr: "a chip off the old block", translation: "父親そっくりの息子", examples: [] },
+  { expr: "Dear John letter", translation: "絶縁状", examples: [] },
+  { expr: "face the music", translation: "潔く現実に立ち向かう", examples: [] },
+  { expr: "get out of bed on the wrong side", translation: "目覚めが悪い", examples: [] },
+  { expr: "have an ear to the ground", translation: "いち早く情報を得る", examples: [] },
+  { expr: "in one's birthday suit", translation: "すっぽんぽんで", examples: [] },
+  { expr: "jump on the bandwagon", translation: "時流に乗る", examples: [] },
+  { expr: "lock, stock and barrel", translation: "一切合切（なにからなにまで）", examples: [] },
+  { expr: "once in a blue moon", translation: "ごくまれに", examples: [] },
+  { expr: "a skeleton in the closet", translation: "家庭内の知られたくない秘密", examples: [] },
+  { expr: "I'm gonna change clothes real quick.", translation: "すぐ着替えてくるね", examples: [] },
   {
     expr: "test positive",
     translation: "陽性反応が出る",
-    examples: [{orig: "The athlete tested positive for steroids.", ja: "そのスポーツ選手はステロイドの陽性反応が出た."},
+    examples: [{ orig: "The athlete tested positive for steroids.", ja: "そのスポーツ選手はステロイドの陽性反応が出た." },
       {
         orig: "If you had close contact with someone who tested positive, please report promptly.",
         ja: "陽性反応が出た人の濃厚接触者となった場合、速やかに報告してください."
@@ -63,7 +63,7 @@ export const enExprData: EnExprData[] = [
         orig: "He got the coveted job as a chef in the famous restaurant.",
         ja: "彼は切望していた, 有名レストランでのシェフとしての職を手に入れた."
       },
-      {orig: "That is the most coveted award for singers.", ja: "「その賞は歌手が最も切望する賞だ」"}
+      { orig: "That is the most coveted award for singers.", ja: "「その賞は歌手が最も切望する賞だ」" }
     ]
   },
   {
@@ -73,64 +73,73 @@ export const enExprData: EnExprData[] = [
       ja: "A: 3時頃に戻るからそれまでに宿題を終わらせておいてね. B: わかったよ."
     }]
   },
-  {expr: "Don't worry about it.", translation: "適当でいいよ.", examples: []},
-  {expr: "Don't work too hard.", translation: "ほどほどにね.", examples: []},
-  {expr: "Let's wing it!", translation: "適当でいいんじゃない.", examples: []},
+  { expr: "Don't worry about it.", translation: "適当でいいよ.", examples: [] },
+  { expr: "Don't work too hard.", translation: "ほどほどにね.", examples: [] },
+  { expr: "Let's wing it!", translation: "適当でいいんじゃない.", examples: [] },
   {
     expr: "unsettled", translation: "落ち着かない", examples: [
-      {orig: "Children often feel unsettled when their parents argue.", ja: "両親が言い争いをしていると子供は不穏になりがちだ."},
-      {orig: "Those rumors were unsettling for us..", ja: "その噂で不穏な気持ちになった."}]
+      { orig: "Children often feel unsettled when their parents argue.", ja: "両親が言い争いをしていると子供は不穏になりがちだ." },
+      { orig: "Those rumors were unsettling for us..", ja: "その噂で不穏な気持ちになった." }]
   },
   {
     expr: "play with fire", translation: "危険を冒す", examples: [
-      {orig: "You are playing with fire if you try to cheat on the test.", ja: "テストで不正をしようとしているなら危険を冒すことになると思う."},
-      {orig: "They are playing with fire by supplying arms to our enemies.", ja: "彼らは我々の敵に武器を供給し, 危険を冒している."}
+      {
+        orig: "You are playing with fire if you try to cheat on the test.",
+        ja: "テストで不正をしようとしているなら危険を冒すことになると思う."
+      },
+      {
+        orig: "They are playing with fire by supplying arms to our enemies.",
+        ja: "彼らは我々の敵に武器を供給し, 危険を冒している."
+      }
     ]
   },
-  {expr: "take pains to do", translation: "苦労して---する", examples: []},
-  {expr: "be in good/bad shape", translation: "元気がいい/しょげている", examples: []},
-  {expr: "give my best regards to A", translation: "Aさんによろしく", examples: []},
-  {expr: "keep early (hours)", translation: "早寝早起きする", examples: []},
-  {expr: "make both (ends) meet", translation: "収支を合わせる / 何とかやりくりする", examples: []},
-  {expr: "take (sides) with A", translation: "Aに味方する", examples: []},
-  {expr: "have (words) with A", translation: "Aと口論する", examples: []},
-  {expr: "Practice makes perfect.", translation: "習うより慣れよ.", examples: []},
-  {expr: "Slow and steady wins the race. / Haste makes waste.", translation: "急がば回れ.", examples: []},
-  {expr: "Roma was not built in a day.", translation: "ローマは一日にしてならず", examples: []},
-  {expr: "There is no accounting for taste.", translation: "蓼食う虫も好き好き（人の好みは説明しようがない）.", examples: []},
-  {expr: "It is no use crying over spilt milk.", translation: "覆水盆に帰らず.", examples: []},
+  { expr: "take pains to do", translation: "苦労して---する", examples: [] },
+  { expr: "be in good/bad shape", translation: "元気がいい/しょげている", examples: [] },
+  { expr: "give my best regards to A", translation: "Aさんによろしく", examples: [] },
+  { expr: "keep early (hours)", translation: "早寝早起きする", examples: [] },
+  { expr: "make both (ends) meet", translation: "収支を合わせる / 何とかやりくりする", examples: [] },
+  { expr: "take (sides) with A", translation: "Aに味方する", examples: [] },
+  { expr: "have (words) with A", translation: "Aと口論する", examples: [] },
+  { expr: "Practice makes perfect.", translation: "習うより慣れよ.", examples: [] },
+  { expr: "Slow and steady wins the race. / Haste makes waste.", translation: "急がば回れ.", examples: [] },
+  { expr: "Roma was not built in a day.", translation: "ローマは一日にしてならず", examples: [] },
+  { expr: "There is no accounting for taste.", translation: "蓼食う虫も好き好き（人の好みは説明しようがない）.", examples: [] },
+  { expr: "It is no use crying over spilt milk.", translation: "覆水盆に帰らず.", examples: [] },
   {
     expr: "Birds of a feather flock together. / Like attracts like./Great minds think alike.",
     translation: "類は友を呼ぶ.",
     examples: []
   },
-  {expr: "A friend in need is a friend indeed.", translation: "まさかの時こそ真の友.", examples: []},
-  {expr: "When in Roma.do as the Romans do.", translation: "郷に入っては郷に従え.", examples: []},
+  { expr: "A friend in need is a friend indeed.", translation: "まさかの時こそ真の友.", examples: [] },
+  { expr: "When in Roma.do as the Romans do.", translation: "郷に入っては郷に従え.", examples: [] },
   {
     expr: "unprecedented", translation: "前例のない", examples: [
-      {orig: "COVID-19 has created an unprecedented situation.", ja: "新型コロナウイルスは前例のない事態が引き起こした."},
-      {orig: "We are facing an unprecedented issue.", ja: "私たちは前例のない問題に直面している"}
+      { orig: "COVID-19 has created an unprecedented situation.", ja: "新型コロナウイルスは前例のない事態が引き起こした." },
+      { orig: "We are facing an unprecedented issue.", ja: "私たちは前例のない問題に直面している" }
     ]
   },
-  {expr: "not a problem", translation: "(お礼に対して)気にしないで.", examples: []},
-  {expr: "(please) don't mention it", translation: "(お礼に対して)気にしないで.", examples: []},
-  {expr: "don't worry about it", translation: "(謝罪に対して)気にしないで.", examples: []},
-  {expr: "please don't be sorry", translation: "(謝罪に対して)気にしないで.", examples: []},
-  {expr: "it doesn't matter", translation: "(謝罪に対して)気にしないで.", examples: []},
+  { expr: "not a problem", translation: "(お礼に対して)気にしないで.", examples: [] },
+  { expr: "(please) don't mention it", translation: "(お礼に対して)気にしないで.", examples: [] },
+  { expr: "don't worry about it", translation: "(謝罪に対して)気にしないで.", examples: [] },
+  { expr: "please don't be sorry", translation: "(謝罪に対して)気にしないで.", examples: [] },
+  { expr: "it doesn't matter", translation: "(謝罪に対して)気にしないで.", examples: [] },
   {
     expr: "tension", translation: "緊張", examples: [
-      {orig: "The tension along the border is high", ja: "国境沿いの緊張感は高い."},
-      {orig: "The tension between them was obvious at the meeting.", ja: "    会議中, 彼らの間に緊張感が漂っていたことは明らかだった."}
+      { orig: "The tension along the border is high", ja: "国境沿いの緊張感は高い." },
+      {
+        orig: "The tension between them was obvious at the meeting.",
+        ja: "    会議中, 彼らの間に緊張感が漂っていたことは明らかだった."
+      }
     ]
   },
-  {expr: "run off with someone", translation: "駆け落ちする", examples: []},
+  { expr: "run off with someone", translation: "駆け落ちする", examples: [] },
   {
     expr: "constitutions", translation: "憲法", examples: [
       {
         orig: "Thomas Jefferson wrote “Every constitution naturally expires at the end of 19 years,” in his letter.",
         ja: "トーマス・ジェファーソンは手紙の中で『どのような憲法も19年で自然失効する』と書いた."
       },
-      {orig: "This is a violation of the constitution.", ja: "これは憲法に反しています"}
+      { orig: "This is a violation of the constitution.", ja: "これは憲法に反しています" }
     ]
   },
   {
@@ -141,8 +150,8 @@ export const enExprData: EnExprData[] = [
       ja: "先生は授業中にスマートフォンを使っていた時に私をじっと見ていた."
     }]
   },
-  {expr: "The beer is ice-cold.", translation: "ビールがキンキンに冷えている.", examples: []},
-  {expr: "You can say that again.", translation: "全く同感です;完全に同意します. I completely agree.", examples: []},
+  { expr: "The beer is ice-cold.", translation: "ビールがキンキンに冷えている.", examples: [] },
+  { expr: "You can say that again.", translation: "全く同感です;完全に同意します. I completely agree.", examples: [] },
   {
     expr: "My hands are tied.", translation: "(特に規則や法律などのために)やりたいことができない.", examples: [
       {
@@ -174,18 +183,18 @@ export const enExprData: EnExprData[] = [
       orig: "Let's strengthen our ties with local industry.",
       ja: "地元産業との結びつきを強化しましょう. (「効果的にする」ニュアンスもある)"
     },
-      {orig: "Exercises will strengthen your muscle.", ja: "運動で筋肉が強化されます. (機能や性能を強化する)"}]
+      { orig: "Exercises will strengthen your muscle.", ja: "運動で筋肉が強化されます. (機能や性能を強化する)" }]
   },
   {
     expr: "toughen", translation: "より堅固にする, 丈夫にする", examples: [
-      {orig: "The government toughened the rules.", ja: "政府が規則を強化しました. (より厳しくする)"},
-      {orig: "How can we toughen up the team?", ja: "チームを強化する(精神的に強くする)にはどうすればいいでしょうか?"}
+      { orig: "The government toughened the rules.", ja: "政府が規則を強化しました. (より厳しくする)" },
+      { orig: "How can we toughen up the team?", ja: "チームを強化する(精神的に強くする)にはどうすればいいでしょうか?" }
     ]
   },
   {
     expr: "reinforce", translation: "補強する, 理論を支える", examples: [
-      {orig: "We need to reinforce our sales team.", ja: "営業チームを強化する必要があります. (人員を加えてチームを強くする)"},
-      {orig: "We will reinforce the walls with exterior beams.", ja: "外側の梁で壁を補強します."},
+      { orig: "We need to reinforce our sales team.", ja: "営業チームを強化する必要があります. (人員を加えてチームを強くする)" },
+      { orig: "We will reinforce the walls with exterior beams.", ja: "外側の梁で壁を補強します." },
       {
         orig: "The computer-based simulation is used to reinforce the theory.",
         ja: "コンピューターシミュレーションを使用して理論を強化します. (理論の正しさを補強する)"
@@ -194,14 +203,14 @@ export const enExprData: EnExprData[] = [
   },
   {
     expr: "enhance", translation: "さらによくする, 向上させる", examples: [
-      {orig: "We strive to enhance our products.", ja: "私たちは商品を強化するべく努めています."},
-      {orig: "Develop your skills and enhance your job opportunities.", ja: "スキルを伸ばして仕事を得る機会を強化しましょう."}
+      { orig: "We strive to enhance our products.", ja: "私たちは商品を強化するべく努めています." },
+      { orig: "Develop your skills and enhance your job opportunities.", ja: "スキルを伸ばして仕事を得る機会を強化しましょう." }
     ]
   },
   {
     expr: "beef up",
     translation: "強化する",
-    examples: [{orig: "We need to beef up our project.", ja: "プロジェクトを強化する必要があります."}]
+    examples: [{ orig: "We need to beef up our project.", ja: "プロジェクトを強化する必要があります." }]
   },
   {
     expr: "I'd rather be hated for who I am, than loved for who I am not.",
@@ -228,8 +237,8 @@ export const enExprData: EnExprData[] = [
         orig: "A: I feel more tired during the summer in Japan. B: I think it is called 'summer fatigue' in Japan.",
         ja: "A: 日本の夏の方が疲れが溜まりやすい気がする. B: 日本では「夏バテ」って言うらしいよ."
       },
-      {orig: "This heat is making me feel tired.", ja: "この暑さのせいでバテ気味だよ."},
-      {orig: "I feel exhausted because of this hot weather.", ja: "この暑い気候のせいでもうバテ気味だよ."}
+      { orig: "This heat is making me feel tired.", ja: "この暑さのせいでバテ気味だよ." },
+      { orig: "I feel exhausted because of this hot weather.", ja: "この暑い気候のせいでもうバテ気味だよ." }
     ]
   },
   {
@@ -238,10 +247,10 @@ export const enExprData: EnExprData[] = [
         orig: "He upended the chessboard when he realized he was about to lose.",
         ja: "「負けそうだと気付き、彼はチェス盤をひっくり返した」"
       },
-      {orig: "The pandemic has completely upended the tourism industry.", ja: "感染症の流行で観光業界に強烈な影響が及んだ."}
+      { orig: "The pandemic has completely upended the tourism industry.", ja: "感染症の流行で観光業界に強烈な影響が及んだ." }
     ]
   },
-  {expr: "マンション", translation: "US: apartment, EN: flat", examples: []},
+  { expr: "マンション", translation: "US: apartment, EN: flat", examples: [] },
   {
     expr: "（人に）期待している",
     translation: "I'm counting you; I believe in you; You got this; You'll do great. cf. expectはプレッシャーがかかるような言い方.",
@@ -253,7 +262,7 @@ export const enExprData: EnExprData[] = [
         orig: "He is trying to intimidate you. If you ignore him, hopefully he'll stop.",
         ja: "「彼はあなたを脅そうとしている. 無視すればきっとやめると思う."
       },
-      {orig: "He was intimidated by her ability.", ja: "「彼は彼女の才能に恐れを抱いた."}
+      { orig: "He was intimidated by her ability.", ja: "「彼は彼女の才能に恐れを抱いた." }
     ]
   },
   {
@@ -283,14 +292,14 @@ export const enExprData: EnExprData[] = [
     expr: "inventory",
     translation: "在庫",
     examples: [
-      {orig: "The inventory will be disposed of over the next three weeks.", ja: "「あと三週間で在庫は処分される."},
-      {orig: "The store checks its inventory at the end of every month.", ja: "その店舗では毎月末に在庫をチェックする."}
+      { orig: "The inventory will be disposed of over the next three weeks.", ja: "「あと三週間で在庫は処分される." },
+      { orig: "The store checks its inventory at the end of every month.", ja: "その店舗では毎月末に在庫をチェックする." }
     ]
   },
   {
     expr: "お手頃価格",
     translation: "reasonable price / inexpensive, affordable, good",
-    examples: [{orig: "I bought this watch at a reasonable price.", ja: "この腕時計をお手頃価格で買いました."}]
+    examples: [{ orig: "I bought this watch at a reasonable price.", ja: "この腕時計をお手頃価格で買いました." }]
   },
   {
     expr: "be on the lookout for",
@@ -300,36 +309,36 @@ export const enExprData: EnExprData[] = [
       ja: "A: 次のエリアに向けてのアドバイスは? B: 怪しい動きがないか注視した方がいい."
     }]
   },
-  {expr: "ワンピース", translation: "dress", examples: []},
-  {expr: "パーカー", translation: "hoodie", examples: []},
-  {expr: "(服の)トレーナー", translation: "sweatshirt", examples: []},
-  {expr: "ノースリーブ", translation: "sleeveless, cf. sleeveless dress = ノースリーブワンピース", examples: []},
-  {expr: "早送り", translation: "fast forward", examples: []},
+  { expr: "ワンピース", translation: "dress", examples: [] },
+  { expr: "パーカー", translation: "hoodie", examples: [] },
+  { expr: "(服の)トレーナー", translation: "sweatshirt", examples: [] },
+  { expr: "ノースリーブ", translation: "sleeveless, cf. sleeveless dress = ノースリーブワンピース", examples: [] },
+  { expr: "早送り", translation: "fast forward", examples: [] },
   {
     expr: "地下鉄に乗る",
     translation: "take the subway",
-    examples: [{orig: "I take the subway to go to the office every day.", ja: "私はオフィスに行くのに毎日地下鉄に乗ります"}]
+    examples: [{ orig: "I take the subway to go to the office every day.", ja: "私はオフィスに行くのに毎日地下鉄に乗ります" }]
   },
   {
     expr: "blast",
     translation: "爆発",
     examples: [
-      {orig: "Ukraine war: Crimea blasts significantly hit Russian navy", ja: "ウクライナ戦争：クリミアでの爆発によりロシア海軍が大破"},
-      {orig: "The blast was heard as far as five kilometers away.", ja: "「爆発音は５キロ離れた場所まで聞こえた."},
-      {orig: "The space shuttle has successfully blasted off.", ja: "無事スペースシャトルの打ち上げに成功した."}
+      { orig: "Ukraine war: Crimea blasts significantly hit Russian navy", ja: "ウクライナ戦争：クリミアでの爆発によりロシア海軍が大破" },
+      { orig: "The blast was heard as far as five kilometers away.", ja: "「爆発音は５キロ離れた場所まで聞こえた." },
+      { orig: "The space shuttle has successfully blasted off.", ja: "無事スペースシャトルの打ち上げに成功した." }
     ]
   },
   {
     expr: "dating",
     translation: "（恋愛関係で）付き合っている",
-    examples: [{orig: "Are you and David dating？", ja: "あなたとデイビッドは付き合っているの?"}]
+    examples: [{ orig: "Are you and David dating？", ja: "あなたとデイビッドは付き合っているの?" }]
   },
   {
     expr: "The more I learn about people, the more I like my dog.",
     translation: "人間のことを知れば知るほど飼い犬のことが好きになる.",
     examples: [
-      {orig: "The faster the car is, the more dangerous it is to drive.", ja: "車が速ければ速いほど運転が危険になる."},
-      {orig: "The more famous you become, the less privacy you have.", ja: "有名になればなるほどプライバシーがなくなる."}
+      { orig: "The faster the car is, the more dangerous it is to drive.", ja: "車が速ければ速いほど運転が危険になる." },
+      { orig: "The more famous you become, the less privacy you have.", ja: "有名になればなるほどプライバシーがなくなる." }
     ]
   },
   {
@@ -342,18 +351,22 @@ export const enExprData: EnExprData[] = [
   },
   {
     expr: "oust", translation: "追放する", examples: [
-      {orig: "The board decided to oust the CEO.", ja: "取締役会はCEOを追放する（解任する）ことを決定した."},
-      {orig: "The president was ousted in a coup last year.", ja: "その大統領は昨年のクーデターで追放された."}
+      { orig: "The board decided to oust the CEO.", ja: "取締役会はCEOを追放する（解任する）ことを決定した." },
+      { orig: "The president was ousted in a coup last year.", ja: "その大統領は昨年のクーデターで追放された." }
     ]
   },
-  {expr: "I have a sweet tooth.", translation: "私は甘いものに目がない.", examples: []},
+  { expr: "I have a sweet tooth.", translation: "私は甘いものに目がない.", examples: [] },
   {
     expr: "ピークアウト",
     translation: "past the peak",
-    examples: [{orig: "The seventh wave of Covid－19 cases past the peak", ja: "コロナ第7波はピークを過ぎた."}]
+    examples: [{ orig: "The seventh wave of Covid－19 cases past the peak", ja: "コロナ第7波はピークを過ぎた." }]
   },
-  {expr: "覗く", translation: "peek out", examples: [{orig: "He's peeking out from the window", ja: "彼が窓からのぞいている."}]},
-  {expr: "テイクアウト", translation: "to go, take away", examples: []},
+  {
+    expr: "覗く",
+    translation: "peek out",
+    examples: [{ orig: "He's peeking out from the window", ja: "彼が窓からのぞいている." }]
+  },
+  { expr: "テイクアウト", translation: "to go, take away", examples: [] },
   {
     expr: "tax break",
     translation: "優遇税制措置",
@@ -364,14 +377,14 @@ export const enExprData: EnExprData[] = [
   },
   {
     expr: "気分が悪い", translation: "be sick / feel sick", examples: [
-      {orig: "I have been sick for a couple of days.", ja: "2-3日前から体調を崩しています."},
-      {orig: "I have a fever and feel quite dull.", ja: "熱があって体がだるいです."},
-      {orig: "I feel sick.", ja: "気分が悪いです."},
-      {orig: "I feel dizzy.", ja: "めまいがします."},
-      {orig: "I feel itchy.", ja: "かゆみがあります."}
+      { orig: "I have been sick for a couple of days.", ja: "2-3日前から体調を崩しています." },
+      { orig: "I have a fever and feel quite dull.", ja: "熱があって体がだるいです." },
+      { orig: "I feel sick.", ja: "気分が悪いです." },
+      { orig: "I feel dizzy.", ja: "めまいがします." },
+      { orig: "I feel itchy.", ja: "かゆみがあります." }
     ]
   },
-  {expr: "cry wolf", translation: "何もないのに騒ぎ立てる・泣く：狼少年から, cf. a cry-wolf phenomenon", examples: []},
+  { expr: "cry wolf", translation: "何もないのに騒ぎ立てる・泣く：狼少年から, cf. a cry-wolf phenomenon", examples: [] },
   {
     expr: "H. G. Wells: We all have our time machines, don't we. Those that take us back are memories…And those that carry us forward, are dreams.",
     translation: "私たちはみんな実はタイムマシンを持っている. 過去に連れていってくれるものが記憶, 未来へ連れていってくれるものが夢だ.", examples: []
@@ -379,9 +392,9 @@ export const enExprData: EnExprData[] = [
   {
     expr: "---にはまっている",
     translation: "I'm into ---; I'm hooked on ---; I'm addicted to ---",
-    examples: [{orig: "I'm hooked on shopping", ja: "買い物にはまっている."}]
+    examples: [{ orig: "I'm hooked on shopping", ja: "買い物にはまっている." }]
   },
-  {expr: "電話して", translation: "Give me a call.", examples: []},
+  { expr: "電話して", translation: "Give me a call.", examples: [] },
   {
     expr: "radiation exposure", translation: "放射線被曝", examples: [
       {
@@ -391,16 +404,16 @@ export const enExprData: EnExprData[] = [
   },
   {
     expr: "boisterous", translation: "羽目を外した", examples: [
-      {orig: "The boisterous teenagers were disturbing the neighborhood.", ja: "羽目を外した若者たちは近所に迷惑をかけていた."},
-      {orig: "It was a very boisterous event.", ja: "とても騒がしいイベントだった."}
+      { orig: "The boisterous teenagers were disturbing the neighborhood.", ja: "羽目を外した若者たちは近所に迷惑をかけていた." },
+      { orig: "It was a very boisterous event.", ja: "とても騒がしいイベントだった." }
     ]
   },
   {
     expr: "危ない!",
     translation: "look out, watch out",
-    examples: [{orig: "Look out! There's a car coming.", ja: "危ない! 車が来てるよ."},
-      {orig: "Watch out! A car is coming.", ja: "危ない! 車が来るよ."},
-      {orig: "Watch out! The floor is slippery.", ja: "気をつけて! 床が滑りやすいから."}]
+    examples: [{ orig: "Look out! There's a car coming.", ja: "危ない! 車が来てるよ." },
+      { orig: "Watch out! A car is coming.", ja: "危ない! 車が来るよ." },
+      { orig: "Watch out! The floor is slippery.", ja: "気をつけて! 床が滑りやすいから." }]
   },
   {
     expr: "一期一会", translation: "once-in-a-lifetime change", examples: [{
@@ -419,13 +432,13 @@ export const enExprData: EnExprData[] = [
     translation: "self-checkout machine; cf. セルフサービス: self-service, 外出自粛: self-quarantine, 自主隔離: self-isolation",
     examples: []
   },
-  {expr: "5段階認証", translation: "five-factor authentication", examples: []},
+  { expr: "5段階認証", translation: "five-factor authentication", examples: [] },
   {
     expr: "exacerbate",
     translation: "悪化させる",
     examples: [
-      {orig: "This measure will only exacerbate the situation.", ja: "この対策は状況を悪化させるだけだろう."},
-      {orig: "Sweating is thought to exacerbate itch.", ja: "汗をかくと痒みが悪化すると考えられている."}]
+      { orig: "This measure will only exacerbate the situation.", ja: "この対策は状況を悪化させるだけだろう." },
+      { orig: "Sweating is thought to exacerbate itch.", ja: "汗をかくと痒みが悪化すると考えられている." }]
   },
   {
     expr: "somber", translation: "厳粛な, 陰鬱な", examples: [
@@ -433,7 +446,7 @@ export const enExprData: EnExprData[] = [
         orig: "She had somber expression on her face, and I knew she was about to tell me some bad news.",
         ja: "彼女は陰鬱な表情を顔に浮かべていて, 何か悪い知らせを伝えようとしているのだとわかった."
       },
-      {orig: "The room was in a somber mood.", ja: "その部屋には厳粛な雰囲気が漂っていた."}
+      { orig: "The room was in a somber mood.", ja: "その部屋には厳粛な雰囲気が漂っていた." }
     ]
   },
   {
@@ -448,64 +461,64 @@ export const enExprData: EnExprData[] = [
     examples: [{
       orig: "A: How was my violin performance? B: You nailed it! All the audience were really impressed.",
       ja: "A: 私のヴァイオリンの演奏はどうでした? B: 完璧だったよ. みんな本当に感動してた."
-    }, {orig: "A: I failed the test. B: Oh, you nailed it!", ja: "A: 試験に落ちちゃった. B: あら, やっちゃったね!"}]
+    }, { orig: "A: I failed the test. B: Oh, you nailed it!", ja: "A: 試験に落ちちゃった. B: あら, やっちゃったね!" }]
   },
-  {expr: "援護射撃", translation: "backup, supported", examples: []},
-  {expr: "甘党", translation: "sweet tooth, have a sweet tooth", examples: []},
-  {expr: "ある程度", translation: "in a measure", examples: []},
-  {expr: "運動会", translation: "an excursion, a field day, a sports day", examples: []},
+  { expr: "援護射撃", translation: "backup, supported", examples: [] },
+  { expr: "甘党", translation: "sweet tooth, have a sweet tooth", examples: [] },
+  { expr: "ある程度", translation: "in a measure", examples: [] },
+  { expr: "運動会", translation: "an excursion, a field day, a sports day", examples: [] },
   {
     expr: "花粉症",
     translation: "hay fever",
-    examples: [{orig: "I'm suffering from serious hay fever.", ja: "ひどい花粉症でつらい."}]
+    examples: [{ orig: "I'm suffering from serious hay fever.", ja: "ひどい花粉症でつらい." }]
   },
-  {expr: "関係者", translation: "concerned parties", examples: []},
-  {expr: "教頭先生", translation: "a vice president", examples: []},
-  {expr: "校長先生", translation: "a principal, a head teacher", examples: []},
-  {expr: "さらに加えて, おまけに", translation: "for good measure", examples: []},
-  {expr: "最先端", translation: "cutting-edge", examples: []},
-  {expr: "正面写真", translation: "a picture from the front", examples: []},
-  {expr: "(基準に) 達する, 期待に応える", translation: "measure up", examples: []},
-  {expr: "担任", translation: "a homeroom teacher", examples: []},
-  {expr: "知名度", translation: "profile", examples: []},
-  {expr: "とにかく, 何らかの手段で", translation: "by any measure", examples: []},
-  {expr: "二桁", translation: "two-digit", examples: []},
-  {expr: "ねじ回しの+(プラスのドライバー)", translation: "Philips screwdriver", examples: []},
-  {expr: "ねじ回しの-(マイナスのドライバー)", translation: "regular/flat-head screwdriver", examples: []},
-  {expr: "---の寸法を測る", translation: "take the measure of ---", examples: []},
+  { expr: "関係者", translation: "concerned parties", examples: [] },
+  { expr: "教頭先生", translation: "a vice president", examples: [] },
+  { expr: "校長先生", translation: "a principal, a head teacher", examples: [] },
+  { expr: "さらに加えて, おまけに", translation: "for good measure", examples: [] },
+  { expr: "最先端", translation: "cutting-edge", examples: [] },
+  { expr: "正面写真", translation: "a picture from the front", examples: [] },
+  { expr: "(基準に) 達する, 期待に応える", translation: "measure up", examples: [] },
+  { expr: "担任", translation: "a homeroom teacher", examples: [] },
+  { expr: "知名度", translation: "profile", examples: [] },
+  { expr: "とにかく, 何らかの手段で", translation: "by any measure", examples: [] },
+  { expr: "二桁", translation: "two-digit", examples: [] },
+  { expr: "ねじ回しの+(プラスのドライバー)", translation: "Philips screwdriver", examples: [] },
+  { expr: "ねじ回しの-(マイナスのドライバー)", translation: "regular/flat-head screwdriver", examples: [] },
+  { expr: "---の寸法を測る", translation: "take the measure of ---", examples: [] },
   {
     expr: "How old are you? の粋な切り返し",
     translation: "Age is just a number.; I have no idea.; I'm older than I have ever been.; Older than I look.; Younger than I look.; I've lost count.; Sorry. Can you say that again?",
     examples: []
   },
-  {expr: "必死に戦う", translation: "fight tooth and nail (動物が歯と爪を使って荒々しく戦うイメージ)", examples: []},
-  {expr: "見直される数学", translation: "math revised, math reevaluated, math reassessed", examples: []},
+  { expr: "必死に戦う", translation: "fight tooth and nail (動物が歯と爪を使って荒々しく戦うイメージ)", examples: [] },
+  { expr: "見直される数学", translation: "math revised, math reevaluated, math reassessed", examples: [] },
   {
     expr: "水虫",
     translation: "athlete's foot",
-    examples: [{orig: "I've got athlete's foot for the first time in my life.", ja: "初めて水虫になった."}]
+    examples: [{ orig: "I've got athlete's foot for the first time in my life.", ja: "初めて水虫になった." }]
   },
-  {expr: "魅力", translation: "charm, appeal", examples: []},
-  {expr: "難しい", translation: "like pulling teeth (歯を抜くことは簡単ではないので)", examples: []},
-  {expr: "養護教諭(保健の先生)", translation: "a school nurse", examples: []},
-  {expr: "横からの写真", translation: "a picture from the side", examples: []},
-  {expr: "力量を見極める", translation: "take someone's measure", examples: []},
-  {expr: "64GB(メモリ, HDD/SSD 容量)", translation: "a storage of 64 GB, 64 GB of RAM, 64 GB of memory", examples: []},
-  {expr: "(彼女に)アタックする", translation: "hit on her", examples: []},
-  {expr: "win-winのプロジェクト", translation: "a win-win project", examples: []},
-  {expr: "オープンマインド", translation: "with an open mind, open-minded", examples: []},
-  {expr: "家のリフォーム", translation: "renovate", examples: []},
-  {expr: "カモフラージュ", translation: "camouflage", examples: []},
-  {expr: "(有名人の)サイン", translation: "autograph, signature", examples: []},
-  {expr: "スマホ", translation: "a smartphone", examples: []},
-  {expr: "ドクターストップ", translation: "doctor's order", examples: []},
-  {expr: "バーゲン品", translation: "a bargain-priced item, a bargain product", examples: []},
-  {expr: "ハードスケジュール", translation: "tight schedule", examples: []},
-  {expr: "ピンチ", translation: "be in a hot water", examples: []},
-  {expr: "フリーサイズのTシャツ", translation: "The T-shirts are one size fits all.", examples: []},
-  {expr: "マジックテープ", translation: "velcro", examples: []},
-  {expr: "(体重が)リバウンドする", translation: "regain one's weight", examples: []},
-  {expr: "六角レンチ", translation: "a hex wrench", examples: []},
+  { expr: "魅力", translation: "charm, appeal", examples: [] },
+  { expr: "難しい", translation: "like pulling teeth (歯を抜くことは簡単ではないので)", examples: [] },
+  { expr: "養護教諭(保健の先生)", translation: "a school nurse", examples: [] },
+  { expr: "横からの写真", translation: "a picture from the side", examples: [] },
+  { expr: "力量を見極める", translation: "take someone's measure", examples: [] },
+  { expr: "64GB(メモリ, HDD/SSD 容量)", translation: "a storage of 64 GB, 64 GB of RAM, 64 GB of memory", examples: [] },
+  { expr: "(彼女に)アタックする", translation: "hit on her", examples: [] },
+  { expr: "win-winのプロジェクト", translation: "a win-win project", examples: [] },
+  { expr: "オープンマインド", translation: "with an open mind, open-minded", examples: [] },
+  { expr: "家のリフォーム", translation: "renovate", examples: [] },
+  { expr: "カモフラージュ", translation: "camouflage", examples: [] },
+  { expr: "(有名人の)サイン", translation: "autograph, signature", examples: [] },
+  { expr: "スマホ", translation: "a smartphone", examples: [] },
+  { expr: "ドクターストップ", translation: "doctor's order", examples: [] },
+  { expr: "バーゲン品", translation: "a bargain-priced item, a bargain product", examples: [] },
+  { expr: "ハードスケジュール", translation: "tight schedule", examples: [] },
+  { expr: "ピンチ", translation: "be in a hot water", examples: [] },
+  { expr: "フリーサイズのTシャツ", translation: "The T-shirts are one size fits all.", examples: [] },
+  { expr: "マジックテープ", translation: "velcro", examples: [] },
+  { expr: "(体重が)リバウンドする", translation: "regain one's weight", examples: [] },
+  { expr: "六角レンチ", translation: "a hex wrench", examples: [] },
   {
     expr: "びっくりした!",
     translation: "You scared me!",
@@ -520,40 +533,40 @@ export const enExprData: EnExprData[] = [
   {
     expr: "ピックアップする",
     translation: "pick out",
-    examples: [{orig: "Pick out anything you like.", ja: "好きなものをピックアップしてください."},
-      {orig: "I picked up a Nagoya accent.", ja: "名古屋弁を身につけた."}]
+    examples: [{ orig: "Pick out anything you like.", ja: "好きなものをピックアップしてください." },
+      { orig: "I picked up a Nagoya accent.", ja: "名古屋弁を身につけた." }]
   },
-  {expr: "森羅万象", translation: "all creations", examples: []},
-  {expr: "他力本願", translation: "leaving it to others", examples: []},
-  {expr: "適材適所", translation: "right people, right place", examples: []},
-  {expr: "不言実行", translation: "action before words", examples: []},
-  {expr: "本末転倒", translation: "put the cart before the horse", examples: []},
-  {expr: "正三角形", translation: "equilateral triangle", examples: []},
-  {expr: "二等辺三角形", translation: "isosceles triangle", examples: []},
-  {expr: "直角三角形", translation: "right triangle", examples: []},
+  { expr: "森羅万象", translation: "all creations", examples: [] },
+  { expr: "他力本願", translation: "leaving it to others", examples: [] },
+  { expr: "適材適所", translation: "right people, right place", examples: [] },
+  { expr: "不言実行", translation: "action before words", examples: [] },
+  { expr: "本末転倒", translation: "put the cart before the horse", examples: [] },
+  { expr: "正三角形", translation: "equilateral triangle", examples: [] },
+  { expr: "二等辺三角形", translation: "isosceles triangle", examples: [] },
+  { expr: "直角三角形", translation: "right triangle", examples: [] },
   {
     expr: "clobber",
     translation: "大打撃を与える",
     examples: [
-      {orig: "The Tigers clobbered the Giants.", ja: "タイガースはジャイアンツに圧勝した."},
-      {orig: "She clobbered the man who tried to attack her.", ja: "彼女は自分を襲おうとした男性を打ちのめした."}]
+      { orig: "The Tigers clobbered the Giants.", ja: "タイガースはジャイアンツに圧勝した." },
+      { orig: "She clobbered the man who tried to attack her.", ja: "彼女は自分を襲おうとした男性を打ちのめした." }]
   },
   {
     expr: "水道",
     translation: "waterworks, water supply, water service; 水道管: water pipe; 水道水: tap water",
-    examples: [{orig: "A: Have you paid for the waterworks? B: Not yet.", ja: "A: 水道代払った? B: まだ."}]
+    examples: [{ orig: "A: Have you paid for the waterworks? B: Not yet.", ja: "A: 水道代払った? B: まだ." }]
   },
   {
     expr: "Flying planes can be dangerous.",
     translation: "飛んでいる飛行機は危ない. (飛行機は墜落する可能性がある.); 飛行機を飛ばすことは危険だ.",
     examples: []
   },
-  {expr: "聞きたくて仕方ない質問", translation: "burning question", examples: []},
-  {expr: "ファーストクラスで飛行機に乗る", translation: "fly business class/first class", examples: []},
+  { expr: "聞きたくて仕方ない質問", translation: "burning question", examples: [] },
+  { expr: "ファーストクラスで飛行機に乗る", translation: "fly business class/first class", examples: [] },
   {
     expr: "fertility rate",
     translation: "出生率",
-    examples: [{orig: "Smoking affects fertility in both men and women.", ja: "喫煙は男女両方の生殖能力に影響を及ぼす."},
+    examples: [{ orig: "Smoking affects fertility in both men and women.", ja: "喫煙は男女両方の生殖能力に影響を及ぼす." },
       {
         orig: "Countries need a fertility rate of at least 2.1 to stop their populations decreasing.",
         ja: "国の人口減少を食い止めるためには出生率が少なくとも2.1必要である."
@@ -574,8 +587,8 @@ export const enExprData: EnExprData[] = [
   }, {
     expr: "電源を切る",
     translation: "turn off, switch off",
-    examples: [{orig: "Please turn off your computer.", ja: "コンピューターの電源を切って下さい."},
-      {orig: "Turn off the alarm! It's noisy.", ja: "目覚まし止めてよ! うるさいんだけど."}]
+    examples: [{ orig: "Please turn off your computer.", ja: "コンピューターの電源を切って下さい." },
+      { orig: "Turn off the alarm! It's noisy.", ja: "目覚まし止めてよ! うるさいんだけど." }]
   },
   {
     expr: "burn the midnight oil", translation: "夜遅くまで勉強する/働く", examples: [{
@@ -583,15 +596,15 @@ export const enExprData: EnExprData[] = [
       ja: "A: よく眠れた? B:大きなミスがあって夜遅くまで働いていたよ."
     }]
   },
-  {expr: "N/A", translation: "該当なし(Not Applicable), 利用不可(Not Available", examples: []},
-  {expr: "義務教育", translation: "compulsory education", examples: []},
-  {expr: "文系と理系", translation: "arts and sciences; liberal arts and social sciences", examples: []},
-  {expr: "男女共学", translation: "co-ed; co-education", examples: []},
-  {expr: "物覚えがいい/悪い, 飲み込みが早い/遅い", translation: "a quick/slow learner", examples: []},
-  {expr: "塾", translation: "cram school", examples: []},
-  {expr: "目標を立てる", translation: "set a goal", examples: []},
-  {expr: "コツを知っている", translation: "know the ropes", examples: []},
-  {expr: "時差ボケ", translation: "have jet lag", examples: []},
+  { expr: "N/A", translation: "該当なし(Not Applicable), 利用不可(Not Available", examples: [] },
+  { expr: "義務教育", translation: "compulsory education", examples: [] },
+  { expr: "文系と理系", translation: "arts and sciences; liberal arts and social sciences", examples: [] },
+  { expr: "男女共学", translation: "co-ed; co-education", examples: [] },
+  { expr: "物覚えがいい/悪い, 飲み込みが早い/遅い", translation: "a quick/slow learner", examples: [] },
+  { expr: "塾", translation: "cram school", examples: [] },
+  { expr: "目標を立てる", translation: "set a goal", examples: [] },
+  { expr: "コツを知っている", translation: "know the ropes", examples: [] },
+  { expr: "時差ボケ", translation: "have jet lag", examples: [] },
   {
     expr: "by the book",
     translation: "ルール通りに",
@@ -612,16 +625,16 @@ export const enExprData: EnExprData[] = [
     expr: "ばっちりだね.",
     translation: "You nailed it!",
     examples: [
-      {orig: "A : How was the food? B: You nailed it.", ja: "A: 料理の味はどう? B: ばっちり."},
-      {orig: "A: How was the English exam? B: I nailed it.", ja: "A: 英語のテストどうだった? B: 完璧!"}]
+      { orig: "A : How was the food? B: You nailed it.", ja: "A: 料理の味はどう? B: ばっちり." },
+      { orig: "A: How was the English exam? B: I nailed it.", ja: "A: 英語のテストどうだった? B: 完璧!" }]
   },
   {
     expr: "ちなみに",
     translation: "by the way, you know what, actually",
     examples: [
-      {orig: "By the way, did you call him?", ja: "ちなみに彼には電話した?"},
-      {orig: "You know what, they just broke up yesterday.", ja: "ちなみにあの二人昨日別れたって."},
-      {orig: "Actually, It's been 10 years since we last met.", ja: "ちなみに私たち前に会ったときから10年経ったよ"}]
+      { orig: "By the way, did you call him?", ja: "ちなみに彼には電話した?" },
+      { orig: "You know what, they just broke up yesterday.", ja: "ちなみにあの二人昨日別れたって." },
+      { orig: "Actually, It's been 10 years since we last met.", ja: "ちなみに私たち前に会ったときから10年経ったよ" }]
   }
   , {
     expr: "お悔やみを述べる", translation: "offer/express/extend/send/convey one's condolences", examples: [
@@ -629,8 +642,8 @@ export const enExprData: EnExprData[] = [
         orig: "I offer my deepest condolences to the Royal Family and the people of the United Kingdom on the passing of Her Majesty Queen Elizabeth II.",
         ja: "エリザベス2世女王陛下のご逝去に際し, 王室と英国の人々に心からお悔やみを申し上げます."
       }
-      , {orig: "Please accept my sincere condolences.", ja: "心よりお悔やみ申し上げます."}
-      , {orig: "My sincere condolences.", ja: "心よりお悔やみ申し上げます."}
+      , { orig: "Please accept my sincere condolences.", ja: "心よりお悔やみ申し上げます." }
+      , { orig: "My sincere condolences.", ja: "心よりお悔やみ申し上げます." }
     ]
   }
   , {
@@ -645,13 +658,13 @@ export const enExprData: EnExprData[] = [
     expr: "方法",
     translation: "way, means, measure: それぞれニュアンスがあり, wayは一般的な手段, meansは特定の目的を達成するための具体的な方法, measureは対策が必要な問題に対する手段.",
     examples: [
-      {orig: "We need to take measures against the yen's depreciation.", ja: "我々は円安対策が必要です."}
+      { orig: "We need to take measures against the yen's depreciation.", ja: "我々は円安対策が必要です." }
     ]
   }
   , {
     expr: "---しようとしていた", translation: "bo about to", examples: [
-      {orig: "A: What were you doing? B: I was about to go to bed.", ja: "A: 何してたの? B: 寝ようとしてたとこだよ"}
-      , {orig: "A: Can we talk now? B: I was just about to call you.", ja: "A: 今話せる? B: ちょうど電話しようとしてたとこ"}
+      { orig: "A: What were you doing? B: I was about to go to bed.", ja: "A: 何してたの? B: 寝ようとしてたとこだよ" }
+      , { orig: "A: Can we talk now? B: I was just about to call you.", ja: "A: 今話せる? B: ちょうど電話しようとしてたとこ" }
     ]
   }
   , {
@@ -664,7 +677,7 @@ export const enExprData: EnExprData[] = [
   }
   , {
     expr: "bailout", translation: "救済措置", examples: [
-      {orig: "The company asked the government for a bailout.", ja: "その会社は政府に対して救済措置を求めた."}
+      { orig: "The company asked the government for a bailout.", ja: "その会社は政府に対して救済措置を求めた." }
       , {
         orig: "Taxpayers have begun to question the recent expensive corporate bailouts.",
         ja: "最近の企業に対する多額の救済措置を受け, 納税者から疑問が浮上している."
@@ -673,7 +686,7 @@ export const enExprData: EnExprData[] = [
   }
   , {
     expr: "近況報告", translation: "catch up", examples: [
-      {orig: "I am thrilled that we will be getting together.  It's time to catch-up!", ja: "会うのが楽しみ. 近況報告しよう."}
+      { orig: "I am thrilled that we will be getting together.  It's time to catch-up!", ja: "会うのが楽しみ. 近況報告しよう." }
       , {
         orig: "It was lovely that I was able to catch up with you this afternoon.",
         ja: "今日の午後, 久しぶりにあなたに会って近況報告できて良かった"
@@ -693,7 +706,7 @@ export const enExprData: EnExprData[] = [
         orig: "The country has been beset by economic woes for the past decade.",
         ja: "その国は過去数十年間経済的苦悩を抱えてきた."
       }
-      , {orig: "We listened to her tale of woe without saying anything.", ja: "私たちは何も言わずに彼女の不幸話を聞いた."}
+      , { orig: "We listened to her tale of woe without saying anything.", ja: "私たちは何も言わずに彼女の不幸話を聞いた." }
     ]
   }
   , {
@@ -711,7 +724,7 @@ export const enExprData: EnExprData[] = [
       }
     ]
   }
-  , {expr: "玉の輿に乗る", translation: "marry for money; She became a Cinderella.", examples: []}
+  , { expr: "玉の輿に乗る", translation: "marry for money; She became a Cinderella.", examples: [] }
   , {
     expr: "型にはまらない考え方をする", translation: "think outside the box", examples: [
       {
@@ -746,13 +759,13 @@ export const enExprData: EnExprData[] = [
       }
     ]
   }
-  , {expr: "彼らは相性ばっちりだ.", translation: "They have perfect chemistry", examples: []}
-  , {expr: "荒療治が必要だ.", translation: "We need drastic measures.", examples: []}
-  , {expr: "胃が痛い; 緊張してる.", translation: "I have a knot in my stomach.", examples: []}
-  , {expr: "そんなに怒らないで. ちょっといじっただけだよ.", translation: "Don't be so mad. I was only teasing you.", examples: []}
-  , {expr: "彼の発言はイタいね; ドン引きだよ.", translation: "I cringed at what he said. / It made me cringe.", examples: []}
-  , {expr: "彼の決断を完全には支持できない.", translation: "I cannot fully endorse his decision.", examples: []}
-  , {expr: "マネージャーはその提案を支持した.", translation: "My manager endorsed the proposal.", examples: []}
+  , { expr: "彼らは相性ばっちりだ.", translation: "They have perfect chemistry", examples: [] }
+  , { expr: "荒療治が必要だ.", translation: "We need drastic measures.", examples: [] }
+  , { expr: "胃が痛い; 緊張してる.", translation: "I have a knot in my stomach.", examples: [] }
+  , { expr: "そんなに怒らないで. ちょっといじっただけだよ.", translation: "Don't be so mad. I was only teasing you.", examples: [] }
+  , { expr: "彼の発言はイタいね; ドン引きだよ.", translation: "I cringed at what he said. / It made me cringe.", examples: [] }
+  , { expr: "彼の決断を完全には支持できない.", translation: "I cannot fully endorse his decision.", examples: [] }
+  , { expr: "マネージャーはその提案を支持した.", translation: "My manager endorsed the proposal.", examples: [] }
   , {
     expr: "左利き", translation: "left-handed", examples: [
       {
@@ -762,12 +775,12 @@ export const enExprData: EnExprData[] = [
   }
   , {
     expr: "展開する", translation: "deploy", examples: [
-      {orig: "2000 troops were deployed in the area.", ja: "その地域に2000人の兵士が配置された."}
-      , {orig: "Two scientists were deployed to study the problem.", ja: "その問題の究明のために2人の科学者が駆り出された."}]
+      { orig: "2000 troops were deployed in the area.", ja: "その地域に2000人の兵士が配置された." }
+      , { orig: "Two scientists were deployed to study the problem.", ja: "その問題の究明のために2人の科学者が駆り出された." }]
   }
   , {
     expr: "いっぱいいっぱい", translation: "be swamped", examples: [
-      {orig: "仕事でいっぱいいっぱいです.", ja: "I'm swamped with work."}]
+      { orig: "仕事でいっぱいいっぱいです.", ja: "I'm swamped with work." }]
   }
   , {
     expr: "とても高価だ", translation: "break the bank", examples: [
@@ -795,7 +808,7 @@ export const enExprData: EnExprData[] = [
   , {
     expr: "watch one's mouth", translation: "発言に気をつける", examples: [
       {
-        orig: "A: Hey! Watch your mouth! B: Sorry, didn’t mean it.",
+        orig: "A: Hey! Watch your mouth! B: Sorry, didn't mean it.",
         ja: "A: ちょっと! 発言には気をつけてください! B: ごめんなさい. そういうつもりでは."
       }
     ]
@@ -812,14 +825,111 @@ export const enExprData: EnExprData[] = [
     expr: "cry over spilled milk", translation: "取り返しのつかないことを嘆く", examples: [
       {
         orig: "A: 取り返しのつかないことを嘆くのはやめて. もう終わったことだから. B: そうだね. もうやめるよ.",
-        ja: "A: Stop crying over spilled milk, it’s over. B: Yeah, I guess I should stop."
+        ja: "A: Stop crying over spilled milk, it's over. B: Yeah, I guess I should stop."
       }
     ]
   }
   , {
     expr: "count on me", translation: "任せて; 期待して", examples: [
-      {orig: "A: Can you finish it by today? B: Count on me.", ja: "A: 今日中に終われる? B: 任せてよ"}
-      , {orig: "A: There's a problem. B: You can count on me.", ja: "A: 問題が起きた. B: わたしに任せて!"}
+      { orig: "A: Can you finish it by today? B: Count on me.", ja: "A: 今日中に終われる? B: 任せてよ" }
+      , { orig: "A: There's a problem. B: You can count on me.", ja: "A: 問題が起きた. B: わたしに任せて!" }
+    ]
+  }
+  , {
+    expr: "on second thought", translation: "もう一度考えた結果, 考え直したら", examples: [
+      {
+        orig: "A: Did you go to the party last night? B: At first I didn't want to go. But on second thought, I went.",
+        ja: "A: 昨晩パーティーに行った? B: 最初は行きたくなかったけど, 考え直して行ったよ."
+      }
+      , {
+        orig: "A: Hey, John. Are you hungry? Let me buy you lunch. B: Woo hoo! A: On second thought, I can't. I have no time now. B: ...",
+        ja: "A: やあ, ジョン. お腹空いてる? ランチをおごるよ. B: やったー!. A: 考え直したらおごれないや. いま時間がないんだ."
+      }
+    ]
+  }
+  , {
+    expr: "羽振りがいい", translation: "prosperous", examples: [
+      {
+        orig: "“A: He seems prosperous lately, what happened? B: Looks like he got promoted.",
+        ja: "A: 最近彼は羽振が良いように見るけど何があったの? B: 昇進したみたい."
+      }
+    ]
+  }
+  , {
+    expr: "tough act to follow", translation: "真似できないほど素晴らしい", examples: [
+      {
+        orig: "A: This meeting is a tough act to follow. B: True. This will surely be a historic event.",
+        ja: "A: この会議は今後真似できないほど素晴らしいものになるだろう. B: 本当ですね。歴史的なイベントです."
+      }
+    ]
+  }
+  , {
+    expr: "I can't get it out of my head.",
+    translation: "それを考えずにはいられない. それが頭から離れない. I can't stop thinking of it.",
+    examples: [
+      {
+        orig: "A: Have you heard that new Bruno Mars song? B: Yes, I love it and I can't get it out of my head.",
+        ja: "A: ブルーノ・マーズのあの新曲聴いた? B: うん, 大好きだよ. 頭から離れないね."
+      }
+      , {
+        orig: "A: The movie ending was so shocking, wasn't it? B: That's right. And now, I can't get it out of my head.",
+        ja: "A: その映画のエンディングはとても衝撃的だったね. B: そうだね. いま頭から離れないよ."
+      }
+    ]
+  }
+  , {
+    expr: "when pigs fly", translation: "ありえない", examples: [
+      { orig: "A: Do you want to go for a drink with me? B : When pigs fly!", ja: "A: 一緒に飲みに行かない? B: 無理!" }
+      , { orig: "When pigs fly, he'll give money.", ja: "彼がお金をあげるなんてありえないよ." }
+    ]
+  }
+  , {
+    expr: "ある程度", translation: "to some extent, to a certain extent", examples: [
+      {
+        orig: "The kind opinions have helped me to a certain extent, but I still have to make the decision by myself.",
+        ja: "親切な意見にある程度助けられるが, やはり自分で判断しなければならない."
+      }
+    ]
+  }
+  , {
+    expr: "be all mouth", translation: "口だけ", examples: [
+      {
+        orig: "A: I thought Bob was all mouth. B: No way! He's a great decent person.",
+        ja: "A: ボブは口だけだと思ってた. B: そんなことないよ! 彼はちゃんとした人間だよ."
+      }
+    ]
+  }
+  , {
+    expr: "knock it off", translation: "やめなさい", examples: [
+      { orig: "A: How's your new boyfriend? B: Knock it off, please.", ja: "A: 新しい彼氏はどうですか? B: その話はやめてください." }
+    ]
+  }
+  , {
+    expr: "shake a leg", translation: "急ぐ, hurry up", examples: [
+      {
+        orig: "A: Shake a leg, Jim! We’re going to be late for the meeting. B: Sorry, I'll be ready in a moment.",
+        ja: "A: 急いで, ジム! 会議に遅れるよ. B: ごめん, すぐに準備ができる."
+      },
+      {
+        orig: "A: It's 10 P.M. Are you still writing that report? Shake a leg! B: Don't worry. I'm almost done.",
+        ja: "A: 午後10時だよ. まだその報告書を書いているの? 急いで! B: 心配しないで. もうほとんどできてるから."
+      }
+    ]
+  }
+  , {
+    expr: "grin from ear to ear", translation: "満面の笑み", examples: [
+      {
+        orig: "A: Did he get the gift? B: Yeah, he was grinning from ear to ear.",
+        ja: "A: 彼は贈り物を受け取った? B: はい. 満面の笑みを浮かべていました."
+      }
+    ]
+  }
+  , {
+    expr: "親孝行", translation: "filial piety: 孔子の教えに基づく「孝」の思想, be a good son/daughterと言うと便利", examples: [
+      {
+        orig: "A: What is important in daily life? B: To have the idea of filial piety.",
+        ja: "A: 日常生活で大事なことは? B: 親孝行の思想を持っていること."
+      }
     ]
   }
 ];
