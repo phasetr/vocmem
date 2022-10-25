@@ -932,4 +932,77 @@ export const enExprData: EnExprData[] = [
       }
     ]
   }
+  , { expr: "Change before you have to.", translation: "変革せよ. 変革を迫られる前に.", examples: [] }
+  , {
+    expr: "おさがり", translation: "hand-me-down", examples: [
+      {
+        orig: "A: Nice clothes! Where did you get that? B: It’s a hand-me-down from my sister.",
+        ja: "A: 良い服だね. どこで買ったの? B: 姉からのおさがりだよ."
+      }
+    ]
+  }
+  , {
+    expr: "(恋人に)振られた", translation: "leave, dump", examples: [
+      { orig: "He left me. / He dumped me.", ja: "彼に振られた." }
+      , { orig: "He will never leave you.", ja: "彼は決して君をふったりはしないよ." }
+      , { orig: "She left me, but I’m OK.", ja: "彼女にフラれたけど僕は大丈夫." }
+    ]
+  }
+  , {
+    expr: "There, there.", translation: "まあまあ, よしよし", examples: [
+      { orig: "A: I made a mistake. B: There, there. Don't worry.", ja: "A: 失敗した…. B: まぁまぁ, 大丈夫だよ." }
+      , { orig: "A: I can't do that. B: There, there. Don't cry.", ja: "A: できないよ…. B: よしよし, 泣かないで." }
+    ]
+  }
+  , {
+    expr: "電話を転送する", translation: "put through, transfer, connect", examples: [
+      {
+        orig: "A: Hello. May I speak to Ms. Sarah? B: Hold on, please. I’ll put you through now.",
+        ja: "A: こんにちは. サラさんはいらっしゃいますか? B: このままお待ちください. ただ今転送(おつなぎ)いたします."
+      }
+    ]
+  }
+  , {
+    expr: "burn bridges", translation: "人間関係を壊す", examples: [
+      {
+        orig: "A: Why did he leave the team? B: I don’t know. He always burns bridges and quits his project.",
+        ja: "A: なぜ彼はチームを離れたの? B: わからない. 彼はいつも人間関係を壊してはプロジェクトを辞めるよね."
+      }
+    ]
+  }
+  , {
+    expr: "運動会",
+    translation: "sports, field day, athletic day, sports meeting; 徒競走: (sprint) race, 綱引き: tug of war, リレー: relay",
+    examples: [
+      { orig: "My daughter’s sports day is next weekend.", ja: "娘の運動会が来週末にあります." }
+    ]
+  }
+  , {
+    expr: "少なめに", translation: "easy on", examples: [
+      { orig: "Easy on the mustard, please.", ja: "マスタードは少なめで." }
+    ]
+  }
+  , {
+    expr: "Your guess is as good as mine.", translation: "私にもわかりません.", examples: [
+      {
+        orig: "A: Is this laptop this year’s model or last year’s model? B: Your guess is as good as mine. They look the same to me.",
+        ja: "A: このノートパソコンは今年のモデルですか? それとも去年のモデルですか? B: 私にもわかりません. 私には同じように見えます."
+      }
+      , {
+        orig: "A: Excuse me. Does the campus bookstore close at 8 P.M.? B: Sorry, your guess is as good as mine. I’m a new student here.",
+        ja: "A: すみません. 大学構内の書店は午後8時に閉まりますか? B: ごめんなさい. 私にもわかりまん. 私はここの新入生です."
+      }
+    ]
+  }
+  , {
+    expr: "目立ちたがりや", translation: "attention seeker", examples: [
+      { orig: "A: How is she like? B: She’s an attention seeker.", ja: "A: 彼女はどんな人? B: 目立ちたがり屋だよ." }
+    ]
+  }
+  , {
+    expr: "紅葉", translation: "autumn leaves", examples: [
+      { orig: "紅葉狩りに行きましょう.", ja: "Let’s go to see the autumn leaves." }
+      , { orig: "森が赤や黄に色づく.", ja: "Forests turn red and yellow." }
+    ]
+  }
 ];
