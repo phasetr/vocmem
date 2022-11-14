@@ -1005,4 +1005,94 @@ export const enExprData: EnExprData[] = [
       , { orig: "森が赤や黄に色づく.", ja: "Forests turn red and yellow." }
     ]
   }
+  , {
+    expr: "(お菓子の)クッキーの型", translation: "cookie cutter", examples: [
+      { orig: "I bought a Christmas tree shaped cookie cutter for Christmas.", ja: "クリスマス用にクリスマスツリーの形のクッキー型を買った." }
+    ]
+  }
+  , {
+    expr: "what done is done", translation: "過ぎたことは仕方ない", examples: [
+      {
+        orig: "A: I still can’t believe why have we missed the opportunity. B: Well, what's done is done.",
+        ja: "A: なぜあの機会を逃したのかいまだに信じられない. B: まあ、終わったことは仕方ないよ."
+      }
+    ]
+  }
+  , { expr: "Silent gratitude isn’t much use to anyone.", translation: "無言の感謝は誰にとってもたいして使い道がない.", examples: [] }
+  , {
+    expr: "don't teach fish to swim",
+    translation: "釈迦に説法",
+    examples: [{
+      orig: "A: Don’t teach fish to swim, he’s a pro in this area. B: Didn't know that, sorry.",
+      ja: "A: 彼はこの領域でのプロだ. それは釈迦に説法だ. B: 知らなかった. ごめん."
+    }]
+  }
+  , {
+    expr: "所属事務所が田中のグループ脱退を発表した.",
+    translation: "The agency announced Tanaka’s leaving from the group.",
+    examples: []
+  }
+  , {
+    expr: "a wonder lasts but nine days",
+    translation: "人の噂も七十五日",
+    examples: [{
+      orig: "A: What should we do about his rumor? B: A wonder lasts but nine days. People will eventually forget about it.",
+      ja: "A: 彼の噂についてどう対処しようか? B: 人の噂も七十五日, いつかは忘れられるでしょう."
+    }]
+  }
+  , {
+    expr: "heavy lifting",
+    translation: "大変な仕事; hard work or difficult work",
+    examples: [{
+      orig: "A: Can you fix the technical problem with the printer? B: We should call the manufacturer. They can do all the heavy lifting.",
+      ja: "A: プリンターの技術的な問題を解決できますか? B: メーカーに電話するべきだ. 彼らはどんな難しい仕事もこなせる."
+    }]
+  }
+  , { expr: "影武者", translation: "body double", examples: [] }
+  , {
+    expr: "おとり・身代わり",
+    translation: "decoy",
+    examples: [{ orig: "That dictator used body doubles as decoys.", ja: "その独裁者は影武者を囮に使った." }]
+  }
+  , {
+    expr: "大事な日",
+    translation: "big day",
+    examples: [{ orig: "A: Tomorrow is a big day. B: I'm a little nervous.", ja: "A: 明日は大事な日だね. B: 緊張するよ" }]
+  }
+  , {
+    expr: "八つ当たり",
+    translation: "take it out on",
+    examples: [{ orig: "Oh my goddess! I didn't mean to take it out on her.", ja: "ああもう! 彼女に八つ当たりするつもりじゃなかったのに" }]
+  }
+  , { expr: "賛成", translation: "agree", examples: [{ orig: "I agree with that.", ja: "賛成です." }] }
+  , { expr: "真実はいずれ明らかになる", translation: "Truth will out.", examples: [] }
+  , { expr: "蛇口", translation: "faucet, tap; 水道水: tap water", examples: [] }
+  , { expr: "気が散る", translation: "get distracted", examples: [] }
+  , { expr: "とても似ている", translation: "like two peas in a pod", examples: [] }
+  , { expr: "---に夢中", translation: "be into ---", examples: [] }
+  , {
+    expr: "better late than never", translation: "遅くてもやらないよりはマシ", examples: [{
+      orig: "A: Can I join your team? B: It's always better late than never, the moment you made up your mind is your Day.1.",
+      ja: "A: あなたのチームに参加しても良い? B: 遅すぎてもやらないよりはまし. 思い立ったらその瞬間が始まりの一日目だよ."
+    }]
+  }
+  , {
+    expr: "way to go",
+    translation: "よくやった",
+    examples: [{ orig: "A; I`m done with work. B: Way to go!", ja: "A: 仕事終わった. B: よくやったね." }]
+  }
+  , { expr: "don't count your chickens before they hatch", translation: "何が起こるかわからない.", examples: [] }
+  , { expr: "catfishing", translation: "他の人を騙したり魅了したりするためにソーシャルメディア上で別の誰かのふりをする活動", examples: [] }
+  , { expr: "a piece of case", translation: "簡単な仕事", examples: [] }
+  , { expr: "結構です.", translation: "I'm good. Thanks.", examples: [] }
+  , { expr: "The ball is in your court.", translation: "次があなたの番です.", examples: [] }
+  , { expr: "じゃんけん", translation: "Rock-Paper-Scissors, RPS", examples: [] }
+  , {
+    expr: "早い者勝ち", translation: "first come first served", examples: [{
+      orig: "A: Wow, great cuisines! B: These are first come first served, don’t be late.",
+      ja: "A: すごい料理だね! B:早い者勝ちだから遅れないようにね."
+    }]
+  }
+  , { expr: "未熟", translation: "green", examples: [{ orig: "He is still green.", ja: "彼はまだ未熟だ." }] }
+  , { expr: "一年ぶり", translation: "for the first time in a year", examples: [] }
 ];
