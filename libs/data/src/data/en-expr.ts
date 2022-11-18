@@ -1095,4 +1095,17 @@ export const enExprData: EnExprData[] = [
   }
   , { expr: "未熟", translation: "green", examples: [{ orig: "He is still green.", ja: "彼はまだ未熟だ." }] }
   , { expr: "一年ぶり", translation: "for the first time in a year", examples: [] }
+  , {
+    expr: "I'm over the moon!",
+    translation: "嬉しくてたまらない",
+    examples: [{ orig: "I was over the moon when I heard it.", ja: "それを聞いた時うれしくてたまらなかった." }]
+  },
+  {
+    expr: "make someone's blood boil",
+    translation: "かんかんに怒らせる",
+    examples: [{
+      orig: "A: What happened? You look shocked. B: I crushed my dad’s new car and that made his blood boil.",
+      ja: "A: どうしたの? ショックを受けているように見えるけど. B: お父さんの新車をぶつけてしまってかんかんに怒らせちゃった."
+    }]
+  }
 ];
