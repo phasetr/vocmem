@@ -1,10 +1,10 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const withNx = require('@nrwl/next/plugins/with-nx');
-const withPWA = require("next-pwa");
-const runtimeCaching = require("next-pwa/cache");
+// const withPWA = require("next-pwa");
+// const runtimeCaching = require("next-pwa/cache");
 
-const SUB_DIRECTORY = "/service/phys-gallery";
-const isProd = process.env.NODE_ENV === "production";
+// const SUB_DIRECTORY = "/service/phys-gallery";
+// const isProd = process.env.NODE_ENV === "production";
 
 /**
  * @type {import('@nrwl/next/plugins/with-nx').WithNxOptions}
@@ -19,6 +19,7 @@ const nextConfig = {
 };
 
 module.exports = withNx(nextConfig);
+/*
 module.exports = withPWA({
   pwa: {
     disable: process.env.NODE_ENV !== 'production',
@@ -34,3 +35,4 @@ module.exports = withPWA({
   assetPrefix: isProd ? SUB_DIRECTORY : "",
   basePath: isProd ? SUB_DIRECTORY : ""
 });
+*/
